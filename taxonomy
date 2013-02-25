@@ -1,19 +1,6 @@
 <taxonomy>
   <version>1.0</version>
-    <top_level id="Care">
-        <second_level id="Adoption &amp; Foster Care">
-            <third_level id="Adoption &amp; Foster Placement">
-            </third_level>
-            <third_level id="Adoption Planning">
-            </third_level>
-            <third_level id="Post-Adoption Support">
-            </third_level>
-        </second_level>
-        <second_level id="Animal Welfare">
-        </second_level>
-        <second_level id="Daytime Care">
-        </second_level>
-    </top_level>
+
     <top_level id="Education">
         <second_level id="Help Find School">
 		</second_level>
