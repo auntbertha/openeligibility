@@ -242,7 +242,7 @@
             <third_level id="Peer Support">
 			</third_level>
             <third_level id="Support Groups">
-				<fourth_level id="12-Step Program">
+				<fourth_level id="12-Step">
 				</fourth_level>
 				<fourth_level id="Bereavement">
 				</fourth_level>
@@ -257,7 +257,7 @@
 	</top_level>
     <top_level id="Health">
         <second_level id="Addiction &amp; Recovery">
-            <third_level id="12-Step Program">
+            <third_level id="12-Step">
 			</third_level>
             <third_level id="Detox">
 			</third_level>
