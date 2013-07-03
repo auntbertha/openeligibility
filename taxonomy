@@ -1,6 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <taxonomy>
-  <version>1.0</version>
-
+	<version>1.05</version>
+	<update_date>6/21/2013</update_date>
+    <descriptions>
+    	<category id="care">Services for animal welfare, residential caregiving, daytime caregiving, adoption &amp; foster care, building support networks, end-of-life care and help navigating the system.
+    	</category>
+    	<category id="emergency">Services for psychiatric emergencies, emergency financial assistance, immediate safety needs, disaster preparedness and disaster response. 
+    	</category>
+    	<category id="food">Services for free meals, food pantries, help paying for food, food delivery, food benefits and nutrition support.
+    	</category>
+    	<category id="housing">Services for emergency, short-term and long-term housing, housing advice, help finding housing and help paying for housing.
+    	</category>
+    	<category id="goods">Services for clothing, furniture, baby supplies, toys and gifts and other physical goods.
+    	</category>
+    	<category id="transit">Services for bus passes, transportation to school, healthcare, appointments and more. 
+    	</category>
+    	<category id="health">Services for medical care, dental care, health education, addiction and recovery, help finding services and help paying for healthcare.
+    	</category>
+    	<category id="money">Services to help pay for housing, education, childcare, school, food and goods, financial education, tax preparation, insurance, government benefits, vouchers and more.
+    	</category>
+    	<category id="education">Services for preschool, after-school, special education, help finding school, help paying for school, alternative education tutoring and more. 
+    	</category>
+    	<category id="work">Services for finding and sustaining work and improving job skills and abilities. 
+    	</category>
+    	<category id="legal">Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights and more.
+    	</category>
+    </descriptions>
     <top_level id="Education">
         <second_level id="Help Find School">
 		</second_level>
@@ -19,8 +44,6 @@
 		<second_level id="More Education">
             <third_level id="Alternative Education">
 			</third_level>
-            <third_level id="Daily Life Skills">
-			</third_level>
             <third_level id="Disaster Preparedness &amp; Response">
 			</third_level>
             <third_level id="English as a Second Language (ESL)">
@@ -38,8 +61,6 @@
             <third_level id="GED/High-School Equivalency">
 			</third_level>
             <third_level id="Health Education">
-				<fourth_level id="Daily Life Skills">
-				</fourth_level>
 				<fourth_level id="Disease Management">
 				</fourth_level>
 				<fourth_level id="Family Planning">
@@ -55,39 +76,39 @@
 				<fourth_level id="Understand Mental Health">
 				</fourth_level>
 			</third_level>
-			<third_level id="Skills &amp; Training">
-				<fourth_level id="Basic Literacy">
-				</fourth_level>
-				<fourth_level id="Computer Class">
-				</fourth_level>
-				<fourth_level id="Interview Training">
-				</fourth_level>
-				<fourth_level id="Resume Development">
-				</fourth_level>
-				<fourth_level id="Skills Assessment">
-				</fourth_level>
-				<fourth_level id="Specialized Training">
-					">
-				</fourth_level>
-			</third_level>
-
             <third_level id="Supported Employment">
 			</third_level>
             <third_level id="Special Education">
 			</third_level>
             <third_level id="Tutoring">
 			</third_level>
-        </second_level>			">
+        </second_level>
 		<second_level id="Preschool">
 		</second_level>
 		<second_level id="Screening &amp; Exams">
             <third_level id="Citizenship &amp; Immigration">
 			</third_level>
-            <third_level id="GED/High-School Equivalency">
+            <third_level id="GED/High-School">
 			</third_level>
             <third_level id="English as a Second Language (ESL)">
 			</third_level>
 		</second_level>
+        <second_level id="Skills &amp; Training">
+            <third_level id="Basic Literacy">
+            </third_level>
+            <third_level id="Computer Class">
+            </third_level>
+            <third_level id="Daily Life Skills">
+            </third_level>
+            <third_level id="Interview Training">
+            </third_level>
+            <third_level id="Resume Development">
+            </third_level>
+            <third_level id="Skills Assessment">
+            </third_level>
+            <third_level id="Specialized Training">
+            </third_level>
+        </second_level>
 		<second_level id="Technology">
             <third_level id="Assistive Technology">
 			</third_level>
@@ -109,11 +130,11 @@
 			</third_level>
             <third_level id="Cash for Utilities">
 			</third_level>
-            <third_level id="Home &amp;amp; Renters Insurance">
+            <third_level id="Home &amp; Renters Insurance">
 			</third_level>
             <third_level id="Housing Vouchers">
 			</third_level>
-            <third_level id="Maintenance &amp;amp; Repairs">
+            <third_level id="Maintenance &amp; Repairs">
 			</third_level>
 		</second_level>
         <second_level id="Housing Advice">
@@ -138,8 +159,6 @@
             <third_level id="Safe Housing">
 			</third_level>
             <third_level id="Short-Term Housing">
-				<fourth_level id="Halfway Housing">
-				</fourth_level>
 				<fourth_level id="Nursing Home">
 				</fourth_level>
 				<fourth_level id="Sober Living">
@@ -193,8 +212,6 @@
 			</third_level>
             <third_level id="Pain Management">
 			</third_level>
-            <third_level id="Spiritual Support">
-			</third_level>
 		</second_level>
         <second_level id="Navigating the System">
             <third_level id="Help Fill out Forms">
@@ -204,8 +221,6 @@
             <third_level id="Help Find Housing">
 			</third_level>
             <third_level id="Help Find School">
-			</third_level>
-            <third_level id="Help Find Services">
 			</third_level>
             <third_level id="Help Find Work">
 			</third_level>
@@ -229,26 +244,20 @@
 			</third_level>
 			<third_level id="In-Home Support">
 			</third_level>
-            <third_level id="Immediate Safety">
-				<fourth_level id="Help Escape Violence">
-				</fourth_level>
-				<fourth_level id="Safe Housing">
-				</fourth_level>
-			</third_level>
             <third_level id="Mentoring">
 			</third_level>
             <third_level id="One-on-One Support">
 			</third_level>
             <third_level id="Peer Support">
 			</third_level>
+            <third_level id="Spiritual Support">
+            </third_level>
             <third_level id="Support Groups">
-				<fourth_level id="12-Step Program">
+				<fourth_level id="12-Step">
 				</fourth_level>
 				<fourth_level id="Bereavement">
 				</fourth_level>
 				<fourth_level id="Parenting Education">
-				</fourth_level>
-				<fourth_level id="Spiritual Support">
 				</fourth_level>
 			</third_level>
             <third_level id="Virtual Support">
@@ -257,10 +266,12 @@
 	</top_level>
     <top_level id="Health">
         <second_level id="Addiction &amp; Recovery">
-            <third_level id="12-Step Program">
+            <third_level id="12-Step">
 			</third_level>
             <third_level id="Detox">
 			</third_level>
+            <third_level id="Halfway Housing">
+            </third_level>
             <third_level id="Outpatient Treatment">
 			</third_level>
             <third_level id="Residential Treatment">
@@ -278,8 +289,6 @@
             <third_level id="Hospice">
 			</third_level>
             <third_level id="Pain Management">
-			</third_level>
-            <third_level id="Spiritual Support">
 			</third_level>
 		</second_level>
         <second_level id="Health Education">
@@ -320,7 +329,9 @@
             <third_level id="Alternative Medicine">
 			</third_level>
             <third_level id="Assistive Technology">
-			</third_level>
+            </third_level>
+            <third_level id="Birth Control">
+            </third_level>
             <third_level id="Checkup &amp; Test">
 				<fourth_level id="Disability Screening">
 				</fourth_level>
@@ -334,8 +345,6 @@
 				</fourth_level>
 				<fourth_level id="Vision Tests">
 				</fourth_level>
-			</third_level>
-            <third_level id="Help Find Services">
 			</third_level>
             <third_level id="Maternity Care">
 			</third_level>
@@ -394,12 +403,6 @@
             <third_level id="Workplace Rights">
 			</third_level>
 		</second_level>
-        <second_level id="Immediate Safety">
-            <third_level id="Help Escape Violence">
-			</third_level>
-            <third_level id="Safe Housing">
-			</third_level>
-		</second_level>
         <second_level id="Mediation">
 		</second_level>
         <second_level id="Notary">
@@ -415,7 +418,7 @@
 			</third_level>
             <third_level id="Diapers &amp; Formula">
 			</third_level>
-		</second_level>				">
+		</second_level>
 		<second_level id="Clothing">
             <third_level id="Baby Clothes">
 			</third_level>
@@ -425,7 +428,7 @@
 			</third_level>
             <third_level id="Clothing Vouchers">
 			</third_level>
-		</second_level>				">
+		</second_level>
 		<second_level id="Home Goods">
             <third_level id="Blankets &amp; Fans">
 			</third_level>
@@ -436,18 +439,18 @@
             <third_level id="Personal Care Items">
 			</third_level>
             <third_level id="Supplies for Work">
-			</third_level>		">
-		</second_level>				">
+			</third_level>
+		</second_level>
+        <second_level id="Medical Supplies">
+        </second_level>
 		<second_level id="Technology">
             <third_level id="Assistive Technology">
 			</third_level>
             <third_level id="Internet">
 			</third_level>
-            <third_level id="Medical Supplies">
-			</third_level>
             <third_level id="Phone Services">
-			</third_level>		">
-		</second_level>				">
+			</third_level>
+		</second_level>
 		<second_level id="Toys &amp; Gifts">
 		</second_level>
 	</top_level>
@@ -470,20 +473,24 @@
 		</second_level>
 		<second_level id="Emergency Food">
 		</second_level>
-		<second_level id="Emergency Shelter">
-		</second_level>
+        <second_level id="Emergency Shelter">
+        </second_level>
+        <second_level id="Help Find Missing Persons">
+        </second_level>
 		<second_level id="Immediate Safety">
             <third_level id="Help Escape Violence">
 			</third_level>
             <third_level id="Safe Housing">
-			</third_level>		">
-		</second_level>				">
+			</third_level>
+		</second_level>
 		<second_level id="Psychiatric Emergency Services">
-		</second_level>	">
+		</second_level>
 	</top_level>
     <top_level id="Food">
+        <second_level id="Community Gardens">
+        </second_level>
         <second_level id="Emergency Food">
-		</second_level>
+        </second_level>
         <second_level id="Food Delivery">
 		</second_level>
         <second_level id="Food Pantry">
@@ -515,7 +522,7 @@
 			</third_level>
 			<third_level id="Cash for Utilities">
 			</third_level>
-		</second_level>		">
+		</second_level>
         <second_level id="Financial Assistance">
             <third_level id="Help Pay for Childcare">
 				<fourth_level id="Cash for Childcare">
@@ -572,11 +579,13 @@
 				</fourth_level>
 			</third_level>
             <third_level id="Help Pay for Transit">
-				<fourth_level id="Cash for Gas">
-				</fourth_level>
-				<fourth_level id="Bus Passes">
-				</fourth_level>
-			</third_level>
+                <fourth_level id="Cash for Gas">
+                </fourth_level>
+                <fourth_level id="Bus Passes">
+                </fourth_level>
+            </third_level>
+            <third_level id="Help Pay for Work Expenses">
+            </third_level>
 		</second_level>
 		<second_level id="Government Benefits">
 			<third_level id="Disability Benefits">
@@ -671,5 +680,4 @@
         <second_level id="Workplace Rights">
 		</second_level>
 	</top_level>
-
 </taxonomy>
