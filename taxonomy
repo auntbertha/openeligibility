@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy>
-	<version>1.1</version>
+	<version>1.2</version>
 	<update_date></update_date>
     <descriptions>
     	<category id="101" title="emergency">Services for psychiatric emergencies, emergency financial assistance, immediate safety needs, disaster preparedness and disaster response. 
@@ -29,18 +29,18 @@
     <top_level id="101" title="Emergency">
 		<second_level id="101-01" title="Disaster Response">
 		</second_level>
-		<second_level id="101-02" title="Emergency Cash">
-            <third_level id="101-02-01" title="Cash for Food">
+		<second_level id="101-02" title="Emergency Payments">
+            <third_level id="101-02-01" title="Help Pay for Food">
 			</third_level>
-            <third_level id="101-02-02" title="Cash for Healthcare">
+            <third_level id="101-02-02" title="Help Pay for Healthcare">
 			</third_level>
-            <third_level id="101-02-03" title="Cash for Housing">
+            <third_level id="101-02-03" title="Help Pay for Housing">
 			</third_level>
-            <third_level id="101-02-04" title="Cash for Gas">
+            <third_level id="101-02-04" title="Help Pay for Gas">
 			</third_level>
-            <third_level id="101-02-05" title="Cash for School">
+            <third_level id="101-02-05" title="Help Pay for School">
 			</third_level>
-            <third_level id="101-02-06" title="Cash for Utilities">
+            <third_level id="101-02-06" title="Help Pay for Utilities">
 			</third_level>
 		</second_level>
 		<second_level id="101-03" title="Emergency Food">
@@ -70,8 +70,6 @@
         <second_level id="101-05" title="Free Meals">
 		</second_level>
         <second_level id="101-06" title="Help Pay for Food">
-            <third_level id="101-06-01" title="Cash for Food">
-			</third_level>
             <third_level id="101-06-02" title="Food Benefits">
 			</third_level>
 		</second_level>
@@ -84,9 +82,7 @@
         <second_level id="103-02" title="Help Find Housing">
 		</second_level>
         <second_level id="103-03" title="Help Pay for Housing">
-            <third_level id="103-03-01" title="Cash for Housing">
-			</third_level>
-            <third_level id="103-03-02" title="Cash for Utilities">
+            <third_level id="103-03-02" title="Help Pay for Utilities">
 			</third_level>
             <third_level id="103-03-03" title="Home &amp; Renters Insurance">
 			</third_level>
@@ -102,8 +98,6 @@
 			</third_level>
 		</second_level>
         <second_level id="103-05" title="Residential Housing">
-            <third_level id="103-05-01" title="Housing with Support">
-			</third_level>
             <third_level id="103-05-02" title="Long-Term Housing">
 				<fourth_level id="103-05-02-01" title="Assisted Living">
 				</fourth_level>
@@ -155,14 +149,8 @@
 		</second_level>
         <second_level id="104-04" title="Medical Supplies">
         </second_level>
-		<second_level id="104-05" title="Technology">
-            <third_level id="104-05-01" title="Assistive Technology">
-			</third_level>
-            <third_level id="104-05-02" title="Internet">
-			</third_level>
-            <third_level id="104-05-03" title="Phone Services">
-			</third_level>
-		</second_level>
+	        <third_level id="104-04-01" title="Assistive Technology">
+				</third_level>
 		<second_level id="104-06" title="Toys &amp; Gifts">
 		</second_level>
 	</top_level>
@@ -170,7 +158,7 @@
         <second_level id="105-01" title="Help Pay for Transit">
             <third_level id="105-01-01" title="Bus Passes">
 			</third_level>
-            <third_level id="105-01-02" title="Cash for Gas">
+            <third_level id="105-01-02" title="Help Pay for Gas">
 			</third_level>
 		</second_level>
         <second_level id="105-02" title="Transportation">
@@ -186,8 +174,6 @@
 			</third_level>
             <third_level id="106-01-02" title="Detox">
 			</third_level>
-            <third_level id="106-01-03" title="Halfway Housing">
-            </third_level>
             <third_level id="106-01-04" title="Outpatient Treatment">
 			</third_level>
             <third_level id="106-01-05" title="Residential Treatment">
@@ -226,8 +212,6 @@
 			</third_level>
 		</second_level>
         <second_level id="106-05" title="Help Pay for Healthcare">
-            <third_level id="106-05-01" title="Cash for Healthcare">
-			</third_level>
             <third_level id="106-05-02" title="Disability Benefits">
 			</third_level>
             <third_level id="106-05-03" title="Discounted Healthcare">
@@ -242,6 +226,8 @@
 			</third_level>
 		</second_level>
         <second_level id="106-06" title="Medical Care">
+            <third_level id="106-06-09" title="Primary Care">
+            </third_level>
             <third_level id="106-06-01" title="Alternative Medicine">
 			</third_level>
             <third_level id="106-06-02" title="Assistive Technology">
@@ -295,38 +281,14 @@
 		</second_level>
 	</top_level>	
     <top_level id="107" title="Money">
-		<second_level id="107-01" title="Emergency Cash">
-			<third_level id="107-01-01" title="Cash for Food">
-			</third_level>
-			<third_level id="107-01-02" title="Cash for Healthcare">
-			</third_level>
-			<third_level id="107-01-03" title="Cash for Housing">
-			</third_level>
-			<third_level id="107-01-04" title="Cash for Childcare">
-			</third_level>
-			<third_level id="107-01-05" title="Cash for Gas">
-			</third_level>
-			<third_level id="107-01-06" title="Cash for School">
-			</third_level>
-			<third_level id="107-01-07" title="Cash for Utilities">
-			</third_level>
-		</second_level>
         <second_level id="107-02" title="Financial Assistance">
             <third_level id="107-02-01" title="Help Pay for Childcare">
-				<fourth_level id="107-02-01-01" title="Cash for Childcare">
-				</fourth_level>
-				<fourth_level id="107-02-01-02" title="Childcare Vouchers">
-				</fourth_level>
 			</third_level>
             <third_level id="107-02-02" title="Help Pay for Food">
 				<fourth_level id="107-02-02-01" title="Food Benefits">
 				</fourth_level>
-				<fourth_level id="107-02-02-01" title="Cash for Food">
-				</fourth_level>
 			</third_level>
             <third_level id="107-02-03" title="Help Pay for Healthcare">
-				<fourth_level id="107-02-03-01" title="Cash for Healthcare">
-				</fourth_level>
 				<fourth_level id="107-02-03-02" title="Disability Benefits">
 				</fourth_level>
 				<fourth_level id="107-02-03-03" title="Discounted Healthcare">
@@ -339,25 +301,17 @@
 				</fourth_level>
 				<fourth_level id="107-02-03-07" title="Transportation for Healthcare">
 				</fourth_level>
-				<fourth_level id="107-02-03-08" title="Healthcare Vouchers">
-				</fourth_level>
 			</third_level>
             <third_level id="107-02-04" title="Help Pay for Housing">
-				<fourth_level id="107-02-04-01" title="Cash for Housing">
-				</fourth_level>
-				<fourth_level id="107-02-04-02" title="Cash for Utilities">
+				<fourth_level id="107-02-04-02" title="Help Pay for Utilities">
 				</fourth_level>
 				<fourth_level id="107-02-04-03" title="Home &amp; Renters Insurance">
-				</fourth_level>
-				<fourth_level id="107-02-04-04" title="Housing Vouchers">
 				</fourth_level>
 				<fourth_level id="107-02-04-05" title="Maintenance &amp; Repairs">
 				</fourth_level>
 			</third_level>
             <third_level id="107-02-05" title="Help Pay for School">
 				<fourth_level id="107-02-05-01" title="Books">
-				</fourth_level>
-				<fourth_level id="107-02-05-02" title="Cash for School">
 				</fourth_level>
 				<fourth_level id="107-02-05-03" title="Clothes for School">
 				</fourth_level>
@@ -367,7 +321,7 @@
 				</fourth_level>
 			</third_level>
             <third_level id="107-02-06" title="Help Pay for Transit">
-                <fourth_level id="107-02-06-01" title="Cash for Gas">
+                <fourth_level id="107-02-06-01" title="Help Pay for Gas">
                 </fourth_level>
                 <fourth_level id="107-02-06-02" title="Bus Passes">
                 </fourth_level>
@@ -385,16 +339,6 @@
 			<third_level id="107-03-04" title="Understand Government Programs">
 			</third_level>
 			<third_level id="107-03-05" title="Unemployment Benefits">
-			</third_level>
-		</second_level>
-        <second_level id="107-04" title="Vouchers">
-			<third_level id="107-04-01" title="Childcare Vouchers">
-			</third_level>
-			<third_level id="107-04-02" title="Clothing Vouchers">
-			</third_level>
-			<third_level id="107-04-03" title="Healthcare Vouchers">
-			</third_level>
-			<third_level id="107-04-04" title="Housing Vouchers">
 			</third_level>
 		</second_level>
         <second_level id="107-05" title="Financial Education">
@@ -435,13 +379,9 @@
             <third_level id="108-03-02" title="Afterschool Care">
 			</third_level>
             <third_level id="108-03-03" title="Childcare">
-				<fourth_level id="108-03-03-01" title="Child Daycare">
-				</fourth_level>
 				<fourth_level id="108-03-03-02" title="Help Find Childcare">
 				</fourth_level>
-				<fourth_level id="108-03-03-03" title="Childcare Vouchers">
-				</fourth_level>
-				<fourth_level id="108-03-03-04" title="Cash for Childcare">
+				<fourth_level id="108-03-03-04" title="Help Pay for Childcare">
 				</fourth_level>
 			</third_level>
             <third_level id="108-03-04" title="Day Camp">
@@ -520,8 +460,6 @@
         <second_level id="109-02" title="Help Pay for School">
             <third_level id="109-02-01" title="Books">
 			</third_level>
-            <third_level id="109-02-02" title="Cash for School">
-			</third_level>
             <third_level id="109-02-03" title="Clothes for School">
 			</third_level>
             <third_level id="109-02-04" title="Financial Aid &amp; Loans">
@@ -576,7 +514,7 @@
 		<second_level id="109-05" title="Screening &amp; Exams">
             <third_level id="109-05-01" title="Citizenship &amp; Immigration">
 			</third_level>
-            <third_level id="109-05-02" title="GED/High-School">
+            <third_level id="109-05-02" title="GED/High-School Equivalency">
 			</third_level>
             <third_level id="109-05-03" title="English as a Second Language (ESL)">
 			</third_level>
@@ -597,16 +535,6 @@
             <third_level id="109-06-07" title="Specialized Training">
             </third_level>
         </second_level>
-		<second_level id="109-07" title="Technology">
-            <third_level id="109-07-01" title="Assistive Technology">
-			</third_level>
-            <third_level id="109-07-02" title="Internet">
-			</third_level>
-            <third_level id="109-07-03" title="Medical Supplies">
-			</third_level>
-            <third_level id="109-07-04" title="Phone Services">
-			</third_level>
-		</second_level>
     </top_level>
     <top_level id="110" title="Work">
         <second_level id="110-01" title="Help Find Work">
