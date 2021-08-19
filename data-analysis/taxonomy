@@ -1,0 +1,731 @@
+<?xml version="2.0" encoding="UTF-8"?>
+<taxonomy>
+	<version>2.0</version>
+	<update_date></update_date>
+	<services>
+	    <descriptions>
+	    	<category id="1101" title="emergency">Services for psychiatric emergencies, emergency financial assistance, immediate safety needs, disaster preparedness and disaster response. 
+	    	</category>
+	    	<category id="1102" title="food">Services for free meals, food pantries, help paying for food, food delivery, food benefits and nutrition support.
+	    	</category>
+	    	<category id="1103" title="housing">Services for emergency, short-term and long-term housing, housing advice, help finding housing and help paying for housing.
+	    	</category>
+	    	<category id="1104" title="goods">Services for clothing, furniture, baby supplies, toys and gifts and other physical goods.
+	    	</category>
+	    	<category id="1105" title="transit">Services for bus passes, transportation to school, healthcare, appointments and more. 
+	    	</category>
+	    	<category id="1106" title="health">Services for medical care, dental care, health education, addiction and recovery, help finding services and help paying for healthcare.
+	    	</category>
+	    	<category id="1107" title="money">Services to help pay for housing, education, childcare, school, food and goods, financial education, tax preparation, insurance, government benefits, vouchers and more.
+	    	</category>    	
+	    	<category id="1108" title="care">Services for animal welfare, residential caregiving, daytime caregiving, adoption &amp; foster care, building support networks, end-of-life care and help navigating the system.
+	    	</category>
+	    	<category id="1109" title="education">Services for preschool, after-school, special education, help finding school, help paying for school, alternative education tutoring and more. 
+	    	</category>
+	    	<category id="1110" title="work">Services for finding and sustaining work and improving job skills and abilities. 
+	    	</category>
+	    	<category id="1111" title="legal">Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights and more.
+	    	</category>
+	    </descriptions>
+	    <top_level id="1101" title="Emergency">
+			<second_level id="1112" title="Disaster Response">
+			</second_level>
+			<second_level id="1113" title="Emergency Payments">
+	            <third_level id="1114" title="Help Pay for Food">
+				</third_level>
+	            <third_level id="1115" title="Help Pay for Healthcare">
+				</third_level>
+	            <third_level id="1116" title="Help Pay for Housing">
+				</third_level>
+	            <third_level id="1117" title="Help Pay for Gas">
+				</third_level>
+	            <third_level id="1118" title="Help Pay for School">
+				</third_level>
+	            <third_level id="1119" title="Help Pay for Utilities">
+				</third_level>
+			</second_level>
+			<second_level id="1120" title="Emergency Food">
+			</second_level>
+	        <second_level id="1121" title="Emergency Shelter">
+	        </second_level>
+	        <second_level id="1122" title="Help Find Missing Persons">
+	        </second_level>
+			<second_level id="1123" title="Immediate Safety">
+	            <third_level id="1124" title="Help Escape Violence">
+				</third_level>
+	            <third_level id="1125" title="Safe Housing">
+				</third_level>
+			</second_level>
+			<second_level id="1126" title="Psychiatric Emergency Services">
+			</second_level>
+		</top_level>
+	    <top_level id="1102" title="Food">
+	        <second_level id="1127" title="Community Gardens">
+	        </second_level>
+	        <second_level id="1128" title="Emergency Food">
+	        </second_level>
+	        <second_level id="1129" title="Food Delivery">
+			</second_level>
+	        <second_level id="1130" title="Food Pantry">
+			</second_level>
+	        <second_level id="1131" title="Free Meals">
+			</second_level>
+	        <second_level id="1132" title="Help Pay for Food">
+	            <third_level id="1133" title="Food Benefits">
+				</third_level>
+			</second_level>
+			<second_level id="1134" title="Nutrition">
+			</second_level>
+		</top_level>	
+	    <top_level id="1103" title="Housing">
+	        <second_level id="1135" title="Emergency Shelter">
+			</second_level>
+	        <second_level id="1136" title="Help Find Housing">
+			</second_level>
+	        <second_level id="1137" title="Help Pay for Housing">
+	            <third_level id="1138" title="Help Pay for Utilities">
+				</third_level>
+	            <third_level id="1139" title="Home &amp; Renters Insurance">
+				</third_level>
+	            <third_level id="1140" title="Housing Vouchers">
+				</third_level>
+	            <third_level id="1141" title="Maintenance &amp; Repairs">
+				</third_level>
+			</second_level>
+	        <second_level id="1142" title="Housing Advice">
+	            <third_level id="1143" title="Foreclosure Counseling">
+				</third_level>
+	            <third_level id="1144" title="Homebuyer Education">
+				</third_level>
+			</second_level>
+	        <second_level id="1145" title="Residential Housing">
+	            <third_level id="1146" title="Long-Term Housing">
+					<fourth_level id="1147" title="Assisted Living">
+					</fourth_level>
+					<fourth_level id="1148" title="Independent Living">
+					</fourth_level>
+					<fourth_level id="1149" title="Nursing Home">
+					</fourth_level>
+					<fourth_level id="1150" title="Public Housing">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1151" title="Safe Housing">
+				</third_level>
+	            <third_level id="1152" title="Short-Term Housing">
+					<fourth_level id="1153" title="Nursing Home">
+					</fourth_level>
+					<fourth_level id="1154" title="Sober Living">
+					</fourth_level>
+				</third_level>
+			</second_level>
+		</top_level>
+	    <top_level id="1104" title="Goods">
+			<second_level id="1155" title="Baby Supplies">
+	            <third_level id="1156" title="Baby Clothes">
+				</third_level>
+	            <third_level id="1157" title="Diapers &amp; Formula">
+				</third_level>
+			</second_level>
+			<second_level id="1158" title="Clothing">
+	            <third_level id="1159" title="Baby Clothes">
+				</third_level>
+	            <third_level id="1160" title="Clothes for School">
+				</third_level>
+	            <third_level id="1161" title="Clothes for Work">
+				</third_level>
+	            <third_level id="1162" title="Clothing Vouchers">
+				</third_level>
+			</second_level>
+			<second_level id="1163" title="Home Goods">
+	            <third_level id="1164" title="Blankets &amp; Fans">
+				</third_level>
+	            <third_level id="1165" title="Books">
+				</third_level>
+	            <third_level id="1166" title="Furniture">
+				</third_level>
+	            <third_level id="1167" title="Personal Care Items">
+				</third_level>
+	            <third_level id="1168" title="Supplies for Work">
+				</third_level>
+			</second_level>
+	        <second_level id="1169" title="Medical Supplies">
+	        </second_level>
+		        <third_level id="1170" title="Assistive Technology">
+					</third_level>
+			<second_level id="1171" title="Toys &amp; Gifts">
+			</second_level>
+		</top_level>
+	    <top_level id="1105" title="Transit">
+	        <second_level id="1172" title="Help Pay for Transit">
+	            <third_level id="1173" title="Bus Passes">
+				</third_level>
+	            <third_level id="1174" title="Help Pay for Gas">
+				</third_level>
+			</second_level>
+	        <second_level id="1175" title="Transportation">
+	            <third_level id="1176" title="Transportation for Healthcare">
+				</third_level>
+	            <third_level id="1177" title="Transportation for School">
+				</third_level>
+			</second_level>
+		</top_level>	
+	    <top_level id="1106" title="Health">
+	        <second_level id="1178" title="Addiction &amp; Recovery">
+	            <third_level id="1179" title="12-Step">
+				</third_level>
+	            <third_level id="1180" title="Detox">
+				</third_level>
+	            <third_level id="1181" title="Outpatient Treatment">
+				</third_level>
+	            <third_level id="1182" title="Residential Treatment">
+				</third_level>
+	            <third_level id="1183" title="Sober Living">
+				</third_level>
+			</second_level>
+	        <second_level id="1184" title="Dental Care">
+			</second_level>
+	        <second_level id="1185" title="End-of-Life Care">
+	            <third_level id="1186" title="Bereavement">
+				</third_level>
+	            <third_level id="1187" title="Burial &amp; Funeral Help">
+				</third_level>
+	            <third_level id="1188" title="Hospice">
+				</third_level>
+	            <third_level id="1189" title="Pain Management">
+				</third_level>
+			</second_level>
+	        <second_level id="1190" title="Health Education">
+	            <third_level id="1191" title="Daily Life Skills">
+				</third_level>
+	            <third_level id="1192" title="Disease Management">
+				</third_level>
+	            <third_level id="1193" title="Family Planning">
+				</third_level>
+	            <third_level id="1194" title="Nutrition">
+				</third_level>
+	            <third_level id="1195" title="Parenting Education">
+				</third_level>
+	            <third_level id="1196" title="Sex Education">
+				</third_level>
+	            <third_level id="1197" title="Understand Disability">
+				</third_level>
+	            <third_level id="1198" title="Understand Mental Health">
+				</third_level>
+			</second_level>
+	        <second_level id="1199" title="Help Pay for Healthcare">
+	            <third_level id="1200" title="Disability Benefits">
+				</third_level>
+	            <third_level id="1201" title="Discounted Healthcare">
+				</third_level>
+	            <third_level id="1202" title="Health Insurance">
+				</third_level>
+	            <third_level id="1203" title="Medical Supplies">
+				</third_level>
+	            <third_level id="1204" title="Prescription Assistance">
+				</third_level>
+	            <third_level id="1205" title="Transportation for Healthcare">
+				</third_level>
+			</second_level>
+	        <second_level id="1206" title="Medical Care">
+	            <third_level id="1206" title="Primary Care">
+	            </third_level>
+	            <third_level id="1207" title="Alternative Medicine">
+				</third_level>
+	            <third_level id="1208" title="Assistive Technology">
+	            </third_level>
+	            <third_level id="1209" title="Birth Control">
+	            </third_level>
+	            <third_level id="1210" title="Checkup &amp; Test">
+					<fourth_level id="1211" title="Disability Screening">
+					</fourth_level>
+					<fourth_level id="1212" title="Disease Screening">
+					</fourth_level>
+					<fourth_level id="1213" title="Hearing Tests">
+					</fourth_level>
+					<fourth_level id="1214" title="Mental Health Evaluation">
+					</fourth_level>
+					<fourth_level id="1215" title="Pregnancy Tests">
+					</fourth_level>
+					<fourth_level id="1216" title="Vision Tests">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1217" title="Maternity Care">
+				</third_level>
+	            <third_level id="1218" title="Personal Hygiene">
+				</third_level>
+	            <third_level id="1219" title="Prevent &amp; Treat">
+					<fourth_level id="1220" title="Counseling">
+					</fourth_level>
+					<fourth_level id="1221" title="HIV Treatment">
+					</fourth_level>
+					<fourth_level id="1222" title="Pain Management">
+					</fourth_level>
+					<fourth_level id="1223" title="Disease Management">
+					</fourth_level>
+					<fourth_level id="1224" title="Nursing Home">
+					</fourth_level>
+					<fourth_level id="1225" title="Physical Therapy">
+					</fourth_level>
+					<fourth_level id="1226" title="Specialized Therapy">
+					</fourth_level>
+					<fourth_level id="1227" title="Vaccinations">
+					</fourth_level>
+					<fourth_level id="1228" title="In-Home Support">
+					</fourth_level>
+					<fourth_level id="1229" title="Residential Treatment">
+					</fourth_level>
+					<fourth_level id="1230" title="Outpatient Treatment">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1231" title="Psychiatric Emergency Services">
+				</third_level>
+			</second_level>
+		</top_level>	
+	    <top_level id="1107" title="Money">
+	        <second_level id="1232" title="Financial Assistance">
+	            <third_level id="1233" title="Help Pay for Childcare">
+				</third_level>
+	            <third_level id="1234" title="Help Pay for Food">
+					<fourth_level id="1235" title="Food Benefits">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1236" title="Help Pay for Healthcare">
+					<fourth_level id="1237" title="Disability Benefits">
+					</fourth_level>
+					<fourth_level id="1238" title="Discounted Healthcare">
+					</fourth_level>
+					<fourth_level id="1239" title="Health Insurance">
+					</fourth_level>
+					<fourth_level id="1240" title="Medical Supplies">
+					</fourth_level>
+					<fourth_level id="1241" title="Prescription Assistance">
+					</fourth_level>
+					<fourth_level id="1242" title="Transportation for Healthcare">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1243" title="Help Pay for Housing">
+					<fourth_level id="1244" title="Help Pay for Utilities">
+					</fourth_level>
+					<fourth_level id="1245" title="Home &amp; Renters Insurance">
+					</fourth_level>
+					<fourth_level id="1246" title="Maintenance &amp; Repairs">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1247" title="Help Pay for School">
+					<fourth_level id="1248" title="Books">
+					</fourth_level>
+					<fourth_level id="1249" title="Clothes for School">
+					</fourth_level>
+					<fourth_level id="1250" title="Financial Aid &amp; Loans">
+					</fourth_level>
+					<fourth_level id="1251" title="Transportation for School">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1252" title="Help Pay for Transit">
+	                <fourth_level id="1253" title="Help Pay for Gas">
+	                </fourth_level>
+	                <fourth_level id="1254" title="Bus Passes">
+	                </fourth_level>
+	            </third_level>
+	            <third_level id="1255" title="Help Pay for Work Expenses">
+	            </third_level>
+			</second_level>
+			<second_level id="1256" title="Government Benefits">
+				<third_level id="1257" title="Disability Benefits">
+				</third_level>
+				<third_level id="1258" title="Food Benefits">
+				</third_level>
+				<third_level id="1259" title="Retirement Benefits">
+				</third_level>
+				<third_level id="1260" title="Understand Government Programs">
+				</third_level>
+				<third_level id="1261" title="Unemployment Benefits">
+				</third_level>
+			</second_level>
+	        <second_level id="1262" title="Financial Education">
+	            <third_level id="1263" title="Credit Counseling">
+				</third_level>
+	            <third_level id="1264" title="Foreclosure Counseling">
+				</third_level>
+	            <third_level id="1265" title="Homebuyer Education">
+				</third_level>
+	            <third_level id="1266" title="Savings Program">
+				</third_level>
+			</second_level>
+	        <second_level id="1267" title="Insurance">
+	            <third_level id="1268" title="Health Insurance">
+				</third_level>
+	            <third_level id="1269" title="Home &amp; Renters Insurance">
+				</third_level>
+			</second_level>
+	        <second_level id="1270" title="Tax Preparation">
+			</second_level>
+		</top_level>			
+	    <top_level id="1108" title="Care">
+	        <second_level id="1271" title="Adoption &amp; Foster Care">
+	            <third_level id="1272" title="Adoption &amp; Foster Placement">
+				</third_level>
+	            <third_level id="1273" title="Adoption &amp; Foster Parenting">
+				</third_level>
+	            <third_level id="1274" title="Adoption Planning">
+				</third_level>
+	            <third_level id="1275" title="Post-Adoption Support">
+				</third_level>
+			</second_level>
+	        <second_level id="1276" title="Animal Welfare">
+			</second_level>
+	        <second_level id="1277" title="Daytime Care">
+	            <third_level id="1278" title="Adult Daycare">
+				</third_level>
+	            <third_level id="1279" title="Afterschool Care">
+				</third_level>
+	            <third_level id="1280" title="Childcare">
+					<fourth_level id="1281" title="Help Find Childcare">
+					</fourth_level>
+					<fourth_level id="1282" title="Help Pay for Childcare">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1283" title="Day Camp">
+				</third_level>
+	            <third_level id="1284" title="Preschool">
+				</third_level>
+	            <third_level id="1285" title="Recreation">
+				</third_level>
+	            <third_level id="1286" title="Relief for Caregivers">
+				</third_level>
+			</second_level>
+	        <second_level id="1287" title="End-of-Life Care">
+	            <third_level id="1288" title="Bereavement">
+				</third_level>
+	            <third_level id="1289" title="Burial &amp; Funeral Help">
+				</third_level>
+	            <third_level id="1290" title="Hospice">
+				</third_level>
+	            <third_level id="1291" title="Pain Management">
+				</third_level>
+			</second_level>
+	        <second_level id="1292" title="Navigating the System">
+	            <third_level id="1293" title="Help Fill out Forms">
+				</third_level>
+	            <third_level id="1294" title="Help Find Childcare">
+				</third_level>
+	            <third_level id="1295" title="Help Find Housing">
+				</third_level>
+	            <third_level id="1296" title="Help Find School">
+				</third_level>
+	            <third_level id="1297" title="Help Find Work">
+				</third_level>
+			</second_level>
+	        <second_level id="1298" title="Residential Care">
+	            <third_level id="1299" title="Assisted Living">
+				</third_level>
+	            <third_level id="1300" title="Residential Treatment">
+				</third_level>
+	            <third_level id="1301" title="Nursing Home">
+				</third_level>
+	            <third_level id="1302" title="Overnight Camp">
+				</third_level>
+			</second_level>
+	        <second_level id="1303" title="Support Network">
+	            <third_level id="1304" title="Counseling">
+				</third_level>
+	            <third_level id="1305" title="Help Hotlines">
+				</third_level>
+	            <third_level id="1306" title="Home Visiting">
+				</third_level>
+				<third_level id="1307" title="In-Home Support">
+				</third_level>
+	            <third_level id="1308" title="Mentoring">
+				</third_level>
+	            <third_level id="1309" title="One-on-One Support">
+				</third_level>
+	            <third_level id="1310" title="Peer Support">
+				</third_level>
+	            <third_level id="1311" title="Spiritual Support">
+	            </third_level>
+	            <third_level id="1312" title="Support Groups">
+					<fourth_level id="1313" title="12-Step">
+					</fourth_level>
+					<fourth_level id="1314" title="Bereavement">
+					</fourth_level>
+					<fourth_level id="1315" title="Parenting Education">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1316" title="Virtual Support">
+				</third_level>
+			</second_level>
+		</top_level>
+	    <top_level id="1109" title="Education">
+	        <second_level id="1317" title="Help Find School">
+			</second_level>
+	        <second_level id="1318" title="Help Pay for School">
+	            <third_level id="1319" title="Books">
+				</third_level>
+	            <third_level id="1320" title="Clothes for School">
+				</third_level>
+	            <third_level id="1321" title="Financial Aid &amp; Loans">
+				</third_level>
+	            <third_level id="1322" title="Transportation for School">
+				</third_level>
+	        </second_level>
+			<second_level id="1323" title="More Education">
+	            <third_level id="1324" title="Alternative Education">
+				</third_level>
+	            <third_level id="1325" title="Disaster Preparedness &amp; Response">
+				</third_level>
+	            <third_level id="1326" title="English as a Second Language (ESL)">
+				</third_level>
+	            <third_level id="1327" title="Financial Education">
+					<fourth_level id="1328" title="Credit Counseling">
+					</fourth_level>
+					<fourth_level id="1329" title="Foreclosure Counseling">
+					</fourth_level>
+					<fourth_level id="1330" title="Homebuyer Education">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1331" title="Foreign Languages">
+				</third_level>
+	            <third_level id="1332" title="GED/High-School Equivalency">
+				</third_level>
+	            <third_level id="1333" title="Health Education">
+					<fourth_level id="1334" title="Disease Management">
+					</fourth_level>
+					<fourth_level id="1335" title="Family Planning">
+					</fourth_level>
+					<fourth_level id="1336" title="Nutrition Education">
+					</fourth_level>
+					<fourth_level id="1337" title="Parenting Education">
+					</fourth_level>
+					<fourth_level id="1338" title="Sex Education">
+					</fourth_level>
+					<fourth_level id="1339" title="Understand Disability">
+					</fourth_level>
+					<fourth_level id="1340" title="Understand Mental Health">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1341" title="Supported Employment">
+				</third_level>
+	            <third_level id="1342" title="Special Education">
+				</third_level>
+	            <third_level id="1343" title="Tutoring">
+				</third_level>
+	        </second_level>
+			<second_level id="1344" title="Preschool">
+			</second_level>
+			<second_level id="1345" title="Screening &amp; Exams">
+	            <third_level id="1346" title="Citizenship &amp; Immigration">
+				</third_level>
+	            <third_level id="1347" title="GED/High-School Equivalency">
+				</third_level>
+	            <third_level id="1348" title="English as a Second Language (ESL)">
+				</third_level>
+			</second_level>
+	        <second_level id="1349" title="Skills &amp; Training">
+	            <third_level id="1350" title="Basic Literacy">
+	            </third_level>
+	            <third_level id="1351" title="Computer Class">
+	            </third_level>
+	            <third_level id="1352" title="Daily Life Skills">
+	            </third_level>
+	            <third_level id="1353" title="Interview Training">
+	            </third_level>
+	            <third_level id="1354" title="Resume Development">
+	            </third_level>
+	            <third_level id="1355" title="Skills Assessment">
+	            </third_level>
+	            <third_level id="1356" title="Specialized Training">
+	            </third_level>
+	        </second_level>
+	    </top_level>
+	    <top_level id="1110" title="Work">
+	        <second_level id="1357" title="Help Find Work">
+	            <third_level id="1358" title="Job Placement">
+				</third_level>
+	            <third_level id="1359" title="Supported Employment">
+				</third_level>
+			</second_level>
+	        <second_level id="1360" title="Help Pay for Work Expenses">
+	            <third_level id="1361" title="Clothes for Work">
+				</third_level>
+	            <third_level id="1362" title="Retirement Benefits">
+				</third_level>
+	            <third_level id="1363" title="Supplies for Work">
+				</third_level>
+	            <third_level id="1364" title="Unemployment Benefits">
+				</third_level>
+	        </second_level>
+	        <second_level id="1365" title="Skills &amp; Training">
+	            <third_level id="1366" title="Basic Literacy">
+				</third_level>
+	            <third_level id="1367" title="Computer Class">
+				</third_level>
+	            <third_level id="1368" title="GED/High-School Equivalency">
+				</third_level>
+	            <third_level id="1369" title="Interview Training">
+				</third_level>
+	            <third_level id="1370" title="Resume Development">
+				</third_level>
+	            <third_level id="1371" title="Skills Assessment">
+				</third_level>
+	            <third_level id="1372" title="Specialized Training">
+				</third_level>
+	        </second_level>
+	        <second_level id="1373" title="Supported Employment">
+			</second_level>
+	        <second_level id="1374" title="Workplace Rights">
+			</second_level>
+		</top_level>
+	    <top_level id="1111" title="Legal">
+	        <second_level id="1375" title="Advocacy &amp; Legal Aid">
+	            <third_level id="1376" title="Adoption &amp; Foster Care">
+					<fourth_level id="1377" title="Adoption &amp; Foster Placement">
+					</fourth_level>
+					<fourth_level id="1378" title="Adoption &amp; Foster Parenting">
+					</fourth_level>
+					<fourth_level id="1379" title="Adoption Planning">
+					</fourth_level>
+					<fourth_level id="1380" title="Post-Adoption Support">
+					</fourth_level>
+				</third_level>
+	            <third_level id="1381" title="Citizenship &amp; Immigration">
+				</third_level>
+	            <third_level id="1382" title="Discrimination &amp; Civil Rights">
+				</third_level>
+	            <third_level id="1383" title="Guardianship">
+				</third_level>
+	            <third_level id="1384" title="Identification Recovery">
+				</third_level>
+	            <third_level id="1385" title="Understand Government Programs">
+				</third_level>
+	            <third_level id="1386" title="Workplace Rights">
+				</third_level>
+			</second_level>
+	        <second_level id="1387" title="Mediation">
+			</second_level>
+	        <second_level id="1388" title="Notary">
+			</second_level>
+	        <second_level id="1389" title="Representation">
+			</second_level>
+	        <second_level id="1390" title="Translation &amp; Interpretation">
+			</second_level>
+		</top_level>
+	</services>
+	<situations>
+			<top_level id='20000' title="General">
+			<second_level id='20001' title="Anyone in Need"></second_level>
+			</top_level>
+			<top_level id='20002' title="Age Group">
+				<second_level id='20003' title="Adults"></second_level>
+				<second_level id='20004' title="Teens"></second_level>
+				<second_level id='20005' title="Children"></second_level>
+				<second_level id='20006' title="Seniors"></second_level>
+			</top_level>	
+			<top_level id='20007' title="Armed Forces">
+				<second_level id='20008' title="Active Duty"></second_level>
+				<second_level id='20009' title="National Guard"></second_level>
+				<second_level id='20010' title="Veterans"></second_level>
+			</top_level>	
+			<top_level id='20011' title="Citizenship">
+				<second_level id='20012' title="Immigrants"></second_level>
+				<second_level id='20013' title="Refugees"></second_level>
+				<second_level id='20014' title="Undocumented"></second_level>
+			</top_level>	
+			<top_level id='20015' title="Criminal History">
+				<second_level id='20016' title="Ex-Offenders"></second_level>
+			</top_level>	
+			<top_level id='20017' title="Disability">
+				<second_level id='20018' title="Learning Disability"></second_level>
+				<second_level id='20019' title="Developmental Disability"></second_level>
+				<second_level id='20020' title="Physical Disability"></second_level>
+				<second_level id='20093' title="Intellectual Disability"></second_level>
+				<second_level id='20021' title="Mentally Incapacitated"></second_level>
+				<second_level id='20022' title="Limited Mobility"></second_level>
+				<second_level id='20023' title="Hearing Impairment"></second_level>
+				<second_level id='20024' title="Visual Impairment"></second_level>
+				<second_level id='20025' title="Mental Illness"></second_level>
+			</top_level>	
+			<top_level id='20026' title="Education">
+				<second_level id='20027' title="Dropouts"></second_level>
+				<second_level id='20028' title="Students"></second_level>
+			</top_level>	
+			<top_level id='20029' title="Emotional State">
+				<second_level id='20030' title="Grieving"></second_level>
+			</top_level>	
+			<top_level id='20031' title="Employment">
+				<second_level id='20032' title="Employed"></second_level>
+				<second_level id='20033' title="Retirement"></second_level>
+				<second_level id='20034' title="Unemployed"></second_level>
+			</top_level>	
+			<top_level id='20035' title="Gender">
+				<second_level id='20036' title="Women"></second_level>
+				<second_level id='20037' title="Men"></second_level>
+				<second_level id='20038' title="Transgender"></second_level>
+			</top_level>	
+			<top_level id='20039' title="Guardianship">
+				<second_level id='20040' title="Foster Youth"></second_level>
+			</top_level>	
+			<top_level id='20041' title="Health">
+				<second_level id='20042' title="Hospitalized"></second_level>
+				<second_level id='20043' title="Pregnant"></second_level>
+				<second_level id='20044' title="Cancer"></second_level>
+				<second_level id='20045' title="Alzheimers"></second_level>
+				<second_level id='20046' title="Seizure Disorder"></second_level>
+				<second_level id='20047' title="Terminal Illness"></second_level>
+				<second_level id='20048' title="Infectious Disease"></second_level>
+				<second_level id='20049' title="Neuromuscular Disease"></second_level>
+				<second_level id='20050' title="Substance Dependency"></second_level>
+				<second_level id='20051' title="Mental Illness"></second_level>
+				<second_level id='20090' title="Chronic Illness"></second_level>
+			</top_level>	
+			<top_level id='20052' title="Household">
+				<second_level id='20053' title="Individuals"></second_level>
+				<second_level id='20054' title="Families"></second_level>
+			</top_level>	
+			<top_level id='20055' title="Housing">
+				<second_level id='20056' title="Home Owners"></second_level>
+				<second_level id='20057' title="Home Renters"></second_level>
+				<second_level id='20058' title="Homeless"></second_level>
+				<second_level id='20059' title="Near Homeless"></second_level>
+				<second_level id='20060' title="Runaways"></second_level>
+			</top_level>	
+			<top_level id='20061' title="Income">
+				<second_level id='20062' title="Benefit Recipients"></second_level>
+				<second_level id='20063' title="Low-Income"></second_level>
+			</top_level>	
+			<top_level id='20064' title="Insurance">
+				<second_level id='20065' title="Uninsured"></second_level>
+			</top_level>	
+			<top_level id='20066' title="Language">
+				<second_level id='20067' title="Limited English"></second_level>
+			</top_level>	
+			<top_level id='20068' title="Race/Ethnicity">
+				<second_level id='20069' title="African American"></second_level>
+				<second_level id='20070' title="Asian"></second_level>
+				<second_level id='20071' title="Latino"></second_level>
+			</top_level>	
+			<top_level id='20072' title="Role">
+				<second_level id='20073' title="Caregivers"></second_level>
+				<second_level id='20091' title="Spouses"></second_level>
+				<second_level id='20092' title="Dependents"></second_level>
+				<second_level id='20074' title="Fathers"></second_level>
+				<second_level id='20075' title="Mothers"></second_level>
+				<second_level id='20076' title="Parents"></second_level>
+			</top_level>	
+			<top_level id='20077' title="Sexuality">
+				<second_level id='20078' title="LGBTQ"></second_level>
+			</top_level>	
+			<top_level id='20079' title="Survivors">
+				<second_level id='20080' title="All Survivors"></second_level>
+				<second_level id='20081' title="Abuse or Neglect Survivors"></second_level>
+				<second_level id='20082' title="Burn Survivors"></second_level>
+				<second_level id='20083' title="Domestic Violence Survivors"></second_level>
+				<second_level id='20084' title="Human Trafficking Survivors"></second_level>
+				<second_level id='20085' title="Natural Disaster Survivors"></second_level>
+				<second_level id='20086' title="Sexual Assault Survivors"></second_level>
+			</top_level>	
+			<top_level id='20087' title="Urgency">
+				<second_level id='20088' title="In Crisis"></second_level>
+				<second_level id='20089' title="In Danger"></second_level>
+			</top_level>	
+	</situations>
+</taxonomy>

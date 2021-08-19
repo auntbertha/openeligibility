@@ -1,0 +1,815 @@
+# טקסונומיית המענים הפתוחים
+
+# Human Services
+## Food
+- Community Gardens
+- Emergency Food
+- Food Delivery
+- Food Pantry
+- Meals
+- Help Pay for Food
+  - Government Food Benefits
+  - Food Benefits
+- Nutrition Education
+- Free Meals
+- Nutrition
+## Housing
+- Temporary Shelter
+  - Weather Relief
+- Help Find Housing
+- Help Pay for Housing
+  - Help Pay for Utilities
+  - Help Pay for Internet or Phone
+  - Home & Renters Insurance
+  - Housing Vouchers
+  - Maintenance & Repairs
+- Maintenance & Repairs
+  - Efficiency Upgrades
+  - Health & Safety
+  - Pest Control
+- Housing Advice
+  - Foreclosure Counseling
+  - Homebuyer Education
+- Residential Housing
+  - Long-Term Housing
+    - Assisted Living
+    - Independent Living
+    - Nursing Home
+    - Public Housing
+    - Long-Term Housing
+  - Safe Housing
+  - Short-Term Housing
+    - Nursing Home
+    - Sober Living
+    - Short-Term Housing
+  - Assisted Living
+  - Independent Living
+  - Nursing Home
+  - Public Housing
+  - Nursing Home
+  - Sober Living
+- Emergency Shelter
+## Goods
+- Baby Supplies
+  - Baby Clothes
+  - Diapers & Formula
+- Clothing
+  - Baby Clothes
+  - Clothes for School
+  - Clothes for Work
+  - Clothing Vouchers
+- Home Goods
+  - Blankets & Fans
+  - Books
+  - Furniture
+  - Home Fuels
+  - Efficient Appliances
+  - Personal Care Items
+  - Supplies for School
+  - Supplies for Work
+- Medical Supplies
+  - Assistive Technology
+  - Prosthesis
+- Personal Safety
+- Toys & Gifts
+## Transit
+- Help Pay for Transit
+  - Bus Passes
+  - Help Pay for Car
+  - Help Pay for Gas
+- Transportation
+  - Transportation for Healthcare
+  - Transportation for School
+## Health
+- Addiction & Recovery
+  - 12-Step
+  - Detox
+  - Drug Testing
+  - Medications for Addiction
+  - Outpatient Treatment
+  - Peer Recovery Coaching
+  - Residential Treatment
+  - Sober Living
+  - Substance Abuse Counseling
+- Dental Care
+- End-of-Life Care
+  - Bereavement
+  - Burial & Funeral Help
+  - Hospice
+  - Pain Management
+- Health Education
+  - Daily Life Skills
+  - Disease Management
+  - Family Planning
+  - Nutrition Education
+  - Parenting Education
+  - Safety Education
+  - Sex Education
+  - Understand Disability
+  - Understand Mental Health
+  - Nutrition
+- Help Pay for Healthcare
+  - Disability Benefits
+  - Discounted Healthcare
+  - Health Insurance
+  - Prescription Assistance
+  - Transportation for Healthcare
+  - Medical Supplies
+- Medical Care
+  - Alternative Medicine
+  - Checkup & Test
+    - Disability Screening
+    - Disease Screening
+    - Hearing Tests
+    - Pregnancy Tests
+    - Checkup & Test
+  - Exercise & Fitness
+  - Help Find Healthcare
+  - Medical Supplies
+    - Assistive Technology
+    - Prosthesis
+  - Prevent & Treat
+    - Counseling
+    - Disease Management
+    - Early Childhood Intervention
+    - HIV Treatment
+    - Hospital Treatment
+    - In-Home Support
+    - Medication Management
+    - Nursing Home
+    - Occupational Therapy
+    - Outpatient Treatment
+    - Pain Management
+    - Physical Therapy
+    - Residential Treatment
+    - Specialized Therapy
+    - Speech Therapy
+    - Vaccinations
+    - Prevent & Treat
+  - Personal Hygiene
+  - Primary Care
+  - Skilled Nursing
+  - Support & Service Animals
+  - Disability Screening
+  - Disease Screening
+  - Hearing Tests
+  - Pregnancy Tests
+  - Assistive Technology
+  - Prosthesis
+  - Counseling
+  - Disease Management
+  - Early Childhood Intervention
+  - HIV Treatment
+  - Hospital Treatment
+  - In-Home Support
+  - Medication Management
+  - Nursing Home
+  - Occupational Therapy
+  - Outpatient Treatment
+  - Pain Management
+  - Physical Therapy
+  - Residential Treatment
+  - Specialized Therapy
+  - Speech Therapy
+  - Vaccinations
+  - Birth Control
+  - Maternity Care
+  - Psychiatric Emergency Services
+- Mental Health Care
+  - Anger Management
+  - Bereavement
+  - Counseling
+    - Group Therapy
+    - Substance Abuse Counseling
+    - Family Counseling
+    - Individual Counseling
+  - Hospital Treatment
+  - Medications for Mental Health
+  - Mental Health Evaluation
+  - Outpatient Treatment
+  - Psychiatric Emergency Services
+  - Residential Treatment
+  - Support & Service Animals
+  - Understand Mental Health
+  - Group Therapy
+  - Substance Abuse Counseling
+  - Family Counseling
+  - Individual Counseling
+- Sexual & Reproductive Health
+  - Family Planning
+    - Birth Control
+  - Fertility
+  - Sex Education
+  - STD/STI Treatment & Prevention
+    - HIV Treatment
+  - Women's Health
+    - Maternity Care
+    - Postnatal Care
+  - Birth Control
+  - HIV Treatment
+  - Maternity Care
+  - Postnatal Care
+- Vision Care
+## Money
+- Financial Assistance
+  - Help Pay for Childcare
+  - Help Pay for Food
+    - Government Food Benefits
+    - Help Pay for Food
+  - Help Pay for Healthcare
+    - Disability Benefits
+    - Discounted Healthcare
+    - Health Insurance
+    - Medical Supplies
+    - Prescription Assistance
+    - Transportation for Healthcare
+    - Help Pay for Healthcare
+  - Help Pay for Housing
+    - Help Pay for Utilities
+    - Help Pay for Internet or Phone
+    - Home & Renters Insurance
+    - Help Pay for Housing
+  - Help Pay for School
+    - Books
+    - Clothes for School
+    - Financial Aid & Loans
+    - Transportation for School
+    - Supplies for School
+    - Help Pay for School
+  - Help Pay for Transit
+    - Bus Passes
+    - Help Pay for Gas
+    - Help Pay for Transit
+  - Help Pay for Work Expenses
+  - Government Food Benefits
+  - Disability Benefits
+  - Discounted Healthcare
+  - Health Insurance
+  - Medical Supplies
+  - Prescription Assistance
+  - Transportation for Healthcare
+  - Help Pay for Utilities
+  - Help Pay for Internet or Phone
+  - Home & Renters Insurance
+  - Books
+  - Clothes for School
+  - Financial Aid & Loans
+  - Transportation for School
+  - Supplies for School
+  - Bus Passes
+  - Help Pay for Gas
+- Government Benefits
+  - Disability Benefits
+  - Government Food Benefits
+  - Retirement Benefits
+  - Understand Government Programs
+  - Unemployment Benefits
+  - Food Benefits
+- Financial Education
+  - Credit Counseling
+  - Foreclosure Counseling
+  - Homebuyer Education
+  - Savings Program
+- Insurance
+  - Health Insurance
+  - Home & Renters Insurance
+- Loans
+  - Business Loans
+  - Personal Loans
+- Tax Preparation
+## Care
+- Adoption & Foster Care
+  - Adoption & Foster Placement
+  - Adoption & Foster Parenting
+  - Adoption Planning
+  - Adoption Counseling
+  - Post-Adoption Support
+- Animal Welfare
+- Community Support Services
+  - Computer or Internet Access
+  - Exercise & Fitness
+  - Recreation
+  - Weather Relief
+- Daytime Care
+  - Adult Daycare
+  - After School Care
+  - Before School Care
+  - Childcare
+    - Help Find Childcare
+    - Help Pay for Childcare
+    - Childcare
+  - Day Camp
+  - Early Childhood Intervention
+  - Head Start
+  - Preschool
+  - Relief for Caregivers
+  - Help Find Childcare
+  - Help Pay for Childcare
+  - Afterschool Care
+  - Recreation
+- End-of-Life Care
+  - Bereavement
+  - Burial & Funeral Help
+  - Hospice
+  - Pain Management
+- Navigating the System
+  - Help Fill out Forms
+  - Help Find Housing
+  - Case Management
+  - Help Find Childcare
+  - Help Find School
+  - Help Find Work
+- Physical Safety
+  - Disaster Response
+  - Emergency Food
+  - Temporary Shelter
+    - Weather Relief
+  - Help Find Missing Persons
+  - Immediate Safety
+    - Help Escape Violence
+    - Safe Housing
+  - Safety Education
+  - Weather Relief
+  - Help Escape Violence
+  - Safe Housing
+- Residential Care
+  - Assisted Living
+  - Residential Treatment
+  - Nursing Home
+  - Overnight Camp
+- Support Network
+  - Counseling
+  - Help Hotlines
+  - Home Visiting
+  - In-Home Support
+  - Mentoring
+  - One-on-One Support
+  - Peer Recovery Coaching
+  - Peer Support
+  - Spiritual Support
+  - Support Groups
+    - 12-Step
+    - Bereavement
+    - Parenting Education
+    - Support Groups
+  - Virtual Support
+  - 12-Step
+  - Bereavement
+  - Parenting Education
+## Education
+- Help Find School
+- Help Pay for School
+  - Books
+  - Clothes for School
+  - Financial Aid & Loans
+  - Transportation for School
+  - Supplies for School
+- More Education
+  - Alternative Education
+  - Civic Engagement
+  - College Readiness
+  - Disaster Preparedness & Response
+  - English as a Second Language (ESL)
+  - Environmental Education
+  - Financial Education
+    - Credit Counseling
+    - Foreclosure Counseling
+    - Homebuyer Education
+    - Financial Education
+  - Foreign Languages
+  - GED/High-School Equivalency
+  - Health Education
+    - Disease Management
+    - Family Planning
+    - Nutrition Education
+    - Parenting Education
+    - Safety Education
+    - Sex Education
+    - Understand Disability
+    - Understand Mental Health
+    - Health Education
+  - Supported Employment
+  - Special Education
+  - Tutoring
+  - Youth Development
+  - Credit Counseling
+  - Foreclosure Counseling
+  - Homebuyer Education
+  - Disease Management
+  - Family Planning
+  - Nutrition Education
+  - Parenting Education
+  - Safety Education
+  - Sex Education
+  - Understand Disability
+  - Understand Mental Health
+- Preschool
+- Screening & Exams
+  - Citizenship & Immigration
+  - GED/High-School Equivalency
+  - English as a Second Language (ESL)
+- Skills & Training
+  - Basic Literacy
+  - Computer Class
+  - Daily Life Skills
+  - Interview Training
+  - Resume Development
+  - Skills Assessment
+  - Specialized Training
+## Work
+- Help Find Work
+  - Job Placement
+  - Supported Employment
+- Help Pay for Work Expenses
+  - Clothes for Work
+  - Retirement Benefits
+  - Supplies for Work
+  - Unemployment Benefits
+- Skills & Training
+  - Basic Literacy
+  - Computer Class
+  - GED/High-School Equivalency
+  - Interview Training
+  - Resume Development
+  - Skills Assessment
+  - Specialized Training
+- Supported Employment
+- Workplace Rights
+## Legal
+- Advocacy & Legal Aid
+  - Adoption & Foster Care
+    - Adoption & Foster Placement
+    - Adoption & Foster Parenting
+    - Adoption Planning
+    - Adoption Counseling
+    - Post-Adoption Support
+    - Adoption & Foster Care
+  - Citizenship & Immigration
+  - Discrimination & Civil Rights
+  - Guardianship
+  - Identification Recovery
+  - Understand Government Programs
+  - Workplace Rights
+  - Adoption & Foster Placement
+  - Adoption & Foster Parenting
+  - Adoption Planning
+  - Adoption Counseling
+  - Post-Adoption Support
+- Mediation
+- Notary
+- Representation
+- Translation & Interpretation
+- Adoption & Foster Care
+  - Adoption & Foster Placement
+  - Adoption & Foster Parenting
+  - Adoption Planning
+  - Adoption Counseling
+  - Post-Adoption Support
+- Citizenship & Immigration
+- Discrimination & Civil Rights
+- Guardianship
+- Identification Recovery
+- Understand Government Programs
+- Workplace Rights
+- Adoption & Foster Placement
+- Adoption & Foster Parenting
+- Adoption Planning
+- Adoption Counseling
+- Post-Adoption Support
+## Emergency
+- Disaster Response
+- Emergency Payments
+  - Help Pay for Food
+  - Help Pay for Healthcare
+  - Help Pay for Housing
+  - Help Pay for Gas
+  - Help Pay for School
+  - Help Pay for Utilities
+- Emergency Food
+- Emergency Shelter
+- Help Find Missing Persons
+- Immediate Safety
+  - Help Escape Violence
+  - Safe Housing
+- Psychiatric Emergency Services
+# Human Situations
+## General
+- Anyone in Need
+## Age Group
+- All Ages
+- Adults (31-54 years old)
+- Young Adults (20-30 years old)
+- Teens (13-19 years old)
+- Infants (0-1 years old)
+- Children (2-12 years old)
+- Seniors (55+ years old)
+- Adults
+- Teens
+- Children
+- Seniors
+## Armed Forces
+- Active Duty
+- National Guard
+- Veterans
+## Citizenship
+- Immigrants
+- Refugees
+- Undocumented
+## Justice Involvement
+- Criminal Justice History
+- In Jail
+## Disability
+- All Disabilities
+- Learning Disability
+  - ADD/ADHD
+- Developmental Disability
+- Physical Disability
+- Intellectual Disability
+- Mentally Incapacitated
+- Limited Mobility
+- Deaf or Hard of Hearing
+- Visual Impairment
+- ADD/ADHD
+- Hearing Impairment
+- Mental Illness
+## Education
+- Dropouts
+- Students
+## Emotional State
+- Grieving
+## Employment
+- Employed
+- Retirement
+- Unemployed
+## Gender & Identity
+- Female
+- Male
+- Transgender or Non-Binary
+- LGBTQIA+
+## Guardianship
+- Foster Youth
+## Health
+- Treatment Phases
+  - All Care Phases
+  - Hospitalized
+  - Recently Diagnosed
+  - On-Treatment
+  - Post-Treatment
+  - Facing End of Life
+- Pregnant
+- Cancer
+  - All Cancer Types
+  - Bladder Cancer
+  - Brain Stem Glioma
+  - Brain Tumor
+  - Breast Cancer
+  - Central Nervous System
+  - Cervical Cancer
+  - Colon Cancer
+  - Colorectal Cancer
+  - Desmoid Tumors
+  - Ductal Carcinoma In Situ (DCIS)
+  - Endomentrial Cancer
+  - Gastrointestinal Stromal Tumors (GIST)
+  - Germ Cell Tumor
+    - Central Nervous System Germ Cell Tumor
+    - Ovarian Germ Cell Tumor
+    - Testicular Germ Cell Tumor
+  - Head & Neck Cancer
+  - Leukemia
+    - Acute Lymphoblastic Leukemia (ALL)
+    - Acute Myeloid Leukemia (AML)
+    - Chronic Lymphocytic Leukemia (CLL)
+    - Chronic Myelogenous Leukemia (CML)
+    - Hairy Cell Leukemia
+  - Liver Cancer
+  - Lung Cancer
+    - Childhood Lung Cancer
+    - Non-Small Cell Lung Cancer
+    - Small Cell Lung Cancer
+  - Lymphoma
+    - AIDS-Related Lymphoma
+    - Burkitt Lymphoma
+    - Cutaneous T-Cell Lymphoma
+    - Hodgkin Lymphoma
+    - Non-Hodgkin Lymphoma
+    - Primary Central Nervous System Lymphoma(CNS)
+  - Myeloma, Multiple
+  - Neuroblastoma
+  - Ovarian Cancer
+  - Rectal Cancer
+  - Sarcoma
+    - Ewing Sarcoma
+    - Kaposi Sarcoma
+    - Osteosarcoma Sarcoma
+    - Rhabdomyosarcoma Sarcoma
+    - Soft Tissue Sarcoma
+    - Uterine Sarcoma
+  - Skin Cancer
+    - Melanoma
+  - Stomach (Gastric) Cancer
+  - Testicular Cancer
+  - Throat Cancer
+  - Thyroid Cancer
+  - Vaginal Cancer
+  - Vulvar Cancer
+  - Wilms Tumor
+  - Central Nervous System Germ Cell Tumor
+  - Ovarian Germ Cell Tumor
+  - Testicular Germ Cell Tumor
+  - Acute Lymphoblastic Leukemia (ALL)
+  - Acute Myeloid Leukemia (AML)
+  - Chronic Lymphocytic Leukemia (CLL)
+  - Chronic Myelogenous Leukemia (CML)
+  - Hairy Cell Leukemia
+  - Childhood Lung Cancer
+  - Non-Small Cell Lung Cancer
+  - Small Cell Lung Cancer
+  - AIDS-Related Lymphoma
+  - Burkitt Lymphoma
+  - Cutaneous T-Cell Lymphoma
+  - Hodgkin Lymphoma
+  - Non-Hodgkin Lymphoma
+  - Primary Central Nervous System Lymphoma(CNS)
+  - Ewing Sarcoma
+  - Kaposi Sarcoma
+  - Osteosarcoma Sarcoma
+  - Rhabdomyosarcoma Sarcoma
+  - Soft Tissue Sarcoma
+  - Uterine Sarcoma
+  - Melanoma
+- Alzheimer's
+- Seizures
+- Terminal Illness
+- Infectious Disease
+  - HIV/AIDS
+- Neuromuscular Disease
+- All Mental Health
+- Chronic Illness
+- Genetic Disorder
+- Diabetes
+- Autism
+- All Care Phases
+- Hospitalized
+- Recently Diagnosed
+- On-Treatment
+- Post-Treatment
+- Facing End of Life
+- All Cancer Types
+- Bladder Cancer
+- Brain Stem Glioma
+- Brain Tumor
+- Breast Cancer
+- Central Nervous System
+- Cervical Cancer
+- Colon Cancer
+- Colorectal Cancer
+- Desmoid Tumors
+- Ductal Carcinoma In Situ (DCIS)
+- Endomentrial Cancer
+- Gastrointestinal Stromal Tumors (GIST)
+- Germ Cell Tumor
+  - Central Nervous System Germ Cell Tumor
+  - Ovarian Germ Cell Tumor
+  - Testicular Germ Cell Tumor
+- Head & Neck Cancer
+- Leukemia
+  - Acute Lymphoblastic Leukemia (ALL)
+  - Acute Myeloid Leukemia (AML)
+  - Chronic Lymphocytic Leukemia (CLL)
+  - Chronic Myelogenous Leukemia (CML)
+  - Hairy Cell Leukemia
+- Liver Cancer
+- Lung Cancer
+  - Childhood Lung Cancer
+  - Non-Small Cell Lung Cancer
+  - Small Cell Lung Cancer
+- Lymphoma
+  - AIDS-Related Lymphoma
+  - Burkitt Lymphoma
+  - Cutaneous T-Cell Lymphoma
+  - Hodgkin Lymphoma
+  - Non-Hodgkin Lymphoma
+  - Primary Central Nervous System Lymphoma(CNS)
+- Myeloma, Multiple
+- Neuroblastoma
+- Ovarian Cancer
+- Rectal Cancer
+- Sarcoma
+  - Ewing Sarcoma
+  - Kaposi Sarcoma
+  - Osteosarcoma Sarcoma
+  - Rhabdomyosarcoma Sarcoma
+  - Soft Tissue Sarcoma
+  - Uterine Sarcoma
+- Skin Cancer
+  - Melanoma
+- Stomach (Gastric) Cancer
+- Testicular Cancer
+- Throat Cancer
+- Thyroid Cancer
+- Vaginal Cancer
+- Vulvar Cancer
+- Wilms Tumor
+- Central Nervous System Germ Cell Tumor
+- Ovarian Germ Cell Tumor
+- Testicular Germ Cell Tumor
+- Acute Lymphoblastic Leukemia (ALL)
+- Acute Myeloid Leukemia (AML)
+- Chronic Lymphocytic Leukemia (CLL)
+- Chronic Myelogenous Leukemia (CML)
+- Hairy Cell Leukemia
+- Childhood Lung Cancer
+- Non-Small Cell Lung Cancer
+- Small Cell Lung Cancer
+- AIDS-Related Lymphoma
+- Burkitt Lymphoma
+- Cutaneous T-Cell Lymphoma
+- Hodgkin Lymphoma
+- Non-Hodgkin Lymphoma
+- Primary Central Nervous System Lymphoma(CNS)
+- Ewing Sarcoma
+- Kaposi Sarcoma
+- Osteosarcoma Sarcoma
+- Rhabdomyosarcoma Sarcoma
+- Soft Tissue Sarcoma
+- Uterine Sarcoma
+- Melanoma
+- HIV/AIDS
+- Alzheimers
+- Seizure Disorder
+- Substance Dependency
+- Mental Illness
+## Household
+- Individuals
+- Families
+  - With Children
+  - Single Parent
+- With Children
+- Single Parent
+## Housing
+- Home Owners
+- Home Renters
+- Homeless
+- Near Homeless
+- Runaways
+## Income
+- Benefit Recipients
+- Low-Income
+## Insurance
+- Uninsured
+- Underinsured
+## Language
+- Limited English
+## Mental Health
+- Anxiety
+- Bipolar
+- Brain Injury
+- Depression
+- Eating Disorder
+- Suicidal Thoughts
+## Race/Ethnicity
+- African American
+- Asian
+- Latino
+- Native American
+## Role
+- Caregivers
+- Spouses
+- Dependents
+- Fathers
+- Mothers
+- Parents
+## Substance Dependency
+- Alcohol Dependency
+- Dual Diagnosis
+- Opioid Dependency
+- Smoker
+## Sexual Orientation & Identity
+- LGBTQ+
+- Transgender
+## Survivors
+- Trauma Survivors
+- Abuse or Neglect Survivors
+- Burn Survivors
+- All Cancer Survivors
+- Childhood Cancer Survivors
+- Young Adult Cancer Survivors
+- Adult Cancer Survivors
+- Domestic Violence Survivors
+- Human Trafficking Survivors
+- Natural Disaster Survivors
+- Sexual Assault Survivors
+- All Survivors
+## Urgency
+- In Crisis
+- In Danger
+- Emergency
+## Criminal History
+- Ex-Offenders
+## Gender
+- Women
+- Men
+- Transgender
+## Sexuality
+- LGBTQ
