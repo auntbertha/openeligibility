@@ -24,7 +24,6 @@
       - name: Government Food Benefits
         slug: human_services:food:help_pay_for_food:government_food_benefits
         related:
-        - human_services:money:financial_assistance:government_food_benefits
         - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
         - human_services:money:government_benefits:government_food_benefits
       - name: Food Benefits
@@ -39,7 +38,6 @@
       slug: human_services:food:nutrition_education
       related:
       - human_services:education:more_education:health_education:nutrition_education
-      - human_services:education:more_education:nutrition_education
       - human_services:health:health_education:nutrition_education
     - name: Free Meals
       slug: human_services:food:free_meals
@@ -59,7 +57,6 @@
         related:
         - human_services:care:community_support_services:weather_relief
         - human_services:care:physical_safety:temporary_shelter:weather_relief
-        - human_services:care:physical_safety:weather_relief
       related:
       - human_services:care:physical_safety:temporary_shelter
     - name: Help Find Housing
@@ -74,17 +71,14 @@
         related:
         - human_services:emergency:emergency_payments:help_pay_for_utilities
         - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
-        - human_services:money:financial_assistance:help_pay_for_utilities
       - name: Help Pay for Internet or Phone
         slug: human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
         related:
         - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
-        - human_services:money:financial_assistance:help_pay_for_internet_or_phone
       - name: Home & Renters Insurance
         slug: human_services:housing:help_pay_for_housing:home_renters_insurance
         related:
         - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-        - human_services:money:financial_assistance:home_renters_insurance
         - human_services:money:insurance:home_renters_insurance
       - name: Housing Vouchers
         slug: human_services:housing:help_pay_for_housing:housing_vouchers
@@ -114,13 +108,11 @@
         slug: human_services:housing:housing_advice:foreclosure_counseling
         related:
         - human_services:education:more_education:financial_education:foreclosure_counseling
-        - human_services:education:more_education:foreclosure_counseling
         - human_services:money:financial_education:foreclosure_counseling
       - name: Homebuyer Education
         slug: human_services:housing:housing_advice:homebuyer_education
         related:
         - human_services:education:more_education:financial_education:homebuyer_education
-        - human_services:education:more_education:homebuyer_education
         - human_services:money:financial_education:homebuyer_education
     - name: Residential Housing
       slug: human_services:housing:residential_housing
@@ -132,23 +124,16 @@
           slug: human_services:housing:residential_housing:long_term_housing:assisted_living
           related:
           - human_services:care:residential_care:assisted_living
-          - human_services:housing:residential_housing:assisted_living
         - name: Independent Living
           slug: human_services:housing:residential_housing:long_term_housing:independent_living
-          related:
-          - human_services:housing:residential_housing:independent_living
         - name: Nursing Home
           slug: human_services:housing:residential_housing:long_term_housing:nursing_home
           related:
           - human_services:care:residential_care:nursing_home
-          - human_services:health:medical_care:nursing_home
           - human_services:health:medical_care:prevent_treat:nursing_home
-          - human_services:housing:residential_housing:nursing_home
           - human_services:housing:residential_housing:short_term_housing:nursing_home
         - name: Public Housing
           slug: human_services:housing:residential_housing:long_term_housing:public_housing
-          related:
-          - human_services:housing:residential_housing:public_housing
         - name: Long-Term Housing
           slug: human_services:housing:residential_housing:long_term_housing:long_term_housing
           related:
@@ -159,7 +144,6 @@
         slug: human_services:housing:residential_housing:safe_housing
         related:
         - human_services:care:physical_safety:immediate_safety:safe_housing
-        - human_services:care:physical_safety:safe_housing
         - human_services:emergency:immediate_safety:safe_housing
       - name: Short-Term Housing
         slug: human_services:housing:residential_housing:short_term_housing
@@ -168,55 +152,18 @@
           slug: human_services:housing:residential_housing:short_term_housing:nursing_home
           related:
           - human_services:care:residential_care:nursing_home
-          - human_services:health:medical_care:nursing_home
           - human_services:health:medical_care:prevent_treat:nursing_home
           - human_services:housing:residential_housing:long_term_housing:nursing_home
-          - human_services:housing:residential_housing:nursing_home
         - name: Sober Living
           slug: human_services:housing:residential_housing:short_term_housing:sober_living
           related:
           - human_services:health:addiction_recovery:sober_living
-          - human_services:housing:residential_housing:sober_living
         - name: Short-Term Housing
           slug: human_services:housing:residential_housing:short_term_housing:short_term_housing
           related:
           - human_services:housing:residential_housing:short_term_housing
         related:
         - human_services:housing:residential_housing:short_term_housing:short_term_housing
-      - name: Assisted Living
-        slug: human_services:housing:residential_housing:assisted_living
-        related:
-        - human_services:care:residential_care:assisted_living
-        - human_services:housing:residential_housing:long_term_housing:assisted_living
-      - name: Independent Living
-        slug: human_services:housing:residential_housing:independent_living
-        related:
-        - human_services:housing:residential_housing:long_term_housing:independent_living
-      - name: Nursing Home
-        slug: human_services:housing:residential_housing:nursing_home
-        related:
-        - human_services:care:residential_care:nursing_home
-        - human_services:health:medical_care:nursing_home
-        - human_services:health:medical_care:prevent_treat:nursing_home
-        - human_services:housing:residential_housing:long_term_housing:nursing_home
-        - human_services:housing:residential_housing:short_term_housing:nursing_home
-      - name: Public Housing
-        slug: human_services:housing:residential_housing:public_housing
-        related:
-        - human_services:housing:residential_housing:long_term_housing:public_housing
-      - name: Nursing Home
-        slug: human_services:housing:residential_housing:nursing_home
-        related:
-        - human_services:care:residential_care:nursing_home
-        - human_services:health:medical_care:nursing_home
-        - human_services:health:medical_care:prevent_treat:nursing_home
-        - human_services:housing:residential_housing:long_term_housing:nursing_home
-        - human_services:housing:residential_housing:short_term_housing:nursing_home
-      - name: Sober Living
-        slug: human_services:housing:residential_housing:sober_living
-        related:
-        - human_services:health:addiction_recovery:sober_living
-        - human_services:housing:residential_housing:short_term_housing:sober_living
     - name: Emergency Shelter
       slug: human_services:housing:emergency_shelter
       related:
@@ -247,7 +194,6 @@
         slug: human_services:goods:clothing:clothes_for_school
         related:
         - human_services:education:help_pay_for_school:clothes_for_school
-        - human_services:money:financial_assistance:clothes_for_school
         - human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
       - name: Clothes for Work
         slug: human_services:goods:clothing:clothes_for_work
@@ -264,7 +210,6 @@
         slug: human_services:goods:home_goods:books
         related:
         - human_services:education:help_pay_for_school:books
-        - human_services:money:financial_assistance:books
         - human_services:money:financial_assistance:help_pay_for_school:books
       - name: Furniture
         slug: human_services:goods:home_goods:furniture
@@ -279,7 +224,6 @@
         related:
         - human_services:education:help_pay_for_school:supplies_for_school
         - human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
-        - human_services:money:financial_assistance:supplies_for_school
       - name: Supplies for Work
         slug: human_services:goods:home_goods:supplies_for_work
         related:
@@ -296,12 +240,10 @@
         slug: human_services:goods:medical_supplies:prosthesis
         related:
         - human_services:health:medical_care:medical_supplies:prosthesis
-        - human_services:health:medical_care:prosthesis
       related:
       - human_services:health:help_pay_for_healthcare:medical_supplies
       - human_services:health:medical_care:medical_supplies
       - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-      - human_services:money:financial_assistance:medical_supplies
     - name: Personal Safety
       slug: human_services:goods:personal_safety
     - name: Toys & Gifts
@@ -316,7 +258,6 @@
       - name: Bus Passes
         slug: human_services:transit:help_pay_for_transit:bus_passes
         related:
-        - human_services:money:financial_assistance:bus_passes
         - human_services:money:financial_assistance:help_pay_for_transit:bus_passes
       - name: Help Pay for Car
         slug: human_services:transit:help_pay_for_transit:help_pay_for_car
@@ -324,7 +265,6 @@
         slug: human_services:transit:help_pay_for_transit:help_pay_for_gas
         related:
         - human_services:emergency:emergency_payments:help_pay_for_gas
-        - human_services:money:financial_assistance:help_pay_for_gas
         - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
       related:
       - human_services:money:financial_assistance:help_pay_for_transit
@@ -337,13 +277,11 @@
         related:
         - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
         - human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:money:financial_assistance:transportation_for_healthcare
       - name: Transportation for School
         slug: human_services:transit:transportation:transportation_for_school
         related:
         - human_services:education:help_pay_for_school:transportation_for_school
         - human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
-        - human_services:money:financial_assistance:transportation_for_school
   - name: Health
     slug: human_services:health
     description: Services for medical care, dental care, health education, addiction and recovery, help finding services, and help paying for healthcare.
@@ -354,7 +292,6 @@
       - name: 12-Step
         slug: human_services:health:addiction_recovery:12_step
         related:
-        - human_services:care:support_network:12_step
         - human_services:care:support_network:support_groups:12_step
       - name: Detox
         slug: human_services:health:addiction_recovery:detox
@@ -365,7 +302,6 @@
       - name: Outpatient Treatment
         slug: human_services:health:addiction_recovery:outpatient_treatment
         related:
-        - human_services:health:medical_care:outpatient_treatment
         - human_services:health:medical_care:prevent_treat:outpatient_treatment
         - human_services:health:mental_health_care:outpatient_treatment
       - name: Peer Recovery Coaching
@@ -377,18 +313,15 @@
         related:
         - human_services:care:residential_care:residential_treatment
         - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:medical_care:residential_treatment
         - human_services:health:mental_health_care:residential_treatment
       - name: Sober Living
         slug: human_services:health:addiction_recovery:sober_living
         related:
         - human_services:housing:residential_housing:short_term_housing:sober_living
-        - human_services:housing:residential_housing:sober_living
       - name: Substance Abuse Counseling
         slug: human_services:health:addiction_recovery:substance_abuse_counseling
         related:
         - human_services:health:mental_health_care:counseling:substance_abuse_counseling
-        - human_services:health:mental_health_care:substance_abuse_counseling
     - name: Dental Care
       slug: human_services:health:dental_care
     - name: End-of-Life Care
@@ -398,7 +331,6 @@
         slug: human_services:health:end_of_life_care:bereavement
         related:
         - human_services:care:end_of_life_care:bereavement
-        - human_services:care:support_network:bereavement
         - human_services:care:support_network:support_groups:bereavement
         - human_services:health:mental_health_care:bereavement
       - name: Burial & Funeral Help
@@ -413,7 +345,6 @@
         slug: human_services:health:end_of_life_care:pain_management
         related:
         - human_services:care:end_of_life_care:pain_management
-        - human_services:health:medical_care:pain_management
         - human_services:health:medical_care:prevent_treat:pain_management
       related:
       - human_services:care:end_of_life_care
@@ -427,51 +358,41 @@
       - name: Disease Management
         slug: human_services:health:health_education:disease_management
         related:
-        - human_services:education:more_education:disease_management
         - human_services:education:more_education:health_education:disease_management
-        - human_services:health:medical_care:disease_management
         - human_services:health:medical_care:prevent_treat:disease_management
       - name: Family Planning
         slug: human_services:health:health_education:family_planning
         related:
-        - human_services:education:more_education:family_planning
         - human_services:education:more_education:health_education:family_planning
         - human_services:health:sexual_reproductive_health:family_planning
       - name: Nutrition Education
         slug: human_services:health:health_education:nutrition_education
         related:
         - human_services:education:more_education:health_education:nutrition_education
-        - human_services:education:more_education:nutrition_education
         - human_services:food:nutrition_education
       - name: Parenting Education
         slug: human_services:health:health_education:parenting_education
         related:
-        - human_services:care:support_network:parenting_education
         - human_services:care:support_network:support_groups:parenting_education
         - human_services:education:more_education:health_education:parenting_education
-        - human_services:education:more_education:parenting_education
       - name: Safety Education
         slug: human_services:health:health_education:safety_education
         related:
         - human_services:care:physical_safety:safety_education
         - human_services:education:more_education:health_education:safety_education
-        - human_services:education:more_education:safety_education
       - name: Sex Education
         slug: human_services:health:health_education:sex_education
         related:
         - human_services:education:more_education:health_education:sex_education
-        - human_services:education:more_education:sex_education
         - human_services:health:sexual_reproductive_health:sex_education
       - name: Understand Disability
         slug: human_services:health:health_education:understand_disability
         related:
         - human_services:education:more_education:health_education:understand_disability
-        - human_services:education:more_education:understand_disability
       - name: Understand Mental Health
         slug: human_services:health:health_education:understand_mental_health
         related:
         - human_services:education:more_education:health_education:understand_mental_health
-        - human_services:education:more_education:understand_mental_health
         - human_services:health:mental_health_care:understand_mental_health
       - name: Nutrition
         slug: human_services:health:health_education:nutrition
@@ -486,30 +407,25 @@
       - name: Disability Benefits
         slug: human_services:health:help_pay_for_healthcare:disability_benefits
         related:
-        - human_services:money:financial_assistance:disability_benefits
         - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
         - human_services:money:government_benefits:disability_benefits
       - name: Discounted Healthcare
         slug: human_services:health:help_pay_for_healthcare:discounted_healthcare
         related:
-        - human_services:money:financial_assistance:discounted_healthcare
         - human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
       - name: Health Insurance
         slug: human_services:health:help_pay_for_healthcare:health_insurance
         related:
-        - human_services:money:financial_assistance:health_insurance
         - human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
         - human_services:money:insurance:health_insurance
       - name: Prescription Assistance
         slug: human_services:health:help_pay_for_healthcare:prescription_assistance
         related:
         - human_services:money:financial_assistance:help_pay_for_healthcare:prescription_assistance
-        - human_services:money:financial_assistance:prescription_assistance
       - name: Transportation for Healthcare
         slug: human_services:health:help_pay_for_healthcare:transportation_for_healthcare
         related:
         - human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:money:financial_assistance:transportation_for_healthcare
         - human_services:transit:transportation:transportation_for_healthcare
       - name: Medical Supplies
         slug: human_services:health:help_pay_for_healthcare:medical_supplies
@@ -517,7 +433,6 @@
         - human_services:goods:medical_supplies
         - human_services:health:medical_care:medical_supplies
         - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-        - human_services:money:financial_assistance:medical_supplies
       related:
       - human_services:emergency:emergency_payments:help_pay_for_healthcare
       - human_services:money:financial_assistance:help_pay_for_healthcare
@@ -532,20 +447,12 @@
         items:
         - name: Disability Screening
           slug: human_services:health:medical_care:checkup_test:disability_screening
-          related:
-          - human_services:health:medical_care:disability_screening
         - name: Disease Screening
           slug: human_services:health:medical_care:checkup_test:disease_screening
-          related:
-          - human_services:health:medical_care:disease_screening
         - name: Hearing Tests
           slug: human_services:health:medical_care:checkup_test:hearing_tests
-          related:
-          - human_services:health:medical_care:hearing_tests
         - name: Pregnancy Tests
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
-          related:
-          - human_services:health:medical_care:pregnancy_tests
         - name: Checkup & Test
           slug: human_services:health:medical_care:checkup_test:checkup_test
           related:
@@ -570,12 +477,10 @@
           slug: human_services:health:medical_care:medical_supplies:prosthesis
           related:
           - human_services:goods:medical_supplies:prosthesis
-          - human_services:health:medical_care:prosthesis
         related:
         - human_services:goods:medical_supplies
         - human_services:health:help_pay_for_healthcare:medical_supplies
         - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-        - human_services:money:financial_assistance:medical_supplies
       - name: Prevent & Treat
         slug: human_services:health:medical_care:prevent_treat
         items:
@@ -583,87 +488,62 @@
           slug: human_services:health:medical_care:prevent_treat:counseling
           related:
           - human_services:care:support_network:counseling
-          - human_services:health:medical_care:counseling
           - human_services:health:mental_health_care:counseling
         - name: Disease Management
           slug: human_services:health:medical_care:prevent_treat:disease_management
           related:
-          - human_services:education:more_education:disease_management
           - human_services:education:more_education:health_education:disease_management
           - human_services:health:health_education:disease_management
-          - human_services:health:medical_care:disease_management
         - name: Early Childhood Intervention
           slug: human_services:health:medical_care:prevent_treat:early_childhood_intervention
           related:
           - human_services:care:daytime_care:early_childhood_intervention
-          - human_services:health:medical_care:early_childhood_intervention
         - name: HIV Treatment
           slug: human_services:health:medical_care:prevent_treat:hiv_treatment
           related:
-          - human_services:health:medical_care:hiv_treatment
-          - human_services:health:sexual_reproductive_health:hiv_treatment
           - human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
         - name: Hospital Treatment
           slug: human_services:health:medical_care:prevent_treat:hospital_treatment
           related:
-          - human_services:health:medical_care:hospital_treatment
           - human_services:health:mental_health_care:hospital_treatment
         - name: In-Home Support
           slug: human_services:health:medical_care:prevent_treat:in_home_support
           related:
           - human_services:care:support_network:in_home_support
-          - human_services:health:medical_care:in_home_support
         - name: Medication Management
           slug: human_services:health:medical_care:prevent_treat:medication_management
-          related:
-          - human_services:health:medical_care:medication_management
         - name: Nursing Home
           slug: human_services:health:medical_care:prevent_treat:nursing_home
           related:
           - human_services:care:residential_care:nursing_home
-          - human_services:health:medical_care:nursing_home
           - human_services:housing:residential_housing:long_term_housing:nursing_home
-          - human_services:housing:residential_housing:nursing_home
           - human_services:housing:residential_housing:short_term_housing:nursing_home
         - name: Occupational Therapy
           slug: human_services:health:medical_care:prevent_treat:occupational_therapy
-          related:
-          - human_services:health:medical_care:occupational_therapy
         - name: Outpatient Treatment
           slug: human_services:health:medical_care:prevent_treat:outpatient_treatment
           related:
           - human_services:health:addiction_recovery:outpatient_treatment
-          - human_services:health:medical_care:outpatient_treatment
           - human_services:health:mental_health_care:outpatient_treatment
         - name: Pain Management
           slug: human_services:health:medical_care:prevent_treat:pain_management
           related:
           - human_services:care:end_of_life_care:pain_management
           - human_services:health:end_of_life_care:pain_management
-          - human_services:health:medical_care:pain_management
         - name: Physical Therapy
           slug: human_services:health:medical_care:prevent_treat:physical_therapy
-          related:
-          - human_services:health:medical_care:physical_therapy
         - name: Residential Treatment
           slug: human_services:health:medical_care:prevent_treat:residential_treatment
           related:
           - human_services:care:residential_care:residential_treatment
           - human_services:health:addiction_recovery:residential_treatment
-          - human_services:health:medical_care:residential_treatment
           - human_services:health:mental_health_care:residential_treatment
         - name: Specialized Therapy
           slug: human_services:health:medical_care:prevent_treat:specialized_therapy
-          related:
-          - human_services:health:medical_care:specialized_therapy
         - name: Speech Therapy
           slug: human_services:health:medical_care:prevent_treat:speech_therapy
-          related:
-          - human_services:health:medical_care:speech_therapy
         - name: Vaccinations
           slug: human_services:health:medical_care:prevent_treat:vaccinations
-          related:
-          - human_services:health:medical_care:vaccinations
         - name: Prevent & Treat
           slug: human_services:health:medical_care:prevent_treat:prevent_treat
           related:
@@ -680,126 +560,18 @@
         slug: human_services:health:medical_care:support_service_animals
         related:
         - human_services:health:mental_health_care:support_service_animals
-      - name: Disability Screening
-        slug: human_services:health:medical_care:disability_screening
-        related:
-        - human_services:health:medical_care:checkup_test:disability_screening
-      - name: Disease Screening
-        slug: human_services:health:medical_care:disease_screening
-        related:
-        - human_services:health:medical_care:checkup_test:disease_screening
-      - name: Hearing Tests
-        slug: human_services:health:medical_care:hearing_tests
-        related:
-        - human_services:health:medical_care:checkup_test:hearing_tests
-      - name: Pregnancy Tests
-        slug: human_services:health:medical_care:pregnancy_tests
-        related:
-        - human_services:health:medical_care:checkup_test:pregnancy_tests
       - name: Assistive Technology
         slug: human_services:health:medical_care:assistive_technology
         related:
         - human_services:goods:medical_supplies:assistive_technology
         - human_services:health:medical_care:medical_supplies:assistive_technology
-      - name: Prosthesis
-        slug: human_services:health:medical_care:prosthesis
-        related:
-        - human_services:goods:medical_supplies:prosthesis
-        - human_services:health:medical_care:medical_supplies:prosthesis
-      - name: Counseling
-        slug: human_services:health:medical_care:counseling
-        related:
-        - human_services:care:support_network:counseling
-        - human_services:health:medical_care:prevent_treat:counseling
-        - human_services:health:mental_health_care:counseling
-      - name: Disease Management
-        slug: human_services:health:medical_care:disease_management
-        related:
-        - human_services:education:more_education:disease_management
-        - human_services:education:more_education:health_education:disease_management
-        - human_services:health:health_education:disease_management
-        - human_services:health:medical_care:prevent_treat:disease_management
-      - name: Early Childhood Intervention
-        slug: human_services:health:medical_care:early_childhood_intervention
-        related:
-        - human_services:care:daytime_care:early_childhood_intervention
-        - human_services:health:medical_care:prevent_treat:early_childhood_intervention
-      - name: HIV Treatment
-        slug: human_services:health:medical_care:hiv_treatment
-        related:
-        - human_services:health:medical_care:prevent_treat:hiv_treatment
-        - human_services:health:sexual_reproductive_health:hiv_treatment
-        - human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
-      - name: Hospital Treatment
-        slug: human_services:health:medical_care:hospital_treatment
-        related:
-        - human_services:health:medical_care:prevent_treat:hospital_treatment
-        - human_services:health:mental_health_care:hospital_treatment
-      - name: In-Home Support
-        slug: human_services:health:medical_care:in_home_support
-        related:
-        - human_services:care:support_network:in_home_support
-        - human_services:health:medical_care:prevent_treat:in_home_support
-      - name: Medication Management
-        slug: human_services:health:medical_care:medication_management
-        related:
-        - human_services:health:medical_care:prevent_treat:medication_management
-      - name: Nursing Home
-        slug: human_services:health:medical_care:nursing_home
-        related:
-        - human_services:care:residential_care:nursing_home
-        - human_services:health:medical_care:prevent_treat:nursing_home
-        - human_services:housing:residential_housing:long_term_housing:nursing_home
-        - human_services:housing:residential_housing:nursing_home
-        - human_services:housing:residential_housing:short_term_housing:nursing_home
-      - name: Occupational Therapy
-        slug: human_services:health:medical_care:occupational_therapy
-        related:
-        - human_services:health:medical_care:prevent_treat:occupational_therapy
-      - name: Outpatient Treatment
-        slug: human_services:health:medical_care:outpatient_treatment
-        related:
-        - human_services:health:addiction_recovery:outpatient_treatment
-        - human_services:health:medical_care:prevent_treat:outpatient_treatment
-        - human_services:health:mental_health_care:outpatient_treatment
-      - name: Pain Management
-        slug: human_services:health:medical_care:pain_management
-        related:
-        - human_services:care:end_of_life_care:pain_management
-        - human_services:health:end_of_life_care:pain_management
-        - human_services:health:medical_care:prevent_treat:pain_management
-      - name: Physical Therapy
-        slug: human_services:health:medical_care:physical_therapy
-        related:
-        - human_services:health:medical_care:prevent_treat:physical_therapy
-      - name: Residential Treatment
-        slug: human_services:health:medical_care:residential_treatment
-        related:
-        - human_services:care:residential_care:residential_treatment
-        - human_services:health:addiction_recovery:residential_treatment
-        - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:mental_health_care:residential_treatment
-      - name: Specialized Therapy
-        slug: human_services:health:medical_care:specialized_therapy
-        related:
-        - human_services:health:medical_care:prevent_treat:specialized_therapy
-      - name: Speech Therapy
-        slug: human_services:health:medical_care:speech_therapy
-        related:
-        - human_services:health:medical_care:prevent_treat:speech_therapy
-      - name: Vaccinations
-        slug: human_services:health:medical_care:vaccinations
-        related:
-        - human_services:health:medical_care:prevent_treat:vaccinations
       - name: Birth Control
         slug: human_services:health:medical_care:birth_control
         related:
-        - human_services:health:sexual_reproductive_health:birth_control
         - human_services:health:sexual_reproductive_health:family_planning:birth_control
       - name: Maternity Care
         slug: human_services:health:medical_care:maternity_care
         related:
-        - human_services:health:sexual_reproductive_health:maternity_care
         - human_services:health:sexual_reproductive_health:women_s_health:maternity_care
       - name: Psychiatric Emergency Services
         slug: human_services:health:medical_care:psychiatric_emergency_services
@@ -815,7 +587,6 @@
         slug: human_services:health:mental_health_care:bereavement
         related:
         - human_services:care:end_of_life_care:bereavement
-        - human_services:care:support_network:bereavement
         - human_services:care:support_network:support_groups:bereavement
         - human_services:health:end_of_life_care:bereavement
       - name: Counseling
@@ -823,29 +594,20 @@
         items:
         - name: Group Therapy
           slug: human_services:health:mental_health_care:counseling:group_therapy
-          related:
-          - human_services:health:mental_health_care:group_therapy
         - name: Substance Abuse Counseling
           slug: human_services:health:mental_health_care:counseling:substance_abuse_counseling
           related:
           - human_services:health:addiction_recovery:substance_abuse_counseling
-          - human_services:health:mental_health_care:substance_abuse_counseling
         - name: Family Counseling
           slug: human_services:health:mental_health_care:counseling:family_counseling
-          related:
-          - human_services:health:mental_health_care:family_counseling
         - name: Individual Counseling
           slug: human_services:health:mental_health_care:counseling:individual_counseling
-          related:
-          - human_services:health:mental_health_care:individual_counseling
         related:
         - human_services:care:support_network:counseling
-        - human_services:health:medical_care:counseling
         - human_services:health:medical_care:prevent_treat:counseling
       - name: Hospital Treatment
         slug: human_services:health:mental_health_care:hospital_treatment
         related:
-        - human_services:health:medical_care:hospital_treatment
         - human_services:health:medical_care:prevent_treat:hospital_treatment
       - name: Medications for Mental Health
         slug: human_services:health:mental_health_care:medications_for_mental_health
@@ -855,7 +617,6 @@
         slug: human_services:health:mental_health_care:outpatient_treatment
         related:
         - human_services:health:addiction_recovery:outpatient_treatment
-        - human_services:health:medical_care:outpatient_treatment
         - human_services:health:medical_care:prevent_treat:outpatient_treatment
       - name: Psychiatric Emergency Services
         slug: human_services:health:mental_health_care:psychiatric_emergency_services
@@ -868,7 +629,6 @@
         - human_services:care:residential_care:residential_treatment
         - human_services:health:addiction_recovery:residential_treatment
         - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:medical_care:residential_treatment
       - name: Support & Service Animals
         slug: human_services:health:mental_health_care:support_service_animals
         related:
@@ -877,25 +637,7 @@
         slug: human_services:health:mental_health_care:understand_mental_health
         related:
         - human_services:education:more_education:health_education:understand_mental_health
-        - human_services:education:more_education:understand_mental_health
         - human_services:health:health_education:understand_mental_health
-      - name: Group Therapy
-        slug: human_services:health:mental_health_care:group_therapy
-        related:
-        - human_services:health:mental_health_care:counseling:group_therapy
-      - name: Substance Abuse Counseling
-        slug: human_services:health:mental_health_care:substance_abuse_counseling
-        related:
-        - human_services:health:addiction_recovery:substance_abuse_counseling
-        - human_services:health:mental_health_care:counseling:substance_abuse_counseling
-      - name: Family Counseling
-        slug: human_services:health:mental_health_care:family_counseling
-        related:
-        - human_services:health:mental_health_care:counseling:family_counseling
-      - name: Individual Counseling
-        slug: human_services:health:mental_health_care:individual_counseling
-        related:
-        - human_services:health:mental_health_care:counseling:individual_counseling
     - name: Sexual & Reproductive Health
       slug: human_services:health:sexual_reproductive_health
       items:
@@ -906,9 +648,7 @@
           slug: human_services:health:sexual_reproductive_health:family_planning:birth_control
           related:
           - human_services:health:medical_care:birth_control
-          - human_services:health:sexual_reproductive_health:birth_control
         related:
-        - human_services:education:more_education:family_planning
         - human_services:education:more_education:health_education:family_planning
         - human_services:health:health_education:family_planning
       - name: Fertility
@@ -917,7 +657,6 @@
         slug: human_services:health:sexual_reproductive_health:sex_education
         related:
         - human_services:education:more_education:health_education:sex_education
-        - human_services:education:more_education:sex_education
         - human_services:health:health_education:sex_education
       - name: STD/STI Treatment & Prevention
         slug: human_services:health:sexual_reproductive_health:std_sti_treatment_prevention
@@ -925,9 +664,7 @@
         - name: HIV Treatment
           slug: human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
           related:
-          - human_services:health:medical_care:hiv_treatment
           - human_services:health:medical_care:prevent_treat:hiv_treatment
-          - human_services:health:sexual_reproductive_health:hiv_treatment
       - name: Women's Health
         slug: human_services:health:sexual_reproductive_health:women_s_health
         items:
@@ -935,31 +672,8 @@
           slug: human_services:health:sexual_reproductive_health:women_s_health:maternity_care
           related:
           - human_services:health:medical_care:maternity_care
-          - human_services:health:sexual_reproductive_health:maternity_care
         - name: Postnatal Care
           slug: human_services:health:sexual_reproductive_health:women_s_health:postnatal_care
-          related:
-          - human_services:health:sexual_reproductive_health:postnatal_care
-      - name: Birth Control
-        slug: human_services:health:sexual_reproductive_health:birth_control
-        related:
-        - human_services:health:medical_care:birth_control
-        - human_services:health:sexual_reproductive_health:family_planning:birth_control
-      - name: HIV Treatment
-        slug: human_services:health:sexual_reproductive_health:hiv_treatment
-        related:
-        - human_services:health:medical_care:hiv_treatment
-        - human_services:health:medical_care:prevent_treat:hiv_treatment
-        - human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
-      - name: Maternity Care
-        slug: human_services:health:sexual_reproductive_health:maternity_care
-        related:
-        - human_services:health:medical_care:maternity_care
-        - human_services:health:sexual_reproductive_health:women_s_health:maternity_care
-      - name: Postnatal Care
-        slug: human_services:health:sexual_reproductive_health:postnatal_care
-        related:
-        - human_services:health:sexual_reproductive_health:women_s_health:postnatal_care
     - name: Vision Care
       slug: human_services:health:vision_care
     related:
@@ -975,7 +689,6 @@
         slug: human_services:money:financial_assistance:help_pay_for_childcare
         related:
         - human_services:care:daytime_care:childcare:help_pay_for_childcare
-        - human_services:care:daytime_care:help_pay_for_childcare
       - name: Help Pay for Food
         slug: human_services:money:financial_assistance:help_pay_for_food
         items:
@@ -983,7 +696,6 @@
           slug: human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
           related:
           - human_services:food:help_pay_for_food:government_food_benefits
-          - human_services:money:financial_assistance:government_food_benefits
           - human_services:money:government_benefits:government_food_benefits
         - name: Help Pay for Food
           slug: human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
@@ -1002,18 +714,15 @@
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
           related:
           - human_services:health:help_pay_for_healthcare:disability_benefits
-          - human_services:money:financial_assistance:disability_benefits
           - human_services:money:government_benefits:disability_benefits
         - name: Discounted Healthcare
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
           related:
           - human_services:health:help_pay_for_healthcare:discounted_healthcare
-          - human_services:money:financial_assistance:discounted_healthcare
         - name: Health Insurance
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
           related:
           - human_services:health:help_pay_for_healthcare:health_insurance
-          - human_services:money:financial_assistance:health_insurance
           - human_services:money:insurance:health_insurance
         - name: Medical Supplies
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
@@ -1021,17 +730,14 @@
           - human_services:goods:medical_supplies
           - human_services:health:help_pay_for_healthcare:medical_supplies
           - human_services:health:medical_care:medical_supplies
-          - human_services:money:financial_assistance:medical_supplies
         - name: Prescription Assistance
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:prescription_assistance
           related:
           - human_services:health:help_pay_for_healthcare:prescription_assistance
-          - human_services:money:financial_assistance:prescription_assistance
         - name: Transportation for Healthcare
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
           related:
           - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
-          - human_services:money:financial_assistance:transportation_for_healthcare
           - human_services:transit:transportation:transportation_for_healthcare
         - name: Help Pay for Healthcare
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
@@ -1051,17 +757,14 @@
           related:
           - human_services:emergency:emergency_payments:help_pay_for_utilities
           - human_services:housing:help_pay_for_housing:help_pay_for_utilities
-          - human_services:money:financial_assistance:help_pay_for_utilities
         - name: Help Pay for Internet or Phone
           slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
           related:
           - human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
-          - human_services:money:financial_assistance:help_pay_for_internet_or_phone
         - name: Home & Renters Insurance
           slug: human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
           related:
           - human_services:housing:help_pay_for_housing:home_renters_insurance
-          - human_services:money:financial_assistance:home_renters_insurance
           - human_services:money:insurance:home_renters_insurance
         - name: Help Pay for Housing
           slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
@@ -1081,30 +784,25 @@
           related:
           - human_services:education:help_pay_for_school:books
           - human_services:goods:home_goods:books
-          - human_services:money:financial_assistance:books
         - name: Clothes for School
           slug: human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
           related:
           - human_services:education:help_pay_for_school:clothes_for_school
           - human_services:goods:clothing:clothes_for_school
-          - human_services:money:financial_assistance:clothes_for_school
         - name: Financial Aid & Loans
           slug: human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
           related:
           - human_services:education:help_pay_for_school:financial_aid_loans
-          - human_services:money:financial_assistance:financial_aid_loans
         - name: Transportation for School
           slug: human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
           related:
           - human_services:education:help_pay_for_school:transportation_for_school
-          - human_services:money:financial_assistance:transportation_for_school
           - human_services:transit:transportation:transportation_for_school
         - name: Supplies for School
           slug: human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
           related:
           - human_services:education:help_pay_for_school:supplies_for_school
           - human_services:goods:home_goods:supplies_for_school
-          - human_services:money:financial_assistance:supplies_for_school
         - name: Help Pay for School
           slug: human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
           related:
@@ -1121,13 +819,11 @@
         - name: Bus Passes
           slug: human_services:money:financial_assistance:help_pay_for_transit:bus_passes
           related:
-          - human_services:money:financial_assistance:bus_passes
           - human_services:transit:help_pay_for_transit:bus_passes
         - name: Help Pay for Gas
           slug: human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
           related:
           - human_services:emergency:emergency_payments:help_pay_for_gas
-          - human_services:money:financial_assistance:help_pay_for_gas
           - human_services:transit:help_pay_for_transit:help_pay_for_gas
         - name: Help Pay for Transit
           slug: human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
@@ -1141,104 +837,6 @@
         slug: human_services:money:financial_assistance:help_pay_for_work_expenses
         related:
         - human_services:work:help_pay_for_work_expenses
-      - name: Government Food Benefits
-        slug: human_services:money:financial_assistance:government_food_benefits
-        related:
-        - human_services:food:help_pay_for_food:government_food_benefits
-        - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
-        - human_services:money:government_benefits:government_food_benefits
-      - name: Disability Benefits
-        slug: human_services:money:financial_assistance:disability_benefits
-        related:
-        - human_services:health:help_pay_for_healthcare:disability_benefits
-        - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-        - human_services:money:government_benefits:disability_benefits
-      - name: Discounted Healthcare
-        slug: human_services:money:financial_assistance:discounted_healthcare
-        related:
-        - human_services:health:help_pay_for_healthcare:discounted_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
-      - name: Health Insurance
-        slug: human_services:money:financial_assistance:health_insurance
-        related:
-        - human_services:health:help_pay_for_healthcare:health_insurance
-        - human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
-        - human_services:money:insurance:health_insurance
-      - name: Medical Supplies
-        slug: human_services:money:financial_assistance:medical_supplies
-        related:
-        - human_services:goods:medical_supplies
-        - human_services:health:help_pay_for_healthcare:medical_supplies
-        - human_services:health:medical_care:medical_supplies
-        - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-      - name: Prescription Assistance
-        slug: human_services:money:financial_assistance:prescription_assistance
-        related:
-        - human_services:health:help_pay_for_healthcare:prescription_assistance
-        - human_services:money:financial_assistance:help_pay_for_healthcare:prescription_assistance
-      - name: Transportation for Healthcare
-        slug: human_services:money:financial_assistance:transportation_for_healthcare
-        related:
-        - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:transit:transportation:transportation_for_healthcare
-      - name: Help Pay for Utilities
-        slug: human_services:money:financial_assistance:help_pay_for_utilities
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_utilities
-        - human_services:housing:help_pay_for_housing:help_pay_for_utilities
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
-      - name: Help Pay for Internet or Phone
-        slug: human_services:money:financial_assistance:help_pay_for_internet_or_phone
-        related:
-        - human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
-      - name: Home & Renters Insurance
-        slug: human_services:money:financial_assistance:home_renters_insurance
-        related:
-        - human_services:housing:help_pay_for_housing:home_renters_insurance
-        - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-        - human_services:money:insurance:home_renters_insurance
-      - name: Books
-        slug: human_services:money:financial_assistance:books
-        related:
-        - human_services:education:help_pay_for_school:books
-        - human_services:goods:home_goods:books
-        - human_services:money:financial_assistance:help_pay_for_school:books
-      - name: Clothes for School
-        slug: human_services:money:financial_assistance:clothes_for_school
-        related:
-        - human_services:education:help_pay_for_school:clothes_for_school
-        - human_services:goods:clothing:clothes_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
-      - name: Financial Aid & Loans
-        slug: human_services:money:financial_assistance:financial_aid_loans
-        related:
-        - human_services:education:help_pay_for_school:financial_aid_loans
-        - human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
-      - name: Transportation for School
-        slug: human_services:money:financial_assistance:transportation_for_school
-        related:
-        - human_services:education:help_pay_for_school:transportation_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
-        - human_services:transit:transportation:transportation_for_school
-      - name: Supplies for School
-        slug: human_services:money:financial_assistance:supplies_for_school
-        related:
-        - human_services:education:help_pay_for_school:supplies_for_school
-        - human_services:goods:home_goods:supplies_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
-      - name: Bus Passes
-        slug: human_services:money:financial_assistance:bus_passes
-        related:
-        - human_services:money:financial_assistance:help_pay_for_transit:bus_passes
-        - human_services:transit:help_pay_for_transit:bus_passes
-      - name: Help Pay for Gas
-        slug: human_services:money:financial_assistance:help_pay_for_gas
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_gas
-        - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
-        - human_services:transit:help_pay_for_transit:help_pay_for_gas
     - name: Government Benefits
       slug: human_services:money:government_benefits
       items:
@@ -1246,13 +844,11 @@
         slug: human_services:money:government_benefits:disability_benefits
         related:
         - human_services:health:help_pay_for_healthcare:disability_benefits
-        - human_services:money:financial_assistance:disability_benefits
         - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
       - name: Government Food Benefits
         slug: human_services:money:government_benefits:government_food_benefits
         related:
         - human_services:food:help_pay_for_food:government_food_benefits
-        - human_services:money:financial_assistance:government_food_benefits
         - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
       - name: Retirement Benefits
         slug: human_services:money:government_benefits:retirement_benefits
@@ -1277,19 +873,16 @@
       - name: Credit Counseling
         slug: human_services:money:financial_education:credit_counseling
         related:
-        - human_services:education:more_education:credit_counseling
         - human_services:education:more_education:financial_education:credit_counseling
       - name: Foreclosure Counseling
         slug: human_services:money:financial_education:foreclosure_counseling
         related:
         - human_services:education:more_education:financial_education:foreclosure_counseling
-        - human_services:education:more_education:foreclosure_counseling
         - human_services:housing:housing_advice:foreclosure_counseling
       - name: Homebuyer Education
         slug: human_services:money:financial_education:homebuyer_education
         related:
         - human_services:education:more_education:financial_education:homebuyer_education
-        - human_services:education:more_education:homebuyer_education
         - human_services:housing:housing_advice:homebuyer_education
       - name: Savings Program
         slug: human_services:money:financial_education:savings_program
@@ -1303,14 +896,12 @@
         slug: human_services:money:insurance:health_insurance
         related:
         - human_services:health:help_pay_for_healthcare:health_insurance
-        - human_services:money:financial_assistance:health_insurance
         - human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
       - name: Home & Renters Insurance
         slug: human_services:money:insurance:home_renters_insurance
         related:
         - human_services:housing:help_pay_for_housing:home_renters_insurance
         - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-        - human_services:money:financial_assistance:home_renters_insurance
       related:
       - human_situations:insurance
     - name: Loans
@@ -1335,34 +926,29 @@
         - human_services:legal:adoption_foster_care:adoption_foster_placement
         - human_services:legal:adoption_foster_placement
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_placement
       - name: Adoption & Foster Parenting
         slug: human_services:care:adoption_foster_care:adoption_foster_parenting
         related:
         - human_services:legal:adoption_foster_care:adoption_foster_parenting
         - human_services:legal:adoption_foster_parenting
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:advocacy_legal_aid:adoption_foster_parenting
       - name: Adoption Planning
         slug: human_services:care:adoption_foster_care:adoption_planning
         related:
         - human_services:legal:adoption_foster_care:adoption_planning
         - human_services:legal:adoption_planning
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_planning
       - name: Adoption Counseling
         slug: human_services:care:adoption_foster_care:adoption_counseling
         related:
         - human_services:legal:adoption_counseling
         - human_services:legal:adoption_foster_care:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_counseling
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
       - name: Post-Adoption Support
         slug: human_services:care:adoption_foster_care:post_adoption_support
         related:
         - human_services:legal:adoption_foster_care:post_adoption_support
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:post_adoption_support
         - human_services:legal:post_adoption_support
       related:
       - human_services:legal:adoption_foster_care
@@ -1387,7 +973,6 @@
         slug: human_services:care:community_support_services:weather_relief
         related:
         - human_services:care:physical_safety:temporary_shelter:weather_relief
-        - human_services:care:physical_safety:weather_relief
         - human_services:housing:temporary_shelter:weather_relief
     - name: Daytime Care
       slug: human_services:care:daytime_care
@@ -1404,12 +989,10 @@
         - name: Help Find Childcare
           slug: human_services:care:daytime_care:childcare:help_find_childcare
           related:
-          - human_services:care:daytime_care:help_find_childcare
           - human_services:care:navigating_the_system:help_find_childcare
         - name: Help Pay for Childcare
           slug: human_services:care:daytime_care:childcare:help_pay_for_childcare
           related:
-          - human_services:care:daytime_care:help_pay_for_childcare
           - human_services:money:financial_assistance:help_pay_for_childcare
         - name: Childcare
           slug: human_services:care:daytime_care:childcare:childcare
@@ -1422,7 +1005,6 @@
       - name: Early Childhood Intervention
         slug: human_services:care:daytime_care:early_childhood_intervention
         related:
-        - human_services:health:medical_care:early_childhood_intervention
         - human_services:health:medical_care:prevent_treat:early_childhood_intervention
       - name: Head Start
         slug: human_services:care:daytime_care:head_start
@@ -1432,16 +1014,6 @@
         - human_services:education:preschool
       - name: Relief for Caregivers
         slug: human_services:care:daytime_care:relief_for_caregivers
-      - name: Help Find Childcare
-        slug: human_services:care:daytime_care:help_find_childcare
-        related:
-        - human_services:care:daytime_care:childcare:help_find_childcare
-        - human_services:care:navigating_the_system:help_find_childcare
-      - name: Help Pay for Childcare
-        slug: human_services:care:daytime_care:help_pay_for_childcare
-        related:
-        - human_services:care:daytime_care:childcare:help_pay_for_childcare
-        - human_services:money:financial_assistance:help_pay_for_childcare
       - name: Afterschool Care
         slug: human_services:care:daytime_care:afterschool_care
       - name: Recreation
@@ -1454,7 +1026,6 @@
       - name: Bereavement
         slug: human_services:care:end_of_life_care:bereavement
         related:
-        - human_services:care:support_network:bereavement
         - human_services:care:support_network:support_groups:bereavement
         - human_services:health:end_of_life_care:bereavement
         - human_services:health:mental_health_care:bereavement
@@ -1470,7 +1041,6 @@
         slug: human_services:care:end_of_life_care:pain_management
         related:
         - human_services:health:end_of_life_care:pain_management
-        - human_services:health:medical_care:pain_management
         - human_services:health:medical_care:prevent_treat:pain_management
       related:
       - human_services:health:end_of_life_care
@@ -1489,7 +1059,6 @@
         slug: human_services:care:navigating_the_system:help_find_childcare
         related:
         - human_services:care:daytime_care:childcare:help_find_childcare
-        - human_services:care:daytime_care:help_find_childcare
       - name: Help Find School
         slug: human_services:care:navigating_the_system:help_find_school
         related:
@@ -1517,7 +1086,6 @@
           slug: human_services:care:physical_safety:temporary_shelter:weather_relief
           related:
           - human_services:care:community_support_services:weather_relief
-          - human_services:care:physical_safety:weather_relief
           - human_services:housing:temporary_shelter:weather_relief
         related:
         - human_services:housing:temporary_shelter
@@ -1531,12 +1099,10 @@
         - name: Help Escape Violence
           slug: human_services:care:physical_safety:immediate_safety:help_escape_violence
           related:
-          - human_services:care:physical_safety:help_escape_violence
           - human_services:emergency:immediate_safety:help_escape_violence
         - name: Safe Housing
           slug: human_services:care:physical_safety:immediate_safety:safe_housing
           related:
-          - human_services:care:physical_safety:safe_housing
           - human_services:emergency:immediate_safety:safe_housing
           - human_services:housing:residential_housing:safe_housing
         related:
@@ -1545,47 +1111,25 @@
         slug: human_services:care:physical_safety:safety_education
         related:
         - human_services:education:more_education:health_education:safety_education
-        - human_services:education:more_education:safety_education
         - human_services:health:health_education:safety_education
-      - name: Weather Relief
-        slug: human_services:care:physical_safety:weather_relief
-        related:
-        - human_services:care:community_support_services:weather_relief
-        - human_services:care:physical_safety:temporary_shelter:weather_relief
-        - human_services:housing:temporary_shelter:weather_relief
-      - name: Help Escape Violence
-        slug: human_services:care:physical_safety:help_escape_violence
-        related:
-        - human_services:care:physical_safety:immediate_safety:help_escape_violence
-        - human_services:emergency:immediate_safety:help_escape_violence
-      - name: Safe Housing
-        slug: human_services:care:physical_safety:safe_housing
-        related:
-        - human_services:care:physical_safety:immediate_safety:safe_housing
-        - human_services:emergency:immediate_safety:safe_housing
-        - human_services:housing:residential_housing:safe_housing
     - name: Residential Care
       slug: human_services:care:residential_care
       items:
       - name: Assisted Living
         slug: human_services:care:residential_care:assisted_living
         related:
-        - human_services:housing:residential_housing:assisted_living
         - human_services:housing:residential_housing:long_term_housing:assisted_living
       - name: Residential Treatment
         slug: human_services:care:residential_care:residential_treatment
         related:
         - human_services:health:addiction_recovery:residential_treatment
         - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:medical_care:residential_treatment
         - human_services:health:mental_health_care:residential_treatment
       - name: Nursing Home
         slug: human_services:care:residential_care:nursing_home
         related:
-        - human_services:health:medical_care:nursing_home
         - human_services:health:medical_care:prevent_treat:nursing_home
         - human_services:housing:residential_housing:long_term_housing:nursing_home
-        - human_services:housing:residential_housing:nursing_home
         - human_services:housing:residential_housing:short_term_housing:nursing_home
       - name: Overnight Camp
         slug: human_services:care:residential_care:overnight_camp
@@ -1595,7 +1139,6 @@
       - name: Counseling
         slug: human_services:care:support_network:counseling
         related:
-        - human_services:health:medical_care:counseling
         - human_services:health:medical_care:prevent_treat:counseling
         - human_services:health:mental_health_care:counseling
       - name: Help Hotlines
@@ -1605,7 +1148,6 @@
       - name: In-Home Support
         slug: human_services:care:support_network:in_home_support
         related:
-        - human_services:health:medical_care:in_home_support
         - human_services:health:medical_care:prevent_treat:in_home_support
       - name: Mentoring
         slug: human_services:care:support_network:mentoring
@@ -1625,21 +1167,17 @@
         - name: 12-Step
           slug: human_services:care:support_network:support_groups:12_step
           related:
-          - human_services:care:support_network:12_step
           - human_services:health:addiction_recovery:12_step
         - name: Bereavement
           slug: human_services:care:support_network:support_groups:bereavement
           related:
           - human_services:care:end_of_life_care:bereavement
-          - human_services:care:support_network:bereavement
           - human_services:health:end_of_life_care:bereavement
           - human_services:health:mental_health_care:bereavement
         - name: Parenting Education
           slug: human_services:care:support_network:support_groups:parenting_education
           related:
-          - human_services:care:support_network:parenting_education
           - human_services:education:more_education:health_education:parenting_education
-          - human_services:education:more_education:parenting_education
           - human_services:health:health_education:parenting_education
         - name: Support Groups
           slug: human_services:care:support_network:support_groups:support_groups
@@ -1649,25 +1187,6 @@
         - human_services:care:support_network:support_groups:support_groups
       - name: Virtual Support
         slug: human_services:care:support_network:virtual_support
-      - name: 12-Step
-        slug: human_services:care:support_network:12_step
-        related:
-        - human_services:care:support_network:support_groups:12_step
-        - human_services:health:addiction_recovery:12_step
-      - name: Bereavement
-        slug: human_services:care:support_network:bereavement
-        related:
-        - human_services:care:end_of_life_care:bereavement
-        - human_services:care:support_network:support_groups:bereavement
-        - human_services:health:end_of_life_care:bereavement
-        - human_services:health:mental_health_care:bereavement
-      - name: Parenting Education
-        slug: human_services:care:support_network:parenting_education
-        related:
-        - human_services:care:support_network:support_groups:parenting_education
-        - human_services:education:more_education:health_education:parenting_education
-        - human_services:education:more_education:parenting_education
-        - human_services:health:health_education:parenting_education
   - name: Education
     slug: human_services:education
     description: Services for preschool, after school, special education, help finding school, help paying for school, alternative education, tutoring, and more.
@@ -1683,31 +1202,26 @@
         slug: human_services:education:help_pay_for_school:books
         related:
         - human_services:goods:home_goods:books
-        - human_services:money:financial_assistance:books
         - human_services:money:financial_assistance:help_pay_for_school:books
       - name: Clothes for School
         slug: human_services:education:help_pay_for_school:clothes_for_school
         related:
         - human_services:goods:clothing:clothes_for_school
-        - human_services:money:financial_assistance:clothes_for_school
         - human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
       - name: Financial Aid & Loans
         slug: human_services:education:help_pay_for_school:financial_aid_loans
         related:
-        - human_services:money:financial_assistance:financial_aid_loans
         - human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
       - name: Transportation for School
         slug: human_services:education:help_pay_for_school:transportation_for_school
         related:
         - human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
-        - human_services:money:financial_assistance:transportation_for_school
         - human_services:transit:transportation:transportation_for_school
       - name: Supplies for School
         slug: human_services:education:help_pay_for_school:supplies_for_school
         related:
         - human_services:goods:home_goods:supplies_for_school
         - human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
-        - human_services:money:financial_assistance:supplies_for_school
       related:
       - human_services:emergency:emergency_payments:help_pay_for_school
       - human_services:money:financial_assistance:help_pay_for_school
@@ -1735,18 +1249,15 @@
         - name: Credit Counseling
           slug: human_services:education:more_education:financial_education:credit_counseling
           related:
-          - human_services:education:more_education:credit_counseling
           - human_services:money:financial_education:credit_counseling
         - name: Foreclosure Counseling
           slug: human_services:education:more_education:financial_education:foreclosure_counseling
           related:
-          - human_services:education:more_education:foreclosure_counseling
           - human_services:housing:housing_advice:foreclosure_counseling
           - human_services:money:financial_education:foreclosure_counseling
         - name: Homebuyer Education
           slug: human_services:education:more_education:financial_education:homebuyer_education
           related:
-          - human_services:education:more_education:homebuyer_education
           - human_services:housing:housing_advice:homebuyer_education
           - human_services:money:financial_education:homebuyer_education
         - name: Financial Education
@@ -1770,50 +1281,40 @@
         - name: Disease Management
           slug: human_services:education:more_education:health_education:disease_management
           related:
-          - human_services:education:more_education:disease_management
           - human_services:health:health_education:disease_management
-          - human_services:health:medical_care:disease_management
           - human_services:health:medical_care:prevent_treat:disease_management
         - name: Family Planning
           slug: human_services:education:more_education:health_education:family_planning
           related:
-          - human_services:education:more_education:family_planning
           - human_services:health:health_education:family_planning
           - human_services:health:sexual_reproductive_health:family_planning
         - name: Nutrition Education
           slug: human_services:education:more_education:health_education:nutrition_education
           related:
-          - human_services:education:more_education:nutrition_education
           - human_services:food:nutrition_education
           - human_services:health:health_education:nutrition_education
         - name: Parenting Education
           slug: human_services:education:more_education:health_education:parenting_education
           related:
-          - human_services:care:support_network:parenting_education
           - human_services:care:support_network:support_groups:parenting_education
-          - human_services:education:more_education:parenting_education
           - human_services:health:health_education:parenting_education
         - name: Safety Education
           slug: human_services:education:more_education:health_education:safety_education
           related:
           - human_services:care:physical_safety:safety_education
-          - human_services:education:more_education:safety_education
           - human_services:health:health_education:safety_education
         - name: Sex Education
           slug: human_services:education:more_education:health_education:sex_education
           related:
-          - human_services:education:more_education:sex_education
           - human_services:health:health_education:sex_education
           - human_services:health:sexual_reproductive_health:sex_education
         - name: Understand Disability
           slug: human_services:education:more_education:health_education:understand_disability
           related:
-          - human_services:education:more_education:understand_disability
           - human_services:health:health_education:understand_disability
         - name: Understand Mental Health
           slug: human_services:education:more_education:health_education:understand_mental_health
           related:
-          - human_services:education:more_education:understand_mental_health
           - human_services:health:health_education:understand_mental_health
           - human_services:health:mental_health_care:understand_mental_health
         - name: Health Education
@@ -1835,72 +1336,6 @@
         slug: human_services:education:more_education:tutoring
       - name: Youth Development
         slug: human_services:education:more_education:youth_development
-      - name: Credit Counseling
-        slug: human_services:education:more_education:credit_counseling
-        related:
-        - human_services:education:more_education:financial_education:credit_counseling
-        - human_services:money:financial_education:credit_counseling
-      - name: Foreclosure Counseling
-        slug: human_services:education:more_education:foreclosure_counseling
-        related:
-        - human_services:education:more_education:financial_education:foreclosure_counseling
-        - human_services:housing:housing_advice:foreclosure_counseling
-        - human_services:money:financial_education:foreclosure_counseling
-      - name: Homebuyer Education
-        slug: human_services:education:more_education:homebuyer_education
-        related:
-        - human_services:education:more_education:financial_education:homebuyer_education
-        - human_services:housing:housing_advice:homebuyer_education
-        - human_services:money:financial_education:homebuyer_education
-      - name: Disease Management
-        slug: human_services:education:more_education:disease_management
-        related:
-        - human_services:education:more_education:health_education:disease_management
-        - human_services:health:health_education:disease_management
-        - human_services:health:medical_care:disease_management
-        - human_services:health:medical_care:prevent_treat:disease_management
-      - name: Family Planning
-        slug: human_services:education:more_education:family_planning
-        related:
-        - human_services:education:more_education:health_education:family_planning
-        - human_services:health:health_education:family_planning
-        - human_services:health:sexual_reproductive_health:family_planning
-      - name: Nutrition Education
-        slug: human_services:education:more_education:nutrition_education
-        related:
-        - human_services:education:more_education:health_education:nutrition_education
-        - human_services:food:nutrition_education
-        - human_services:health:health_education:nutrition_education
-      - name: Parenting Education
-        slug: human_services:education:more_education:parenting_education
-        related:
-        - human_services:care:support_network:parenting_education
-        - human_services:care:support_network:support_groups:parenting_education
-        - human_services:education:more_education:health_education:parenting_education
-        - human_services:health:health_education:parenting_education
-      - name: Safety Education
-        slug: human_services:education:more_education:safety_education
-        related:
-        - human_services:care:physical_safety:safety_education
-        - human_services:education:more_education:health_education:safety_education
-        - human_services:health:health_education:safety_education
-      - name: Sex Education
-        slug: human_services:education:more_education:sex_education
-        related:
-        - human_services:education:more_education:health_education:sex_education
-        - human_services:health:health_education:sex_education
-        - human_services:health:sexual_reproductive_health:sex_education
-      - name: Understand Disability
-        slug: human_services:education:more_education:understand_disability
-        related:
-        - human_services:education:more_education:health_education:understand_disability
-        - human_services:health:health_education:understand_disability
-      - name: Understand Mental Health
-        slug: human_services:education:more_education:understand_mental_health
-        related:
-        - human_services:education:more_education:health_education:understand_mental_health
-        - human_services:health:health_education:understand_mental_health
-        - human_services:health:mental_health_care:understand_mental_health
     - name: Preschool
       slug: human_services:education:preschool
       related:
@@ -2054,34 +1489,29 @@
           - human_services:care:adoption_foster_care:adoption_foster_placement
           - human_services:legal:adoption_foster_care:adoption_foster_placement
           - human_services:legal:adoption_foster_placement
-          - human_services:legal:advocacy_legal_aid:adoption_foster_placement
         - name: Adoption & Foster Parenting
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
           related:
           - human_services:care:adoption_foster_care:adoption_foster_parenting
           - human_services:legal:adoption_foster_care:adoption_foster_parenting
           - human_services:legal:adoption_foster_parenting
-          - human_services:legal:advocacy_legal_aid:adoption_foster_parenting
         - name: Adoption Planning
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
           related:
           - human_services:care:adoption_foster_care:adoption_planning
           - human_services:legal:adoption_foster_care:adoption_planning
           - human_services:legal:adoption_planning
-          - human_services:legal:advocacy_legal_aid:adoption_planning
         - name: Adoption Counseling
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
           related:
           - human_services:care:adoption_foster_care:adoption_counseling
           - human_services:legal:adoption_counseling
           - human_services:legal:adoption_foster_care:adoption_counseling
-          - human_services:legal:advocacy_legal_aid:adoption_counseling
         - name: Post-Adoption Support
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
           related:
           - human_services:care:adoption_foster_care:post_adoption_support
           - human_services:legal:adoption_foster_care:post_adoption_support
-          - human_services:legal:advocacy_legal_aid:post_adoption_support
           - human_services:legal:post_adoption_support
         - name: Adoption & Foster Care
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
@@ -2121,41 +1551,6 @@
         related:
         - human_services:legal:workplace_rights
         - human_services:work:workplace_rights
-      - name: Adoption & Foster Placement
-        slug: human_services:legal:advocacy_legal_aid:adoption_foster_placement
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-      - name: Adoption & Foster Parenting
-        slug: human_services:legal:advocacy_legal_aid:adoption_foster_parenting
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:adoption_foster_parenting
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-      - name: Adoption Planning
-        slug: human_services:legal:advocacy_legal_aid:adoption_planning
-        related:
-        - human_services:care:adoption_foster_care:adoption_planning
-        - human_services:legal:adoption_foster_care:adoption_planning
-        - human_services:legal:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-      - name: Adoption Counseling
-        slug: human_services:legal:advocacy_legal_aid:adoption_counseling
-        related:
-        - human_services:care:adoption_foster_care:adoption_counseling
-        - human_services:legal:adoption_counseling
-        - human_services:legal:adoption_foster_care:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-      - name: Post-Adoption Support
-        slug: human_services:legal:advocacy_legal_aid:post_adoption_support
-        related:
-        - human_services:care:adoption_foster_care:post_adoption_support
-        - human_services:legal:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:post_adoption_support
     - name: Mediation
       slug: human_services:legal:mediation
     - name: Notary
@@ -2173,34 +1568,29 @@
         - human_services:care:adoption_foster_care:adoption_foster_placement
         - human_services:legal:adoption_foster_placement
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_placement
       - name: Adoption & Foster Parenting
         slug: human_services:legal:adoption_foster_care:adoption_foster_parenting
         related:
         - human_services:care:adoption_foster_care:adoption_foster_parenting
         - human_services:legal:adoption_foster_parenting
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:advocacy_legal_aid:adoption_foster_parenting
       - name: Adoption Planning
         slug: human_services:legal:adoption_foster_care:adoption_planning
         related:
         - human_services:care:adoption_foster_care:adoption_planning
         - human_services:legal:adoption_planning
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_planning
       - name: Adoption Counseling
         slug: human_services:legal:adoption_foster_care:adoption_counseling
         related:
         - human_services:care:adoption_foster_care:adoption_counseling
         - human_services:legal:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_counseling
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
       - name: Post-Adoption Support
         slug: human_services:legal:adoption_foster_care:post_adoption_support
         related:
         - human_services:care:adoption_foster_care:post_adoption_support
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:post_adoption_support
         - human_services:legal:post_adoption_support
       related:
       - human_services:care:adoption_foster_care
@@ -2240,27 +1630,23 @@
       - human_services:care:adoption_foster_care:adoption_foster_placement
       - human_services:legal:adoption_foster_care:adoption_foster_placement
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-      - human_services:legal:advocacy_legal_aid:adoption_foster_placement
     - name: Adoption & Foster Parenting
       slug: human_services:legal:adoption_foster_parenting
       related:
       - human_services:care:adoption_foster_care:adoption_foster_parenting
       - human_services:legal:adoption_foster_care:adoption_foster_parenting
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-      - human_services:legal:advocacy_legal_aid:adoption_foster_parenting
     - name: Adoption Planning
       slug: human_services:legal:adoption_planning
       related:
       - human_services:care:adoption_foster_care:adoption_planning
       - human_services:legal:adoption_foster_care:adoption_planning
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-      - human_services:legal:advocacy_legal_aid:adoption_planning
     - name: Adoption Counseling
       slug: human_services:legal:adoption_counseling
       related:
       - human_services:care:adoption_foster_care:adoption_counseling
       - human_services:legal:adoption_foster_care:adoption_counseling
-      - human_services:legal:advocacy_legal_aid:adoption_counseling
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
     - name: Post-Adoption Support
       slug: human_services:legal:post_adoption_support
@@ -2268,7 +1654,6 @@
       - human_services:care:adoption_foster_care:post_adoption_support
       - human_services:legal:adoption_foster_care:post_adoption_support
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-      - human_services:legal:advocacy_legal_aid:post_adoption_support
   - name: Emergency
     slug: human_services:emergency
     items:
@@ -2300,7 +1685,6 @@
       - name: Help Pay for Gas
         slug: human_services:emergency:emergency_payments:help_pay_for_gas
         related:
-        - human_services:money:financial_assistance:help_pay_for_gas
         - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
         - human_services:transit:help_pay_for_transit:help_pay_for_gas
       - name: Help Pay for School
@@ -2314,7 +1698,6 @@
         related:
         - human_services:housing:help_pay_for_housing:help_pay_for_utilities
         - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
-        - human_services:money:financial_assistance:help_pay_for_utilities
     - name: Emergency Food
       slug: human_services:emergency:emergency_food
       related:
@@ -2334,13 +1717,11 @@
       - name: Help Escape Violence
         slug: human_services:emergency:immediate_safety:help_escape_violence
         related:
-        - human_services:care:physical_safety:help_escape_violence
         - human_services:care:physical_safety:immediate_safety:help_escape_violence
       - name: Safe Housing
         slug: human_services:emergency:immediate_safety:safe_housing
         related:
         - human_services:care:physical_safety:immediate_safety:safe_housing
-        - human_services:care:physical_safety:safe_housing
         - human_services:housing:residential_housing:safe_housing
       related:
       - human_services:care:physical_safety:immediate_safety
@@ -2420,8 +1801,6 @@
       items:
       - name: ADD/ADHD
         slug: human_situations:disability:learning_disability:add_adhd
-        related:
-        - human_situations:disability:add_adhd
     - name: Developmental Disability
       slug: human_situations:disability:developmental_disability
     - name: Physical Disability
@@ -2436,10 +1815,6 @@
       slug: human_situations:disability:deaf_or_hard_of_hearing
     - name: Visual Impairment
       slug: human_situations:disability:visual_impairment
-    - name: ADD/ADHD
-      slug: human_situations:disability:add_adhd
-      related:
-      - human_situations:disability:learning_disability:add_adhd
     - name: Hearing Impairment
       slug: human_situations:disability:hearing_impairment
     - name: Mental Illness
@@ -2496,28 +1871,18 @@
       items:
       - name: All Care Phases
         slug: human_situations:health:treatment_phases:all_care_phases
-        related:
-        - human_situations:health:all_care_phases
       - name: Hospitalized
         slug: human_situations:health:treatment_phases:hospitalized
         related:
         - human_situations:health:hospitalized
       - name: Recently Diagnosed
         slug: human_situations:health:treatment_phases:recently_diagnosed
-        related:
-        - human_situations:health:recently_diagnosed
       - name: On-Treatment
         slug: human_situations:health:treatment_phases:on_treatment
-        related:
-        - human_situations:health:on_treatment
       - name: Post-Treatment
         slug: human_situations:health:treatment_phases:post_treatment
-        related:
-        - human_situations:health:post_treatment
       - name: Facing End of Life
         slug: human_situations:health:treatment_phases:facing_end_of_life
-        related:
-        - human_situations:health:facing_end_of_life
     - name: Pregnant
       slug: human_situations:health:pregnant
     - name: Cancer
@@ -2525,426 +1890,122 @@
       items:
       - name: All Cancer Types
         slug: human_situations:health:cancer:all_cancer_types
-        related:
-        - human_situations:health:all_cancer_types
       - name: Bladder Cancer
         slug: human_situations:health:cancer:bladder_cancer
-        related:
-        - human_situations:health:bladder_cancer
       - name: Brain Stem Glioma
         slug: human_situations:health:cancer:brain_stem_glioma
-        related:
-        - human_situations:health:brain_stem_glioma
       - name: Brain Tumor
         slug: human_situations:health:cancer:brain_tumor
-        related:
-        - human_situations:health:brain_tumor
       - name: Breast Cancer
         slug: human_situations:health:cancer:breast_cancer
-        related:
-        - human_situations:health:breast_cancer
       - name: Central Nervous System
         slug: human_situations:health:cancer:central_nervous_system
-        related:
-        - human_situations:health:central_nervous_system
       - name: Cervical Cancer
         slug: human_situations:health:cancer:cervical_cancer
-        related:
-        - human_situations:health:cervical_cancer
       - name: Colon Cancer
         slug: human_situations:health:cancer:colon_cancer
-        related:
-        - human_situations:health:colon_cancer
       - name: Colorectal Cancer
         slug: human_situations:health:cancer:colorectal_cancer
-        related:
-        - human_situations:health:colorectal_cancer
       - name: Desmoid Tumors
         slug: human_situations:health:cancer:desmoid_tumors
-        related:
-        - human_situations:health:desmoid_tumors
       - name: Ductal Carcinoma In Situ (DCIS)
         slug: human_situations:health:cancer:ductal_carcinoma_in_situ_dcis
-        related:
-        - human_situations:health:ductal_carcinoma_in_situ_dcis
       - name: Endomentrial Cancer
         slug: human_situations:health:cancer:endomentrial_cancer
-        related:
-        - human_situations:health:endomentrial_cancer
       - name: Gastrointestinal Stromal Tumors (GIST)
         slug: human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
-        related:
-        - human_situations:health:gastrointestinal_stromal_tumors_gist
       - name: Germ Cell Tumor
         slug: human_situations:health:cancer:germ_cell_tumor
         items:
         - name: Central Nervous System Germ Cell Tumor
           slug: human_situations:health:cancer:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-          related:
-          - human_situations:health:cancer:central_nervous_system_germ_cell_tumor
-          - human_situations:health:central_nervous_system_germ_cell_tumor
-          - human_situations:health:germ_cell_tumor:central_nervous_system_germ_cell_tumor
         - name: Ovarian Germ Cell Tumor
           slug: human_situations:health:cancer:germ_cell_tumor:ovarian_germ_cell_tumor
-          related:
-          - human_situations:health:cancer:ovarian_germ_cell_tumor
-          - human_situations:health:germ_cell_tumor:ovarian_germ_cell_tumor
-          - human_situations:health:ovarian_germ_cell_tumor
         - name: Testicular Germ Cell Tumor
           slug: human_situations:health:cancer:germ_cell_tumor:testicular_germ_cell_tumor
-          related:
-          - human_situations:health:cancer:testicular_germ_cell_tumor
-          - human_situations:health:germ_cell_tumor:testicular_germ_cell_tumor
-          - human_situations:health:testicular_germ_cell_tumor
-        related:
-        - human_situations:health:germ_cell_tumor
       - name: Head & Neck Cancer
         slug: human_situations:health:cancer:head_neck_cancer
-        related:
-        - human_situations:health:head_neck_cancer
       - name: Leukemia
         slug: human_situations:health:cancer:leukemia
         items:
         - name: Acute Lymphoblastic Leukemia (ALL)
           slug: human_situations:health:cancer:leukemia:acute_lymphoblastic_leukemia_all
-          related:
-          - human_situations:health:acute_lymphoblastic_leukemia_all
-          - human_situations:health:cancer:acute_lymphoblastic_leukemia_all
-          - human_situations:health:leukemia:acute_lymphoblastic_leukemia_all
         - name: Acute Myeloid Leukemia (AML)
           slug: human_situations:health:cancer:leukemia:acute_myeloid_leukemia_aml
-          related:
-          - human_situations:health:acute_myeloid_leukemia_aml
-          - human_situations:health:cancer:acute_myeloid_leukemia_aml
-          - human_situations:health:leukemia:acute_myeloid_leukemia_aml
         - name: Chronic Lymphocytic Leukemia (CLL)
           slug: human_situations:health:cancer:leukemia:chronic_lymphocytic_leukemia_cll
-          related:
-          - human_situations:health:cancer:chronic_lymphocytic_leukemia_cll
-          - human_situations:health:chronic_lymphocytic_leukemia_cll
-          - human_situations:health:leukemia:chronic_lymphocytic_leukemia_cll
         - name: Chronic Myelogenous Leukemia (CML)
           slug: human_situations:health:cancer:leukemia:chronic_myelogenous_leukemia_cml
-          related:
-          - human_situations:health:cancer:chronic_myelogenous_leukemia_cml
-          - human_situations:health:chronic_myelogenous_leukemia_cml
-          - human_situations:health:leukemia:chronic_myelogenous_leukemia_cml
         - name: Hairy Cell Leukemia
           slug: human_situations:health:cancer:leukemia:hairy_cell_leukemia
-          related:
-          - human_situations:health:cancer:hairy_cell_leukemia
-          - human_situations:health:hairy_cell_leukemia
-          - human_situations:health:leukemia:hairy_cell_leukemia
-        related:
-        - human_situations:health:leukemia
       - name: Liver Cancer
         slug: human_situations:health:cancer:liver_cancer
-        related:
-        - human_situations:health:liver_cancer
       - name: Lung Cancer
         slug: human_situations:health:cancer:lung_cancer
         items:
         - name: Childhood Lung Cancer
           slug: human_situations:health:cancer:lung_cancer:childhood_lung_cancer
-          related:
-          - human_situations:health:cancer:childhood_lung_cancer
-          - human_situations:health:childhood_lung_cancer
-          - human_situations:health:lung_cancer:childhood_lung_cancer
         - name: Non-Small Cell Lung Cancer
           slug: human_situations:health:cancer:lung_cancer:non_small_cell_lung_cancer
-          related:
-          - human_situations:health:cancer:non_small_cell_lung_cancer
-          - human_situations:health:lung_cancer:non_small_cell_lung_cancer
-          - human_situations:health:non_small_cell_lung_cancer
         - name: Small Cell Lung Cancer
           slug: human_situations:health:cancer:lung_cancer:small_cell_lung_cancer
-          related:
-          - human_situations:health:cancer:small_cell_lung_cancer
-          - human_situations:health:lung_cancer:small_cell_lung_cancer
-          - human_situations:health:small_cell_lung_cancer
-        related:
-        - human_situations:health:lung_cancer
       - name: Lymphoma
         slug: human_situations:health:cancer:lymphoma
         items:
         - name: AIDS-Related Lymphoma
           slug: human_situations:health:cancer:lymphoma:aids_related_lymphoma
-          related:
-          - human_situations:health:aids_related_lymphoma
-          - human_situations:health:cancer:aids_related_lymphoma
-          - human_situations:health:lymphoma:aids_related_lymphoma
         - name: Burkitt Lymphoma
           slug: human_situations:health:cancer:lymphoma:burkitt_lymphoma
-          related:
-          - human_situations:health:burkitt_lymphoma
-          - human_situations:health:cancer:burkitt_lymphoma
-          - human_situations:health:lymphoma:burkitt_lymphoma
         - name: Cutaneous T-Cell Lymphoma
           slug: human_situations:health:cancer:lymphoma:cutaneous_t_cell_lymphoma
-          related:
-          - human_situations:health:cancer:cutaneous_t_cell_lymphoma
-          - human_situations:health:cutaneous_t_cell_lymphoma
-          - human_situations:health:lymphoma:cutaneous_t_cell_lymphoma
         - name: Hodgkin Lymphoma
           slug: human_situations:health:cancer:lymphoma:hodgkin_lymphoma
-          related:
-          - human_situations:health:cancer:hodgkin_lymphoma
-          - human_situations:health:hodgkin_lymphoma
-          - human_situations:health:lymphoma:hodgkin_lymphoma
         - name: Non-Hodgkin Lymphoma
           slug: human_situations:health:cancer:lymphoma:non_hodgkin_lymphoma
-          related:
-          - human_situations:health:cancer:non_hodgkin_lymphoma
-          - human_situations:health:lymphoma:non_hodgkin_lymphoma
-          - human_situations:health:non_hodgkin_lymphoma
         - name: Primary Central Nervous System Lymphoma(CNS)
           slug: human_situations:health:cancer:lymphoma:primary_central_nervous_system_lymphoma_cns
-          related:
-          - human_situations:health:cancer:primary_central_nervous_system_lymphoma_cns
-          - human_situations:health:lymphoma:primary_central_nervous_system_lymphoma_cns
-          - human_situations:health:primary_central_nervous_system_lymphoma_cns
-        related:
-        - human_situations:health:lymphoma
       - name: Myeloma, Multiple
         slug: human_situations:health:cancer:myeloma_multiple
-        related:
-        - human_situations:health:myeloma_multiple
       - name: Neuroblastoma
         slug: human_situations:health:cancer:neuroblastoma
-        related:
-        - human_situations:health:neuroblastoma
       - name: Ovarian Cancer
         slug: human_situations:health:cancer:ovarian_cancer
-        related:
-        - human_situations:health:ovarian_cancer
       - name: Rectal Cancer
         slug: human_situations:health:cancer:rectal_cancer
-        related:
-        - human_situations:health:rectal_cancer
       - name: Sarcoma
         slug: human_situations:health:cancer:sarcoma
         items:
         - name: Ewing Sarcoma
           slug: human_situations:health:cancer:sarcoma:ewing_sarcoma
-          related:
-          - human_situations:health:cancer:ewing_sarcoma
-          - human_situations:health:ewing_sarcoma
-          - human_situations:health:sarcoma:ewing_sarcoma
         - name: Kaposi Sarcoma
           slug: human_situations:health:cancer:sarcoma:kaposi_sarcoma
-          related:
-          - human_situations:health:cancer:kaposi_sarcoma
-          - human_situations:health:kaposi_sarcoma
-          - human_situations:health:sarcoma:kaposi_sarcoma
         - name: Osteosarcoma Sarcoma
           slug: human_situations:health:cancer:sarcoma:osteosarcoma_sarcoma
-          related:
-          - human_situations:health:cancer:osteosarcoma_sarcoma
-          - human_situations:health:osteosarcoma_sarcoma
-          - human_situations:health:sarcoma:osteosarcoma_sarcoma
         - name: Rhabdomyosarcoma Sarcoma
           slug: human_situations:health:cancer:sarcoma:rhabdomyosarcoma_sarcoma
-          related:
-          - human_situations:health:cancer:rhabdomyosarcoma_sarcoma
-          - human_situations:health:rhabdomyosarcoma_sarcoma
-          - human_situations:health:sarcoma:rhabdomyosarcoma_sarcoma
         - name: Soft Tissue Sarcoma
           slug: human_situations:health:cancer:sarcoma:soft_tissue_sarcoma
-          related:
-          - human_situations:health:cancer:soft_tissue_sarcoma
-          - human_situations:health:sarcoma:soft_tissue_sarcoma
-          - human_situations:health:soft_tissue_sarcoma
         - name: Uterine Sarcoma
           slug: human_situations:health:cancer:sarcoma:uterine_sarcoma
-          related:
-          - human_situations:health:cancer:uterine_sarcoma
-          - human_situations:health:sarcoma:uterine_sarcoma
-          - human_situations:health:uterine_sarcoma
-        related:
-        - human_situations:health:sarcoma
       - name: Skin Cancer
         slug: human_situations:health:cancer:skin_cancer
         items:
         - name: Melanoma
           slug: human_situations:health:cancer:skin_cancer:melanoma
-          related:
-          - human_situations:health:cancer:melanoma
-          - human_situations:health:melanoma
-          - human_situations:health:skin_cancer:melanoma
-        related:
-        - human_situations:health:skin_cancer
       - name: Stomach (Gastric) Cancer
         slug: human_situations:health:cancer:stomach_gastric_cancer
-        related:
-        - human_situations:health:stomach_gastric_cancer
       - name: Testicular Cancer
         slug: human_situations:health:cancer:testicular_cancer
-        related:
-        - human_situations:health:testicular_cancer
       - name: Throat Cancer
         slug: human_situations:health:cancer:throat_cancer
-        related:
-        - human_situations:health:throat_cancer
       - name: Thyroid Cancer
         slug: human_situations:health:cancer:thyroid_cancer
-        related:
-        - human_situations:health:thyroid_cancer
       - name: Vaginal Cancer
         slug: human_situations:health:cancer:vaginal_cancer
-        related:
-        - human_situations:health:vaginal_cancer
       - name: Vulvar Cancer
         slug: human_situations:health:cancer:vulvar_cancer
-        related:
-        - human_situations:health:vulvar_cancer
       - name: Wilms Tumor
         slug: human_situations:health:cancer:wilms_tumor
-        related:
-        - human_situations:health:wilms_tumor
-      - name: Central Nervous System Germ Cell Tumor
-        slug: human_situations:health:cancer:central_nervous_system_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-        - human_situations:health:central_nervous_system_germ_cell_tumor
-        - human_situations:health:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-      - name: Ovarian Germ Cell Tumor
-        slug: human_situations:health:cancer:ovarian_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:germ_cell_tumor:ovarian_germ_cell_tumor
-        - human_situations:health:germ_cell_tumor:ovarian_germ_cell_tumor
-        - human_situations:health:ovarian_germ_cell_tumor
-      - name: Testicular Germ Cell Tumor
-        slug: human_situations:health:cancer:testicular_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:germ_cell_tumor:testicular_germ_cell_tumor
-        - human_situations:health:germ_cell_tumor:testicular_germ_cell_tumor
-        - human_situations:health:testicular_germ_cell_tumor
-      - name: Acute Lymphoblastic Leukemia (ALL)
-        slug: human_situations:health:cancer:acute_lymphoblastic_leukemia_all
-        related:
-        - human_situations:health:acute_lymphoblastic_leukemia_all
-        - human_situations:health:cancer:leukemia:acute_lymphoblastic_leukemia_all
-        - human_situations:health:leukemia:acute_lymphoblastic_leukemia_all
-      - name: Acute Myeloid Leukemia (AML)
-        slug: human_situations:health:cancer:acute_myeloid_leukemia_aml
-        related:
-        - human_situations:health:acute_myeloid_leukemia_aml
-        - human_situations:health:cancer:leukemia:acute_myeloid_leukemia_aml
-        - human_situations:health:leukemia:acute_myeloid_leukemia_aml
-      - name: Chronic Lymphocytic Leukemia (CLL)
-        slug: human_situations:health:cancer:chronic_lymphocytic_leukemia_cll
-        related:
-        - human_situations:health:cancer:leukemia:chronic_lymphocytic_leukemia_cll
-        - human_situations:health:chronic_lymphocytic_leukemia_cll
-        - human_situations:health:leukemia:chronic_lymphocytic_leukemia_cll
-      - name: Chronic Myelogenous Leukemia (CML)
-        slug: human_situations:health:cancer:chronic_myelogenous_leukemia_cml
-        related:
-        - human_situations:health:cancer:leukemia:chronic_myelogenous_leukemia_cml
-        - human_situations:health:chronic_myelogenous_leukemia_cml
-        - human_situations:health:leukemia:chronic_myelogenous_leukemia_cml
-      - name: Hairy Cell Leukemia
-        slug: human_situations:health:cancer:hairy_cell_leukemia
-        related:
-        - human_situations:health:cancer:leukemia:hairy_cell_leukemia
-        - human_situations:health:hairy_cell_leukemia
-        - human_situations:health:leukemia:hairy_cell_leukemia
-      - name: Childhood Lung Cancer
-        slug: human_situations:health:cancer:childhood_lung_cancer
-        related:
-        - human_situations:health:cancer:lung_cancer:childhood_lung_cancer
-        - human_situations:health:childhood_lung_cancer
-        - human_situations:health:lung_cancer:childhood_lung_cancer
-      - name: Non-Small Cell Lung Cancer
-        slug: human_situations:health:cancer:non_small_cell_lung_cancer
-        related:
-        - human_situations:health:cancer:lung_cancer:non_small_cell_lung_cancer
-        - human_situations:health:lung_cancer:non_small_cell_lung_cancer
-        - human_situations:health:non_small_cell_lung_cancer
-      - name: Small Cell Lung Cancer
-        slug: human_situations:health:cancer:small_cell_lung_cancer
-        related:
-        - human_situations:health:cancer:lung_cancer:small_cell_lung_cancer
-        - human_situations:health:lung_cancer:small_cell_lung_cancer
-        - human_situations:health:small_cell_lung_cancer
-      - name: AIDS-Related Lymphoma
-        slug: human_situations:health:cancer:aids_related_lymphoma
-        related:
-        - human_situations:health:aids_related_lymphoma
-        - human_situations:health:cancer:lymphoma:aids_related_lymphoma
-        - human_situations:health:lymphoma:aids_related_lymphoma
-      - name: Burkitt Lymphoma
-        slug: human_situations:health:cancer:burkitt_lymphoma
-        related:
-        - human_situations:health:burkitt_lymphoma
-        - human_situations:health:cancer:lymphoma:burkitt_lymphoma
-        - human_situations:health:lymphoma:burkitt_lymphoma
-      - name: Cutaneous T-Cell Lymphoma
-        slug: human_situations:health:cancer:cutaneous_t_cell_lymphoma
-        related:
-        - human_situations:health:cancer:lymphoma:cutaneous_t_cell_lymphoma
-        - human_situations:health:cutaneous_t_cell_lymphoma
-        - human_situations:health:lymphoma:cutaneous_t_cell_lymphoma
-      - name: Hodgkin Lymphoma
-        slug: human_situations:health:cancer:hodgkin_lymphoma
-        related:
-        - human_situations:health:cancer:lymphoma:hodgkin_lymphoma
-        - human_situations:health:hodgkin_lymphoma
-        - human_situations:health:lymphoma:hodgkin_lymphoma
-      - name: Non-Hodgkin Lymphoma
-        slug: human_situations:health:cancer:non_hodgkin_lymphoma
-        related:
-        - human_situations:health:cancer:lymphoma:non_hodgkin_lymphoma
-        - human_situations:health:lymphoma:non_hodgkin_lymphoma
-        - human_situations:health:non_hodgkin_lymphoma
-      - name: Primary Central Nervous System Lymphoma(CNS)
-        slug: human_situations:health:cancer:primary_central_nervous_system_lymphoma_cns
-        related:
-        - human_situations:health:cancer:lymphoma:primary_central_nervous_system_lymphoma_cns
-        - human_situations:health:lymphoma:primary_central_nervous_system_lymphoma_cns
-        - human_situations:health:primary_central_nervous_system_lymphoma_cns
-      - name: Ewing Sarcoma
-        slug: human_situations:health:cancer:ewing_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:ewing_sarcoma
-        - human_situations:health:ewing_sarcoma
-        - human_situations:health:sarcoma:ewing_sarcoma
-      - name: Kaposi Sarcoma
-        slug: human_situations:health:cancer:kaposi_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:kaposi_sarcoma
-        - human_situations:health:kaposi_sarcoma
-        - human_situations:health:sarcoma:kaposi_sarcoma
-      - name: Osteosarcoma Sarcoma
-        slug: human_situations:health:cancer:osteosarcoma_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:osteosarcoma_sarcoma
-        - human_situations:health:osteosarcoma_sarcoma
-        - human_situations:health:sarcoma:osteosarcoma_sarcoma
-      - name: Rhabdomyosarcoma Sarcoma
-        slug: human_situations:health:cancer:rhabdomyosarcoma_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:rhabdomyosarcoma_sarcoma
-        - human_situations:health:rhabdomyosarcoma_sarcoma
-        - human_situations:health:sarcoma:rhabdomyosarcoma_sarcoma
-      - name: Soft Tissue Sarcoma
-        slug: human_situations:health:cancer:soft_tissue_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:soft_tissue_sarcoma
-        - human_situations:health:sarcoma:soft_tissue_sarcoma
-        - human_situations:health:soft_tissue_sarcoma
-      - name: Uterine Sarcoma
-        slug: human_situations:health:cancer:uterine_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:uterine_sarcoma
-        - human_situations:health:sarcoma:uterine_sarcoma
-        - human_situations:health:uterine_sarcoma
-      - name: Melanoma
-        slug: human_situations:health:cancer:melanoma
-        related:
-        - human_situations:health:cancer:skin_cancer:melanoma
-        - human_situations:health:melanoma
-        - human_situations:health:skin_cancer:melanoma
     - name: Alzheimer's
       slug: human_situations:health:alzheimer_s
     - name: Seizures
@@ -2956,8 +2017,6 @@
       items:
       - name: HIV/AIDS
         slug: human_situations:health:infectious_disease:hiv_aids
-        related:
-        - human_situations:health:hiv_aids
     - name: Neuromuscular Disease
       slug: human_situations:health:neuromuscular_disease
     - name: All Mental Health
@@ -2970,456 +2029,10 @@
       slug: human_situations:health:diabetes
     - name: Autism
       slug: human_situations:health:autism
-    - name: All Care Phases
-      slug: human_situations:health:all_care_phases
-      related:
-      - human_situations:health:treatment_phases:all_care_phases
     - name: Hospitalized
       slug: human_situations:health:hospitalized
       related:
       - human_situations:health:treatment_phases:hospitalized
-    - name: Recently Diagnosed
-      slug: human_situations:health:recently_diagnosed
-      related:
-      - human_situations:health:treatment_phases:recently_diagnosed
-    - name: On-Treatment
-      slug: human_situations:health:on_treatment
-      related:
-      - human_situations:health:treatment_phases:on_treatment
-    - name: Post-Treatment
-      slug: human_situations:health:post_treatment
-      related:
-      - human_situations:health:treatment_phases:post_treatment
-    - name: Facing End of Life
-      slug: human_situations:health:facing_end_of_life
-      related:
-      - human_situations:health:treatment_phases:facing_end_of_life
-    - name: All Cancer Types
-      slug: human_situations:health:all_cancer_types
-      related:
-      - human_situations:health:cancer:all_cancer_types
-    - name: Bladder Cancer
-      slug: human_situations:health:bladder_cancer
-      related:
-      - human_situations:health:cancer:bladder_cancer
-    - name: Brain Stem Glioma
-      slug: human_situations:health:brain_stem_glioma
-      related:
-      - human_situations:health:cancer:brain_stem_glioma
-    - name: Brain Tumor
-      slug: human_situations:health:brain_tumor
-      related:
-      - human_situations:health:cancer:brain_tumor
-    - name: Breast Cancer
-      slug: human_situations:health:breast_cancer
-      related:
-      - human_situations:health:cancer:breast_cancer
-    - name: Central Nervous System
-      slug: human_situations:health:central_nervous_system
-      related:
-      - human_situations:health:cancer:central_nervous_system
-    - name: Cervical Cancer
-      slug: human_situations:health:cervical_cancer
-      related:
-      - human_situations:health:cancer:cervical_cancer
-    - name: Colon Cancer
-      slug: human_situations:health:colon_cancer
-      related:
-      - human_situations:health:cancer:colon_cancer
-    - name: Colorectal Cancer
-      slug: human_situations:health:colorectal_cancer
-      related:
-      - human_situations:health:cancer:colorectal_cancer
-    - name: Desmoid Tumors
-      slug: human_situations:health:desmoid_tumors
-      related:
-      - human_situations:health:cancer:desmoid_tumors
-    - name: Ductal Carcinoma In Situ (DCIS)
-      slug: human_situations:health:ductal_carcinoma_in_situ_dcis
-      related:
-      - human_situations:health:cancer:ductal_carcinoma_in_situ_dcis
-    - name: Endomentrial Cancer
-      slug: human_situations:health:endomentrial_cancer
-      related:
-      - human_situations:health:cancer:endomentrial_cancer
-    - name: Gastrointestinal Stromal Tumors (GIST)
-      slug: human_situations:health:gastrointestinal_stromal_tumors_gist
-      related:
-      - human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
-    - name: Germ Cell Tumor
-      slug: human_situations:health:germ_cell_tumor
-      items:
-      - name: Central Nervous System Germ Cell Tumor
-        slug: human_situations:health:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:central_nervous_system_germ_cell_tumor
-        - human_situations:health:cancer:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-        - human_situations:health:central_nervous_system_germ_cell_tumor
-      - name: Ovarian Germ Cell Tumor
-        slug: human_situations:health:germ_cell_tumor:ovarian_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:germ_cell_tumor:ovarian_germ_cell_tumor
-        - human_situations:health:cancer:ovarian_germ_cell_tumor
-        - human_situations:health:ovarian_germ_cell_tumor
-      - name: Testicular Germ Cell Tumor
-        slug: human_situations:health:germ_cell_tumor:testicular_germ_cell_tumor
-        related:
-        - human_situations:health:cancer:germ_cell_tumor:testicular_germ_cell_tumor
-        - human_situations:health:cancer:testicular_germ_cell_tumor
-        - human_situations:health:testicular_germ_cell_tumor
-      related:
-      - human_situations:health:cancer:germ_cell_tumor
-    - name: Head & Neck Cancer
-      slug: human_situations:health:head_neck_cancer
-      related:
-      - human_situations:health:cancer:head_neck_cancer
-    - name: Leukemia
-      slug: human_situations:health:leukemia
-      items:
-      - name: Acute Lymphoblastic Leukemia (ALL)
-        slug: human_situations:health:leukemia:acute_lymphoblastic_leukemia_all
-        related:
-        - human_situations:health:acute_lymphoblastic_leukemia_all
-        - human_situations:health:cancer:acute_lymphoblastic_leukemia_all
-        - human_situations:health:cancer:leukemia:acute_lymphoblastic_leukemia_all
-      - name: Acute Myeloid Leukemia (AML)
-        slug: human_situations:health:leukemia:acute_myeloid_leukemia_aml
-        related:
-        - human_situations:health:acute_myeloid_leukemia_aml
-        - human_situations:health:cancer:acute_myeloid_leukemia_aml
-        - human_situations:health:cancer:leukemia:acute_myeloid_leukemia_aml
-      - name: Chronic Lymphocytic Leukemia (CLL)
-        slug: human_situations:health:leukemia:chronic_lymphocytic_leukemia_cll
-        related:
-        - human_situations:health:cancer:chronic_lymphocytic_leukemia_cll
-        - human_situations:health:cancer:leukemia:chronic_lymphocytic_leukemia_cll
-        - human_situations:health:chronic_lymphocytic_leukemia_cll
-      - name: Chronic Myelogenous Leukemia (CML)
-        slug: human_situations:health:leukemia:chronic_myelogenous_leukemia_cml
-        related:
-        - human_situations:health:cancer:chronic_myelogenous_leukemia_cml
-        - human_situations:health:cancer:leukemia:chronic_myelogenous_leukemia_cml
-        - human_situations:health:chronic_myelogenous_leukemia_cml
-      - name: Hairy Cell Leukemia
-        slug: human_situations:health:leukemia:hairy_cell_leukemia
-        related:
-        - human_situations:health:cancer:hairy_cell_leukemia
-        - human_situations:health:cancer:leukemia:hairy_cell_leukemia
-        - human_situations:health:hairy_cell_leukemia
-      related:
-      - human_situations:health:cancer:leukemia
-    - name: Liver Cancer
-      slug: human_situations:health:liver_cancer
-      related:
-      - human_situations:health:cancer:liver_cancer
-    - name: Lung Cancer
-      slug: human_situations:health:lung_cancer
-      items:
-      - name: Childhood Lung Cancer
-        slug: human_situations:health:lung_cancer:childhood_lung_cancer
-        related:
-        - human_situations:health:cancer:childhood_lung_cancer
-        - human_situations:health:cancer:lung_cancer:childhood_lung_cancer
-        - human_situations:health:childhood_lung_cancer
-      - name: Non-Small Cell Lung Cancer
-        slug: human_situations:health:lung_cancer:non_small_cell_lung_cancer
-        related:
-        - human_situations:health:cancer:lung_cancer:non_small_cell_lung_cancer
-        - human_situations:health:cancer:non_small_cell_lung_cancer
-        - human_situations:health:non_small_cell_lung_cancer
-      - name: Small Cell Lung Cancer
-        slug: human_situations:health:lung_cancer:small_cell_lung_cancer
-        related:
-        - human_situations:health:cancer:lung_cancer:small_cell_lung_cancer
-        - human_situations:health:cancer:small_cell_lung_cancer
-        - human_situations:health:small_cell_lung_cancer
-      related:
-      - human_situations:health:cancer:lung_cancer
-    - name: Lymphoma
-      slug: human_situations:health:lymphoma
-      items:
-      - name: AIDS-Related Lymphoma
-        slug: human_situations:health:lymphoma:aids_related_lymphoma
-        related:
-        - human_situations:health:aids_related_lymphoma
-        - human_situations:health:cancer:aids_related_lymphoma
-        - human_situations:health:cancer:lymphoma:aids_related_lymphoma
-      - name: Burkitt Lymphoma
-        slug: human_situations:health:lymphoma:burkitt_lymphoma
-        related:
-        - human_situations:health:burkitt_lymphoma
-        - human_situations:health:cancer:burkitt_lymphoma
-        - human_situations:health:cancer:lymphoma:burkitt_lymphoma
-      - name: Cutaneous T-Cell Lymphoma
-        slug: human_situations:health:lymphoma:cutaneous_t_cell_lymphoma
-        related:
-        - human_situations:health:cancer:cutaneous_t_cell_lymphoma
-        - human_situations:health:cancer:lymphoma:cutaneous_t_cell_lymphoma
-        - human_situations:health:cutaneous_t_cell_lymphoma
-      - name: Hodgkin Lymphoma
-        slug: human_situations:health:lymphoma:hodgkin_lymphoma
-        related:
-        - human_situations:health:cancer:hodgkin_lymphoma
-        - human_situations:health:cancer:lymphoma:hodgkin_lymphoma
-        - human_situations:health:hodgkin_lymphoma
-      - name: Non-Hodgkin Lymphoma
-        slug: human_situations:health:lymphoma:non_hodgkin_lymphoma
-        related:
-        - human_situations:health:cancer:lymphoma:non_hodgkin_lymphoma
-        - human_situations:health:cancer:non_hodgkin_lymphoma
-        - human_situations:health:non_hodgkin_lymphoma
-      - name: Primary Central Nervous System Lymphoma(CNS)
-        slug: human_situations:health:lymphoma:primary_central_nervous_system_lymphoma_cns
-        related:
-        - human_situations:health:cancer:lymphoma:primary_central_nervous_system_lymphoma_cns
-        - human_situations:health:cancer:primary_central_nervous_system_lymphoma_cns
-        - human_situations:health:primary_central_nervous_system_lymphoma_cns
-      related:
-      - human_situations:health:cancer:lymphoma
-    - name: Myeloma, Multiple
-      slug: human_situations:health:myeloma_multiple
-      related:
-      - human_situations:health:cancer:myeloma_multiple
-    - name: Neuroblastoma
-      slug: human_situations:health:neuroblastoma
-      related:
-      - human_situations:health:cancer:neuroblastoma
-    - name: Ovarian Cancer
-      slug: human_situations:health:ovarian_cancer
-      related:
-      - human_situations:health:cancer:ovarian_cancer
-    - name: Rectal Cancer
-      slug: human_situations:health:rectal_cancer
-      related:
-      - human_situations:health:cancer:rectal_cancer
-    - name: Sarcoma
-      slug: human_situations:health:sarcoma
-      items:
-      - name: Ewing Sarcoma
-        slug: human_situations:health:sarcoma:ewing_sarcoma
-        related:
-        - human_situations:health:cancer:ewing_sarcoma
-        - human_situations:health:cancer:sarcoma:ewing_sarcoma
-        - human_situations:health:ewing_sarcoma
-      - name: Kaposi Sarcoma
-        slug: human_situations:health:sarcoma:kaposi_sarcoma
-        related:
-        - human_situations:health:cancer:kaposi_sarcoma
-        - human_situations:health:cancer:sarcoma:kaposi_sarcoma
-        - human_situations:health:kaposi_sarcoma
-      - name: Osteosarcoma Sarcoma
-        slug: human_situations:health:sarcoma:osteosarcoma_sarcoma
-        related:
-        - human_situations:health:cancer:osteosarcoma_sarcoma
-        - human_situations:health:cancer:sarcoma:osteosarcoma_sarcoma
-        - human_situations:health:osteosarcoma_sarcoma
-      - name: Rhabdomyosarcoma Sarcoma
-        slug: human_situations:health:sarcoma:rhabdomyosarcoma_sarcoma
-        related:
-        - human_situations:health:cancer:rhabdomyosarcoma_sarcoma
-        - human_situations:health:cancer:sarcoma:rhabdomyosarcoma_sarcoma
-        - human_situations:health:rhabdomyosarcoma_sarcoma
-      - name: Soft Tissue Sarcoma
-        slug: human_situations:health:sarcoma:soft_tissue_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:soft_tissue_sarcoma
-        - human_situations:health:cancer:soft_tissue_sarcoma
-        - human_situations:health:soft_tissue_sarcoma
-      - name: Uterine Sarcoma
-        slug: human_situations:health:sarcoma:uterine_sarcoma
-        related:
-        - human_situations:health:cancer:sarcoma:uterine_sarcoma
-        - human_situations:health:cancer:uterine_sarcoma
-        - human_situations:health:uterine_sarcoma
-      related:
-      - human_situations:health:cancer:sarcoma
-    - name: Skin Cancer
-      slug: human_situations:health:skin_cancer
-      items:
-      - name: Melanoma
-        slug: human_situations:health:skin_cancer:melanoma
-        related:
-        - human_situations:health:cancer:melanoma
-        - human_situations:health:cancer:skin_cancer:melanoma
-        - human_situations:health:melanoma
-      related:
-      - human_situations:health:cancer:skin_cancer
-    - name: Stomach (Gastric) Cancer
-      slug: human_situations:health:stomach_gastric_cancer
-      related:
-      - human_situations:health:cancer:stomach_gastric_cancer
-    - name: Testicular Cancer
-      slug: human_situations:health:testicular_cancer
-      related:
-      - human_situations:health:cancer:testicular_cancer
-    - name: Throat Cancer
-      slug: human_situations:health:throat_cancer
-      related:
-      - human_situations:health:cancer:throat_cancer
-    - name: Thyroid Cancer
-      slug: human_situations:health:thyroid_cancer
-      related:
-      - human_situations:health:cancer:thyroid_cancer
-    - name: Vaginal Cancer
-      slug: human_situations:health:vaginal_cancer
-      related:
-      - human_situations:health:cancer:vaginal_cancer
-    - name: Vulvar Cancer
-      slug: human_situations:health:vulvar_cancer
-      related:
-      - human_situations:health:cancer:vulvar_cancer
-    - name: Wilms Tumor
-      slug: human_situations:health:wilms_tumor
-      related:
-      - human_situations:health:cancer:wilms_tumor
-    - name: Central Nervous System Germ Cell Tumor
-      slug: human_situations:health:central_nervous_system_germ_cell_tumor
-      related:
-      - human_situations:health:cancer:central_nervous_system_germ_cell_tumor
-      - human_situations:health:cancer:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-      - human_situations:health:germ_cell_tumor:central_nervous_system_germ_cell_tumor
-    - name: Ovarian Germ Cell Tumor
-      slug: human_situations:health:ovarian_germ_cell_tumor
-      related:
-      - human_situations:health:cancer:germ_cell_tumor:ovarian_germ_cell_tumor
-      - human_situations:health:cancer:ovarian_germ_cell_tumor
-      - human_situations:health:germ_cell_tumor:ovarian_germ_cell_tumor
-    - name: Testicular Germ Cell Tumor
-      slug: human_situations:health:testicular_germ_cell_tumor
-      related:
-      - human_situations:health:cancer:germ_cell_tumor:testicular_germ_cell_tumor
-      - human_situations:health:cancer:testicular_germ_cell_tumor
-      - human_situations:health:germ_cell_tumor:testicular_germ_cell_tumor
-    - name: Acute Lymphoblastic Leukemia (ALL)
-      slug: human_situations:health:acute_lymphoblastic_leukemia_all
-      related:
-      - human_situations:health:cancer:acute_lymphoblastic_leukemia_all
-      - human_situations:health:cancer:leukemia:acute_lymphoblastic_leukemia_all
-      - human_situations:health:leukemia:acute_lymphoblastic_leukemia_all
-    - name: Acute Myeloid Leukemia (AML)
-      slug: human_situations:health:acute_myeloid_leukemia_aml
-      related:
-      - human_situations:health:cancer:acute_myeloid_leukemia_aml
-      - human_situations:health:cancer:leukemia:acute_myeloid_leukemia_aml
-      - human_situations:health:leukemia:acute_myeloid_leukemia_aml
-    - name: Chronic Lymphocytic Leukemia (CLL)
-      slug: human_situations:health:chronic_lymphocytic_leukemia_cll
-      related:
-      - human_situations:health:cancer:chronic_lymphocytic_leukemia_cll
-      - human_situations:health:cancer:leukemia:chronic_lymphocytic_leukemia_cll
-      - human_situations:health:leukemia:chronic_lymphocytic_leukemia_cll
-    - name: Chronic Myelogenous Leukemia (CML)
-      slug: human_situations:health:chronic_myelogenous_leukemia_cml
-      related:
-      - human_situations:health:cancer:chronic_myelogenous_leukemia_cml
-      - human_situations:health:cancer:leukemia:chronic_myelogenous_leukemia_cml
-      - human_situations:health:leukemia:chronic_myelogenous_leukemia_cml
-    - name: Hairy Cell Leukemia
-      slug: human_situations:health:hairy_cell_leukemia
-      related:
-      - human_situations:health:cancer:hairy_cell_leukemia
-      - human_situations:health:cancer:leukemia:hairy_cell_leukemia
-      - human_situations:health:leukemia:hairy_cell_leukemia
-    - name: Childhood Lung Cancer
-      slug: human_situations:health:childhood_lung_cancer
-      related:
-      - human_situations:health:cancer:childhood_lung_cancer
-      - human_situations:health:cancer:lung_cancer:childhood_lung_cancer
-      - human_situations:health:lung_cancer:childhood_lung_cancer
-    - name: Non-Small Cell Lung Cancer
-      slug: human_situations:health:non_small_cell_lung_cancer
-      related:
-      - human_situations:health:cancer:lung_cancer:non_small_cell_lung_cancer
-      - human_situations:health:cancer:non_small_cell_lung_cancer
-      - human_situations:health:lung_cancer:non_small_cell_lung_cancer
-    - name: Small Cell Lung Cancer
-      slug: human_situations:health:small_cell_lung_cancer
-      related:
-      - human_situations:health:cancer:lung_cancer:small_cell_lung_cancer
-      - human_situations:health:cancer:small_cell_lung_cancer
-      - human_situations:health:lung_cancer:small_cell_lung_cancer
-    - name: AIDS-Related Lymphoma
-      slug: human_situations:health:aids_related_lymphoma
-      related:
-      - human_situations:health:cancer:aids_related_lymphoma
-      - human_situations:health:cancer:lymphoma:aids_related_lymphoma
-      - human_situations:health:lymphoma:aids_related_lymphoma
-    - name: Burkitt Lymphoma
-      slug: human_situations:health:burkitt_lymphoma
-      related:
-      - human_situations:health:cancer:burkitt_lymphoma
-      - human_situations:health:cancer:lymphoma:burkitt_lymphoma
-      - human_situations:health:lymphoma:burkitt_lymphoma
-    - name: Cutaneous T-Cell Lymphoma
-      slug: human_situations:health:cutaneous_t_cell_lymphoma
-      related:
-      - human_situations:health:cancer:cutaneous_t_cell_lymphoma
-      - human_situations:health:cancer:lymphoma:cutaneous_t_cell_lymphoma
-      - human_situations:health:lymphoma:cutaneous_t_cell_lymphoma
-    - name: Hodgkin Lymphoma
-      slug: human_situations:health:hodgkin_lymphoma
-      related:
-      - human_situations:health:cancer:hodgkin_lymphoma
-      - human_situations:health:cancer:lymphoma:hodgkin_lymphoma
-      - human_situations:health:lymphoma:hodgkin_lymphoma
-    - name: Non-Hodgkin Lymphoma
-      slug: human_situations:health:non_hodgkin_lymphoma
-      related:
-      - human_situations:health:cancer:lymphoma:non_hodgkin_lymphoma
-      - human_situations:health:cancer:non_hodgkin_lymphoma
-      - human_situations:health:lymphoma:non_hodgkin_lymphoma
-    - name: Primary Central Nervous System Lymphoma(CNS)
-      slug: human_situations:health:primary_central_nervous_system_lymphoma_cns
-      related:
-      - human_situations:health:cancer:lymphoma:primary_central_nervous_system_lymphoma_cns
-      - human_situations:health:cancer:primary_central_nervous_system_lymphoma_cns
-      - human_situations:health:lymphoma:primary_central_nervous_system_lymphoma_cns
-    - name: Ewing Sarcoma
-      slug: human_situations:health:ewing_sarcoma
-      related:
-      - human_situations:health:cancer:ewing_sarcoma
-      - human_situations:health:cancer:sarcoma:ewing_sarcoma
-      - human_situations:health:sarcoma:ewing_sarcoma
-    - name: Kaposi Sarcoma
-      slug: human_situations:health:kaposi_sarcoma
-      related:
-      - human_situations:health:cancer:kaposi_sarcoma
-      - human_situations:health:cancer:sarcoma:kaposi_sarcoma
-      - human_situations:health:sarcoma:kaposi_sarcoma
-    - name: Osteosarcoma Sarcoma
-      slug: human_situations:health:osteosarcoma_sarcoma
-      related:
-      - human_situations:health:cancer:osteosarcoma_sarcoma
-      - human_situations:health:cancer:sarcoma:osteosarcoma_sarcoma
-      - human_situations:health:sarcoma:osteosarcoma_sarcoma
-    - name: Rhabdomyosarcoma Sarcoma
-      slug: human_situations:health:rhabdomyosarcoma_sarcoma
-      related:
-      - human_situations:health:cancer:rhabdomyosarcoma_sarcoma
-      - human_situations:health:cancer:sarcoma:rhabdomyosarcoma_sarcoma
-      - human_situations:health:sarcoma:rhabdomyosarcoma_sarcoma
-    - name: Soft Tissue Sarcoma
-      slug: human_situations:health:soft_tissue_sarcoma
-      related:
-      - human_situations:health:cancer:sarcoma:soft_tissue_sarcoma
-      - human_situations:health:cancer:soft_tissue_sarcoma
-      - human_situations:health:sarcoma:soft_tissue_sarcoma
-    - name: Uterine Sarcoma
-      slug: human_situations:health:uterine_sarcoma
-      related:
-      - human_situations:health:cancer:sarcoma:uterine_sarcoma
-      - human_situations:health:cancer:uterine_sarcoma
-      - human_situations:health:sarcoma:uterine_sarcoma
-    - name: Melanoma
-      slug: human_situations:health:melanoma
-      related:
-      - human_situations:health:cancer:melanoma
-      - human_situations:health:cancer:skin_cancer:melanoma
-      - human_situations:health:skin_cancer:melanoma
-    - name: HIV/AIDS
-      slug: human_situations:health:hiv_aids
-      related:
-      - human_situations:health:infectious_disease:hiv_aids
     - name: Alzheimers
       slug: human_situations:health:alzheimers
     - name: Seizure Disorder
@@ -3444,20 +2057,8 @@
       items:
       - name: With Children
         slug: human_situations:household:families:with_children
-        related:
-        - human_situations:household:with_children
       - name: Single Parent
         slug: human_situations:household:families:single_parent
-        related:
-        - human_situations:household:single_parent
-    - name: With Children
-      slug: human_situations:household:with_children
-      related:
-      - human_situations:household:families:with_children
-    - name: Single Parent
-      slug: human_situations:household:single_parent
-      related:
-      - human_situations:household:families:single_parent
   - name: Housing
     slug: human_situations:housing
     items:
