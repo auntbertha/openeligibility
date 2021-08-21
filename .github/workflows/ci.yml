@@ -1,0 +1,40 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Translate
+      env:
+        TRANSIFEX_TOKEN: ${{secrets.TRANSIFEX_TOKEN}}
+      run:
+        - python tools/translate.py
+    - name: Generate MD
+      run:
+        - python tools/to_markdown.md
+    - name: git identity
+      run: |
+        git config user.email "adam.kariv@gmail.com"
+        git config user.name "Adam Kariv"
+    - name: Push artifacts
+      run:
+        - (git add taxonomy.tx.yaml TAXONOMIES.md && git commit -m "Automatic update of artifacts" && git push) || true
