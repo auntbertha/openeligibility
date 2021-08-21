@@ -26,15 +26,15 @@ jobs:
     - name: Translate
       env:
         TRANSIFEX_TOKEN: ${{secrets.TRANSIFEX_TOKEN}}
-      run:
-        - python tools/translate.py
+      run: |
+        python tools/translate.py
     - name: Generate MD
-      run:
-        - python tools/to_markdown.md
+      run: |
+        python tools/to_markdown.md
     - name: git identity
       run: |
         git config user.email "adam.kariv@gmail.com"
         git config user.name "Adam Kariv"
     - name: Push artifacts
-      run:
-        - (git add taxonomy.tx.yaml TAXONOMIES.md && git commit -m "Automatic update of artifacts" && git push) || true
+      run: |
+        (git add taxonomy.tx.yaml TAXONOMIES.md && git commit -m "Automatic update of artifacts" && git push) || true
