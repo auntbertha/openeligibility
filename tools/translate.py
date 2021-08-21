@@ -84,7 +84,7 @@ def collect_keys(nodes, to_push, translated):
             node['name'] = dict(source=name, tx=translated[slug])
         description = node.get('description')
         if description:
-            to_push[description_slug] = name
+            to_push[description_slug] = description
             if description_slug in translated:
                 node['description'] = dict(source=description, tx=translated[description_slug])
         if 'items' in node:
