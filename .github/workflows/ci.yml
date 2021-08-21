@@ -30,7 +30,7 @@ jobs:
         python tools/translate.py
     - name: Generate MD
       run: |
-        python tools/to_markdown.md
+        python tools/to_markdown.py
     - name: git identity
       run: |
         git config user.email "adam.kariv@gmail.com"
