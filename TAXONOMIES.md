@@ -4,6 +4,7 @@
 
 ## מענים חברתיים
 ### Food
+Services for meals, food pantries, help paying for food, food delivery, food benefits, and nutrition support.
 - Community Gardens
 - Emergency Food
 - Food Delivery
@@ -16,6 +17,7 @@
 - Free Meals
 - Nutrition
 ### Housing
+Services for emergency, short- term and long- term housing, housing advice, help finding housing, and paying for housing.
 - Temporary Shelter
   - Weather Relief
 - Help Find Housing
@@ -46,6 +48,7 @@
     - Short-Term Housing
 - Emergency Shelter
 ### Goods
+Services for clothing, furniture, baby supplies, toys and gifts, and other physical goods.
 - Baby Supplies
   - Baby Clothes
   - Diapers & Formula
@@ -69,6 +72,7 @@
 - Personal Safety
 - Toys & Gifts
 ### Transit
+Services for bus passes, transportation to school, healthcare, appointments, and more.
 - Help Pay for Transit
   - Bus Passes
   - Help Pay for Car
@@ -77,6 +81,7 @@
   - Transportation for Healthcare
   - Transportation for School
 ### Health
+Services for medical care, dental care, health education, addiction and recovery, help finding services, and help paying for healthcare.
 - Addiction & Recovery
   - 12-Step
   - Detox
@@ -178,6 +183,7 @@
     - Postnatal Care
 - Vision Care
 ### Money
+Services to help pay for housing, education, childcare, school, food and goods, financial education, tax preparation, insurance, government benefits, vouchers, and more.
 - Financial Assistance
   - Help Pay for Childcare
   - Help Pay for Food
@@ -228,6 +234,7 @@
   - Personal Loans
 - Tax Preparation
 ### Care
+Services for animal welfare, residential caregiving, daytime caregiving, adoption & foster care, building support networks, end-of-life care, and help navigating the system.
 - Adoption & Foster Care
   - Adoption & Foster Placement
   - Adoption & Foster Parenting
@@ -299,6 +306,7 @@
     - Support Groups
   - Virtual Support
 ### Education
+Services for preschool, after school, special education, help finding school, help paying for school, alternative education, tutoring, and more.
 - Help Find School
 - Help Pay for School
   - Books
@@ -348,6 +356,7 @@
   - Skills Assessment
   - Specialized Training
 ### Work
+Services for finding and sustaining work and improving job skills and abilities.
 - Help Find Work
   - Job Placement
   - Supported Employment
@@ -367,6 +376,7 @@
 - Supported Employment
 - Workplace Rights
 ### Legal
+Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
 - Advocacy & Legal Aid
   - Adoption & Foster Care
     - Adoption & Foster Placement
@@ -419,6 +429,7 @@
   - Safe Housing
 - Psychiatric Emergency Services
 ## Human Situations
+These are common attributes about a person. These can be used to help match a person’s situation with available human services.
 ### General
 - Anyone in Need
 ### Age Group
