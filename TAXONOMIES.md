@@ -1,6 +1,7 @@
+<div dir="rtl">
 # טקסונומיית המענים הפתוחים
 
-# Human Services
+# מענים חברתיים
 ## Food
 - Community Gardens
 - Emergency Food
@@ -624,3 +625,4 @@
 - Transgender
 ## Sexuality
 - LGBTQ
+</div>
