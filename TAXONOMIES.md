@@ -1,8 +1,9 @@
 <div dir="rtl">
+
 # טקסונומיית המענים הפתוחים
 
-# מענים חברתיים
-## Food
+## מענים חברתיים
+### Food
 - Community Gardens
 - Emergency Food
 - Food Delivery
@@ -14,7 +15,7 @@
 - Nutrition Education
 - Free Meals
 - Nutrition
-## Housing
+### Housing
 - Temporary Shelter
   - Weather Relief
 - Help Find Housing
@@ -44,7 +45,7 @@
     - Sober Living
     - Short-Term Housing
 - Emergency Shelter
-## Goods
+### Goods
 - Baby Supplies
   - Baby Clothes
   - Diapers & Formula
@@ -67,7 +68,7 @@
   - Prosthesis
 - Personal Safety
 - Toys & Gifts
-## Transit
+### Transit
 - Help Pay for Transit
   - Bus Passes
   - Help Pay for Car
@@ -75,7 +76,7 @@
 - Transportation
   - Transportation for Healthcare
   - Transportation for School
-## Health
+### Health
 - Addiction & Recovery
   - 12-Step
   - Detox
@@ -176,7 +177,7 @@
     - Maternity Care
     - Postnatal Care
 - Vision Care
-## Money
+### Money
 - Financial Assistance
   - Help Pay for Childcare
   - Help Pay for Food
@@ -226,7 +227,7 @@
   - Business Loans
   - Personal Loans
 - Tax Preparation
-## Care
+### Care
 - Adoption & Foster Care
   - Adoption & Foster Placement
   - Adoption & Foster Parenting
@@ -297,7 +298,7 @@
     - Parenting Education
     - Support Groups
   - Virtual Support
-## Education
+### Education
 - Help Find School
 - Help Pay for School
   - Books
@@ -346,7 +347,7 @@
   - Resume Development
   - Skills Assessment
   - Specialized Training
-## Work
+### Work
 - Help Find Work
   - Job Placement
   - Supported Employment
@@ -365,7 +366,7 @@
   - Specialized Training
 - Supported Employment
 - Workplace Rights
-## Legal
+### Legal
 - Advocacy & Legal Aid
   - Adoption & Foster Care
     - Adoption & Foster Placement
@@ -401,7 +402,7 @@
 - Adoption Planning
 - Adoption Counseling
 - Post-Adoption Support
-## Emergency
+### Emergency
 - Disaster Response
 - Emergency Payments
   - Help Pay for Food
@@ -417,10 +418,10 @@
   - Help Escape Violence
   - Safe Housing
 - Psychiatric Emergency Services
-# Human Situations
-## General
+## Human Situations
+### General
 - Anyone in Need
-## Age Group
+### Age Group
 - All Ages
 - Adults (31-54 years old)
 - Young Adults (20-30 years old)
@@ -432,18 +433,18 @@
 - Teens
 - Children
 - Seniors
-## Armed Forces
+### Armed Forces
 - Active Duty
 - National Guard
 - Veterans
-## Citizenship
+### Citizenship
 - Immigrants
 - Refugees
 - Undocumented
-## Justice Involvement
+### Justice Involvement
 - Criminal Justice History
 - In Jail
-## Disability
+### Disability
 - All Disabilities
 - Learning Disability
   - ADD/ADHD
@@ -456,23 +457,23 @@
 - Visual Impairment
 - Hearing Impairment
 - Mental Illness
-## Education
+### Education
 - Dropouts
 - Students
-## Emotional State
+### Emotional State
 - Grieving
-## Employment
+### Employment
 - Employed
 - Retirement
 - Unemployed
-## Gender & Identity
+### Gender & Identity
 - Female
 - Male
 - Transgender or Non-Binary
 - LGBTQIA+
-## Guardianship
+### Guardianship
 - Foster Youth
-## Health
+### Health
 - Treatment Phases
   - All Care Phases
   - Hospitalized
@@ -554,53 +555,53 @@
 - Seizure Disorder
 - Substance Dependency
 - Mental Illness
-## Household
+### Household
 - Individuals
 - Families
   - With Children
   - Single Parent
-## Housing
+### Housing
 - Home Owners
 - Home Renters
 - Homeless
 - Near Homeless
 - Runaways
-## Income
+### Income
 - Benefit Recipients
 - Low-Income
-## Insurance
+### Insurance
 - Uninsured
 - Underinsured
-## Language
+### Language
 - Limited English
-## Mental Health
+### Mental Health
 - Anxiety
 - Bipolar
 - Brain Injury
 - Depression
 - Eating Disorder
 - Suicidal Thoughts
-## Race/Ethnicity
+### Race/Ethnicity
 - African American
 - Asian
 - Latino
 - Native American
-## Role
+### Role
 - Caregivers
 - Spouses
 - Dependents
 - Fathers
 - Mothers
 - Parents
-## Substance Dependency
+### Substance Dependency
 - Alcohol Dependency
 - Dual Diagnosis
 - Opioid Dependency
 - Smoker
-## Sexual Orientation & Identity
+### Sexual Orientation & Identity
 - LGBTQ+
 - Transgender
-## Survivors
+### Survivors
 - Trauma Survivors
 - Abuse or Neglect Survivors
 - Burn Survivors
@@ -613,16 +614,16 @@
 - Natural Disaster Survivors
 - Sexual Assault Survivors
 - All Survivors
-## Urgency
+### Urgency
 - In Crisis
 - In Danger
 - Emergency
-## Criminal History
+### Criminal History
 - Ex-Offenders
-## Gender
+### Gender
 - Women
 - Men
 - Transgender
-## Sexuality
+### Sexuality
 - LGBTQ
 </div>
