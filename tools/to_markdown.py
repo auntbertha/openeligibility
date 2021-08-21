@@ -5,20 +5,25 @@ def recurse_into_taxonomy(items, output, level=0):
         name = item['name']
         if isinstance(name, dict):
             name = name.get('tx', dict()).get('he') or name.get('source')
-        if level == 0:
-            output.write('## {}\n'.format(name))
-        elif level == 1:
-            output.write('### {}\n'.format(name))
-        elif level == 2:
-            output.write('- {}\n'.format(name))
-        elif level == 3:
-            output.write('  - {}\n'.format(name))
-        elif level == 4:
-            output.write('    - {}\n'.format(name))
-        elif level == 5:
-            output.write('      - {}\n'.format(name))
-        else:
-            assert False
+        description = item.get('description')
+        if isinstance(description, dict):
+            description = description.get('tx', dict()).description('he') or description.get('source')
+        prefix = {
+            0: '## ',
+            1: '### ',
+            2: '- ',
+            3: '  - ',
+            4: '    - ',
+            5: '      - ',
+            6: '        - ',
+        }[level]
+        output.write(prefix + name + '\n')
+        if description is not None:
+            if '#' in prefix:
+                prefix = ''
+            else:
+                prefix = ' '*len(prefix)
+            output.write(prefix + description + '\n')
         if item.get('items'):
             recurse_into_taxonomy(item.get('items'), output, level+1)
 

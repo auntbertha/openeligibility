@@ -77,10 +77,16 @@ def pull_translations(lang, filename):
 def collect_keys(nodes, to_push, translated):
     for node in nodes:
         slug = node['slug']
+        description_slug = slug + '::description'
         name = node['name']
         to_push[slug] = name
         if slug in translated:
             node['name'] = dict(source=name, tx=translated[slug])
+        description = node.get('description')
+        if description:
+            to_push[description_slug] = name
+            if description_slug in translated:
+                node['description'] = dict(source=description, tx=translated[description_slug])
         if 'items' in node:
             collect_keys(node['items'], to_push, translated)
     return to_push
