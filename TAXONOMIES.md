@@ -3,7 +3,7 @@
 # טקסונומיית המענים הפתוחים
 
 ## מענים חברתיים
-### Food
+### מזון
 Services for meals, food pantries, help paying for food, food delivery, food benefits, and nutrition support.
 - Community Gardens
 - Emergency Food
@@ -276,7 +276,7 @@ Services for animal welfare, residential caregiving, daytime caregiving, adoptio
   - Help Find Work
 - Physical Safety
   - Disaster Response
-  - Emergency Food
+  - אספקת מזון בחירום
   - Temporary Shelter
     - Weather Relief
   - Help Find Missing Persons
@@ -415,7 +415,7 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
 ### Emergency
 - Disaster Response
 - Emergency Payments
-  - Help Pay for Food
+  - סיוע כספי לרכישת מזון
   - Help Pay for Healthcare
   - Help Pay for Housing
   - Help Pay for Gas

@@ -4,7 +4,10 @@
       he: מענים חברתיים
   slug: human_services
   items:
-  - name: Food
+  - name:
+      source: Food
+      tx:
+        he: מזון
     slug: human_services:food
     description: Services for meals, food pantries, help paying for food, food delivery, food benefits, and nutrition support.
     items:
@@ -1086,7 +1089,10 @@
         slug: human_services:care:physical_safety:disaster_response
         related:
         - human_services:emergency:disaster_response
-      - name: Emergency Food
+      - name:
+          source: Emergency Food
+          tx:
+            he: אספקת מזון בחירום
         slug: human_services:care:physical_safety:emergency_food
         related:
         - human_services:emergency:emergency_food
@@ -1676,7 +1682,10 @@
     - name: Emergency Payments
       slug: human_services:emergency:emergency_payments
       items:
-      - name: Help Pay for Food
+      - name:
+          source: Help Pay for Food
+          tx:
+            he: סיוע כספי לרכישת מזון
         slug: human_services:emergency:emergency_payments:help_pay_for_food
         related:
         - human_services:food:help_pay_for_food
