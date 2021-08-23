@@ -235,12 +235,12 @@ Services to help pay for housing, education, childcare, school, food and goods, 
 - Tax Preparation
 ### Care
 Services for animal welfare, residential caregiving, daytime caregiving, adoption & foster care, building support networks, end-of-life care, and help navigating the system.
-- Adoption & Foster Care
-  - Adoption & Foster Placement
+- אימוץ ואומנה
+  - השמת ילדים לאימוץ ואומנה
   - Adoption & Foster Parenting
   - Adoption Planning
   - Adoption Counseling
-  - Post-Adoption Support
+  - תמיכה במשפחות מאמצות
 - Animal Welfare
 - Community Support Services
   - Computer or Internet Access

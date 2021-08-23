@@ -920,10 +920,16 @@
     slug: human_services:care
     description: Services for animal welfare, residential caregiving, daytime caregiving, adoption & foster care, building support networks, end-of-life care, and help navigating the system.
     items:
-    - name: Adoption & Foster Care
+    - name:
+        source: Adoption & Foster Care
+        tx:
+          he: אימוץ ואומנה
       slug: human_services:care:adoption_foster_care
       items:
-      - name: Adoption & Foster Placement
+      - name:
+          source: Adoption & Foster Placement
+          tx:
+            he: השמת ילדים לאימוץ ואומנה
         slug: human_services:care:adoption_foster_care:adoption_foster_placement
         related:
         - human_services:legal:adoption_foster_care:adoption_foster_placement
@@ -947,7 +953,10 @@
         - human_services:legal:adoption_counseling
         - human_services:legal:adoption_foster_care:adoption_counseling
         - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-      - name: Post-Adoption Support
+      - name:
+          source: Post-Adoption Support
+          tx:
+            he: תמיכה במשפחות מאמצות
         slug: human_services:care:adoption_foster_care:post_adoption_support
         related:
         - human_services:legal:adoption_foster_care:post_adoption_support
