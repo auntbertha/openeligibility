@@ -2631,7 +2631,7 @@
           he: כל הגילאים
       slug: human_situations:age_group:all_ages
     - name:
-        source: Adults (31-54 years old)
+        source: Adults(31-54 years old)
         tx:
           he: 'מבוגרים (30-60) '
       slug: human_situations:age_group:adults_31_54_years_old
