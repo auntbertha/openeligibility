@@ -531,7 +531,14 @@ These are common attributes about a person. These can be used to help match a pe
 - Uninsured
 - Underinsured
 ### Language
-- Limited English
+- Hebrew Speaking
+- Arabic Speaking
+- English Speaking
+- Russian Speaking
+- Amharic Speaking
+- Spanish Speaking
+- French Speaking
+- Limited Hebrew
 ### Mental Health
 - Anxiety
 - Bipolar

@@ -3215,8 +3215,22 @@
   - name: Language
     slug: human_situations:language
     items:
-    - name: Limited English
-      slug: human_situations:language:limited_english
+    - name: Hebrew Speaking
+      slug: human_situations:language:hebrew_speaking
+    - name: Arabic Speaking
+      slug: human_situations:language:arabic_speaking
+    - name: English Speaking
+      slug: human_situations:language:engish_speaking
+    - name: Russian Speaking
+      slug: human_situations:language:russian_speaking
+    - name: Amharic Speaking
+      slug: human_situations:language:amharic_speaking
+    - name: Spanish Speaking
+      slug: human_situations:language:spanish_speaking
+    - name: French Speaking
+      slug: human_situations:language:french_speaking
+    - name: Limited Hebrew
+      slug: human_situations:language:limited_hebrew
   - name: Mental Health
     slug: human_situations:mental_health
     items:
