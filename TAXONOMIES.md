@@ -409,12 +409,18 @@ These are common attributes about a person. These can be used to help match a pe
 - כל אדם הצריך עזרה
 ### קבוצת גיל 
 - כל הגילאים
-- מבוגרים (30-60) 
-- צעירים (18-30) 
-- נוער (13-18) 
-- גיל רך (0-3) 
-- ילדים (3-12) 
-- אזרח ותיק (+60) 
+- Adults
+  (31-54 years old)
+- Young Adults
+  (20-30 years old)
+- Teens
+  (13-19 years old)
+- Infants
+  (0-1 years old)
+- Children
+  (2-12 years old)
+- Seniors
+  (55+ years old)
 ### צבא ובטחון
 - חיילים וחיילות 
 - National Guard

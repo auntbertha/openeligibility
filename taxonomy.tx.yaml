@@ -2630,36 +2630,24 @@
         tx:
           he: כל הגילאים
       slug: human_situations:age_group:all_ages
-    - name:
-        source: Adults(31-54 years old)
-        tx:
-          he: 'מבוגרים (30-60) '
-      slug: human_situations:age_group:adults_31_54_years_old
-    - name:
-        source: Young Adults (20-30 years old)
-        tx:
-          he: 'צעירים (18-30) '
-      slug: human_situations:age_group:young_adults_20_30_years_old
-    - name:
-        source: Teens (13-19 years old)
-        tx:
-          he: 'נוער (13-18) '
-      slug: human_situations:age_group:teens_13_19_years_old
-    - name:
-        source: Infants (0-1 years old)
-        tx:
-          he: 'גיל רך (0-3) '
-      slug: human_situations:age_group:infants_0_1_years_old
-    - name:
-        source: Children (2-12 years old)
-        tx:
-          he: 'ילדים (3-12) '
-      slug: human_situations:age_group:children_2_12_years_old
-    - name:
-        source: Seniors (55+ years old)
-        tx:
-          he: 'אזרח ותיק (+60) '
-      slug: human_situations:age_group:seniors_55_years_old
+    - name: Adults
+      description: (31-54 years old)
+      slug: human_situations:age_group:adults
+    - name: Young Adults
+      description: (20-30 years old)
+      slug: human_situations:age_group:young_adults
+    - name: Teens
+      description: (13-19 years old)
+      slug: human_situations:age_group:teens
+    - name: Infants
+      description: (0-1 years old)
+      slug: human_situations:age_group:infants
+    - name: Children
+      description: (2-12 years old)
+      slug: human_situations:age_group:children
+    - name: Seniors
+      description: (55+ years old)
+      slug: human_situations:age_group:seniors
   - name:
       source: Armed Forces
       tx:
