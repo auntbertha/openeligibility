@@ -425,9 +425,6 @@
           slug: human_services:health:medical_care:checkup_test:hearing_tests
         - name: Pregnancy Tests
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
-        - name: Checkup & Test
-          slug: human_services:health:medical_care:checkup_test:checkup_test
-          related:
       - name: Exercise & Fitness
         slug: human_services:health:medical_care:exercise_fitness
         related:
@@ -1065,10 +1062,6 @@
         slug: human_services:care:residential_care:assisted_living
         related:
         - human_services:housing:residential_housing:long_term_housing:assisted_living
-        related:
-        - human_services:health:addiction_recovery:residential_treatment
-        - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:mental_health_care:residential_treatment
       - name: Nursing Home
         slug: human_services:care:residential_care:nursing_home
         related:
@@ -1100,10 +1093,6 @@
       - name: Support Groups
         slug: human_services:care:support_network:support_groups
         items:
-        - name: 12-Step
-          slug: human_services:care:support_network:support_groups:12_step
-          related:
-          - human_services:health:addiction_recovery:12_step
         - name: Bereavement
           slug: human_services:care:support_network:support_groups:bereavement
           related:
@@ -1171,7 +1160,7 @@
         slug: human_services:education:more_education:english_as_a_second_language_esl
         related:
         - human_services:education:screening_exams:english_as_a_second_language_esl
-      - - name: Hebrew as a Second Language (ESL)
+      - name: Hebrew as a Second Language (ESL)
         slug: human_services:education:more_education:english_as_a_second_language_esl
         related:
         - human_services:education:screening_exams:english_as_a_second_language_esl
