@@ -1940,7 +1940,7 @@
     - name: Arabic Speaking
       slug: human_situations:language:arabic_speaking
     - name: English Speaking
-      slug: human_situations:language:engish_speaking
+      slug: human_situations:language:english_speaking
     - name: Russian Speaking
       slug: human_situations:language:russian_speaking
     - name: Amharic Speaking
