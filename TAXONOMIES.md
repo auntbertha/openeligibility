@@ -6,7 +6,7 @@
 ### מזון
 Services for meals, food pantries, help paying for food, food delivery, food benefits, and nutrition support.
 - גינות קהילתיות 
-- מזון לחירום
+- מזון בחירום
 - משלוחי מזון
 - מחסני מזון
 - סיוע כספי לרכישת מזון
@@ -31,7 +31,7 @@ Services for emergency, short- term and long- term housing, housing advice, help
   - הדברה
 - עצות דיור
   - תמיכה לעיקולים
-  - חינוך נדל"ני
+  - חינוך נדל"ן
 - דיור למגורים
   - דיור לטווח ארוך
     - דיור מוגן
@@ -51,7 +51,7 @@ Services for clothing, furniture, baby supplies, toys and gifts, and other physi
   - בגדי תינוקות 
   - חיתולים ואוכל תינוקות 
 - בגדים 
-  - בגדים לבית הספר
+  - תלבושת אחידה
   - בגדי עבודה
   - שוברים לבגדים 
 - מוצרים לבית 
@@ -69,12 +69,12 @@ Services for clothing, furniture, baby supplies, toys and gifts, and other physi
   - פרוזטזות 
 - בטחון אישי
 - צעצועים ומתנות 
-### Transit
+### תחבורה
 Services for bus passes, transportation to school, healthcare, appointments, and more.
-- Help Pay for Transit
-  - Bus Passes
-  - Help Pay for Car
-  - Help Pay for Gas
+- עזרה בתשלום על תחבורה
+  - רב קו
+  - עזרה בתשלומי רכב
+  - עזרה בתשלומי דלק
 - תחבורה
   - הסעות לטיפולים רפואיים
   - הסעות לטיפולים רפואיים
@@ -96,7 +96,7 @@ Services for medical care, dental care, health education, addiction and recovery
   - ניהול כאב
 - חינוך בריאותי
   - ניהול מחלות 
-  - תכנון הריון 
+  - תכנון משפחה
   - חינוך תזונתי 
   - הדרכת הורים
   - חינוך מיני
@@ -162,14 +162,14 @@ Services for medical care, dental care, health education, addiction and recovery
   - כלבי נחייה ותמיכה
   - חינוך על בריאות הנפש
 - בריאות מינית ורבייה
-  - תכנון הריון
+  - תכנון משפחה
     - אמצעי מניעה
   - פריון
   - חינוך מיני
   - מניעת מחלות מין 
     - טיפול ב-HIV
   - בריאות האישה
-    - Maternity Care
+    - טיפול ביולדת
     - טיפול לאחר לידה
 - טיפולי ראייה
 ### עזרה כספית
@@ -187,11 +187,11 @@ Services to help pay for housing, education, childcare, school, food and goods, 
     - עזרה במימון תרופות
     - הסעות לטיפולים רפואיים
     - עזרה בתשלומים על שירותי בריאות
-  - Help Pay for Housing
+  - עזרה בתשלום על דיור
     - עזרה בתשלומי חשבונות שוטפים
     - Help Pay for Internet or Phone
     - ביטוח דירה
-    - Help Pay for Housing
+    - עזרה בתשלום על דיור
   - עזרה תשלומי בית ספר
     - ספרים 
     - תלבושת אחידה
@@ -199,30 +199,30 @@ Services to help pay for housing, education, childcare, school, food and goods, 
     - הסעות לבית הספר
     - ציוד לבית הספר
     - עזרה תשלומי בית ספר
-  - Help Pay for Transit
-    - Bus Passes
-    - Help Pay for Gas
-    - Help Pay for Transit
-  - Help Pay for Work Expenses
-- Government Benefits
-  - Disability Benefits
+  - עזרה בתשלום על תחבורה
+    - רב קו
+    - עזרה בתשלומי דלק
+    - עזרה בתשלום על תחבורה
+  - עזרה בתשלום הוצאות עבודה
+- סיוע ממשלתי
+  - דמי נכות
   - הטבות ממשלתיות לקניית מזון
-  - Retirement Benefits
-  - Understand Government Programs
-  - Unemployment Benefits
-  - Food Benefits
-- Financial Education
-  - Credit Counseling
-  - Foreclosure Counseling
-  - Homebuyer Education
-  - Savings Program
-- Insurance
-  - Health Insurance
-  - Home & Renters Insurance
-- Loans
-  - Business Loans
-  - Personal Loans
-- Tax Preparation
+  - דמי זקנה
+  - הבנת זכויות תושבים
+  - דמי אבטלה
+  - הטבות לקניית מזון
+- חינוך כלכלי
+  - ייעוץ הלוואות
+  - תמיכה לעיקולים
+  - חינוך נדל"ן
+  - תוכניות חיסכון 
+- ביטוח
+  - ביטוח בריאות
+  - ביטוח דירה
+- הלוואות
+  - הלוואות לעסקים
+  - הלוואות אישיות
+- הגשת מיסים
 ### רווחה
 Services for animal welfare, residential caregiving, daytime caregiving, adoption & foster care, building support networks, end-of-life care, and help navigating the system.
 - אימוץ ואומנה
@@ -299,16 +299,15 @@ Services for preschool, after school, special education, help finding school, he
   - הכנה לאוניברסיטה 
   - הכנת לאסונות 
   - English as a Second Language (ESL)
-  - Hebrew as a Second Language (ESL)
   - חינוך סביבתי
   - חינוך פיננסי 
     - ייעוץ אשראי 
     - חינוך נדל"ן 
   - שפות זרות 
-  - בגרות אקסטרנית
+  - מבחני בגרות
   - חינוך בריאותי
     - ניהול מחלות 
-    - תכנון הריון
+    - תכנון משפחה
     - חינוך תזונתי 
     - הדרכת הורים
     - חינוך לזהירות 
@@ -322,8 +321,8 @@ Services for preschool, after school, special education, help finding school, he
 - גני ילדים 
 - מבחנים והערכה 
   - מבחני בגרות 
-  - אנגלית כשפה שניה 
-- הכשרות 
+  - עברית כשפה שניה 
+- פיתוח מיומנויות והכשרות
   - אוריינות בסיסית 
   - שיעורי מחשב 
   - כישורי חיים 
@@ -331,26 +330,26 @@ Services for preschool, after school, special education, help finding school, he
   - פיתוח קורות חיים 
   - הערכת כישורים
   - הדרכות מיוחדות 
-### Work
+### עבודה
 Services for finding and sustaining work and improving job skills and abilities.
-- Help Find Work
-  - Job Placement
-  - Supported Employment
-- Help Pay for Work Expenses
-  - Clothes for Work
-  - Retirement Benefits
-  - Supplies for Work
-  - Unemployment Benefits
-- Skills & Training
-  - Basic Literacy
-  - Computer Class
-  - GED/High-School Equivalency
-  - Interview Training
-  - Resume Development
-  - Skills Assessment
-  - Specialized Training
-- Supported Employment
-- Workplace Rights
+- סיוע במציאת עבודה
+  - השמה בעבודה
+  - תמיכה בעובדים 
+- עזרה בתשלום הוצאות עבודה
+  - ביגוד לעבודה
+  - הטבות פרישה / פנסיה 
+  - ציוד לעבודה
+  - דמי אבטלה
+- פיתוח מיומנויות והכשרות
+  - אוריינות בסיסית
+  - שיעורי מחשב
+  - מבחני בגרות
+  - הכנה לראיונות
+  - פיתוח קורות חיים 
+  - הערכת כישורים
+  - הדרכות מיוחדות
+- תמיכה בעובדים
+- זכויות עובדים 
 ### משפטי
 Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
 - Advocacy & Legal Aid
@@ -359,13 +358,13 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
     - Adoption & Foster Parenting
     - תכנון אימוץ
     - ייעוץ לאימוץ
-    - תמיכה לאחר אימוץ
+    - תמיכה במשפחות מאמצות
     - אימוץ ואומנה 
   - אזרחות והגירה
   - אפליה וזכויות אזרחיות 
   - אפוטרופסות
   - שחזור זיהוי
-  - הבנת תוכניות ממשלתיות
+  - הבנת זכויות תושבים
   - זכויות במקום העבודה
 - גישור
 - נוטוריון
@@ -376,24 +375,24 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
   - הורים מאמצים ואומנים 
   - תכנון אימוץ
   - ייעוץ לאימוץ
-  - תמיכה לאחר אימוץ 
-- Citizenship & Immigration
-- Discrimination & Civil Rights
-- Guardianship
-- Identification Recovery
-- Understand Government Programs
+  - תמיכה במשפחות מאמצות
+- אזרחות והגירה
+- אפליה וזכויות אזרחיות
+- אפוטרופסות
+- שחזור זיהוי
+- הבנת זכויות תושבים
 - Workplace Rights
 - השמת ילדים לאימוץ ואומנה
 - הורים מאמצים ואומנים
 - תכנון אימוץ
 - ייעוץ לאימוץ
-- Post-Adoption Support
+- תמיכה במשפחות מאמצות
 ### חירום
 - תגובה לאסונות 
 - תשלומי חירום
   - סיוע כספי לרכישת מזון
   -  עזרה בתשלומים על שירותי בריאות 
-  - תשלום על דיור
+  - עזרה בתשלום על דיור
   - עזרה תשלומי בית ספר
   - עזרה בתשלומי חשבונות שוטפים
 - מזון בחירום 
@@ -536,15 +535,15 @@ These are common attributes about a person. These can be used to help match a pe
 ### Insurance
 - Uninsured
 - Underinsured
-### Language
-- Hebrew Speaking
-- Arabic Speaking
-- English Speaking
-- Russian Speaking
-- Amharic Speaking
-- Spanish Speaking
-- French Speaking
-- Limited Hebrew
+### שפות
+- דוברי עברית
+- דוברי ערבית
+- דוברי אנגלית
+- דוברי רוסית
+- דוברי אמהרית
+- דוברי ספרדית
+- דוברי צרפתית
+- עברית מוגבלת 
 ### Mental Health
 - Anxiety
 - Bipolar
@@ -552,34 +551,34 @@ These are common attributes about a person. These can be used to help match a pe
 - Depression
 - Eating Disorder
 - Suicidal Thoughts
-### Role
-- Caregivers
-- Spouses
-- Dependents
-- Fathers
-- Mothers
-- Parents
-### Substance Dependency
-- Alcohol Dependency
+### תפקיד
+- מטפלים.ות
+- בני ובנות זוג
+- תלויים.ות
+- אבות 
+- אמהות
+- הורים
+### חומרים ממכרים
+- אלכוהול 
 - Dual Diagnosis
-- Opioid Dependency
-- Smoker
+- סמים 
+- עישון
 ### Sexual Orientation & Identity
 - LGBTQ+
 - Transgender
-### Survivors
-- Trauma Survivors
-- Abuse or Neglect Survivors
-- Burn Survivors
-- All Cancer Survivors
-- Childhood Cancer Survivors
+### ניצולים.ות נפגעים.ות
+- נפגעי.ות טראומה
+- התעללות או הזנחה
+- נפגעי.ות כוויה
+- כל מחלימי הסרטן
+- מחלימי סרטן ילדות
 - Young Adult Cancer Survivors
-- Adult Cancer Survivors
-- Domestic Violence Survivors
-- Human Trafficking Survivors
-- Natural Disaster Survivors
-- Sexual Assault Survivors
-- All Survivors
+- מחלימי סרטן
+- נפגעי.ות אלימות במשפחה
+- נפגעי.ות סחר בבני אדם
+- נפגעי.ות אסון טבע
+- נפגעי.ות תקיפה מינית 
+- כל הניצולים.ות
 ### Urgency
 - In Crisis
 - In Danger
