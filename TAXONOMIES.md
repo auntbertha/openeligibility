@@ -42,7 +42,6 @@ Services for emergency, short- term and long- term housing, housing advice, help
   - דיור לטווח קצר
     - בית אבות 
     - מרכזי גמילה
-    - דיור לטווח קצר
 - מקלט חירום
 ### חפצים
 Services for clothing, furniture, baby supplies, toys and gifts, and other physical goods.
@@ -54,7 +53,7 @@ Services for clothing, furniture, baby supplies, toys and gifts, and other physi
   - בגדי עבודה
   - שוברים לבגדים 
 - מוצרים לבית 
-  - Blankets
+  - שמיכות
   - ספרים 
   - Fans
   - ריהוט 
@@ -76,7 +75,7 @@ Services for bus passes, transportation to school, healthcare, appointments, and
   - עזרה בתשלומי דלק
 - תחבורה
   - הסעות לטיפולים רפואיים
-  - הסעות לטיפולים רפואיים
+  - הסעות לבתי ספר
 ### בריאות 
 Services for medical care, dental care, health education, addiction and recovery, help finding services, and help paying for healthcare.
 - התמכרות וגמילה
@@ -115,7 +114,7 @@ Services for medical care, dental care, health education, addiction and recovery
     - בדיקות למחלות
     - בדיקות שמיעה
     - בדיקות הריון
-    - Checkup & Test
+    - בדיקות רפואיות
   - התעמלות וכושר
   - עזרה במציאת טיפול רפואי
   - ציוד רפואי 
@@ -185,7 +184,7 @@ Services to help pay for housing, education, childcare, school, food and goods, 
     - הסעות לטיפולים רפואיים
   - עזרה בתשלום על דיור
     - עזרה בתשלומי חשבונות שוטפים
-    - Help Pay for Internet or Phone
+    - עזרה בתשלומים לאינטרנט או טלפון
     - ביטוח דירה
   - עזרה תשלומי בית ספר
     - ספרים 
@@ -291,7 +290,7 @@ Services for preschool, after school, special education, help finding school, he
   - מעורבות חברתית
   - הכנה לאוניברסיטה 
   - הכנת לאסונות 
-  - English as a Second Language (ESL)
+  - עברית כשפה שנייה
   - חינוך סביבתי
   - חינוך פיננסי 
     - ייעוץ אשראי 
@@ -326,7 +325,7 @@ Services for preschool, after school, special education, help finding school, he
 Services for finding and sustaining work and improving job skills and abilities.
 - סיוע במציאת עבודה
 - עזרה בתשלום הוצאות עבודה
-  - ביגוד לעבודה
+  - בגדי עבודה
   - הטבות פרישה / פנסיה 
   - ציוד לעבודה
   - דמי אבטלה
@@ -342,7 +341,7 @@ Services for finding and sustaining work and improving job skills and abilities.
 - זכויות עובדים 
 ### משפטי
 Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
-- Advocacy & Legal Aid
+- תמיכה משפטית
   - אימוץ ואומנה 
     - תכנון אימוץ
     - ייעוץ לאימוץ
@@ -353,11 +352,11 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
   - אפוטרופסות
   - שחזור זיהוי
   - הבנת זכויות תושבים
-  - זכויות במקום העבודה
+  - זכויות עובדים
 - גישור
 - נוטוריון
-- Representation
-- Translation & Interpretation
+- ייצוג משפטי
+- תרגום
 ### חירום
 - תגובה לאסונות 
 - תשלומי חירום
@@ -379,26 +378,24 @@ These are common attributes about a person. These can be used to help match a pe
 - כל אדם הצריך עזרה
 ### קבוצת גיל 
 - כל הגילאים
-- Adults
-  (31-54 years old)
-- Young Adults
-  (20-30 years old)
-- Teens
+- מבוגרים
+  (31-59)
+- מבוגרים צעירים 
+  (19-30) 
+- בני נוער
   (13-19 years old)
-- Infants
-  (0-1 years old)
-- Children
-  (2-12 years old)
-- Seniors
-  (55+ years old)
+- גיל הרך
+  (0-3)
+- ילדים
+  (4-12)
+- אזרחים ותיקים
+  (בני 60+)
 ### צבא ובטחון
 - חיילים וחיילות 
-- National Guard
 - גמלאי צה"ל
 ### הגירה
-- Foreign Workers
 - מהגרים.ות 
-- Olim
+- עולים 
 - פליטים.ות 
 - שוהים בלתי חוקיים
 ### מצב משפטי
@@ -415,18 +412,17 @@ These are common attributes about a person. These can be used to help match a pe
 - תנועה מוגבלת
 - חרשות או שמיעה מוגבלת
 - ליקוי ראיה
-- Hearing Impairment
 - Mental Illness
 ### חינוך
 - נושרים
 - Special needs
 - סטודנטים
 - Yeshiva students
-### Life Events
-- Bar/Bat Mitzva
-- Birth
-- Grieving
-- Wedding
+### אירועי חיים
+- בר/בת מצווה
+- לידה
+- אבל
+- חתונה
 ### תעסוקה
 - מועסקת
 - גמלאית
@@ -448,22 +444,19 @@ These are common attributes about a person. These can be used to help match a pe
   - Brain Stem Glioma
   - גידול במח
   - סרטן השד
-  - מערכת העצבים
+  -  סרטן מערכת העצבים
   - סרטן צוואר הרחם
   - סרטן המעי
   - סרטן המעי הגס
   - Desmoid Tumors
   - סרטן רירית הרחם
-  - Gastrointestinal Stromal Tumors (GIST)
   - סרטן הראש והצוואר
   - סרטן הדם
   - סרטן הכבד
   - סרטן הריאה
   - לימפומה
-  - Myeloma, Multiple
   - Neuroblastoma
   - סרטן השחלות
-  - Rectal Cancer
   - סרקומה
   - סרטן העור
   - סרטן הקיבה
@@ -484,7 +477,7 @@ These are common attributes about a person. These can be used to help match a pe
 - סכרת
 - רצף אוטיסטי
 - מאושפזת
-- אלצהיימר
+- Alzheimer's
 - הפרעת התקפים
 - התמכרות לחומרים אסורים
 - מחלת נפש
@@ -493,8 +486,8 @@ These are common attributes about a person. These can be used to help match a pe
 - משפחות
   - עם ילדים
   - חד הוריות
-  - Divorced
-- Surrogacy
+  - גירושים
+- פונדקאות
 ### דיור
 - בעלי בתים
 - משכירים.ות
@@ -513,13 +506,13 @@ These are common attributes about a person. These can be used to help match a pe
 - דוברי ספרדית
 - דוברי צרפתית
 - עברית מוגבלת 
-### Mental Health
-- Anxiety
-- Bipolar
-- Brain Injury
-- Depression
-- Eating Disorder
-- Suicidal Thoughts
+### בריאות הנפש
+- חרדה
+- הפרעה קוטבית
+- פציעת ראש
+- דיכאון
+- הפרעות אכילה
+- מחשבות אובדניות
 ### תפקיד
 - מטפלים.ות
 - בני ובנות זוג
@@ -532,43 +525,39 @@ These are common attributes about a person. These can be used to help match a pe
 - Dual Diagnosis
 - סמים 
 - עישון
-### Sexual Orientation & Identity
-- LGBTQ+
-- Transgender
 ### ניצולים.ות נפגעים.ות
-- Holocaust Survivors
+- ניצולי שואה
 - נפגעי.ות טראומה
 - התעללות או הזנחה
 - נפגעי.ות כוויה
 - כל מחלימי הסרטן
 - מחלימי סרטן ילדות
-- Young Adult Cancer Survivors
 - מחלימי סרטן
 - נפגעי.ות אלימות במשפחה
 - נפגעי.ות סחר בבני אדם
 - נפגעי.ות אסון טבע
 - נפגעי.ות תקיפה מינית 
 - כל הניצולים.ות
-### Urgency
-- In Crisis
-- In Danger
-- Emergency
+### דחיפות
+- במשבר
+- בסכנה
+- חירום
 ### פשיעה
 - אנשים בעלי עבר פלילי 
-- Ex-Offenders youth
-- Prisoners
+- נוער בעל עבר פלילי
+- אסירים
 ### מגדר
 - אישה
 - גבר
 - טרנסג'נדר
-### Sexuality
-- LGBTQ
-### Sectors
-- Ultra Orthodox
-- Bedouin
-- Duruze
-- Ethiopians
-- Arabs
-- Christians
-- Circassians
+### נטייה מינית
+- להט"ב 
+### מגזרים
+- חרדים
+- בדואים
+- דרוזים
+- אתיופים
+- ערבים
+- נוצרים
+- צ'רקסים
 </div>

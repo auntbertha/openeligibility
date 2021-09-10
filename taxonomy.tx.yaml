@@ -262,13 +262,6 @@
           slug: human_services:housing:residential_housing:short_term_housing:sober_living
           related:
           - human_services:health:addiction_recovery:sober_living
-        - name:
-            source: Short-Term Housing
-            tx:
-              he: דיור לטווח קצר
-          slug: human_services:housing:residential_housing:short_term_housing:short_term_housing
-          related:
-          - human_services:housing:residential_housing:short_term_housing
         related:
         - human_services:housing:residential_housing:short_term_housing:short_term_housing
     - name:
@@ -337,7 +330,10 @@
           he: 'מוצרים לבית '
       slug: human_services:goods:home_goods
       items:
-      - name: Blankets
+      - name:
+          source: Blankets
+          tx:
+            he: שמיכות
         slug: human_services:goods:home_goods:blankets
       - name:
           source: Books
@@ -472,7 +468,7 @@
       - name:
           source: Transportation for School
           tx:
-            he: הסעות לטיפולים רפואיים
+            he: הסעות לבתי ספר
         slug: human_services:transit:transportation:transportation_for_school
         related:
         - human_services:education:help_pay_for_school:transportation_for_school
@@ -738,7 +734,10 @@
             tx:
               he: בדיקות הריון
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
-        - name: Checkup & Test
+        - name:
+            source: Checkup & Test
+            tx:
+              he: בדיקות רפואיות
           slug: human_services:health:medical_care:checkup_test:checkup_test
       - name:
           source: Exercise & Fitness
@@ -1210,7 +1209,10 @@
           related:
           - human_services:emergency:emergency_payments:help_pay_for_utilities
           - human_services:housing:help_pay_for_housing:help_pay_for_utilities
-        - name: Help Pay for Internet or Phone
+        - name:
+            source: Help Pay for Internet or Phone
+            tx:
+              he: עזרה בתשלומים לאינטרנט או טלפון
           slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
           related:
           - human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
@@ -1940,7 +1942,10 @@
           tx:
             he: 'הכנת לאסונות '
         slug: human_services:education:more_education:disaster_preparedness_response
-      - name: English as a Second Language (ESL)
+      - name:
+          source: English as a Second Language (ESL)
+          tx:
+            he: עברית כשפה שנייה
         slug: human_services:education:more_education:english_as_a_second_language_esl
         related:
         - human_services:education:screening_exams:english_as_a_second_language_esl
@@ -2183,7 +2188,7 @@
       - name:
           source: Clothes for Work
           tx:
-            he: ביגוד לעבודה
+            he: בגדי עבודה
         slug: human_services:work:help_pay_for_work_expenses:clothes_for_work
         related:
         - human_services:goods:clothing:clothes_for_work
@@ -2291,7 +2296,10 @@
     slug: human_services:legal
     description: Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
     items:
-    - name: Advocacy & Legal Aid
+    - name:
+        source: Advocacy & Legal Aid
+        tx:
+          he: תמיכה משפטית
       slug: human_services:legal:advocacy_legal_aid
       items:
       - name:
@@ -2381,7 +2389,7 @@
       - name:
           source: Workplace Rights
           tx:
-            he: זכויות במקום העבודה
+            he: זכויות עובדים
         slug: human_services:legal:advocacy_legal_aid:workplace_rights
         related:
         - human_services:legal:workplace_rights
@@ -2396,9 +2404,15 @@
         tx:
           he: נוטוריון
       slug: human_services:legal:notary
-    - name: Representation
+    - name:
+        source: Representation
+        tx:
+          he: ייצוג משפטי
       slug: human_services:legal:representation
-    - name: Translation & Interpretation
+    - name:
+        source: Translation & Interpretation
+        tx:
+          he: תרגום
       slug: human_services:legal:translation_interpretation
   - name:
       source: Emergency
@@ -2547,23 +2561,56 @@
         tx:
           he: כל הגילאים
       slug: human_situations:age_group:all_ages
-    - name: Adults
-      description: (31-54 years old)
+    - name:
+        source: Adults
+        tx:
+          he: מבוגרים
+      description:
+        source: (31-54 years old)
+        tx:
+          he: (31-59)
       slug: human_situations:age_group:adults
-    - name: Young Adults
-      description: (20-30 years old)
+    - name:
+        source: Young Adults
+        tx:
+          he: 'מבוגרים צעירים '
+      description:
+        source: (20-30 years old)
+        tx:
+          he: '(19-30) '
       slug: human_situations:age_group:young_adults
-    - name: Teens
+    - name:
+        source: Teens
+        tx:
+          he: בני נוער
       description: (13-19 years old)
       slug: human_situations:age_group:teens
-    - name: Infants
-      description: (0-1 years old)
+    - name:
+        source: Infants
+        tx:
+          he: גיל הרך
+      description:
+        source: (0-1 years old)
+        tx:
+          he: (0-3)
       slug: human_situations:age_group:infants
-    - name: Children
-      description: (2-12 years old)
+    - name:
+        source: Children
+        tx:
+          he: ילדים
+      description:
+        source: (2-12 years old)
+        tx:
+          he: (4-12)
       slug: human_situations:age_group:children
-    - name: Seniors
-      description: (55+ years old)
+    - name:
+        source: Seniors
+        tx:
+          he: אזרחים ותיקים
+      description:
+        source: (55+ years old)
+        tx:
+          he: (בני 60+)
       slug: human_situations:age_group:seniors
   - name:
       source: Armed Forces
@@ -2576,8 +2623,6 @@
         tx:
           he: 'חיילים וחיילות '
       slug: human_situations:armed_forces:active_duty
-    - name: National Guard
-      slug: human_situations:armed_forces:national_guard
     - name:
         source: Veterans
         tx:
@@ -2589,14 +2634,15 @@
         he: הגירה
     slug: human_situations:citizenship
     items:
-    - name: Foreign Workers
-      slug: human_situations:citizenship:foreign_workers
     - name:
         source: Immigrants
         tx:
           he: 'מהגרים.ות '
       slug: human_situations:citizenship:immigrants
-    - name: Olim
+    - name:
+        source: Olim
+        tx:
+          he: 'עולים '
       slug: human_situations:citizenship:olim
     - name:
         source: Refugees
@@ -2675,8 +2721,6 @@
         tx:
           he: ליקוי ראיה
       slug: human_situations:disability:visual_impairment
-    - name: Hearing Impairment
-      slug: human_situations:disability:hearing_impairment
     - name: Mental Illness
       slug: human_situations:disability:mental_illness
       related:
@@ -2703,16 +2747,31 @@
       slug: human_situations:education:yeshiva_students
     related:
     - human_services:education
-  - name: Life Events
+  - name:
+      source: Life Events
+      tx:
+        he: אירועי חיים
     slug: human_situations:life_events
     items:
-    - name: Bar/Bat Mitzva
+    - name:
+        source: Bar/Bat Mitzva
+        tx:
+          he: בר/בת מצווה
       slug: human_situations:life_events:bar_bat_mitzva
-    - name: Birth
+    - name:
+        source: Birth
+        tx:
+          he: לידה
       slug: human_situations:life_events:birth
-    - name: Grieving
+    - name:
+        source: Grieving
+        tx:
+          he: אבל
       slug: human_situations:life_events:grieving
-    - name: Wedding
+    - name:
+        source: Wedding
+        tx:
+          he: חתונה
       slug: human_situations:life_events:wedding
   - name:
       source: Employment
@@ -2829,7 +2888,7 @@
       - name:
           source: Central Nervous System
           tx:
-            he: מערכת העצבים
+            he: ' סרטן מערכת העצבים'
         slug: human_situations:health:cancer:central_nervous_system
       - name:
           source: Cervical Cancer
@@ -2853,8 +2912,6 @@
           tx:
             he: סרטן רירית הרחם
         slug: human_situations:health:cancer:endomentrial_cancer
-      - name: Gastrointestinal Stromal Tumors (GIST)
-        slug: human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
       - name:
           source: Head & Neck Cancer
           tx:
@@ -2880,8 +2937,6 @@
           tx:
             he: לימפומה
         slug: human_situations:health:cancer:lymphoma
-      - name: Myeloma, Multiple
-        slug: human_situations:health:cancer:myeloma_multiple
       - name: Neuroblastoma
         slug: human_situations:health:cancer:neuroblastoma
       - name:
@@ -2889,8 +2944,6 @@
           tx:
             he: סרטן השחלות
         slug: human_situations:health:cancer:ovarian_cancer
-      - name: Rectal Cancer
-        slug: human_situations:health:cancer:rectal_cancer
       - name:
           source: Sarcoma
           tx:
@@ -2991,10 +3044,7 @@
       slug: human_situations:health:hospitalized
       related:
       - human_situations:health:treatment_phases:hospitalized
-    - name:
-        source: Alzheimer's
-        tx:
-          he: אלצהיימר
+    - name: Alzheimer's
       slug: human_situations:health:alzheimers
     - name:
         source: Seizure Disorder
@@ -3044,9 +3094,15 @@
           tx:
             he: חד הוריות
         slug: human_situations:household:families:single_parent
-      - name: Divorced
+      - name:
+          source: Divorced
+          tx:
+            he: גירושים
         slug: human_situations:household:families:divorced
-    - name: Surrogacy
+    - name:
+        source: Surrogacy
+        tx:
+          he: פונדקאות
       slug: human_situations:household:families:surrogacy
   - name:
       source: Housing
@@ -3143,20 +3199,41 @@
         tx:
           he: 'עברית מוגבלת '
       slug: human_situations:language:limited_hebrew
-  - name: Mental Health
+  - name:
+      source: Mental Health
+      tx:
+        he: בריאות הנפש
     slug: human_situations:mental_health
     items:
-    - name: Anxiety
+    - name:
+        source: Anxiety
+        tx:
+          he: חרדה
       slug: human_situations:mental_health:anxiety
-    - name: Bipolar
+    - name:
+        source: Bipolar
+        tx:
+          he: הפרעה קוטבית
       slug: human_situations:mental_health:bipolar
-    - name: Brain Injury
+    - name:
+        source: Brain Injury
+        tx:
+          he: פציעת ראש
       slug: human_situations:mental_health:brain_injury
-    - name: Depression
+    - name:
+        source: Depression
+        tx:
+          he: דיכאון
       slug: human_situations:mental_health:depression
-    - name: Eating Disorder
+    - name:
+        source: Eating Disorder
+        tx:
+          he: הפרעות אכילה
       slug: human_situations:mental_health:eating_disorder
-    - name: Suicidal Thoughts
+    - name:
+        source: Suicidal Thoughts
+        tx:
+          he: מחשבות אובדניות
       slug: human_situations:mental_health:suicidal_thoughts
   - name:
       source: Role
@@ -3219,22 +3296,16 @@
       slug: human_situations:substance_dependency:smoker
     related:
     - human_situations:health:substance_dependency
-  - name: Sexual Orientation & Identity
-    slug: human_situations:sexual_orientation_identity
-    items:
-    - name: LGBTQ+
-      slug: human_situations:sexual_orientation_identity:lgbtq
-    - name: Transgender
-      slug: human_situations:sexual_orientation_identity:transgender
-      related:
-      - human_situations:gender:transgender
   - name:
       source: Survivors
       tx:
         he: ניצולים.ות נפגעים.ות
     slug: human_situations:survivors
     items:
-    - name: Holocaust Survivors
+    - name:
+        source: Holocaust Survivors
+        tx:
+          he: ניצולי שואה
       slug: human_situations:survivors:holocaust_survivors
     - name:
         source: Trauma Survivors
@@ -3261,8 +3332,6 @@
         tx:
           he: מחלימי סרטן ילדות
       slug: human_situations:survivors:childhood_cancer_survivors
-    - name: Young Adult Cancer Survivors
-      slug: human_situations:survivors:young_adult_cancer_survivors
     - name:
         source: Adult Cancer Survivors
         tx:
@@ -3293,14 +3362,26 @@
         tx:
           he: כל הניצולים.ות
       slug: human_situations:survivors:all_survivors
-  - name: Urgency
+  - name:
+      source: Urgency
+      tx:
+        he: דחיפות
     slug: human_situations:urgency
     items:
-    - name: In Crisis
+    - name:
+        source: In Crisis
+        tx:
+          he: במשבר
       slug: human_situations:urgency:in_crisis
-    - name: In Danger
+    - name:
+        source: In Danger
+        tx:
+          he: בסכנה
       slug: human_situations:urgency:in_danger
-    - name: Emergency
+    - name:
+        source: Emergency
+        tx:
+          he: חירום
       slug: human_situations:urgency:emergency
       related:
       - human_services:emergency
@@ -3315,9 +3396,15 @@
         tx:
           he: 'אנשים בעלי עבר פלילי '
       slug: human_situations:criminal_history:ex_offenders
-    - name: Ex-Offenders youth
+    - name:
+        source: Ex-Offenders youth
+        tx:
+          he: נוער בעל עבר פלילי
       slug: human_situations:criminal_history:ex_offenders_youth
-    - name: Prisoners
+    - name:
+        source: Prisoners
+        tx:
+          he: אסירים
       slug: human_situations:criminal_history:prisoners
   - name:
       source: Gender
@@ -3342,25 +3429,55 @@
       slug: human_situations:gender:transgender
       related:
       - human_situations:sexual_orientation_identity:transgender
-  - name: Sexuality
+  - name:
+      source: Sexuality
+      tx:
+        he: נטייה מינית
     slug: human_situations:sexuality
     items:
-    - name: LGBTQ
+    - name:
+        source: LGBTQ
+        tx:
+          he: 'להט"ב '
       slug: human_situations:sexuality:lgbtq
-  - name: Sectors
+  - name:
+      source: Sectors
+      tx:
+        he: מגזרים
     slug: human_situations:sectors
     items:
-    - name: Ultra Orthodox
+    - name:
+        source: Ultra Orthodox
+        tx:
+          he: חרדים
       slug: human_situations:sectors:ultra_orthodox
-    - name: Bedouin
+    - name:
+        source: Bedouin
+        tx:
+          he: בדואים
       slug: human_situations:sectors:bedouin
-    - name: Duruze
+    - name:
+        source: Duruze
+        tx:
+          he: דרוזים
       slug: human_situations:sectors:duruze
-    - name: Ethiopians
+    - name:
+        source: Ethiopians
+        tx:
+          he: אתיופים
       slug: human_situations:sectors:ethiopians
-    - name: Arabs
+    - name:
+        source: Arabs
+        tx:
+          he: ערבים
       slug: human_situations:sectors:arabs
-    - name: Christians
+    - name:
+        source: Christians
+        tx:
+          he: נוצרים
       slug: human_situations:sectors:christians
-    - name: Circassians
+    - name:
+        source: Circassians
+        tx:
+          he: צ'רקסים
       slug: human_situations:sectors:circassians
