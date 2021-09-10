@@ -7,7 +7,7 @@ def recurse_into_taxonomy(items, output, level=0):
             name = name.get('tx', dict()).get('he') or name.get('source')
         description = item.get('description')
         if isinstance(description, dict):
-            description = description.get('tx', dict()).description('he') or description.get('source')
+            description = description.get('tx', dict()).get('he') or description.get('source')
         prefix = {
             0: '## ',
             1: '### ',
