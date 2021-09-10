@@ -38,7 +38,6 @@ Services for emergency, short- term and long- term housing, housing advice, help
     - דיור עצמאי 
     - בית אבות 
     - דיור ציבורי
-    - Long-Term Housing
   - דירות חירום ומקלטים
   - דיור לטווח קצר
     - בית אבות 
@@ -116,6 +115,7 @@ Services for medical care, dental care, health education, addiction and recovery
     - בדיקות למחלות
     - בדיקות שמיעה
     - בדיקות הריון
+    - Checkup & Test
   - התעמלות וכושר
   - עזרה במציאת טיפול רפואי
   - ציוד רפואי 
@@ -177,36 +177,28 @@ Services to help pay for housing, education, childcare, school, food and goods, 
 - סיוע כספי
   - עזרה כספית בטיפול בילדים
   - סיוע כספי לרכישת מזון
-    - הטבות ממשלתיות לקניית מזון
-    - סיוע כספי לרכישת מזון
   - עזרה בתשלומים על שירותי בריאות
-    - Disability Benefits
     - הנחות על שירותי בריאות
     - ביטוח בריאות
     - ציוד רפואי
     - עזרה במימון תרופות
     - הסעות לטיפולים רפואיים
-    - עזרה בתשלומים על שירותי בריאות
   - עזרה בתשלום על דיור
     - עזרה בתשלומי חשבונות שוטפים
     - Help Pay for Internet or Phone
     - ביטוח דירה
-    - עזרה בתשלום על דיור
   - עזרה תשלומי בית ספר
     - ספרים 
     - תלבושת אחידה
     - עזרה כספית והלוואות 
     - הסעות לבית הספר
     - ציוד לבית הספר
-    - עזרה תשלומי בית ספר
   - עזרה בתשלום על תחבורה
     - רב קו
     - עזרה בתשלומי דלק
-    - עזרה בתשלום על תחבורה
   - עזרה בתשלום הוצאות עבודה
 - סיוע ממשלתי
   - דמי נכות
-  - הטבות ממשלתיות לקניית מזון
   - דמי זקנה
   - הבנת זכויות תושבים
   - דמי אבטלה
@@ -281,6 +273,7 @@ Services for animal welfare, residential caregiving, daytime caregiving, adoptio
   - סיוע אחד-על-אחד
   - תמיכה רוחנית
   - קבוצות תמיכה
+    - 12-Step
     - אבל 
     - קבוצות הורים
   - תמיכה וירטואלית 
@@ -314,7 +307,6 @@ Services for preschool, after school, special education, help finding school, he
     - חינוך מיני
     - קבלת מוגבלויות
     - חינוך על בריאות הנפש
-  - תמיכה תעסוקתית 
   - חינוך מיוחד
   - הדרכה פרטית 
   - טיפוח נוער
@@ -333,8 +325,6 @@ Services for preschool, after school, special education, help finding school, he
 ### עבודה
 Services for finding and sustaining work and improving job skills and abilities.
 - סיוע במציאת עבודה
-  - השמה בעבודה
-  - תמיכה בעובדים 
 - עזרה בתשלום הוצאות עבודה
   - ביגוד לעבודה
   - הטבות פרישה / פנסיה 
@@ -354,8 +344,6 @@ Services for finding and sustaining work and improving job skills and abilities.
 Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
 - Advocacy & Legal Aid
   - אימוץ ואומנה 
-    - השמת ילדים לאימוץ ואומנה
-    - Adoption & Foster Parenting
     - תכנון אימוץ
     - ייעוץ לאימוץ
     - תמיכה במשפחות מאמצות
@@ -370,23 +358,6 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
 - נוטוריון
 - Representation
 - Translation & Interpretation
-- אימוץ ואומנה 
-  - השמת ילדים לאימוץ ואומנה
-  - הורים מאמצים ואומנים 
-  - תכנון אימוץ
-  - ייעוץ לאימוץ
-  - תמיכה במשפחות מאמצות
-- אזרחות והגירה
-- אפליה וזכויות אזרחיות
-- אפוטרופסות
-- שחזור זיהוי
-- הבנת זכויות תושבים
-- Workplace Rights
-- השמת ילדים לאימוץ ואומנה
-- הורים מאמצים ואומנים
-- תכנון אימוץ
-- ייעוץ לאימוץ
-- תמיכה במשפחות מאמצות
 ### חירום
 - תגובה לאסונות 
 - תשלומי חירום
@@ -425,7 +396,9 @@ These are common attributes about a person. These can be used to help match a pe
 - National Guard
 - גמלאי צה"ל
 ### הגירה
+- Foreign Workers
 - מהגרים.ות 
+- Olim
 - פליטים.ות 
 - שוהים בלתי חוקיים
 ### מצב משפטי
@@ -446,18 +419,18 @@ These are common attributes about a person. These can be used to help match a pe
 - Mental Illness
 ### חינוך
 - נושרים
+- Special needs
 - סטודנטים
-### אירועי חיים
-- אבל
+- Yeshiva students
+### Life Events
+- Bar/Bat Mitzva
+- Birth
+- Grieving
+- Wedding
 ### תעסוקה
 - מועסקת
 - גמלאית
 - מובטלת
-### זהות מינית
-- Female
-- Male
-- לא בינארי 
-- LGBTQIA+
 ### אפוטרופסות 
 - נוער אומנה
 ### בריאות
@@ -480,10 +453,8 @@ These are common attributes about a person. These can be used to help match a pe
   - סרטן המעי
   - סרטן המעי הגס
   - Desmoid Tumors
-  - Ductal Carcinoma In Situ (DCIS)
   - סרטן רירית הרחם
   - Gastrointestinal Stromal Tumors (GIST)
-  - Germ Cell Tumor
   - סרטן הראש והצוואר
   - סרטן הדם
   - סרטן הכבד
@@ -503,7 +474,6 @@ These are common attributes about a person. These can be used to help match a pe
   - סרטן הפות
   - Wilms Tumor
 - אלצהיימר
-- Seizures
 - מחלה סופנית
 - מחלה מדבקת
   - איידס / HIV
@@ -523,6 +493,8 @@ These are common attributes about a person. These can be used to help match a pe
 - משפחות
   - עם ילדים
   - חד הוריות
+  - Divorced
+- Surrogacy
 ### דיור
 - בעלי בתים
 - משכירים.ות
@@ -532,9 +504,6 @@ These are common attributes about a person. These can be used to help match a pe
 ### הכנסה
 - נתמכי קצבה
 - הכנסה נמוכה וקשיים כלכליים
-### Insurance
-- Uninsured
-- Underinsured
 ### שפות
 - דוברי עברית
 - דוברי ערבית
@@ -567,6 +536,7 @@ These are common attributes about a person. These can be used to help match a pe
 - LGBTQ+
 - Transgender
 ### ניצולים.ות נפגעים.ות
+- Holocaust Survivors
 - נפגעי.ות טראומה
 - התעללות או הזנחה
 - נפגעי.ות כוויה
@@ -585,10 +555,20 @@ These are common attributes about a person. These can be used to help match a pe
 - Emergency
 ### פשיעה
 - אנשים בעלי עבר פלילי 
+- Ex-Offenders youth
+- Prisoners
 ### מגדר
 - אישה
 - גבר
 - טרנסג'נדר
 ### Sexuality
 - LGBTQ
+### Sectors
+- Ultra Orthodox
+- Bedouin
+- Duruze
+- Ethiopians
+- Arabs
+- Christians
+- Circassians
 </div>

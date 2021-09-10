@@ -230,10 +230,6 @@
             tx:
               he: דיור ציבורי
           slug: human_services:housing:residential_housing:long_term_housing:public_housing
-        - name: Long-Term Housing
-          slug: human_services:housing:residential_housing:long_term_housing:long_term_housing
-          related:
-          - human_services:housing:residential_housing:long_term_housing
         related:
         - human_services:housing:residential_housing:long_term_housing:long_term_housing
       - name:
@@ -742,6 +738,8 @@
             tx:
               he: בדיקות הריון
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
+        - name: Checkup & Test
+          slug: human_services:health:medical_care:checkup_test:checkup_test
       - name:
           source: Exercise & Fitness
           tx:
@@ -1145,24 +1143,6 @@
           tx:
             he: סיוע כספי לרכישת מזון
         slug: human_services:money:financial_assistance:help_pay_for_food
-        items:
-        - name:
-            source: Government Food Benefits
-            tx:
-              he: הטבות ממשלתיות לקניית מזון
-          slug: human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
-          related:
-          - human_services:food:help_pay_for_food:government_food_benefits
-          - human_services:money:government_benefits:government_food_benefits
-        - name:
-            source: Help Pay for Food
-            tx:
-              he: סיוע כספי לרכישת מזון
-          slug: human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_food
-          - human_services:food:help_pay_for_food
-          - human_services:money:financial_assistance:help_pay_for_food
         related:
         - human_services:emergency:emergency_payments:help_pay_for_food
         - human_services:food:help_pay_for_food
@@ -1173,11 +1153,6 @@
             he: עזרה בתשלומים על שירותי בריאות
         slug: human_services:money:financial_assistance:help_pay_for_healthcare
         items:
-        - name: Disability Benefits
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-          related:
-          - human_services:health:help_pay_for_healthcare:disability_benefits
-          - human_services:money:government_benefits:disability_benefits
         - name:
             source: Discounted Healthcare
             tx:
@@ -1217,15 +1192,6 @@
           related:
           - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
           - human_services:transit:transportation:transportation_for_healthcare
-        - name:
-            source: Help Pay for Healthcare
-            tx:
-              he: עזרה בתשלומים על שירותי בריאות
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_healthcare
-          - human_services:health:help_pay_for_healthcare
-          - human_services:money:financial_assistance:help_pay_for_healthcare
         related:
         - human_services:emergency:emergency_payments:help_pay_for_healthcare
         - human_services:health:help_pay_for_healthcare
@@ -1256,15 +1222,6 @@
           related:
           - human_services:housing:help_pay_for_housing:home_renters_insurance
           - human_services:money:insurance:home_renters_insurance
-        - name:
-            source: Help Pay for Housing
-            tx:
-              he: עזרה בתשלום על דיור
-          slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_housing
-          - human_services:housing:help_pay_for_housing
-          - human_services:money:financial_assistance:help_pay_for_housing
         related:
         - human_services:emergency:emergency_payments:help_pay_for_housing
         - human_services:housing:help_pay_for_housing
@@ -1314,15 +1271,6 @@
           related:
           - human_services:education:help_pay_for_school:supplies_for_school
           - human_services:goods:home_goods:supplies_for_school
-        - name:
-            source: Help Pay for School
-            tx:
-              he: עזרה תשלומי בית ספר
-          slug: human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
-          related:
-          - human_services:education:help_pay_for_school
-          - human_services:emergency:emergency_payments:help_pay_for_school
-          - human_services:money:financial_assistance:help_pay_for_school
         related:
         - human_services:education:help_pay_for_school
         - human_services:emergency:emergency_payments:help_pay_for_school
@@ -1348,14 +1296,6 @@
           related:
           - human_services:emergency:emergency_payments:help_pay_for_gas
           - human_services:transit:help_pay_for_transit:help_pay_for_gas
-        - name:
-            source: Help Pay for Transit
-            tx:
-              he: עזרה בתשלום על תחבורה
-          slug: human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
-          related:
-          - human_services:money:financial_assistance:help_pay_for_transit
-          - human_services:transit:help_pay_for_transit
         related:
         - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
         - human_services:transit:help_pay_for_transit
@@ -1380,14 +1320,6 @@
         related:
         - human_services:health:help_pay_for_healthcare:disability_benefits
         - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-      - name:
-          source: Government Food Benefits
-          tx:
-            he: הטבות ממשלתיות לקניית מזון
-        slug: human_services:money:government_benefits:government_food_benefits
-        related:
-        - human_services:food:help_pay_for_food:government_food_benefits
-        - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
       - name:
           source: Retirement Benefits
           tx:
@@ -1893,6 +1825,10 @@
             he: קבוצות תמיכה
         slug: human_services:care:support_network:support_groups
         items:
+        - name: 12-Step
+          slug: human_services:care:support_network:support_groups:12_step
+          related:
+          - human_services:health:addiction_recovery:12_step
         - name:
             source: Bereavement
             tx:
@@ -2123,14 +2059,6 @@
         - human_services:education:more_education:health_education:health_education
         - human_services:health:health_education
       - name:
-          source: Supported Employment
-          tx:
-            he: 'תמיכה תעסוקתית '
-        slug: human_services:education:more_education:supported_employment
-        related:
-        - human_services:work:help_find_work:supported_employment
-        - human_services:work:supported_employment
-      - name:
           source: Special Education
           tx:
             he: חינוך מיוחד
@@ -2244,20 +2172,6 @@
         tx:
           he: סיוע במציאת עבודה
       slug: human_services:work:help_find_work
-      items:
-      - name:
-          source: Job Placement
-          tx:
-            he: השמה בעבודה
-        slug: human_services:work:help_find_work:job_placement
-      - name:
-          source: Supported Employment
-          tx:
-            he: 'תמיכה בעובדים '
-        slug: human_services:work:help_find_work:supported_employment
-        related:
-        - human_services:education:more_education:supported_employment
-        - human_services:work:supported_employment
       related:
       - human_services:care:navigating_the_system:help_find_work
     - name:
@@ -2387,21 +2301,6 @@
         slug: human_services:legal:advocacy_legal_aid:adoption_foster_care
         items:
         - name:
-            source: Adoption & Foster Placement
-            tx:
-              he: השמת ילדים לאימוץ ואומנה
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-          related:
-          - human_services:care:adoption_foster_care:adoption_foster_placement
-          - human_services:legal:adoption_foster_care:adoption_foster_placement
-          - human_services:legal:adoption_foster_placement
-        - name: Adoption & Foster Parenting
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-          related:
-          - human_services:care:adoption_foster_care:adoption_foster_parenting
-          - human_services:legal:adoption_foster_care:adoption_foster_parenting
-          - human_services:legal:adoption_foster_parenting
-        - name:
             source: Adoption Planning
             tx:
               he: תכנון אימוץ
@@ -2501,149 +2400,6 @@
       slug: human_services:legal:representation
     - name: Translation & Interpretation
       slug: human_services:legal:translation_interpretation
-    - name:
-        source: Adoption & Foster Care
-        tx:
-          he: 'אימוץ ואומנה '
-      slug: human_services:legal:adoption_foster_care
-      items:
-      - name:
-          source: Adoption & Foster Placement
-          tx:
-            he: השמת ילדים לאימוץ ואומנה
-        slug: human_services:legal:adoption_foster_care:adoption_foster_placement
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-      - name:
-          source: Adoption & Foster Parenting
-          tx:
-            he: 'הורים מאמצים ואומנים '
-        slug: human_services:legal:adoption_foster_care:adoption_foster_parenting
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:adoption_foster_parenting
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-      - name:
-          source: Adoption Planning
-          tx:
-            he: תכנון אימוץ
-        slug: human_services:legal:adoption_foster_care:adoption_planning
-        related:
-        - human_services:care:adoption_foster_care:adoption_planning
-        - human_services:legal:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-      - name:
-          source: Adoption Counseling
-          tx:
-            he: ייעוץ לאימוץ
-        slug: human_services:legal:adoption_foster_care:adoption_counseling
-        related:
-        - human_services:care:adoption_foster_care:adoption_counseling
-        - human_services:legal:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-      - name:
-          source: Post-Adoption Support
-          tx:
-            he: תמיכה במשפחות מאמצות
-        slug: human_services:legal:adoption_foster_care:post_adoption_support
-        related:
-        - human_services:care:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:post_adoption_support
-      related:
-      - human_services:care:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
-    - name:
-        source: Citizenship & Immigration
-        tx:
-          he: אזרחות והגירה
-      slug: human_services:legal:citizenship_immigration
-      related:
-      - human_services:education:screening_exams:citizenship_immigration
-      - human_services:legal:advocacy_legal_aid:citizenship_immigration
-    - name:
-        source: Discrimination & Civil Rights
-        tx:
-          he: אפליה וזכויות אזרחיות
-      slug: human_services:legal:discrimination_civil_rights
-      related:
-      - human_services:legal:advocacy_legal_aid:discrimination_civil_rights
-    - name:
-        source: Guardianship
-        tx:
-          he: אפוטרופסות
-      slug: human_services:legal:guardianship
-      related:
-      - human_services:legal:advocacy_legal_aid:guardianship
-      - human_situations:guardianship
-    - name:
-        source: Identification Recovery
-        tx:
-          he: שחזור זיהוי
-      slug: human_services:legal:identification_recovery
-      related:
-      - human_services:legal:advocacy_legal_aid:identification_recovery
-    - name:
-        source: Understand Government Programs
-        tx:
-          he: הבנת זכויות תושבים
-      slug: human_services:legal:understand_government_programs
-      related:
-      - human_services:legal:advocacy_legal_aid:understand_government_programs
-      - human_services:money:government_benefits:understand_government_programs
-    - name: Workplace Rights
-      slug: human_services:legal:workplace_rights
-      related:
-      - human_services:legal:advocacy_legal_aid:workplace_rights
-      - human_services:work:workplace_rights
-    - name:
-        source: Adoption & Foster Placement
-        tx:
-          he: השמת ילדים לאימוץ ואומנה
-      slug: human_services:legal:adoption_foster_placement
-      related:
-      - human_services:care:adoption_foster_care:adoption_foster_placement
-      - human_services:legal:adoption_foster_care:adoption_foster_placement
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-    - name:
-        source: Adoption & Foster Parenting
-        tx:
-          he: הורים מאמצים ואומנים
-      slug: human_services:legal:adoption_foster_parenting
-      related:
-      - human_services:care:adoption_foster_care:adoption_foster_parenting
-      - human_services:legal:adoption_foster_care:adoption_foster_parenting
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-    - name:
-        source: Adoption Planning
-        tx:
-          he: תכנון אימוץ
-      slug: human_services:legal:adoption_planning
-      related:
-      - human_services:care:adoption_foster_care:adoption_planning
-      - human_services:legal:adoption_foster_care:adoption_planning
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-    - name:
-        source: Adoption Counseling
-        tx:
-          he: ייעוץ לאימוץ
-      slug: human_services:legal:adoption_counseling
-      related:
-      - human_services:care:adoption_foster_care:adoption_counseling
-      - human_services:legal:adoption_foster_care:adoption_counseling
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-    - name:
-        source: Post-Adoption Support
-        tx:
-          he: תמיכה במשפחות מאמצות
-      slug: human_services:legal:post_adoption_support
-      related:
-      - human_services:care:adoption_foster_care:post_adoption_support
-      - human_services:legal:adoption_foster_care:post_adoption_support
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
   - name:
       source: Emergency
       tx:
@@ -2833,11 +2589,15 @@
         he: הגירה
     slug: human_situations:citizenship
     items:
+    - name: Foreign Workers
+      slug: human_situations:citizenship:foreign_workers
     - name:
         source: Immigrants
         tx:
           he: 'מהגרים.ות '
       slug: human_situations:citizenship:immigrants
+    - name: Olim
+      slug: human_situations:citizenship:olim
     - name:
         source: Refugees
         tx:
@@ -2932,24 +2692,28 @@
         tx:
           he: נושרים
       slug: human_situations:education:dropouts
+    - name: Special needs
+      slug: human_situations:education:speacial_needs
     - name:
         source: Students
         tx:
           he: סטודנטים
       slug: human_situations:education:students
+    - name: Yeshiva students
+      slug: human_situations:education:yeshiva_students
     related:
     - human_services:education
-  - name:
-      source: Emotional State
-      tx:
-        he: אירועי חיים
-    slug: human_situations:emotional_state
+  - name: Life Events
+    slug: human_situations:life_events
     items:
-    - name:
-        source: Grieving
-        tx:
-          he: אבל
-      slug: human_situations:emotional_state:grieving
+    - name: Bar/Bat Mitzva
+      slug: human_situations:life_events:bar_bat_mitzva
+    - name: Birth
+      slug: human_situations:life_events:birth
+    - name: Grieving
+      slug: human_situations:life_events:grieving
+    - name: Wedding
+      slug: human_situations:life_events:wedding
   - name:
       source: Employment
       tx:
@@ -2971,23 +2735,6 @@
         tx:
           he: מובטלת
       slug: human_situations:employment:unemployed
-  - name:
-      source: Gender & Identity
-      tx:
-        he: זהות מינית
-    slug: human_situations:gender_identity
-    items:
-    - name: Female
-      slug: human_situations:gender_identity:female
-    - name: Male
-      slug: human_situations:gender_identity:male
-    - name:
-        source: Transgender or Non-Binary
-        tx:
-          he: 'לא בינארי '
-      slug: human_situations:gender_identity:transgender_or_non_binary
-    - name: LGBTQIA+
-      slug: human_situations:gender_identity:lgbtqia
   - name:
       source: Guardianship
       tx:
@@ -3101,8 +2848,6 @@
         slug: human_situations:health:cancer:colorectal_cancer
       - name: Desmoid Tumors
         slug: human_situations:health:cancer:desmoid_tumors
-      - name: Ductal Carcinoma In Situ (DCIS)
-        slug: human_situations:health:cancer:ductal_carcinoma_in_situ_dcis
       - name:
           source: Endomentrial Cancer
           tx:
@@ -3110,8 +2855,6 @@
         slug: human_situations:health:cancer:endomentrial_cancer
       - name: Gastrointestinal Stromal Tumors (GIST)
         slug: human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
-      - name: Germ Cell Tumor
-        slug: human_situations:health:cancer:germ_cell_tumor
       - name:
           source: Head & Neck Cancer
           tx:
@@ -3195,8 +2938,6 @@
         tx:
           he: אלצהיימר
       slug: human_situations:health:alzheimer_s
-    - name: Seizures
-      slug: human_situations:health:seizures
     - name:
         source: Terminal Illness
         tx:
@@ -3251,7 +2992,7 @@
       related:
       - human_situations:health:treatment_phases:hospitalized
     - name:
-        source: Alzheimers
+        source: Alzheimer's
         tx:
           he: אלצהיימר
       slug: human_situations:health:alzheimers
@@ -3303,6 +3044,10 @@
           tx:
             he: חד הוריות
         slug: human_situations:household:families:single_parent
+      - name: Divorced
+        slug: human_situations:household:families:divorced
+    - name: Surrogacy
+      slug: human_situations:household:families:surrogacy
   - name:
       source: Housing
       tx:
@@ -3352,15 +3097,6 @@
         tx:
           he: הכנסה נמוכה וקשיים כלכליים
       slug: human_situations:income:low_income
-  - name: Insurance
-    slug: human_situations:insurance
-    items:
-    - name: Uninsured
-      slug: human_situations:insurance:uninsured
-    - name: Underinsured
-      slug: human_situations:insurance:underinsured
-    related:
-    - human_services:money:insurance
   - name:
       source: Language
       tx:
@@ -3498,6 +3234,8 @@
         he: ניצולים.ות נפגעים.ות
     slug: human_situations:survivors
     items:
+    - name: Holocaust Survivors
+      slug: human_situations:survivors:holocaust_survivors
     - name:
         source: Trauma Survivors
         tx:
@@ -3577,6 +3315,10 @@
         tx:
           he: 'אנשים בעלי עבר פלילי '
       slug: human_situations:criminal_history:ex_offenders
+    - name: Ex-Offenders youth
+      slug: human_situations:criminal_history:ex_offenders_youth
+    - name: Prisoners
+      slug: human_situations:criminal_history:prisoners
   - name:
       source: Gender
       tx:
@@ -3605,3 +3347,20 @@
     items:
     - name: LGBTQ
       slug: human_situations:sexuality:lgbtq
+  - name: Sectors
+    slug: human_situations:sectors
+    items:
+    - name: Ultra Orthodox
+      slug: human_situations:sectors:ultra_orthodox
+    - name: Bedouin
+      slug: human_situations:sectors:bedouin
+    - name: Duruze
+      slug: human_situations:sectors:duruze
+    - name: Ethiopians
+      slug: human_situations:sectors:ethiopians
+    - name: Arabs
+      slug: human_situations:sectors:arabs
+    - name: Christians
+      slug: human_situations:sectors:christians
+    - name: Circassians
+      slug: human_situations:sectors:circassians
