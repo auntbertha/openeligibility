@@ -422,7 +422,6 @@
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
         - name: Checkup & Test
           slug: human_services:health:medical_care:checkup_test:checkup_test
-          related:
       - name: Exercise & Fitness
         slug: human_services:health:medical_care:exercise_fitness
         related:
@@ -1250,7 +1249,7 @@
     - name: Help Find Work
       slug: human_services:work:help_find_work
       related:
-      - human_services:care:navigating_the_system:help_find_work      
+      - human_services:care:navigating_the_system:help_find_work
     - name: Help Pay for Work Expenses
       slug: human_services:work:help_pay_for_work_expenses
       items:
@@ -1899,14 +1898,14 @@
     - name: Ultra Orthodox
       slug: human_situations:sectors:ultra_orthodox
     - name: Bedouin
-    - slug: human_situations:sectors:bedouin
+      slug: human_situations:sectors:bedouin
     - name: Duruze
-    - slug: human_situations:sectors:duruze
+      slug: human_situations:sectors:duruze
     - name: Ethiopians
-    - slug: human_situations:sectors:ethiopians
+      slug: human_situations:sectors:ethiopians
     - name: Arabs
-    - slug: human_situations:sectors:arabs
+      slug: human_situations:sectors:arabs
     - name: Christians
-    - slug: human_situations:sectors:christians
+      slug: human_situations:sectors:christians
     - name: Circassians
-    - slug: human_situations:sectors:circassians
+      slug: human_situations:sectors:circassians
