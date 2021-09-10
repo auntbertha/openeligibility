@@ -148,10 +148,6 @@
           slug: human_services:housing:residential_housing:short_term_housing:sober_living
           related:
           - human_services:health:addiction_recovery:sober_living
-        - name: Short-Term Housing
-          slug: human_services:housing:residential_housing:short_term_housing:short_term_housing
-          related:
-          - human_services:housing:residential_housing:short_term_housing
         related:
         - human_services:housing:residential_housing:short_term_housing:short_term_housing
     - name: Emergency Shelter
@@ -1499,15 +1495,11 @@
     items:
     - name: Active Duty
       slug: human_situations:armed_forces:active_duty
-    - name: National Guard
-      slug: human_situations:armed_forces:national_guard
     - name: Veterans
       slug: human_situations:armed_forces:veterans
   - name: Citizenship
     slug: human_situations:citizenship
     items:
-    - name: Foreign Workers
-      slug: human_situations:citizenship:foreign_workers
     - name: Immigrants
       slug: human_situations:citizenship:immigrants
     - name: Olim
@@ -1547,8 +1539,6 @@
       slug: human_situations:disability:deaf_or_hard_of_hearing
     - name: Visual Impairment
       slug: human_situations:disability:visual_impairment
-    - name: Hearing Impairment
-      slug: human_situations:disability:hearing_impairment
     - name: Mental Illness
       slug: human_situations:disability:mental_illness
       related:
@@ -1641,8 +1631,6 @@
         slug: human_situations:health:cancer:desmoid_tumors
       - name: Endomentrial Cancer
         slug: human_situations:health:cancer:endomentrial_cancer
-      - name: Gastrointestinal Stromal Tumors (GIST)
-        slug: human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
       - name: Head & Neck Cancer
         slug: human_situations:health:cancer:head_neck_cancer
       - name: Leukemia
@@ -1653,14 +1641,10 @@
         slug: human_situations:health:cancer:lung_cancer
       - name: Lymphoma
         slug: human_situations:health:cancer:lymphoma
-      - name: Myeloma, Multiple
-        slug: human_situations:health:cancer:myeloma_multiple
       - name: Neuroblastoma
         slug: human_situations:health:cancer:neuroblastoma
       - name: Ovarian Cancer
         slug: human_situations:health:cancer:ovarian_cancer
-      - name: Rectal Cancer
-        slug: human_situations:health:cancer:rectal_cancer
       - name: Sarcoma
         slug: human_situations:health:cancer:sarcoma
       - name: Skin Cancer
@@ -1818,15 +1802,6 @@
       slug: human_situations:substance_dependency:smoker
     related:
     - human_situations:health:substance_dependency
-  - name: Sexual Orientation & Identity
-    slug: human_situations:sexual_orientation_identity
-    items:
-    - name: LGBTQ+
-      slug: human_situations:sexual_orientation_identity:lgbtq
-    - name: Transgender
-      slug: human_situations:sexual_orientation_identity:transgender
-      related:
-      - human_situations:gender:transgender
   - name: Survivors
     slug: human_situations:survivors
     items:
@@ -1842,8 +1817,6 @@
       slug: human_situations:survivors:all_cancer_survivors
     - name: Childhood Cancer Survivors
       slug: human_situations:survivors:childhood_cancer_survivors
-    - name: Young Adult Cancer Survivors
-      slug: human_situations:survivors:young_adult_cancer_survivors
     - name: Adult Cancer Survivors
       slug: human_situations:survivors:adult_cancer_survivors
     - name: Domestic Violence Survivors
