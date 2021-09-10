@@ -1,4 +1,3 @@
-
 - name: Human Services
   slug: human_services
   items:
@@ -129,10 +128,6 @@
           - human_services:housing:residential_housing:short_term_housing:nursing_home
         - name: Public Housing
           slug: human_services:housing:residential_housing:long_term_housing:public_housing
-        - name: Long-Term Housing
-          slug: human_services:housing:residential_housing:long_term_housing:long_term_housing
-          related:
-          - human_services:housing:residential_housing:long_term_housing
         related:
         - human_services:housing:residential_housing:long_term_housing:long_term_housing
       - name: Safe Housing
@@ -425,6 +420,9 @@
           slug: human_services:health:medical_care:checkup_test:hearing_tests
         - name: Pregnancy Tests
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
+        - name: Checkup & Test
+          slug: human_services:health:medical_care:checkup_test:checkup_test
+          related:
       - name: Exercise & Fitness
         slug: human_services:health:medical_care:exercise_fitness
         related:
@@ -648,18 +646,6 @@
         - human_services:care:daytime_care:childcare:help_pay_for_childcare
       - name: Help Pay for Food
         slug: human_services:money:financial_assistance:help_pay_for_food
-        items:
-        - name: Government Food Benefits
-          slug: human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
-          related:
-          - human_services:food:help_pay_for_food:government_food_benefits
-          - human_services:money:government_benefits:government_food_benefits
-        - name: Help Pay for Food
-          slug: human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_food
-          - human_services:food:help_pay_for_food
-          - human_services:money:financial_assistance:help_pay_for_food
         related:
         - human_services:emergency:emergency_payments:help_pay_for_food
         - human_services:food:help_pay_for_food
@@ -667,11 +653,6 @@
       - name: Help Pay for Healthcare
         slug: human_services:money:financial_assistance:help_pay_for_healthcare
         items:
-        - name: Disability Benefits
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-          related:
-          - human_services:health:help_pay_for_healthcare:disability_benefits
-          - human_services:money:government_benefits:disability_benefits
         - name: Discounted Healthcare
           slug: human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
           related:
@@ -696,12 +677,6 @@
           related:
           - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
           - human_services:transit:transportation:transportation_for_healthcare
-        - name: Help Pay for Healthcare
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_healthcare
-          - human_services:health:help_pay_for_healthcare
-          - human_services:money:financial_assistance:help_pay_for_healthcare
         related:
         - human_services:emergency:emergency_payments:help_pay_for_healthcare
         - human_services:health:help_pay_for_healthcare
@@ -723,12 +698,6 @@
           related:
           - human_services:housing:help_pay_for_housing:home_renters_insurance
           - human_services:money:insurance:home_renters_insurance
-        - name: Help Pay for Housing
-          slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_housing
-          - human_services:housing:help_pay_for_housing
-          - human_services:money:financial_assistance:help_pay_for_housing
         related:
         - human_services:emergency:emergency_payments:help_pay_for_housing
         - human_services:housing:help_pay_for_housing
@@ -760,12 +729,6 @@
           related:
           - human_services:education:help_pay_for_school:supplies_for_school
           - human_services:goods:home_goods:supplies_for_school
-        - name: Help Pay for School
-          slug: human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
-          related:
-          - human_services:education:help_pay_for_school
-          - human_services:emergency:emergency_payments:help_pay_for_school
-          - human_services:money:financial_assistance:help_pay_for_school
         related:
         - human_services:education:help_pay_for_school
         - human_services:emergency:emergency_payments:help_pay_for_school
@@ -782,11 +745,6 @@
           related:
           - human_services:emergency:emergency_payments:help_pay_for_gas
           - human_services:transit:help_pay_for_transit:help_pay_for_gas
-        - name: Help Pay for Transit
-          slug: human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
-          related:
-          - human_services:money:financial_assistance:help_pay_for_transit
-          - human_services:transit:help_pay_for_transit
         related:
         - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
         - human_services:transit:help_pay_for_transit
@@ -802,11 +760,6 @@
         related:
         - human_services:health:help_pay_for_healthcare:disability_benefits
         - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-      - name: Government Food Benefits
-        slug: human_services:money:government_benefits:government_food_benefits
-        related:
-        - human_services:food:help_pay_for_food:government_food_benefits
-        - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
       - name: Retirement Benefits
         slug: human_services:money:government_benefits:retirement_benefits
         related:
@@ -1093,6 +1046,10 @@
       - name: Support Groups
         slug: human_services:care:support_network:support_groups
         items:
+        - name: 12-Step
+          slug: human_services:care:support_network:support_groups:12_step
+          related:
+          - human_services:health:addiction_recovery:12_step
         - name: Bereavement
           slug: human_services:care:support_network:support_groups:bereavement
           related:
@@ -1229,11 +1186,6 @@
         related:
         - human_services:education:more_education:health_education:health_education
         - human_services:health:health_education
-      - name: Supported Employment
-        slug: human_services:education:more_education:supported_employment
-        related:
-        - human_services:work:help_find_work:supported_employment
-        - human_services:work:supported_employment
       - name: Special Education
         slug: human_services:education:more_education:special_education
       - name: Tutoring
@@ -1297,16 +1249,8 @@
     items:
     - name: Help Find Work
       slug: human_services:work:help_find_work
-      items:
-      - name: Job Placement
-        slug: human_services:work:help_find_work:job_placement
-      - name: Supported Employment
-        slug: human_services:work:help_find_work:supported_employment
-        related:
-        - human_services:education:more_education:supported_employment
-        - human_services:work:supported_employment
       related:
-      - human_services:care:navigating_the_system:help_find_work
+      - human_services:care:navigating_the_system:help_find_work      
     - name: Help Pay for Work Expenses
       slug: human_services:work:help_pay_for_work_expenses
       items:
@@ -1382,18 +1326,6 @@
       - name: Adoption & Foster Care
         slug: human_services:legal:advocacy_legal_aid:adoption_foster_care
         items:
-        - name: Adoption & Foster Placement
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-          related:
-          - human_services:care:adoption_foster_care:adoption_foster_placement
-          - human_services:legal:adoption_foster_care:adoption_foster_placement
-          - human_services:legal:adoption_foster_placement
-        - name: Adoption & Foster Parenting
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-          related:
-          - human_services:care:adoption_foster_care:adoption_foster_parenting
-          - human_services:legal:adoption_foster_care:adoption_foster_parenting
-          - human_services:legal:adoption_foster_parenting
         - name: Adoption Planning
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
           related:
@@ -1458,101 +1390,6 @@
       slug: human_services:legal:representation
     - name: Translation & Interpretation
       slug: human_services:legal:translation_interpretation
-    - name: Adoption & Foster Care
-      slug: human_services:legal:adoption_foster_care
-      items:
-      - name: Adoption & Foster Placement
-        slug: human_services:legal:adoption_foster_care:adoption_foster_placement
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-      - name: Adoption & Foster Parenting
-        slug: human_services:legal:adoption_foster_care:adoption_foster_parenting
-        related:
-        - human_services:care:adoption_foster_care:adoption_foster_parenting
-        - human_services:legal:adoption_foster_parenting
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-      - name: Adoption Planning
-        slug: human_services:legal:adoption_foster_care:adoption_planning
-        related:
-        - human_services:care:adoption_foster_care:adoption_planning
-        - human_services:legal:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-      - name: Adoption Counseling
-        slug: human_services:legal:adoption_foster_care:adoption_counseling
-        related:
-        - human_services:care:adoption_foster_care:adoption_counseling
-        - human_services:legal:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-      - name: Post-Adoption Support
-        slug: human_services:legal:adoption_foster_care:post_adoption_support
-        related:
-        - human_services:care:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:post_adoption_support
-      related:
-      - human_services:care:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
-    - name: Citizenship & Immigration
-      slug: human_services:legal:citizenship_immigration
-      related:
-      - human_services:education:screening_exams:citizenship_immigration
-      - human_services:legal:advocacy_legal_aid:citizenship_immigration
-    - name: Discrimination & Civil Rights
-      slug: human_services:legal:discrimination_civil_rights
-      related:
-      - human_services:legal:advocacy_legal_aid:discrimination_civil_rights
-    - name: Guardianship
-      slug: human_services:legal:guardianship
-      related:
-      - human_services:legal:advocacy_legal_aid:guardianship
-      - human_situations:guardianship
-    - name: Identification Recovery
-      slug: human_services:legal:identification_recovery
-      related:
-      - human_services:legal:advocacy_legal_aid:identification_recovery
-    - name: Understand Government Programs
-      slug: human_services:legal:understand_government_programs
-      related:
-      - human_services:legal:advocacy_legal_aid:understand_government_programs
-      - human_services:money:government_benefits:understand_government_programs
-    - name: Workplace Rights
-      slug: human_services:legal:workplace_rights
-      related:
-      - human_services:legal:advocacy_legal_aid:workplace_rights
-      - human_services:work:workplace_rights
-    - name: Adoption & Foster Placement
-      slug: human_services:legal:adoption_foster_placement
-      related:
-      - human_services:care:adoption_foster_care:adoption_foster_placement
-      - human_services:legal:adoption_foster_care:adoption_foster_placement
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
-    - name: Adoption & Foster Parenting
-      slug: human_services:legal:adoption_foster_parenting
-      related:
-      - human_services:care:adoption_foster_care:adoption_foster_parenting
-      - human_services:legal:adoption_foster_care:adoption_foster_parenting
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_parenting
-    - name: Adoption Planning
-      slug: human_services:legal:adoption_planning
-      related:
-      - human_services:care:adoption_foster_care:adoption_planning
-      - human_services:legal:adoption_foster_care:adoption_planning
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-    - name: Adoption Counseling
-      slug: human_services:legal:adoption_counseling
-      related:
-      - human_services:care:adoption_foster_care:adoption_counseling
-      - human_services:legal:adoption_foster_care:adoption_counseling
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-    - name: Post-Adoption Support
-      slug: human_services:legal:post_adoption_support
-      related:
-      - human_services:care:adoption_foster_care:post_adoption_support
-      - human_services:legal:adoption_foster_care:post_adoption_support
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
   - name: Emergency
     slug: human_services:emergency
     items:
@@ -1670,8 +1507,12 @@
   - name: Citizenship
     slug: human_situations:citizenship
     items:
+    - name: Foreign Workers
+      slug: human_situations:citizenship:foreign_workers
     - name: Immigrants
       slug: human_situations:citizenship:immigrants
+    - name: Olim
+      slug: human_situations:citizenship:olim
     - name: Refugees
       slug: human_situations:citizenship:refugees
     - name: Undocumented
@@ -1718,15 +1559,25 @@
     items:
     - name: Dropouts
       slug: human_situations:education:dropouts
+    - name: Special needs
+      slug: human_situations:education:speacial_needs
     - name: Students
       slug: human_situations:education:students
+    - name: Yeshiva students
+      slug: human_situations:education:yeshiva_students
     related:
     - human_services:education
-  - name: Emotional State
-    slug: human_situations:emotional_state
+  - name: Life Events
+    slug: human_situations:life_events
     items:
+    - name: Bar/Bat Mitzva
+      slug: human_situations:life_events:bar_bat_mitzva
+    - name: Birth
+      slug: human_situations:life_events:birth
     - name: Grieving
-      slug: human_situations:emotional_state:grieving
+      slug: human_situations:life_events:grieving
+    - name: Wedding
+      slug: human_situations:life_events:wedding
   - name: Employment
     slug: human_situations:employment
     items:
@@ -1736,17 +1587,6 @@
       slug: human_situations:employment:retirement
     - name: Unemployed
       slug: human_situations:employment:unemployed
-  - name: Gender & Identity
-    slug: human_situations:gender_identity
-    items:
-    - name: Female
-      slug: human_situations:gender_identity:female
-    - name: Male
-      slug: human_situations:gender_identity:male
-    - name: Transgender or Non-Binary
-      slug: human_situations:gender_identity:transgender_or_non_binary
-    - name: LGBTQIA+
-      slug: human_situations:gender_identity:lgbtqia
   - name: Guardianship
     slug: human_situations:guardianship
     items:
@@ -1800,14 +1640,10 @@
         slug: human_situations:health:cancer:colorectal_cancer
       - name: Desmoid Tumors
         slug: human_situations:health:cancer:desmoid_tumors
-      - name: Ductal Carcinoma In Situ (DCIS)
-        slug: human_situations:health:cancer:ductal_carcinoma_in_situ_dcis
       - name: Endomentrial Cancer
         slug: human_situations:health:cancer:endomentrial_cancer
       - name: Gastrointestinal Stromal Tumors (GIST)
         slug: human_situations:health:cancer:gastrointestinal_stromal_tumors_gist
-      - name: Germ Cell Tumor
-        slug: human_situations:health:cancer:germ_cell_tumor
       - name: Head & Neck Cancer
         slug: human_situations:health:cancer:head_neck_cancer
       - name: Leukemia
@@ -1846,8 +1682,6 @@
         slug: human_situations:health:cancer:wilms_tumor
     - name: Alzheimer's
       slug: human_situations:health:alzheimer_s
-    - name: Seizures
-      slug: human_situations:health:seizures
     - name: Terminal Illness
       slug: human_situations:health:terminal_illness
     - name: Infectious Disease
@@ -1871,7 +1705,7 @@
       slug: human_situations:health:hospitalized
       related:
       - human_situations:health:treatment_phases:hospitalized
-    - name: Alzheimers
+    - name: Alzheimer's
       slug: human_situations:health:alzheimers
     - name: Seizure Disorder
       slug: human_situations:health:seizure_disorder
@@ -1897,6 +1731,10 @@
         slug: human_situations:household:families:with_children
       - name: Single Parent
         slug: human_situations:household:families:single_parent
+      - name: Divorced
+        slug: human_situations:household:families:divorced
+    - name: Surrogacy
+      slug: human_situations:household:families:surrogacy
   - name: Housing
     slug: human_situations:housing
     items:
@@ -1919,15 +1757,6 @@
       slug: human_situations:income:benefit_recipients
     - name: Low-Income
       slug: human_situations:income:low_income
-  - name: Insurance
-    slug: human_situations:insurance
-    items:
-    - name: Uninsured
-      slug: human_situations:insurance:uninsured
-    - name: Underinsured
-      slug: human_situations:insurance:underinsured
-    related:
-    - human_services:money:insurance
   - name: Language
     slug: human_situations:language
     items:
@@ -2002,6 +1831,8 @@
   - name: Survivors
     slug: human_situations:survivors
     items:
+    - name: Holocaust Survivors
+      slug: human_situations:survivors:holocaust_survivors
     - name: Trauma Survivors
       slug: human_situations:survivors:trauma_survivors
     - name: Abuse or Neglect Survivors
@@ -2042,6 +1873,10 @@
     items:
     - name: Ex-Offenders
       slug: human_situations:criminal_history:ex_offenders
+    - name: Ex-Offenders youth
+      slug: human_situations:criminal_history:ex_offenders_youth
+    - name: Prisoners
+      slug: human_situations:criminal_history:prisoners
   - name: Gender
     slug: human_situations:gender
     items:
@@ -2058,3 +1893,20 @@
     items:
     - name: LGBTQ
       slug: human_situations:sexuality:lgbtq
+  - name: Sectors
+    slug: human_situations:sectors
+    items:
+    - name: Ultra Orthodox
+      slug: human_situations:sectors:ultra_orthodox
+    - name: Bedouin
+    - slug: human_situations:sectors:bedouin
+    - name: Duruze
+    - slug: human_situations:sectors:duruze
+    - name: Ethiopians
+    - slug: human_situations:sectors:ethiopians
+    - name: Arabs
+    - slug: human_situations:sectors:arabs
+    - name: Christians
+    - slug: human_situations:sectors:christians
+    - name: Circassians
+    - slug: human_situations:sectors:circassians
