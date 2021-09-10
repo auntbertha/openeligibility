@@ -1160,10 +1160,6 @@
         slug: human_services:education:more_education:english_as_a_second_language_esl
         related:
         - human_services:education:screening_exams:english_as_a_second_language_esl
-      - name: Hebrew as a Second Language (ESL)
-        slug: human_services:education:more_education:english_as_a_second_language_esl
-        related:
-        - human_services:education:screening_exams:english_as_a_second_language_esl
       - name: Environmental Education
         slug: human_services:education:more_education:environmental_education
       - name: Financial Education
