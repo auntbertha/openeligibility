@@ -31,6 +31,9 @@ jobs:
     - name: Generate MD
       run: |
         python tools/to_markdown.py
+    - name: Generate CSV
+      run: |
+        python -m tools.to_csv
     - name: git identity
       run: |
         git config user.email "adam.kariv@gmail.com"

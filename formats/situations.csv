@@ -1,0 +1,182 @@
+slug,level0:name_en,level0:name_he,level1:name_en,level1:name_he,level2:name_en,level2:name_he
+human_situations,Human Situations,מצבים 
+human_situations:general,Human Situations,מצבים ,General,כללי 
+human_situations:general:anyone_in_need,Human Situations,מצבים ,General,כללי ,Anyone in Need,כל אדם הצריך עזרה
+human_situations:age_group,Human Situations,מצבים ,Age Group,קבוצת גיל 
+human_situations:age_group:all_ages,Human Situations,מצבים ,Age Group,קבוצת גיל ,All Ages,כל הגילאים
+human_situations:age_group:adults,Human Situations,מצבים ,Age Group,קבוצת גיל ,Adults,מבוגרים
+human_situations:age_group:young_adults,Human Situations,מצבים ,Age Group,קבוצת גיל ,Young Adults,מבוגרים צעירים 
+human_situations:age_group:teens,Human Situations,מצבים ,Age Group,קבוצת גיל ,Teens,בני נוער
+human_situations:age_group:infants,Human Situations,מצבים ,Age Group,קבוצת גיל ,Infants,גיל הרך
+human_situations:age_group:children,Human Situations,מצבים ,Age Group,קבוצת גיל ,Children,ילדים
+human_situations:age_group:seniors,Human Situations,מצבים ,Age Group,קבוצת גיל ,Seniors,אזרחים ותיקים
+human_situations:armed_forces,Human Situations,מצבים ,Armed Forces,צבא ובטחון
+human_situations:armed_forces:active_duty,Human Situations,מצבים ,Armed Forces,צבא ובטחון,Active Duty,חיילים וחיילות 
+human_situations:armed_forces:veterans,Human Situations,מצבים ,Armed Forces,צבא ובטחון,Veterans,"גמלאי צה""ל"
+human_situations:citizenship,Human Situations,מצבים ,Citizenship,הגירה
+human_situations:citizenship:immigrants,Human Situations,מצבים ,Citizenship,הגירה,Immigrants,מהגרים.ות 
+human_situations:citizenship:olim,Human Situations,מצבים ,Citizenship,הגירה,Olim,עולים 
+human_situations:citizenship:refugees,Human Situations,מצבים ,Citizenship,הגירה,Refugees,פליטים.ות 
+human_situations:citizenship:undocumented,Human Situations,מצבים ,Citizenship,הגירה,Undocumented,שוהים בלתי חוקיים
+human_situations:justice_involvement,Human Situations,מצבים ,Justice Involvement,מצב משפטי
+human_situations:justice_involvement:criminal_justice_history,Human Situations,מצבים ,Justice Involvement,מצב משפטי,Criminal Justice History,בעלי עבר פלילי
+human_situations:justice_involvement:in_jail,Human Situations,מצבים ,Justice Involvement,מצב משפטי,In Jail,בכלא
+human_situations:disability,Human Situations,מצבים ,Disability,מוגבלויות 
+human_situations:disability:all_disabilities,Human Situations,מצבים ,Disability,מוגבלויות ,All Disabilities,כל המוגבלויות 
+human_situations:disability:learning_disability,Human Situations,מצבים ,Disability,מוגבלויות ,Learning Disability,קשיי למידה והפרעות קשב וריכוז
+human_situations:disability:learning_disability:add_adhd,Human Situations,מצבים ,Disability,מוגבלויות ,Learning Disability,קשיי למידה והפרעות קשב וריכוז,ADD/ADHD,
+human_situations:disability:developmental_disability,Human Situations,מצבים ,Disability,מוגבלויות ,Developmental Disability,נכות התפתחותית
+human_situations:disability:physical_disability,Human Situations,מצבים ,Disability,מוגבלויות ,Physical Disability,
+human_situations:disability:intellectual_disability,Human Situations,מצבים ,Disability,מוגבלויות ,Intellectual Disability,מוגבלות שכלית
+human_situations:disability:mentally_incapacitated,Human Situations,מצבים ,Disability,מוגבלויות ,Mentally Incapacitated,נכות נפשית 
+human_situations:disability:limited_mobility,Human Situations,מצבים ,Disability,מוגבלויות ,Limited Mobility,תנועה מוגבלת
+human_situations:disability:deaf_or_hard_of_hearing,Human Situations,מצבים ,Disability,מוגבלויות ,Deaf or Hard of Hearing,חרשות או שמיעה מוגבלת
+human_situations:disability:visual_impairment,Human Situations,מצבים ,Disability,מוגבלויות ,Visual Impairment,ליקוי ראיה
+human_situations:disability:mental_illness,Human Situations,מצבים ,Disability,מוגבלויות ,Mental Illness,
+human_situations:education,Human Situations,מצבים ,Education,חינוך
+human_situations:education:dropouts,Human Situations,מצבים ,Education,חינוך,Dropouts,נושרים
+human_situations:education:speacial_needs,Human Situations,מצבים ,Education,חינוך,Special needs,
+human_situations:education:students,Human Situations,מצבים ,Education,חינוך,Students,סטודנטים
+human_situations:education:yeshiva_students,Human Situations,מצבים ,Education,חינוך,Yeshiva students,
+human_situations:life_events,Human Situations,מצבים ,Life Events,אירועי חיים
+human_situations:life_events:bar_bat_mitzva,Human Situations,מצבים ,Life Events,אירועי חיים,Bar/Bat Mitzva,בר/בת מצווה
+human_situations:life_events:birth,Human Situations,מצבים ,Life Events,אירועי חיים,Birth,לידה
+human_situations:life_events:grieving,Human Situations,מצבים ,Life Events,אירועי חיים,Grieving,אבל
+human_situations:life_events:wedding,Human Situations,מצבים ,Life Events,אירועי חיים,Wedding,חתונה
+human_situations:employment,Human Situations,מצבים ,Employment,תעסוקה
+human_situations:employment:employed,Human Situations,מצבים ,Employment,תעסוקה,Employed,מועסקת
+human_situations:employment:retirement,Human Situations,מצבים ,Employment,תעסוקה,Retirement,גמלאית
+human_situations:employment:unemployed,Human Situations,מצבים ,Employment,תעסוקה,Unemployed,מובטלת
+human_situations:guardianship,Human Situations,מצבים ,Guardianship,אפוטרופסות 
+human_situations:guardianship:foster_youth,Human Situations,מצבים ,Guardianship,אפוטרופסות ,Foster Youth,נוער אומנה
+human_situations:health,Human Situations,מצבים ,Health,בריאות
+human_situations:health:treatment_phases,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול
+human_situations:health:treatment_phases:all_care_phases,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,All Care Phases,כל שלבי הטיפול
+human_situations:health:treatment_phases:hospitalized,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,Hospitalized,אשפוז
+human_situations:health:treatment_phases:recently_diagnosed,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,Recently Diagnosed,אבחנה טרייה
+human_situations:health:treatment_phases:on_treatment,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,On-Treatment,בטיפול
+human_situations:health:treatment_phases:post_treatment,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,Post-Treatment,אחרי טיפול
+human_situations:health:treatment_phases:facing_end_of_life,Human Situations,מצבים ,Health,בריאות,Treatment Phases,שלבי טיפול,Facing End of Life,גסיסה
+human_situations:health:pregnant,Human Situations,מצבים ,Health,בריאות,Pregnant,הריון
+human_situations:health:cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן
+human_situations:health:cancer:all_cancer_types,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,All Cancer Types,כל סוגי הסרטן
+human_situations:health:cancer:bladder_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Bladder Cancer,סרטן שפוחית השתן
+human_situations:health:cancer:brain_stem_glioma,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Brain Stem Glioma,
+human_situations:health:cancer:brain_tumor,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Brain Tumor,גידול במח
+human_situations:health:cancer:breast_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Breast Cancer,סרטן השד
+human_situations:health:cancer:central_nervous_system,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Central Nervous System, סרטן מערכת העצבים
+human_situations:health:cancer:cervical_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Cervical Cancer,סרטן צוואר הרחם
+human_situations:health:cancer:colon_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Colon Cancer,סרטן המעי
+human_situations:health:cancer:colorectal_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Colorectal Cancer,סרטן המעי הגס
+human_situations:health:cancer:desmoid_tumors,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Desmoid Tumors,
+human_situations:health:cancer:endomentrial_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Endomentrial Cancer,סרטן רירית הרחם
+human_situations:health:cancer:head_neck_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Head & Neck Cancer,סרטן הראש והצוואר
+human_situations:health:cancer:leukemia,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Leukemia,סרטן הדם
+human_situations:health:cancer:liver_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Liver Cancer,סרטן הכבד
+human_situations:health:cancer:lung_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Lung Cancer,סרטן הריאה
+human_situations:health:cancer:lymphoma,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Lymphoma,לימפומה
+human_situations:health:cancer:neuroblastoma,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Neuroblastoma,
+human_situations:health:cancer:ovarian_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Ovarian Cancer,סרטן השחלות
+human_situations:health:cancer:sarcoma,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Sarcoma,סרקומה
+human_situations:health:cancer:skin_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Skin Cancer,סרטן העור
+human_situations:health:cancer:stomach_gastric_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Stomach (Gastric) Cancer,סרטן הקיבה
+human_situations:health:cancer:testicular_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Testicular Cancer,סרטן האשכים
+human_situations:health:cancer:throat_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Throat Cancer,סרטן הגרון
+human_situations:health:cancer:thyroid_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Thyroid Cancer,סרטן בלוטות התריס
+human_situations:health:cancer:vaginal_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Vaginal Cancer,סרטן הנרתיק
+human_situations:health:cancer:vulvar_cancer,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Vulvar Cancer,סרטן הפות
+human_situations:health:cancer:wilms_tumor,Human Situations,מצבים ,Health,בריאות,Cancer,סרטן,Wilms Tumor,
+human_situations:health:alzheimer_s,Human Situations,מצבים ,Health,בריאות,Alzheimer's,אלצהיימר
+human_situations:health:terminal_illness,Human Situations,מצבים ,Health,בריאות,Terminal Illness,מחלה סופנית
+human_situations:health:infectious_disease,Human Situations,מצבים ,Health,בריאות,Infectious Disease,מחלה מדבקת
+human_situations:health:infectious_disease:hiv_aids,Human Situations,מצבים ,Health,בריאות,Infectious Disease,מחלה מדבקת,HIV/AIDS,איידס / HIV
+human_situations:health:neuromuscular_disease,Human Situations,מצבים ,Health,בריאות,Neuromuscular Disease,מחלה עצבית -שרירית
+human_situations:health:all_mental_health,Human Situations,מצבים ,Health,בריאות,All Mental Health,בריאות הנפש כללי
+human_situations:health:chronic_illness,Human Situations,מצבים ,Health,בריאות,Chronic Illness,מחלה כרונית
+human_situations:health:genetic_disorder,Human Situations,מצבים ,Health,בריאות,Genetic Disorder,מחלה גנטית
+human_situations:health:diabetes,Human Situations,מצבים ,Health,בריאות,Diabetes,סכרת
+human_situations:health:autism,Human Situations,מצבים ,Health,בריאות,Autism,רצף אוטיסטי
+human_situations:health:hospitalized,Human Situations,מצבים ,Health,בריאות,Hospitalized,מאושפזת
+human_situations:health:alzheimers,Human Situations,מצבים ,Health,בריאות,Alzheimer's,
+human_situations:health:seizure_disorder,Human Situations,מצבים ,Health,בריאות,Seizure Disorder,הפרעת התקפים
+human_situations:health:substance_dependency,Human Situations,מצבים ,Health,בריאות,Substance Dependency,התמכרות לחומרים אסורים
+human_situations:health:mental_illness,Human Situations,מצבים ,Health,בריאות,Mental Illness,מחלת נפש
+human_situations:household,Human Situations,מצבים ,Household,מצב משפחתי
+human_situations:household:individuals,Human Situations,מצבים ,Household,מצב משפחתי,Individuals,יחידים.ות
+human_situations:household:families,Human Situations,מצבים ,Household,מצב משפחתי,Families,משפחות
+human_situations:household:families:with_children,Human Situations,מצבים ,Household,מצב משפחתי,Families,משפחות,With Children,עם ילדים
+human_situations:household:families:single_parent,Human Situations,מצבים ,Household,מצב משפחתי,Families,משפחות,Single Parent,חד הוריות
+human_situations:household:families:divorced,Human Situations,מצבים ,Household,מצב משפחתי,Families,משפחות,Divorced,גירושים
+human_situations:household:families:surrogacy,Human Situations,מצבים ,Household,מצב משפחתי,Surrogacy,פונדקאות
+human_situations:housing,Human Situations,מצבים ,Housing,דיור
+human_situations:housing:home_owners,Human Situations,מצבים ,Housing,דיור,Home Owners,בעלי בתים
+human_situations:housing:home_renters,Human Situations,מצבים ,Housing,דיור,Home Renters,משכירים.ות
+human_situations:housing:homeless,Human Situations,מצבים ,Housing,דיור,Homeless,חסרי.ות בית
+human_situations:housing:near_homeless,Human Situations,מצבים ,Housing,דיור,Near Homeless,כמעט חסרי.ות בית
+human_situations:housing:runaways,Human Situations,מצבים ,Housing,דיור,Runaways,נוער רחוב
+human_situations:income,Human Situations,מצבים ,Income,הכנסה
+human_situations:income:benefit_recipients,Human Situations,מצבים ,Income,הכנסה,Benefit Recipients,נתמכי קצבה
+human_situations:income:low_income,Human Situations,מצבים ,Income,הכנסה,Low-Income,הכנסה נמוכה וקשיים כלכליים
+human_situations:language,Human Situations,מצבים ,Language,שפות
+human_situations:language:hebrew_speaking,Human Situations,מצבים ,Language,שפות,Hebrew Speaking,דוברי עברית
+human_situations:language:arabic_speaking,Human Situations,מצבים ,Language,שפות,Arabic Speaking,דוברי ערבית
+human_situations:language:english_speaking,Human Situations,מצבים ,Language,שפות,English Speaking,דוברי אנגלית
+human_situations:language:russian_speaking,Human Situations,מצבים ,Language,שפות,Russian Speaking,דוברי רוסית
+human_situations:language:amharic_speaking,Human Situations,מצבים ,Language,שפות,Amharic Speaking,דוברי אמהרית
+human_situations:language:spanish_speaking,Human Situations,מצבים ,Language,שפות,Spanish Speaking,דוברי ספרדית
+human_situations:language:french_speaking,Human Situations,מצבים ,Language,שפות,French Speaking,דוברי צרפתית
+human_situations:language:limited_hebrew,Human Situations,מצבים ,Language,שפות,Limited Hebrew,עברית מוגבלת 
+human_situations:mental_health,Human Situations,מצבים ,Mental Health,בריאות הנפש
+human_situations:mental_health:anxiety,Human Situations,מצבים ,Mental Health,בריאות הנפש,Anxiety,חרדה
+human_situations:mental_health:bipolar,Human Situations,מצבים ,Mental Health,בריאות הנפש,Bipolar,הפרעה קוטבית
+human_situations:mental_health:brain_injury,Human Situations,מצבים ,Mental Health,בריאות הנפש,Brain Injury,פציעת ראש
+human_situations:mental_health:depression,Human Situations,מצבים ,Mental Health,בריאות הנפש,Depression,דיכאון
+human_situations:mental_health:eating_disorder,Human Situations,מצבים ,Mental Health,בריאות הנפש,Eating Disorder,הפרעות אכילה
+human_situations:mental_health:suicidal_thoughts,Human Situations,מצבים ,Mental Health,בריאות הנפש,Suicidal Thoughts,מחשבות אובדניות
+human_situations:role,Human Situations,מצבים ,Role,תפקיד
+human_situations:role:caregivers,Human Situations,מצבים ,Role,תפקיד,Caregivers,מטפלים.ות
+human_situations:role:spouses,Human Situations,מצבים ,Role,תפקיד,Spouses,בני ובנות זוג
+human_situations:role:dependents,Human Situations,מצבים ,Role,תפקיד,Dependents,תלויים.ות
+human_situations:role:fathers,Human Situations,מצבים ,Role,תפקיד,Fathers,אבות 
+human_situations:role:mothers,Human Situations,מצבים ,Role,תפקיד,Mothers,אמהות
+human_situations:role:parents,Human Situations,מצבים ,Role,תפקיד,Parents,הורים
+human_situations:substance_dependency,Human Situations,מצבים ,Substance Dependency,חומרים ממכרים
+human_situations:substance_dependency:alcohol_dependency,Human Situations,מצבים ,Substance Dependency,חומרים ממכרים,Alcohol Dependency,אלכוהול 
+human_situations:substance_dependency:dual_diagnosis,Human Situations,מצבים ,Substance Dependency,חומרים ממכרים,Dual Diagnosis,
+human_situations:substance_dependency:opioid_dependency,Human Situations,מצבים ,Substance Dependency,חומרים ממכרים,Opioid Dependency,סמים 
+human_situations:substance_dependency:smoker,Human Situations,מצבים ,Substance Dependency,חומרים ממכרים,Smoker,עישון
+human_situations:survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות
+human_situations:survivors:holocaust_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Holocaust Survivors,ניצולי שואה
+human_situations:survivors:trauma_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Trauma Survivors,נפגעי.ות טראומה
+human_situations:survivors:abuse_or_neglect_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Abuse or Neglect Survivors,התעללות או הזנחה
+human_situations:survivors:burn_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Burn Survivors,נפגעי.ות כוויה
+human_situations:survivors:all_cancer_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,All Cancer Survivors,כל מחלימי הסרטן
+human_situations:survivors:childhood_cancer_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Childhood Cancer Survivors,מחלימי סרטן ילדות
+human_situations:survivors:adult_cancer_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Adult Cancer Survivors,מחלימי סרטן
+human_situations:survivors:domestic_violence_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Domestic Violence Survivors,נפגעי.ות אלימות במשפחה
+human_situations:survivors:human_trafficking_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Human Trafficking Survivors,נפגעי.ות סחר בבני אדם
+human_situations:survivors:natural_disaster_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Natural Disaster Survivors,נפגעי.ות אסון טבע
+human_situations:survivors:sexual_assault_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,Sexual Assault Survivors,נפגעי.ות תקיפה מינית 
+human_situations:survivors:all_survivors,Human Situations,מצבים ,Survivors,ניצולים.ות נפגעים.ות,All Survivors,כל הניצולים.ות
+human_situations:urgency,Human Situations,מצבים ,Urgency,דחיפות
+human_situations:urgency:in_crisis,Human Situations,מצבים ,Urgency,דחיפות,In Crisis,במשבר
+human_situations:urgency:in_danger,Human Situations,מצבים ,Urgency,דחיפות,In Danger,בסכנה
+human_situations:urgency:emergency,Human Situations,מצבים ,Urgency,דחיפות,Emergency,חירום
+human_situations:criminal_history,Human Situations,מצבים ,Criminal History,פשיעה
+human_situations:criminal_history:ex_offenders,Human Situations,מצבים ,Criminal History,פשיעה,Ex-Offenders,אנשים בעלי עבר פלילי 
+human_situations:criminal_history:ex_offenders_youth,Human Situations,מצבים ,Criminal History,פשיעה,Ex-Offenders youth,נוער בעל עבר פלילי
+human_situations:criminal_history:prisoners,Human Situations,מצבים ,Criminal History,פשיעה,Prisoners,אסירים
+human_situations:gender,Human Situations,מצבים ,Gender,מגדר
+human_situations:gender:women,Human Situations,מצבים ,Gender,מגדר,Women,אישה
+human_situations:gender:men,Human Situations,מצבים ,Gender,מגדר,Men,גבר
+human_situations:gender:transgender,Human Situations,מצבים ,Gender,מגדר,Transgender,טרנסג'נדר
+human_situations:sexuality,Human Situations,מצבים ,Sexuality,נטייה מינית
+human_situations:sexuality:lgbtq,Human Situations,מצבים ,Sexuality,נטייה מינית,LGBTQ,"להט""ב "
+human_situations:sectors,Human Situations,מצבים ,Sectors,מגזרים
+human_situations:sectors:ultra_orthodox,Human Situations,מצבים ,Sectors,מגזרים,Ultra Orthodox,חרדים
+human_situations:sectors:bedouin,Human Situations,מצבים ,Sectors,מגזרים,Bedouin,בדואים
+human_situations:sectors:duruze,Human Situations,מצבים ,Sectors,מגזרים,Duruze,דרוזים
+human_situations:sectors:ethiopians,Human Situations,מצבים ,Sectors,מגזרים,Ethiopians,אתיופים
+human_situations:sectors:arabs,Human Situations,מצבים ,Sectors,מגזרים,Arabs,ערבים
+human_situations:sectors:christians,Human Situations,מצבים ,Sectors,מגזרים,Christians,נוצרים
+human_situations:sectors:circassians,Human Situations,מצבים ,Sectors,מגזרים,Circassians,צ'רקסים
