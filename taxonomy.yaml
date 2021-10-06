@@ -1663,8 +1663,6 @@
         slug: human_situations:health:cancer:vulvar_cancer
       - name: Wilms Tumor
         slug: human_situations:health:cancer:wilms_tumor
-    - name: Alzheimer's
-      slug: human_situations:health:alzheimer_s
     - name: Terminal Illness
       slug: human_situations:health:terminal_illness
     - name: Infectious Disease
