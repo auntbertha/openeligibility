@@ -2540,7 +2540,7 @@
     tx:
       he: 'מצבים '
   slug: human_situations
-  description: These are common attributes about a person. These can be used to help match a person’s situation with available human services.
+  description: These are common attributes about a person. These can be used to help match a person's situation with available human services.
   items:
   - name:
       source: General
@@ -2626,11 +2626,23 @@
         tx:
           he: 'חיילים וחיילות '
       slug: human_situations:armed_forces:active_duty
+    - name: Professional Duty
+      slug: human_situations:armed_forces:professional_duty
+    - name: Ex-soldiers
+      slug: human_situations:armed_forces:ex_soldiers
+    - name: Reserves
+      slug: human_situations:armed_forces:reserves
     - name:
         source: Veterans
         tx:
           he: גמלאי צה"ל
       slug: human_situations:armed_forces:veterans
+    - name: Injured while on Duty
+      slug: human_situations:armed_forces:injured_while_on_duty
+      related: human_situations:benefit_holders:defence_ministry:injured_while_on_duty
+    - name: Bereaved families
+      slug: human_situations:armed_forces:bereaved_families
+      related: human_situations:armed_forces:disabled:bereaved_families
   - name:
       source: Citizenship
       tx:
@@ -2642,6 +2654,25 @@
         tx:
           he: 'מהגרים.ות '
       slug: human_situations:citizenship:immigrants
+    - name: Foreign Residents
+      slug: human_situations:citizenship:foreign_residents
+    - name: Foreign Workers
+      slug: human_situations:citizenship:foreign_workers
+      items:
+      - name: Agriculture and Building
+        slug: human_situations:citizenship:foreign_workers:agriculture_and_building
+      - name: Nursing
+        slug: human_situations:citizenship:foreign_workers:nursing
+      - name: Experts
+        slug: human_situations:citizenship:foreign_workers:experts
+    - name: Palestinians Workers
+      slug: human_situations:citizenship:palestinians_workers
+    - name: Citizens
+      slug: human_situations:citizenship:citizens
+    - name: Residents
+      slug: human_situations:citizenship:residents
+    - name: Statusless
+      slug: human_situations:citizenship:statusless
     - name:
         source: Olim
         tx:
@@ -2652,27 +2683,6 @@
         tx:
           he: 'פליטים.ות '
       slug: human_situations:citizenship:refugees
-    - name:
-        source: Undocumented
-        tx:
-          he: שוהים בלתי חוקיים
-      slug: human_situations:citizenship:undocumented
-  - name:
-      source: Justice Involvement
-      tx:
-        he: מצב משפטי
-    slug: human_situations:justice_involvement
-    items:
-    - name:
-        source: Criminal Justice History
-        tx:
-          he: בעלי עבר פלילי
-      slug: human_situations:justice_involvement:criminal_justice_history
-    - name:
-        source: In Jail
-        tx:
-          he: בכלא
-      slug: human_situations:justice_involvement:in_jail
   - name:
       source: Disability
       tx:
@@ -2684,6 +2694,10 @@
         tx:
           he: 'כל המוגבלויות '
       slug: human_situations:disability:all_disabilities
+    - name: Autistic spectrum
+      slug: human_situations:disability:autistic_spectrum
+      related:
+      - human_situations:health:neurodevelopmental_disorders:autistic_spectrum
     - name:
         source: Learning Disability
         tx:
@@ -2704,11 +2718,6 @@
         tx:
           he: מוגבלות שכלית
       slug: human_situations:disability:intellectual_disability
-    - name:
-        source: Mentally Incapacitated
-        tx:
-          he: 'נכות נפשית '
-      slug: human_situations:disability:mentally_incapacitated
     - name:
         source: Limited Mobility
         tx:
@@ -2740,42 +2749,21 @@
           he: נושרים
       slug: human_situations:education:dropouts
     - name: Special needs
-      slug: human_situations:education:speacial_needs
+      slug: human_situations:education:special_needs
     - name:
         source: Students
         tx:
           he: סטודנטים
       slug: human_situations:education:students
-    - name: Yeshiva students
+    - name:
+        source: Yeshiva students
+        tx:
+          he: תלמידי ישיבה
       slug: human_situations:education:yeshiva_students
+    - name: Youth village / Boarding school
+      slug: human_situations:education:youth_village_boarding_school
     related:
     - human_services:education
-  - name:
-      source: Life Events
-      tx:
-        he: אירועי חיים
-    slug: human_situations:life_events
-    items:
-    - name:
-        source: Bar/Bat Mitzva
-        tx:
-          he: בר/בת מצווה
-      slug: human_situations:life_events:bar_bat_mitzva
-    - name:
-        source: Birth
-        tx:
-          he: לידה
-      slug: human_situations:life_events:birth
-    - name:
-        source: Grieving
-        tx:
-          he: אבל
-      slug: human_situations:life_events:grieving
-    - name:
-        source: Wedding
-        tx:
-          he: חתונה
-      slug: human_situations:life_events:wedding
   - name:
       source: Employment
       tx:
@@ -2797,20 +2785,8 @@
         tx:
           he: מובטלת
       slug: human_situations:employment:unemployed
-  - name:
-      source: Guardianship
-      tx:
-        he: 'אפוטרופסות '
-    slug: human_situations:guardianship
-    items:
-    - name:
-        source: Foster Youth
-        tx:
-          he: נוער אומנה
-      slug: human_situations:guardianship:foster_youth
-    related:
-    - human_services:legal:advocacy_legal_aid:guardianship
-    - human_services:legal:guardianship
+    - name: Self-employed
+      slug: human_situations:employment:self_employed
   - name:
       source: Health
       tx:
@@ -2855,145 +2831,67 @@
           tx:
             he: גסיסה
         slug: human_situations:health:treatment_phases:facing_end_of_life
+      - name: Home Care
+        slug: human_situations:health:treatment_phases:home_care
+      - name: Nursing Care
+        slug: human_situations:health:treatment_phases:nursing_care
     - name:
         source: Pregnant
         tx:
           he: הריון
       slug: human_situations:health:pregnant
-    - name:
-        source: Cancer
-        tx:
-          he: סרטן
-      slug: human_situations:health:cancer
+    - name: Fertility
+      slug: human_situations:health:fertility
+    - name: Neoplasm
+      slug: human_situations:health:neoplasm
       items:
-      - name:
-          source: All Cancer Types
-          tx:
-            he: כל סוגי הסרטן
-        slug: human_situations:health:cancer:all_cancer_types
-      - name:
-          source: Bladder Cancer
-          tx:
-            he: סרטן שפוחית השתן
-        slug: human_situations:health:cancer:bladder_cancer
-      - name: Brain Stem Glioma
-        slug: human_situations:health:cancer:brain_stem_glioma
-      - name:
-          source: Brain Tumor
-          tx:
-            he: גידול במח
-        slug: human_situations:health:cancer:brain_tumor
-      - name:
-          source: Breast Cancer
-          tx:
-            he: סרטן השד
-        slug: human_situations:health:cancer:breast_cancer
-      - name:
-          source: Central Nervous System
-          tx:
-            he: ' סרטן מערכת העצבים'
-        slug: human_situations:health:cancer:central_nervous_system
-      - name:
-          source: Cervical Cancer
-          tx:
-            he: סרטן צוואר הרחם
-        slug: human_situations:health:cancer:cervical_cancer
-      - name:
-          source: Colon Cancer
-          tx:
-            he: סרטן המעי
-        slug: human_situations:health:cancer:colon_cancer
-      - name:
-          source: Colorectal Cancer
-          tx:
-            he: סרטן המעי הגס
-        slug: human_situations:health:cancer:colorectal_cancer
-      - name: Desmoid Tumors
-        slug: human_situations:health:cancer:desmoid_tumors
-      - name:
-          source: Endomentrial Cancer
-          tx:
-            he: סרטן רירית הרחם
-        slug: human_situations:health:cancer:endomentrial_cancer
-      - name:
-          source: Head & Neck Cancer
-          tx:
-            he: סרטן הראש והצוואר
-        slug: human_situations:health:cancer:head_neck_cancer
-      - name:
-          source: Leukemia
-          tx:
-            he: סרטן הדם
-        slug: human_situations:health:cancer:leukemia
-      - name:
-          source: Liver Cancer
-          tx:
-            he: סרטן הכבד
-        slug: human_situations:health:cancer:liver_cancer
-      - name:
-          source: Lung Cancer
-          tx:
-            he: סרטן הריאה
-        slug: human_situations:health:cancer:lung_cancer
-      - name:
-          source: Lymphoma
-          tx:
-            he: לימפומה
-        slug: human_situations:health:cancer:lymphoma
-      - name: Neuroblastoma
-        slug: human_situations:health:cancer:neuroblastoma
-      - name:
-          source: Ovarian Cancer
-          tx:
-            he: סרטן השחלות
-        slug: human_situations:health:cancer:ovarian_cancer
-      - name:
-          source: Sarcoma
-          tx:
-            he: סרקומה
-        slug: human_situations:health:cancer:sarcoma
-      - name:
-          source: Skin Cancer
-          tx:
-            he: סרטן העור
-        slug: human_situations:health:cancer:skin_cancer
-      - name:
-          source: Stomach (Gastric) Cancer
-          tx:
-            he: סרטן הקיבה
-        slug: human_situations:health:cancer:stomach_gastric_cancer
-      - name:
-          source: Testicular Cancer
-          tx:
-            he: סרטן האשכים
-        slug: human_situations:health:cancer:testicular_cancer
-      - name:
-          source: Throat Cancer
-          tx:
-            he: סרטן הגרון
-        slug: human_situations:health:cancer:throat_cancer
-      - name:
-          source: Thyroid Cancer
-          tx:
-            he: סרטן בלוטות התריס
-        slug: human_situations:health:cancer:thyroid_cancer
-      - name:
-          source: Vaginal Cancer
-          tx:
-            he: סרטן הנרתיק
-        slug: human_situations:health:cancer:vaginal_cancer
-      - name:
-          source: Vulvar Cancer
-          tx:
-            he: סרטן הפות
-        slug: human_situations:health:cancer:vulvar_cancer
-      - name: Wilms Tumor
-        slug: human_situations:health:cancer:wilms_tumor
-    - name:
-        source: Terminal Illness
-        tx:
-          he: מחלה סופנית
-      slug: human_situations:health:terminal_illness
+      - name: Cancer
+        slug: human_situations:health:neoplasm:cancer
+        items:
+        - name: All Cancer Types
+          slug: human_situations:health:neoplasm:cancer:all_cancer_types
+        - name: Bladder Cancer
+          slug: human_situations:health:neoplasm:cancer:bladder_cancer
+        - name: Brain Tumor
+          slug: human_situations:health:neoplasm:cancer:brain_tumor
+        - name: Breast Cancer
+          slug: human_situations:health:neoplasm:cancer:breast_cancer
+        - name: Central Nervous System
+          slug: human_situations:health:neoplasm:cancer:central_nervous_system
+        - name: Cervical Cancer
+          slug: human_situations:health:neoplasm:cancer:cervical_cancer
+        - name: Colon Cancer
+          slug: human_situations:health:neoplasm:cancer:colon_cancer
+        - name: Endometrial Cancer
+          slug: human_situations:health:neoplasm:cancer:endometrial_cancer
+        - name: Head & Neck Cancer
+          slug: human_situations:health:neoplasm:cancer:head_neck_cancer
+        - name: Leukemia
+          slug: human_situations:health:neoplasm:cancer:leukemia
+        - name: Liver Cancer
+          slug: human_situations:health:neoplasm:cancer:liver_cancer
+        - name: Lung Cancer
+          slug: human_situations:health:neoplasm:cancer:lung_cancer
+        - name: Lymphoma
+          slug: human_situations:health:neoplasm:cancer:lymphoma
+        - name: Ovarian Cancer
+          slug: human_situations:health:neoplasm:cancer:ovarian_cancer
+        - name: Sarcoma
+          slug: human_situations:health:neoplasm:cancer:sarcoma
+        - name: Skin Cancer
+          slug: human_situations:health:neoplasm:cancer:skin_cancer
+        - name: Stomach (Gastric) Cancer
+          slug: human_situations:health:neoplasm:cancer:stomach_gastric_cancer
+        - name: Testicular Cancer
+          slug: human_situations:health:neoplasm:cancer:testicular_cancer
+        - name: Throat Cancer
+          slug: human_situations:health:neoplasm:cancer:throat_cancer
+        - name: Thyroid Cancer
+          slug: human_situations:health:neoplasm:cancer:thyroid_cancer
+        - name: Vaginal Cancer
+          slug: human_situations:health:neoplasm:cancer:vaginal_cancer
+        - name: Vulvar Cancer
+          slug: human_situations:health:neoplasm:cancer:vulvar_cancer
     - name:
         source: Infectious Disease
         tx:
@@ -3005,16 +2903,36 @@
           tx:
             he: איידס / HIV
         slug: human_situations:health:infectious_disease:hiv_aids
-    - name:
-        source: Neuromuscular Disease
-        tx:
-          he: מחלה עצבית -שרירית
-      slug: human_situations:health:neuromuscular_disease
-    - name:
-        source: All Mental Health
-        tx:
-          he: בריאות הנפש כללי
-      slug: human_situations:health:all_mental_health
+      - name: COVID19
+        slug: human_situations:health:infectious_disease:covid19
+    - name: Nervous System Disease
+      slug: human_situations:health:nervous_system_disease
+      items:
+      - name: Stroke
+        slug: human_situations:health:nervous_system_disease:stroke
+      - name: Epilepsy
+        slug: human_situations:health:nervous_system_disease:epilepsy
+      - name: Alzheimer disease
+        slug: human_situations:health:nervous_system_disease:alzheimer_disease
+      - name: Parkinson's
+        slug: human_situations:health:nervous_system_disease:parkinsons
+    - name: Neurodevelopmental Disorders
+      slug: human_situations:health:neurodevelopmental_disorders
+      items:
+      - name: Autistic spectrum
+        slug: human_situations:health:neurodevelopmental_disorders:autistic_spectrum
+    - name: Respiratory System Disease
+      slug: human_situations:health:respiratory_system
+      items:
+      - name: Asthma
+        slug: human_situations:health:respiratory_system:Asthma
+    - name: Rare diseases
+      slug: human_situations:health:rare_diseases
+      items:
+      - name: Familial Dysautonomia
+        slug: human_situations:health:rare_diseases:familial_dysautonomia
+    - name: Heart diseases
+      slug: human_situations:health:heart_diseases
     - name:
         source: Chronic Illness
         tx:
@@ -3025,46 +2943,18 @@
         tx:
           he: מחלה גנטית
       slug: human_situations:health:genetic_disorder
-    - name:
-        source: Diabetes
-        tx:
-          he: סכרת
-      slug: human_situations:health:diabetes
-    - name:
-        source: Autism
-        tx:
-          he: רצף אוטיסטי
-      slug: human_situations:health:autism
-    - name:
-        source: Hospitalized
-        tx:
-          he: מאושפזת
-      slug: human_situations:health:hospitalized
-      related:
-      - human_situations:health:treatment_phases:hospitalized
-    - name: Alzheimer's
-      slug: human_situations:health:alzheimers
-    - name:
-        source: Seizure Disorder
-        tx:
-          he: הפרעת התקפים
-      slug: human_situations:health:seizure_disorder
-    - name:
-        source: Substance Dependency
-        tx:
-          he: התמכרות לחומרים אסורים
-      slug: human_situations:health:substance_dependency
-      related:
-      - human_situations:substance_dependency
-    - name:
-        source: Mental Illness
-        tx:
-          he: מחלת נפש
-      slug: human_situations:health:mental_illness
-      related:
-      - human_situations:disability:mental_illness
-    related:
-    - human_services:health
+    - name: Rheumatic Diseases
+      slug: human_situations:health:rheumatic_diseases
+      items:
+      - name: Fibromyalgia
+        slug: human_situations:health:rheumatic_diseases:Fibromyalgia
+    - name: Endocrine, nutritional or metabolic diseases
+      slug: human_situations:health:endocrine_metabolic diseases
+      items:
+      - name: Type 1 Diabetes
+        slug: human_situations:health:endocrine_metabolic diseases:Type1_Diabetes
+      - name: Type 2 Diabetes
+        slug: human_situations:health:endocrine_metabolic diseases:Type2_Diabetes
   - name:
       source: Household
       tx:
@@ -3076,6 +2966,8 @@
         tx:
           he: יחידים.ות
       slug: human_situations:household:individuals
+    - name: Loneliness
+      slug: human_situations:household:loneliness
     - name:
         source: Families
         tx:
@@ -3123,11 +3015,10 @@
         tx:
           he: חסרי.ות בית
       slug: human_situations:housing:homeless
-    - name:
-        source: Near Homeless
-        tx:
-          he: כמעט חסרי.ות בית
-      slug: human_situations:housing:near_homeless
+    - name: Public Housing Tenants
+      slug: human_situations:housing:public_housing_tenants
+    - name: Recipients of Housing Assistance
+      slug: human_situations:housing:recipients_of_housing_assistance
     - name:
         source: Runaways
         tx:
@@ -3192,47 +3083,64 @@
         tx:
           he: דוברי צרפתית
       slug: human_situations:language:french_speaking
+  - name:
+      source: Life Events
+      tx:
+        he: אירועי חיים
+    slug: human_situations:life_events
+    items:
+    - name: Bar/Bat Mitzva
+      slug: human_situations:life_events:bar_mitzva
     - name:
-        source: Limited Hebrew
+        source: Birth
         tx:
-          he: 'עברית מוגבלת '
-      slug: human_situations:language:limited_hebrew
+          he: לידה
+      slug: human_situations:life_events:birth
+    - name: Death
+      slug: human_situations:life_events:death
+    - name: Divorce
+      slug: human_situations:life_events:divorce
+    - name: Grief
+      slug: human_situations:life_events:grief
+    - name:
+        source: Wedding
+        tx:
+          he: חתונה
+      slug: human_situations:life_events:wedding
   - name:
       source: Mental Health
       tx:
         he: בריאות הנפש
     slug: human_situations:mental_health
     items:
-    - name:
-        source: Anxiety
-        tx:
-          he: חרדה
-      slug: human_situations:mental_health:anxiety
-    - name:
-        source: Bipolar
-        tx:
-          he: הפרעה קוטבית
-      slug: human_situations:mental_health:bipolar
-    - name:
-        source: Brain Injury
-        tx:
-          he: פציעת ראש
-      slug: human_situations:mental_health:brain_injury
-    - name:
-        source: Depression
-        tx:
-          he: דיכאון
-      slug: human_situations:mental_health:depression
-    - name:
-        source: Eating Disorder
-        tx:
-          he: הפרעות אכילה
-      slug: human_situations:mental_health:eating_disorder
-    - name:
-        source: Suicidal Thoughts
-        tx:
-          he: מחשבות אובדניות
-      slug: human_situations:mental_health:suicidal_thoughts
+    - name: Mental conditions and diseases
+      slug: human_situations:mental_health:mental_conditions_diseases
+      items:
+      - name: Anxiety
+        slug: human_situations:mental_health:mental_conditions_diseases:anxiety
+      - name: Bipolar
+        slug: human_situations:mental_health:mental_conditions_diseases:bipolar
+      - name: Brain Injury
+        slug: human_situations:mental_health:mental_conditions_diseases:brain_injury
+      - name: Depression
+        slug: human_situations:mental_health:mental_conditions_diseases:depression
+      - name: Eating Disorder
+        slug: human_situations:mental_health:mental_conditions_diseases:eating_disorder
+      - name: Suicidal Thoughts
+        slug: human_situations:mental_health:mental_conditions_diseases:suicidal_thoughts
+      - name: PTSD
+        slug: human_situations:mental_health:mental_conditions_diseases:ptsd
+      - name: Schizophrenia
+        slug: human_situations:mental_health:mental_conditions_diseases:schizophrenia
+    - name: Treatment Phases
+      slug: human_situations:mental_health:treatment_phases
+      items:
+      - name: forced hospitalization
+        slug: human_situations:mental_health:treatment_phases:forced hospitalization
+      - name: Rehabilitation basket
+        slug: human_situations:mental_health:treatment_phases:Rehabilitation basket
+      - name: No recognition
+        slug: human_situations:mental_health:treatment_phases:no_recognition
   - name:
       source: Role
       tx:
@@ -3280,7 +3188,10 @@
         tx:
           he: 'אלכוהול '
       slug: human_situations:substance_dependency:alcohol_dependency
-    - name: Dual Diagnosis
+    - name:
+        source: Dual Diagnosis
+        tx:
+          he: אלכוהול וסמים
       slug: human_situations:substance_dependency:dual_diagnosis
     - name:
         source: Opioid Dependency
@@ -3292,6 +3203,8 @@
         tx:
           he: עישון
       slug: human_situations:substance_dependency:smoker
+    - name: Gambling
+      slug: human_situations:substance_dependency:gambling
     related:
     - human_situations:health:substance_dependency
   - name:
@@ -3321,21 +3234,6 @@
           he: נפגעי.ות כוויה
       slug: human_situations:survivors:burn_survivors
     - name:
-        source: All Cancer Survivors
-        tx:
-          he: כל מחלימי הסרטן
-      slug: human_situations:survivors:all_cancer_survivors
-    - name:
-        source: Childhood Cancer Survivors
-        tx:
-          he: מחלימי סרטן ילדות
-      slug: human_situations:survivors:childhood_cancer_survivors
-    - name:
-        source: Adult Cancer Survivors
-        tx:
-          he: מחלימי סרטן
-      slug: human_situations:survivors:adult_cancer_survivors
-    - name:
         source: Domestic Violence Survivors
         tx:
           he: נפגעי.ות אלימות במשפחה
@@ -3360,6 +3258,8 @@
         tx:
           he: כל הניצולים.ות
       slug: human_situations:survivors:all_survivors
+    - name: Terror Victims
+      slug: human_situations:survivors:terror_victims
   - name:
       source: Urgency
       tx:
@@ -3454,11 +3354,8 @@
         tx:
           he: בדואים
       slug: human_situations:sectors:bedouin
-    - name:
-        source: Duruze
-        tx:
-          he: דרוזים
-      slug: human_situations:sectors:duruze
+    - name: Druze
+      slug: human_situations:sectors:druze
     - name:
         source: Ethiopians
         tx:
@@ -3479,3 +3376,36 @@
         tx:
           he: צ'רקסים
       slug: human_situations:sectors:circassians
+    - name: Jews
+      slug: human_situations:sectors:jews
+    - name: Muslims
+      slug: human_situations:sectors:muslims
+  - name: Benefit Holders
+    slug: human_situations:benefit_holders
+    items:
+    - name: Social Security
+      slug: human_situations:benefit_holders:social_security
+      items:
+      - name: Disability
+        slug: human_situations:benefit_holders:social_security:disability
+      - name: Income Security
+        slug: human_situations:benefit_holders:social_security:income_security
+      - name: Nursing Care
+        slug: human_situations:benefit_holders:social_security:nursing_care
+      - name: Righteous Among the Nations
+        slug: human_situations:benefit_holders:social_security:righteous_among_the_nations
+      - name: USSR Veterans
+        slug: human_situations:benefit_holders:social_security:ussr_veterans
+      - name: Zion Prisoners
+        slug: human_situations:benefit_holders:social_security:zion_prisoners
+    - name: Ministry of Defense
+      slug: human_situations:benefit_holders:defense_ministry
+      items:
+      - name: IDF injuries
+        slug: human_situations:benefit_holders:defense_ministry:idf_injuries
+      - name: Injured while On Duty
+        slug: human_situations:benefit_holders:defense_ministry:injured_while_on_duty
+        related: human_situations:armed_forces:disabled:injured_while_on_duty
+      - name: Bereaved Families
+        slug: human_situations:benefit_holders:defense_ministry:bereaved_families
+        related: human_situations:armed_forces:bereaved_families

@@ -373,7 +373,7 @@ Services for legal representation, mediation, advocacy, citizenship and immigrat
   - דירות חירום ומקלטים
 - שירותי חירום פסיכאטריים 
 ## מצבים 
-These are common attributes about a person. These can be used to help match a person’s situation with available human services.
+These are common attributes about a person. These can be used to help match a person's situation with available human services.
 ### כללי 
 - כל אדם הצריך עזרה
 ### קבוצת גיל 
@@ -392,23 +392,33 @@ These are common attributes about a person. These can be used to help match a pe
   (בני 60+)
 ### צבא ובטחון
 - חיילים וחיילות 
+- Professional Duty
+- Ex-soldiers
+- Reserves
 - גמלאי צה"ל
+- Injured while on Duty
+- Bereaved families
 ### הגירה
 - מהגרים.ות 
+- Foreign Residents
+- Foreign Workers
+  - Agriculture and Building
+  - Nursing
+  - Experts
+- Palestinians Workers
+- Citizens
+- Residents
+- Statusless
 - עולים 
 - פליטים.ות 
-- שוהים בלתי חוקיים
-### מצב משפטי
-- בעלי עבר פלילי
-- בכלא
 ### מוגבלויות 
 - כל המוגבלויות 
+- Autistic spectrum
 - קשיי למידה והפרעות קשב וריכוז
   - ADD/ADHD
 - נכות התפתחותית
 - Physical Disability
 - מוגבלות שכלית
-- נכות נפשית 
 - תנועה מוגבלת
 - חרשות או שמיעה מוגבלת
 - ליקוי ראיה
@@ -417,18 +427,13 @@ These are common attributes about a person. These can be used to help match a pe
 - נושרים
 - Special needs
 - סטודנטים
-- Yeshiva students
-### אירועי חיים
-- בר/בת מצווה
-- לידה
-- אבל
-- חתונה
+- תלמידי ישיבה
+- Youth village / Boarding school
 ### תעסוקה
 - מועסקת
 - גמלאית
 - מובטלת
-### אפוטרופסות 
-- נוער אומנה
+- Self-employed
 ### בריאות
 - שלבי טיפול
   - כל שלבי הטיפול
@@ -437,51 +442,59 @@ These are common attributes about a person. These can be used to help match a pe
   - בטיפול
   - אחרי טיפול
   - גסיסה
+  - Home Care
+  - Nursing Care
 - הריון
-- סרטן
-  - כל סוגי הסרטן
-  - סרטן שפוחית השתן
-  - Brain Stem Glioma
-  - גידול במח
-  - סרטן השד
-  -  סרטן מערכת העצבים
-  - סרטן צוואר הרחם
-  - סרטן המעי
-  - סרטן המעי הגס
-  - Desmoid Tumors
-  - סרטן רירית הרחם
-  - סרטן הראש והצוואר
-  - סרטן הדם
-  - סרטן הכבד
-  - סרטן הריאה
-  - לימפומה
-  - Neuroblastoma
-  - סרטן השחלות
-  - סרקומה
-  - סרטן העור
-  - סרטן הקיבה
-  - סרטן האשכים
-  - סרטן הגרון
-  - סרטן בלוטות התריס
-  - סרטן הנרתיק
-  - סרטן הפות
-  - Wilms Tumor
-- מחלה סופנית
+- Fertility
+- Neoplasm
+  - Cancer
+    - All Cancer Types
+    - Bladder Cancer
+    - Brain Tumor
+    - Breast Cancer
+    - Central Nervous System
+    - Cervical Cancer
+    - Colon Cancer
+    - Endometrial Cancer
+    - Head & Neck Cancer
+    - Leukemia
+    - Liver Cancer
+    - Lung Cancer
+    - Lymphoma
+    - Ovarian Cancer
+    - Sarcoma
+    - Skin Cancer
+    - Stomach (Gastric) Cancer
+    - Testicular Cancer
+    - Throat Cancer
+    - Thyroid Cancer
+    - Vaginal Cancer
+    - Vulvar Cancer
 - מחלה מדבקת
   - איידס / HIV
-- מחלה עצבית -שרירית
-- בריאות הנפש כללי
+  - COVID19
+- Nervous System Disease
+  - Stroke
+  - Epilepsy
+  - Alzheimer disease
+  - Parkinson's
+- Neurodevelopmental Disorders
+  - Autistic spectrum
+- Respiratory System Disease
+  - Asthma
+- Rare diseases
+  - Familial Dysautonomia
+- Heart diseases
 - מחלה כרונית
 - מחלה גנטית
-- סכרת
-- רצף אוטיסטי
-- מאושפזת
-- Alzheimer's
-- הפרעת התקפים
-- התמכרות לחומרים אסורים
-- מחלת נפש
+- Rheumatic Diseases
+  - Fibromyalgia
+- Endocrine, nutritional or metabolic diseases
+  - Type 1 Diabetes
+  - Type 2 Diabetes
 ### מצב משפחתי
 - יחידים.ות
+- Loneliness
 - משפחות
   - עם ילדים
   - חד הוריות
@@ -491,7 +504,8 @@ These are common attributes about a person. These can be used to help match a pe
 - בעלי בתים
 - משכירים.ות
 - חסרי.ות בית
-- כמעט חסרי.ות בית
+- Public Housing Tenants
+- Recipients of Housing Assistance
 - נוער רחוב
 ### הכנסה
 - נתמכי קצבה
@@ -504,14 +518,27 @@ These are common attributes about a person. These can be used to help match a pe
 - דוברי אמהרית
 - דוברי ספרדית
 - דוברי צרפתית
-- עברית מוגבלת 
+### אירועי חיים
+- Bar/Bat Mitzva
+- לידה
+- Death
+- Divorce
+- Grief
+- חתונה
 ### בריאות הנפש
-- חרדה
-- הפרעה קוטבית
-- פציעת ראש
-- דיכאון
-- הפרעות אכילה
-- מחשבות אובדניות
+- Mental conditions and diseases
+  - Anxiety
+  - Bipolar
+  - Brain Injury
+  - Depression
+  - Eating Disorder
+  - Suicidal Thoughts
+  - PTSD
+  - Schizophrenia
+- Treatment Phases
+  - forced hospitalization
+  - Rehabilitation basket
+  - No recognition
 ### תפקיד
 - מטפלים.ות
 - בני ובנות זוג
@@ -521,22 +548,21 @@ These are common attributes about a person. These can be used to help match a pe
 - הורים
 ### חומרים ממכרים
 - אלכוהול 
-- Dual Diagnosis
+- אלכוהול וסמים
 - סמים 
 - עישון
+- Gambling
 ### ניצולים.ות נפגעים.ות
 - ניצולי שואה
 - נפגעי.ות טראומה
 - התעללות או הזנחה
 - נפגעי.ות כוויה
-- כל מחלימי הסרטן
-- מחלימי סרטן ילדות
-- מחלימי סרטן
 - נפגעי.ות אלימות במשפחה
 - נפגעי.ות סחר בבני אדם
 - נפגעי.ות אסון טבע
 - נפגעי.ות תקיפה מינית 
 - כל הניצולים.ות
+- Terror Victims
 ### דחיפות
 - במשבר
 - בסכנה
@@ -554,9 +580,23 @@ These are common attributes about a person. These can be used to help match a pe
 ### מגזרים
 - חרדים
 - בדואים
-- דרוזים
+- Druze
 - אתיופים
 - ערבים
 - נוצרים
 - צ'רקסים
+- Jews
+- Muslims
+### Benefit Holders
+- Social Security
+  - Disability
+  - Income Security
+  - Nursing Care
+  - Righteous Among the Nations
+  - USSR Veterans
+  - Zion Prisoners
+- Ministry of Defense
+  - IDF injuries
+  - Injured while On Duty
+  - Bereaved Families
 </div>
