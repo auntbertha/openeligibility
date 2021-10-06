@@ -1955,7 +1955,7 @@
         slug: human_situations:benefit_holders:social_security:ussr_veterans
       - name: Zion Prisoners 
         slug: human_situations:benefit_holders:social_security:zion_prisoners
-    - Name: Ministry of Defense 
+    - name: Ministry of Defense 
       slug: human_situations:benefit_holders:defense_ministry
       items: 
       - name: IDF injuries 

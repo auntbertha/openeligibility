@@ -76,9 +76,13 @@ def pull_translations(lang, filename):
 
 def collect_keys(nodes, to_push, translated):
     for node in nodes:
-        slug = node['slug']
-        description_slug = slug + '::description'
-        name = node['name']
+        try:
+            slug = node['slug']
+            description_slug = slug + '::description'
+            name = node['name']
+        except Exception:
+            print('Offending node:', node)
+            raise
         to_push[slug] = name
         if slug in translated:
             node['name'] = dict(source=name, tx=translated[slug])
