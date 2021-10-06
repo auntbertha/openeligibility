@@ -1515,16 +1515,16 @@
     - name: Immigrants
       slug: human_situations:citizenship:immigrants
     - name: Foreign Residents
-    - slug: human_situations:citizenship:foreign_residents
+      slug: human_situations:citizenship:foreign_residents
     - name: Foreign Workers
-    - slug: human_situations:citizenship:foreign_workers
+      slug: human_situations:citizenship:foreign_workers
       items:
       - name: Agriculture and Building
-      - slug: human_situations:citizenship:foreign_workers:agriculture_and_building
+        slug: human_situations:citizenship:foreign_workers:agriculture_and_building
       - name: Nursing
-      - slug: human_situations:citizenship:foreign_workers:nursing
+        slug: human_situations:citizenship:foreign_workers:nursing
       - name: Experts
-      - slug: human_situations:citizenship:foreign_workers:experts
+        slug: human_situations:citizenship:foreign_workers:experts
     - name: Palestinians Workers
       slug: human_situations:citizenship:palestinians_workers
     - name: Citizens
@@ -1545,7 +1545,7 @@
     - name: Autistic spectrum
       slug: human_situations:disability:autistic_spectrum
       related:
-      - slug: human_situations:health:neurodevelopmental_disorders:autistic_spectrum
+      - human_situations:health:neurodevelopmental_disorders:autistic_spectrum
     - name: Learning Disability
       slug: human_situations:disability:learning_disability
       items:
@@ -1682,13 +1682,13 @@
       slug: human_situations:health:nervous_system_disease
       items:
       - name: Stroke
-      - slug: human_situations:health:nervous_system_disease:stroke
+        slug: human_situations:health:nervous_system_disease:stroke
       - name: Epilepsy
-      - slug: human_situations:health:nervous_system_disease:epilepsy
+        slug: human_situations:health:nervous_system_disease:epilepsy
       - name: Alzheimer disease
-      - slug: human_situations:health:nervous_system_disease:alzheimer_disease
+        slug: human_situations:health:nervous_system_disease:alzheimer_disease
       - name: Parkinson's
-      - slug: human_situations:health:nervous_system_disease:parkinsons
+        slug: human_situations:health:nervous_system_disease:parkinsons
     - name: Neurodevelopmental Disorders
       slug: human_situations:health:neurodevelopmental_disorders
       items:
@@ -1800,7 +1800,7 @@
     slug: human_situations:mental_health
     items:
       - name: Mental conditions and diseases
-      - slug: human_situations:mental_health:mental_conditions_diseases
+        slug: human_situations:mental_health:mental_conditions_diseases
         items:
         - name: Anxiety
           slug: human_situations:mental_health:mental_conditions_diseases:anxiety
@@ -1819,7 +1819,7 @@
         - name: Schizophrenia
           slug: human_situations:mental_health:mental_conditions_diseases:schizophrenia
       - name: Treatment Phases
-      - slug: human_situations:mental_health:treatment_phases
+        slug: human_situations:mental_health:treatment_phases
         items:
         - name: forced hospitalization
           slug: human_situations:mental_health:treatment_phases:forced hospitalization
