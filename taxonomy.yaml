@@ -1460,7 +1460,7 @@
     - human_situations:urgency:emergency
 - name: Human Situations
   slug: human_situations
-  description: "These are common attributes about a person. These can be used to help match a person\u2019s situation with available human services."
+  description: "These are common attributes about a person. These can be used to help match a person's situation with available human services."
   items:
   - name: General
     slug: human_situations:general
@@ -1495,31 +1495,57 @@
     items:
     - name: Active Duty
       slug: human_situations:armed_forces:active_duty
+    - name: Professional Duty
+      slug: human_situations:armed_forces:professional_duty
+    - name: Ex-soldiers
+      slug: human_situations:armed_forces:ex_soldiers
+    - name: Reserves
+      slug: human_situations:armed_forces:reserves
     - name: Veterans
       slug: human_situations:armed_forces:veterans
+    - name: Injured while on Duty
+      slug: human_situations:armed_forces:injured_while_on_duty
+      related: human_situations:benefit_holders:defence_ministry:injured_while_on_duty
+    - name: Bereaved families
+      slug: human_situations:armed_forces:bereaved_families
+      related: human_situations:armed_forces:disabled:bereaved_families 
   - name: Citizenship
     slug: human_situations:citizenship
     items:
     - name: Immigrants
       slug: human_situations:citizenship:immigrants
+    - name: Foreign Residents
+    - slug: human_situations:citizenship:foreign_residents
+    - name: Foreign Workers
+    - slug: human_situations:citizenship:foreign_workers
+      items:
+      - name: Agriculture and Building
+      - slug: human_situations:citizenship:foreign_workers:agriculture_and_building
+      - name: Nursing
+      - slug: human_situations:citizenship:foreign_workers:nursing
+      - name: Experts
+      - slug: human_situations:citizenship:foreign_workers:experts
+    - name: Palestinians Workers
+      slug: human_situations:citizenship:palestinians_workers
+    - name: Citizens
+      slug: human_situations:citizenship:citizens
+    - name: Residents
+      slug: human_situations:citizenship:residents
+    - name: Statusless
+      slug: human_situations:citizenship:statusless
     - name: Olim
       slug: human_situations:citizenship:olim
     - name: Refugees
       slug: human_situations:citizenship:refugees
-    - name: Undocumented
-      slug: human_situations:citizenship:undocumented
-  - name: Justice Involvement
-    slug: human_situations:justice_involvement
-    items:
-    - name: Criminal Justice History
-      slug: human_situations:justice_involvement:criminal_justice_history
-    - name: In Jail
-      slug: human_situations:justice_involvement:in_jail
   - name: Disability
     slug: human_situations:disability
     items:
     - name: All Disabilities
       slug: human_situations:disability:all_disabilities
+    - name: Autistic spectrum
+      slug: human_situations:disability:autistic_spectrum
+      related:
+      - slug: human_situations:health:neurodevelopmental_disorders:autistic_spectrum
     - name: Learning Disability
       slug: human_situations:disability:learning_disability
       items:
@@ -1531,8 +1557,6 @@
       slug: human_situations:disability:physical_disability
     - name: Intellectual Disability
       slug: human_situations:disability:intellectual_disability
-    - name: Mentally Incapacitated
-      slug: human_situations:disability:mentally_incapacitated
     - name: Limited Mobility
       slug: human_situations:disability:limited_mobility
     - name: Deaf or Hard of Hearing
@@ -1549,24 +1573,15 @@
     - name: Dropouts
       slug: human_situations:education:dropouts
     - name: Special needs
-      slug: human_situations:education:speacial_needs
+      slug: human_situations:education:special_needs
     - name: Students
       slug: human_situations:education:students
     - name: Yeshiva students
       slug: human_situations:education:yeshiva_students
+    - name: Youth village / Boarding school
+      slug: human_situations:education:youth_village_boarding_school
     related:
     - human_services:education
-  - name: Life Events
-    slug: human_situations:life_events
-    items:
-    - name: Bar/Bat Mitzva
-      slug: human_situations:life_events:bar_bat_mitzva
-    - name: Birth
-      slug: human_situations:life_events:birth
-    - name: Grieving
-      slug: human_situations:life_events:grieving
-    - name: Wedding
-      slug: human_situations:life_events:wedding
   - name: Employment
     slug: human_situations:employment
     items:
@@ -1576,14 +1591,8 @@
       slug: human_situations:employment:retirement
     - name: Unemployed
       slug: human_situations:employment:unemployed
-  - name: Guardianship
-    slug: human_situations:guardianship
-    items:
-    - name: Foster Youth
-      slug: human_situations:guardianship:foster_youth
-    related:
-    - human_services:legal:advocacy_legal_aid:guardianship
-    - human_services:legal:guardianship
+    - name: Self-employed
+      slug: human_situations:employment:self_employed 
   - name: Health
     slug: human_situations:health
     items:
@@ -1604,107 +1613,122 @@
         slug: human_situations:health:treatment_phases:post_treatment
       - name: Facing End of Life
         slug: human_situations:health:treatment_phases:facing_end_of_life
+      - name: Home Care
+        slug: human_situations:health:treatment_phases:home_care
+      - name: Nursing Care
+        slug: human_situations:health:treatment_phases:nursing_care
     - name: Pregnant
       slug: human_situations:health:pregnant
-    - name: Cancer
-      slug: human_situations:health:cancer
+    - name: Fertility
+      slug: human_situations:health:fertility
+    - name: Neoplasm
+      slug: human_situations:health:neoplasm
       items:
-      - name: All Cancer Types
-        slug: human_situations:health:cancer:all_cancer_types
-      - name: Bladder Cancer
-        slug: human_situations:health:cancer:bladder_cancer
-      - name: Brain Stem Glioma
-        slug: human_situations:health:cancer:brain_stem_glioma
-      - name: Brain Tumor
-        slug: human_situations:health:cancer:brain_tumor
-      - name: Breast Cancer
-        slug: human_situations:health:cancer:breast_cancer
-      - name: Central Nervous System
-        slug: human_situations:health:cancer:central_nervous_system
-      - name: Cervical Cancer
-        slug: human_situations:health:cancer:cervical_cancer
-      - name: Colon Cancer
-        slug: human_situations:health:cancer:colon_cancer
-      - name: Colorectal Cancer
-        slug: human_situations:health:cancer:colorectal_cancer
-      - name: Desmoid Tumors
-        slug: human_situations:health:cancer:desmoid_tumors
-      - name: Endomentrial Cancer
-        slug: human_situations:health:cancer:endomentrial_cancer
-      - name: Head & Neck Cancer
-        slug: human_situations:health:cancer:head_neck_cancer
-      - name: Leukemia
-        slug: human_situations:health:cancer:leukemia
-      - name: Liver Cancer
-        slug: human_situations:health:cancer:liver_cancer
-      - name: Lung Cancer
-        slug: human_situations:health:cancer:lung_cancer
-      - name: Lymphoma
-        slug: human_situations:health:cancer:lymphoma
-      - name: Neuroblastoma
-        slug: human_situations:health:cancer:neuroblastoma
-      - name: Ovarian Cancer
-        slug: human_situations:health:cancer:ovarian_cancer
-      - name: Sarcoma
-        slug: human_situations:health:cancer:sarcoma
-      - name: Skin Cancer
-        slug: human_situations:health:cancer:skin_cancer
-      - name: Stomach (Gastric) Cancer
-        slug: human_situations:health:cancer:stomach_gastric_cancer
-      - name: Testicular Cancer
-        slug: human_situations:health:cancer:testicular_cancer
-      - name: Throat Cancer
-        slug: human_situations:health:cancer:throat_cancer
-      - name: Thyroid Cancer
-        slug: human_situations:health:cancer:thyroid_cancer
-      - name: Vaginal Cancer
-        slug: human_situations:health:cancer:vaginal_cancer
-      - name: Vulvar Cancer
-        slug: human_situations:health:cancer:vulvar_cancer
-      - name: Wilms Tumor
-        slug: human_situations:health:cancer:wilms_tumor
-    - name: Terminal Illness
-      slug: human_situations:health:terminal_illness
+      - name: Cancer
+        slug: human_situations:health:neoplasm:cancer
+        items:
+        - name: All Cancer Types
+          slug: human_situations:health:neoplasm:cancer:all_cancer_types
+        - name: Bladder Cancer
+          slug: human_situations:health:neoplasm:cancer:bladder_cancer
+        - name: Brain Tumor
+          slug: human_situations:health:neoplasm:cancer:brain_tumor
+        - name: Breast Cancer
+          slug: human_situations:health:neoplasm:cancer:breast_cancer
+        - name: Central Nervous System
+          slug: human_situations:health:neoplasm:cancer:central_nervous_system
+        - name: Cervical Cancer
+          slug: human_situations:health:neoplasm:cancer:cervical_cancer
+        - name: Colon Cancer
+          slug: human_situations:health:neoplasm:cancer:colon_cancer
+        - name: Endometrial Cancer
+          slug: human_situations:health:neoplasm:cancer:endometrial_cancer
+        - name: Head & Neck Cancer
+          slug: human_situations:health:neoplasm:cancer:head_neck_cancer
+        - name: Leukemia
+          slug: human_situations:health:neoplasm:cancer:leukemia
+        - name: Liver Cancer
+          slug: human_situations:health:neoplasm:cancer:liver_cancer
+        - name: Lung Cancer
+          slug: human_situations:health:neoplasm:cancer:lung_cancer
+        - name: Lymphoma
+          slug: human_situations:health:neoplasm:cancer:lymphoma
+        - name: Ovarian Cancer
+          slug: human_situations:health:neoplasm:cancer:ovarian_cancer
+        - name: Sarcoma
+          slug: human_situations:health:neoplasm:cancer:sarcoma
+        - name: Skin Cancer
+          slug: human_situations:health:neoplasm:cancer:skin_cancer
+        - name: Stomach (Gastric) Cancer
+          slug: human_situations:health:neoplasm:cancer:stomach_gastric_cancer
+        - name: Testicular Cancer
+          slug: human_situations:health:neoplasm:cancer:testicular_cancer
+        - name: Throat Cancer
+          slug: human_situations:health:neoplasm:cancer:throat_cancer
+        - name: Thyroid Cancer
+          slug: human_situations:health:neoplasm:cancer:thyroid_cancer
+        - name: Vaginal Cancer
+          slug: human_situations:health:neoplasm:cancer:vaginal_cancer
+        - name: Vulvar Cancer
+          slug: human_situations:health:neoplasm:cancer:vulvar_cancer
     - name: Infectious Disease
       slug: human_situations:health:infectious_disease
       items:
       - name: HIV/AIDS
         slug: human_situations:health:infectious_disease:hiv_aids
-    - name: Neuromuscular Disease
-      slug: human_situations:health:neuromuscular_disease
-    - name: All Mental Health
-      slug: human_situations:health:all_mental_health
+      - name: COVID19
+        slug: human_situations:health:infectious_disease:covid19
+    - name: Nervous System Disease
+      slug: human_situations:health:nervous_system_disease
+      items:
+      - name: Stroke
+      - slug: human_situations:health:nervous_system_disease:stroke
+      - name: Epilepsy
+      - slug: human_situations:health:nervous_system_disease:epilepsy
+      - name: Alzheimer disease
+      - slug: human_situations:health:nervous_system_disease:alzheimer_disease
+      - name: Parkinson's
+      - slug: human_situations:health:nervous_system_disease:parkinsons
+    - name: Neurodevelopmental Disorders
+      slug: human_situations:health:neurodevelopmental_disorders
+      items:
+      - name: Autistic spectrum
+        slug: human_situations:health:neurodevelopmental_disorders:autistic_spectrum
+    - name: Respiratory System Disease
+      slug: human_situations:health:respiratory_system
+      items:
+      - name: Asthma
+        slug: human_situations:health:respiratory_system:Asthma
+    - name: Rare diseases
+      slug: human_situations:health:rare_diseases
+      items:
+      - name: Familial Dysautonomia
+        slug: human_situations:health:rare_diseases:familial_dysautonomia
+    - name: Heart diseases
+      slug: human_situations:health:heart_diseases
     - name: Chronic Illness
       slug: human_situations:health:chronic_illness
     - name: Genetic Disorder
       slug: human_situations:health:genetic_disorder
-    - name: Diabetes
-      slug: human_situations:health:diabetes
-    - name: Autism
-      slug: human_situations:health:autism
-    - name: Hospitalized
-      slug: human_situations:health:hospitalized
-      related:
-      - human_situations:health:treatment_phases:hospitalized
-    - name: Alzheimer's
-      slug: human_situations:health:alzheimers
-    - name: Seizure Disorder
-      slug: human_situations:health:seizure_disorder
-    - name: Substance Dependency
-      slug: human_situations:health:substance_dependency
-      related:
-      - human_situations:substance_dependency
-    - name: Mental Illness
-      slug: human_situations:health:mental_illness
-      related:
-      - human_situations:disability:mental_illness
-    related:
-    - human_services:health
+    - name: Rheumatic Diseases
+      slug: human_situations:health:rheumatic_diseases
+      items:
+      - name: Fibromyalgia
+        slug: human_situations:health:rheumatic_diseases:Fibromyalgia
+    - name: Endocrine, nutritional or metabolic diseases
+      slug: human_situations:health:endocrine_metabolic diseases
+      items:
+      - name: Type 1 Diabetes
+        slug: human_situations:health:endocrine_metabolic diseases:Type1_Diabetes
+      - name: Type 2 Diabetes
+        slug: human_situations:health:endocrine_metabolic diseases:Type2_Diabetes
   - name: Household
     slug: human_situations:household
     items:
     - name: Individuals
       slug: human_situations:household:individuals
+    - name: Loneliness
+      slug: human_situations:household:loneliness
     - name: Families
       slug: human_situations:household:families
       items:
@@ -1725,8 +1749,10 @@
       slug: human_situations:housing:home_renters
     - name: Homeless
       slug: human_situations:housing:homeless
-    - name: Near Homeless
-      slug: human_situations:housing:near_homeless
+    - name: Public Housing Tenants
+      slug: human_situations:housing:public_housing_tenants
+    - name: Recipients of Housing Assistance
+      slug: human_situations:housing:recipients_of_housing_assistance
     - name: Runaways
       slug: human_situations:housing:runaways
     related:
@@ -1755,23 +1781,52 @@
       slug: human_situations:language:spanish_speaking
     - name: French Speaking
       slug: human_situations:language:french_speaking
-    - name: Limited Hebrew
-      slug: human_situations:language:limited_hebrew
+  - name: Life Events
+    slug: human_situations:life_events
+    items:
+    - name: Bar/Bat Mitzva
+      slug: human_situations:life_events:bar_mitzva
+    - name: Birth
+      slug: human_situations:life_events:birth
+    - name: Death
+      slug: human_situations:life_events:death
+    - name: Divorce
+      slug: human_situations:life_events:divorce
+    - name: Grief
+      slug: human_situations:life_events:grief
+    - name: Wedding
+      slug: human_situations:life_events:wedding
   - name: Mental Health
     slug: human_situations:mental_health
     items:
-    - name: Anxiety
-      slug: human_situations:mental_health:anxiety
-    - name: Bipolar
-      slug: human_situations:mental_health:bipolar
-    - name: Brain Injury
-      slug: human_situations:mental_health:brain_injury
-    - name: Depression
-      slug: human_situations:mental_health:depression
-    - name: Eating Disorder
-      slug: human_situations:mental_health:eating_disorder
-    - name: Suicidal Thoughts
-      slug: human_situations:mental_health:suicidal_thoughts
+      - name: Mental conditions and diseases
+      - slug: human_situations:mental_health:mental_conditions_diseases
+        items:
+        - name: Anxiety
+          slug: human_situations:mental_health:mental_conditions_diseases:anxiety
+        - name: Bipolar
+          slug: human_situations:mental_health:mental_conditions_diseases:bipolar
+        - name: Brain Injury
+          slug: human_situations:mental_health:mental_conditions_diseases:brain_injury
+        - name: Depression
+          slug: human_situations:mental_health:mental_conditions_diseases:depression
+        - name: Eating Disorder
+          slug: human_situations:mental_health:mental_conditions_diseases:eating_disorder
+        - name: Suicidal Thoughts
+          slug: human_situations:mental_health:mental_conditions_diseases:suicidal_thoughts
+        - name: PTSD
+          slug: human_situations:mental_health:mental_conditions_diseases:ptsd
+        - name: Schizophrenia
+          slug: human_situations:mental_health:mental_conditions_diseases:schizophrenia
+      - name: Treatment Phases
+      - slug: human_situations:mental_health:treatment_phases
+        items:
+        - name: forced hospitalization
+          slug: human_situations:mental_health:treatment_phases:forced hospitalization
+        - name: Rehabilitation basket
+          slug: human_situations:mental_health:treatment_phases:Rehabilitation basket
+        - name: No recognition
+          slug: human_situations:mental_health:treatment_phases:no_recognition
   - name: Role
     slug: human_situations:role
     items:
@@ -1798,6 +1853,8 @@
       slug: human_situations:substance_dependency:opioid_dependency
     - name: Smoker
       slug: human_situations:substance_dependency:smoker
+    - name: Gambling
+      slug: human_situations:substance_dependency:gambling
     related:
     - human_situations:health:substance_dependency
   - name: Survivors
@@ -1811,12 +1868,6 @@
       slug: human_situations:survivors:abuse_or_neglect_survivors
     - name: Burn Survivors
       slug: human_situations:survivors:burn_survivors
-    - name: All Cancer Survivors
-      slug: human_situations:survivors:all_cancer_survivors
-    - name: Childhood Cancer Survivors
-      slug: human_situations:survivors:childhood_cancer_survivors
-    - name: Adult Cancer Survivors
-      slug: human_situations:survivors:adult_cancer_survivors
     - name: Domestic Violence Survivors
       slug: human_situations:survivors:domestic_violence_survivors
     - name: Human Trafficking Survivors
@@ -1827,6 +1878,8 @@
       slug: human_situations:survivors:sexual_assault_survivors
     - name: All Survivors
       slug: human_situations:survivors:all_survivors
+    - name: Terror Victims
+      slug: human_situations:survivors:terror_victims
   - name: Urgency
     slug: human_situations:urgency
     items:
@@ -1870,8 +1923,8 @@
       slug: human_situations:sectors:ultra_orthodox
     - name: Bedouin
       slug: human_situations:sectors:bedouin
-    - name: Duruze
-      slug: human_situations:sectors:duruze
+    - name: Druze
+      slug: human_situations:sectors:druze
     - name: Ethiopians
       slug: human_situations:sectors:ethiopians
     - name: Arabs
@@ -1880,3 +1933,37 @@
       slug: human_situations:sectors:christians
     - name: Circassians
       slug: human_situations:sectors:circassians
+    - name: Jews
+      slug: human_situations:sectors:jews
+    - name: Muslims
+      slug: human_situations:sectors:muslims
+  - name: Benefit Holders
+    slug: human_situations:benefit_holders
+    items:
+    - name: Social Security 
+      slug: human_situations:benefit_holders:social_security
+      items: 
+      - name: Disability
+        slug: human_situations:benefit_holders:social_security:disability
+      - name: Income Security
+        slug: human_situations:benefit_holders:social_security:income_security
+      - name: Nursing Care
+        slug: human_situations:benefit_holders:social_security:nursing_care
+      - name: Righteous Among the Nations
+        slug: human_situations:benefit_holders:social_security:righteous_among_the_nations
+      - name: USSR Veterans
+        slug: human_situations:benefit_holders:social_security:ussr_veterans
+      - name: Zion Prisoners 
+        slug: human_situations:benefit_holders:social_security:zion_prisoners
+    - Name: Ministry of Defense 
+      slug: human_situations:benefit_holders:defense_ministry
+      items: 
+      - name: IDF injuries 
+        slug: human_situations:benefit_holders:defense_ministry:idf_injuries
+      - name: Injured while On Duty
+        slug: human_situations:benefit_holders:defense_ministry:injured_while_on_duty 
+        related: human_situations:armed_forces:disabled:injured_while_on_duty 
+      - name: Bereaved Families
+        slug: human_situations:benefit_holders:defense_ministry:bereaved_families 
+        related: human_situations:armed_forces:bereaved_families
+    
