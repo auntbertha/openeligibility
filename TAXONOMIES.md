@@ -55,7 +55,7 @@ Services for clothing, furniture, baby supplies, toys and gifts, and other physi
 - מוצרים לבית 
   - שמיכות
   - ספרים 
-  - Fans
+  - מאווררים
   - ריהוט 
   - דלק לבית 
   - מכשירים חדשים 
@@ -226,12 +226,12 @@ Services for animal welfare, residential caregiving, daytime caregiving, adoptio
   - ספורט וכושר
   - תחביבים
   - עזרה באסון מזג אוויר
-- מעון יום לילדים
+- מסגרות יום
   - פעילויות יום למבוגרים
-  - טיפול בילדים
-    - עזרה במציאת טיפול בילדים
-    - עזרה כספית בטיפול בילדים
-    - טיפול בילדים
+  - מסגרות לילדים
+    - עזרה במציאת מסגרות לילדים
+    - עזרה כספית למסגרות לילדים
+    - מסגרות לילדים
   - קייטנה
   - התערבות חינוכית לגיל הרך
   - גן 
@@ -466,7 +466,6 @@ These are common attributes about a person. These can be used to help match a pe
   - סרטן הנרתיק
   - סרטן הפות
   - Wilms Tumor
-- אלצהיימר
 - מחלה סופנית
 - מחלה מדבקת
   - איידס / HIV

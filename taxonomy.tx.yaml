@@ -343,7 +343,10 @@
         related:
         - human_services:education:help_pay_for_school:books
         - human_services:money:financial_assistance:help_pay_for_school:books
-      - name: Fans
+      - name:
+          source: Fans
+          tx:
+            he: מאווררים
         slug: human_services:goods:home_goods:fans
       - name:
           source: Furniture
@@ -1522,7 +1525,7 @@
     - name:
         source: Daytime Care
         tx:
-          he: מעון יום לילדים
+          he: מסגרות יום
       slug: human_services:care:daytime_care
       items:
       - name:
@@ -1533,27 +1536,27 @@
       - name:
           source: Childcare
           tx:
-            he: טיפול בילדים
+            he: מסגרות לילדים
         slug: human_services:care:daytime_care:childcare
         items:
         - name:
             source: Help Find Childcare
             tx:
-              he: עזרה במציאת טיפול בילדים
+              he: עזרה במציאת מסגרות לילדים
           slug: human_services:care:daytime_care:childcare:help_find_childcare
           related:
           - human_services:care:navigating_the_system:help_find_childcare
         - name:
             source: Help Pay for Childcare
             tx:
-              he: עזרה כספית בטיפול בילדים
+              he: עזרה כספית למסגרות לילדים
           slug: human_services:care:daytime_care:childcare:help_pay_for_childcare
           related:
           - human_services:money:financial_assistance:help_pay_for_childcare
         - name:
             source: Childcare
             tx:
-              he: טיפול בילדים
+              he: מסגרות לילדים
           slug: human_services:care:daytime_care:childcare:childcare
           related:
           - human_services:care:daytime_care:childcare
@@ -2986,11 +2989,6 @@
         slug: human_situations:health:cancer:vulvar_cancer
       - name: Wilms Tumor
         slug: human_situations:health:cancer:wilms_tumor
-    - name:
-        source: Alzheimer's
-        tx:
-          he: אלצהיימר
-      slug: human_situations:health:alzheimer_s
     - name:
         source: Terminal Illness
         tx:
