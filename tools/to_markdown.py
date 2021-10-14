@@ -28,7 +28,7 @@ def recurse_into_taxonomy(items, output, level=0):
             recurse_into_taxonomy(item.get('items'), output, level+1)
 
 if __name__ == '__main__':
-    taxonomy = yaml.load(open('taxonomy.tx.yaml'))
+    taxonomy = yaml.load(open('taxonomy.tx.yaml'), Loader=yaml.BaseLoader)
     with open('TAXONOMIES.md', 'w') as output:
         output.write('<div dir="rtl">\n\n')
         output.write('# טקסונומיית המענים הפתוחים\n\n')
