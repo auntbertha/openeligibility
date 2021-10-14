@@ -43,4 +43,4 @@ jobs:
         git config user.name "Adam Kariv"
     - name: Push artifacts
       run: |
-        (git add taxonomy.tx.yaml TAXONOMIES.md && git commit -m "Automatic update of artifacts" && git push) || true
+        (git add taxonomy.yaml taxonomy.tx.yaml TAXONOMIES.md && git commit -m "Automatic update of artifacts" && git push) || true
