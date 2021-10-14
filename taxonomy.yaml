@@ -1,1842 +1,1247 @@
 - name: Human Services
-  slug: human_services
+  slug: Human-Services
   items:
   - name: Food
-    slug: human_services:food
-    description: Services for meals, food pantries, help paying for food, food delivery, food benefits, and nutrition support.
+    slug: Human-Services:Food
     items:
     - name: Community Gardens
-      slug: human_services:food:community_gardens
+      slug: Human-Services:Food:Community-Gardens
     - name: Emergency Food
-      slug: human_services:food:emergency_food
-      related:
-      - human_services:care:physical_safety:emergency_food
-      - human_services:emergency:emergency_food
+      slug: Human-Services:Food:Emergency-Food
     - name: Food Delivery
-      slug: human_services:food:food_delivery
+      slug: Human-Services:Food:Food-Delivery
     - name: Food Pantry
-      slug: human_services:food:food_pantry
+      slug: Human-Services:Food:Food-Pantry
     - name: Help Pay for Food
-      slug: human_services:food:help_pay_for_food
+      slug: Human-Services:Food:Help-Pay-for-Food
       items:
       - name: Government Food Benefits
-        slug: human_services:food:help_pay_for_food:government_food_benefits
-        related:
-        - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
-      related:
-      - human_services:emergency:emergency_payments:help_pay_for_food
-      - human_services:money:financial_assistance:help_pay_for_food
-      - human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
+        slug: Human-Services:Food:Help-Pay-for-Food:Government-Food-Benefits
     - name: Nutrition Education
-      slug: human_services:food:nutrition_education
-      related:
-      - human_services:education:more_education:health_education:nutrition_education
-      - human_services:health:health_education:nutrition_education
+      slug: Human-Services:Food:Nutrition-Education
     - name: Nutrition
-      slug: human_services:food:nutrition
-      related:
-      - human_services:health:health_education:nutrition
+      slug: Human-Services:Food:Nutrition
   - name: Housing
-    slug: human_services:housing
-    description: Services for emergency, short- term and long- term housing, housing advice, help finding housing, and paying for housing.
+    slug: Human-Services:Housing
     items:
     - name: Temporary Shelter
-      slug: human_services:housing:temporary_shelter
-      related:
-      - human_services:care:physical_safety:temporary_shelter
+      slug: Human-Services:Housing:Temporary-Shelter
     - name: Help Find Housing
-      slug: human_services:housing:help_find_housing
-      related:
-      - human_services:care:navigating_the_system:help_find_housing
+      slug: Human-Services:Housing:Help-Find-Housing
     - name: Help Pay for Housing
-      slug: human_services:housing:help_pay_for_housing
+      slug: Human-Services:Housing:Help-Pay-for-Housing
       items:
       - name: Housing Vouchers
-        slug: human_services:housing:help_pay_for_housing:housing_vouchers
+        slug: Human-Services:Housing:Help-Pay-for-Housing:Housing-Vouchers
       - name: Maintenance & Repairs
-        slug: human_services:housing:help_pay_for_housing:maintenance_repairs
-        related:
-        - human_services:housing:maintenance_repairs
-      related:
-      - human_services:emergency:emergency_payments:help_pay_for_housing
-      - human_services:money:financial_assistance:help_pay_for_housing
-      - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
+        slug: Human-Services:Housing:Help-Pay-for-Housing:Maintenance-Repairs
     - name: Maintenance & Repairs
-      slug: human_services:housing:maintenance_repairs
+      slug: Human-Services:Housing:Maintenance-Repairs
       items:
       - name: Pest Control
-        slug: human_services:housing:maintenance_repairs:pest_control
-      related:
-      - human_services:housing:help_pay_for_housing:maintenance_repairs
+        slug: Human-Services:Housing:Maintenance-Repairs:Pest-Control
     - name: Housing Advice
-      slug: human_services:housing:housing_advice
+      slug: Human-Services:Housing:Housing-Advice
     - name: Residential Housing
-      slug: human_services:housing:residential_housing
+      slug: Human-Services:Housing:Residential-Housing
       items:
       - name: Long-Term Housing
-        slug: human_services:housing:residential_housing:long_term_housing
+        slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing
         items:
         - name: Assisted Living
-          slug: human_services:housing:residential_housing:long_term_housing:assisted_living
-          related:
-          - human_services:care:residential_care:assisted_living
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Assisted-Living
         - name: Independent Living
-          slug: human_services:housing:residential_housing:long_term_housing:independent_living
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Independent-Living
         - name: Old Age Home
-          slug: human_services:housing:residential_housing:long_term_housing:old_age_home
-          related:
-          - human_services:care:residential_care:nursing_home
-          - human_services:health:medical_care:prevent_treat:nursing_home
-          - human_services:housing:residential_housing:short_term_housing:old_age_home
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Old-Age-Home
         - name: Nursing Home
-          slug: human_services:housing:residential_housing:long_term_housing:nursing_home
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Nursing-Home
         - name: Public Housing
-          slug: human_services:housing:residential_housing:long_term_housing:public_housing
-        related:
-        - human_services:housing:residential_housing:long_term_housing:long_term_housing
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Public-Housing
       - name: Safe Housing
-        slug: human_services:housing:residential_housing:safe_housing
-        related:
-        - human_services:care:physical_safety:immediate_safety:safe_housing
-        - human_services:emergency:immediate_safety:safe_housing
+        slug: Human-Services:Housing:Residential-Housing:Safe-Housing
       - name: Mental Health Housing
-        slug: human_services:housing:residential_housing:mental_health_housing
+        slug: Human-Services:Housing:Residential-Housing:Mental-Health-Housing
       - name: Short-Term Housing
-        slug: human_services:housing:residential_housing:short_term_housing
+        slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing
         items:
         - name: Old Age Home
-          slug: human_services:housing:residential_housing:short_term_housing:old_age_home
-          related:
-          - human_services:care:residential_care:nursing_home
-          - human_services:health:medical_care:prevent_treat:nursing_home
-          - human_services:housing:residential_housing:long_term_housing:old_age_home
+          slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing:Old-Age-Home
         - name: Sober Living
-          slug: human_services:housing:residential_housing:short_term_housing:sober_living
-          related:
-          - human_services:health:addiction_recovery:sober_living
-        related:
-        - human_services:housing:residential_housing:short_term_housing:short_term_housing
+          slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing:Sober-Living
     - name: Emergency Shelter
-      slug: human_services:housing:emergency_shelter
-      related:
-      - human_services:emergency:emergency_shelter
-    related:
-    - human_situations:housing
+      slug: Human-Services:Housing:Emergency-Shelter
   - name: Goods
-    slug: human_services:goods
-    description: Services for clothing, furniture, baby supplies, toys and gifts, and other physical goods.
+    slug: Human-Services:Goods
     items:
     - name: Baby Supplies
-      slug: human_services:goods:baby_supplies
+      slug: Human-Services:Goods:Baby-Supplies
       items:
       - name: Baby Clothes
-        slug: human_services:goods:baby_supplies:baby_clothes
-        related:
-        - human_services:goods:clothing:baby_clothes
+        slug: Human-Services:Goods:Baby-Supplies:Baby-Clothes
       - name: Diapers & Formula
-        slug: human_services:goods:baby_supplies:diapers_formula
+        slug: Human-Services:Goods:Baby-Supplies:Diapers-Formula
     - name: Clothing
-      slug: human_services:goods:clothing
+      slug: Human-Services:Goods:Clothing
       items:
       - name: Clothes for School
-        slug: human_services:goods:clothing:clothes_for_school
-        related:
-        - human_services:education:help_pay_for_school:clothes_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
+        slug: Human-Services:Goods:Clothing:Clothes-for-School
       - name: Clothes for Work
-        slug: human_services:goods:clothing:clothes_for_work
-        related:
-        - human_services:work:help_pay_for_work_expenses:clothes_for_work
+        slug: Human-Services:Goods:Clothing:Clothes-for-Work
       - name: Clothing Vouchers
-        slug: human_services:goods:clothing:clothing_vouchers
+        slug: Human-Services:Goods:Clothing:Clothing-Vouchers
     - name: Home Goods
-      slug: human_services:goods:home_goods
+      slug: Human-Services:Goods:Home-Goods
       items:
       - name: Blankets
-        slug: human_services:goods:home_goods:blankets
+        slug: Human-Services:Goods:Home-Goods:Blankets
       - name: Books
-        slug: human_services:goods:home_goods:books
-        related:
-        - human_services:education:help_pay_for_school:books
-        - human_services:money:financial_assistance:help_pay_for_school:books
+        slug: Human-Services:Goods:Home-Goods:Books
       - name: Fans
-        slug: human_services:goods:home_goods:fans
+        slug: Human-Services:Goods:Home-Goods:Fans
       - name: Furniture
-        slug: human_services:goods:home_goods:furniture
+        slug: Human-Services:Goods:Home-Goods:Furniture
       - name: Efficient Appliances
-        slug: human_services:goods:home_goods:efficient_appliances
+        slug: Human-Services:Goods:Home-Goods:Efficient-Appliances
       - name: Personal Care Items
-        slug: human_services:goods:home_goods:personal_care_items
+        slug: Human-Services:Goods:Home-Goods:Personal-Care-Items
       - name: Supplies for School
-        slug: human_services:goods:home_goods:supplies_for_school
-        related:
-        - human_services:education:help_pay_for_school:supplies_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
+        slug: Human-Services:Goods:Home-Goods:Supplies-for-School
       - name: Supplies for Work
-        slug: human_services:goods:home_goods:supplies_for_work
-        related:
-        - human_services:work:help_pay_for_work_expenses:supplies_for_work
+        slug: Human-Services:Goods:Home-Goods:Supplies-for-Work
     - name: Medical Supplies
-      slug: human_services:goods:medical_supplies
+      slug: Human-Services:Goods:Medical-Supplies
       items:
       - name: Assistive Technology
-        slug: human_services:goods:medical_supplies:assistive_technology
-        related:
-        - human_services:health:medical_care:assistive_technology
-        - human_services:health:medical_care:medical_supplies:assistive_technology
+        slug: Human-Services:Goods:Medical-Supplies:Assistive-Technology
       - name: Prosthesis
-        slug: human_services:goods:medical_supplies:prosthesis
-        related:
-        - human_services:health:medical_care:medical_supplies:prosthesis
-      related:
-      - human_services:health:help_pay_for_healthcare:medical_supplies
-      - human_services:health:medical_care:medical_supplies
-      - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
+        slug: Human-Services:Goods:Medical-Supplies:Prosthesis
     - name: Personal Safety
-      slug: human_services:goods:personal_safety
+      slug: Human-Services:Goods:Personal-Safety
     - name: Toys & Gifts
-      slug: human_services:goods:toys_gifts
+      slug: Human-Services:Goods:Toys-Gifts
   - name: Transit
-    slug: human_services:transit
-    description: Services for bus passes, transportation to school, healthcare, appointments, and more.
+    slug: Human-Services:Transit
     items:
     - name: Transportation
-      slug: human_services:transit:transportation
+      slug: Human-Services:Transit:Transportation
       items:
       - name: Transportation for Healthcare
-        slug: human_services:transit:transportation:transportation_for_healthcare
-        related:
-        - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
+        slug: Human-Services:Transit:Transportation:Transportation-for-Healthcare
       - name: Transportation for School
-        slug: human_services:transit:transportation:transportation_for_school
-        related:
-        - human_services:education:help_pay_for_school:transportation_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
+        slug: Human-Services:Transit:Transportation:Transportation-for-School
   - name: Health
-    slug: human_services:health
-    description: Services for medical care, dental care, health education, addiction and recovery, help finding services, and help paying for healthcare.
+    slug: Human-Services:Health
     items:
     - name: Addiction & Recovery
-      slug: human_services:health:addiction_recovery
+      slug: Human-Services:Health:Addiction-Recovery
       items:
       - name: Detox
-        slug: human_services:health:addiction_recovery:detox
+        slug: Human-Services:Health:Addiction-Recovery:Detox
       - name: Drug Testing
-        slug: human_services:health:addiction_recovery:drug_testing
+        slug: Human-Services:Health:Addiction-Recovery:Drug-Testing
       - name: Medications for Addiction
-        slug: human_services:health:addiction_recovery:medications_for_addiction
+        slug: Human-Services:Health:Addiction-Recovery:Medications-for-Addiction
       - name: Outpatient Treatment
-        slug: human_services:health:addiction_recovery:outpatient_treatment
-        related:
-        - human_services:health:medical_care:prevent_treat:outpatient_treatment
-        - human_services:health:mental_health_care:outpatient_treatment
+        slug: Human-Services:Health:Addiction-Recovery:Outpatient-Treatment
       - name: Peer Recovery Coaching
-        slug: human_services:health:addiction_recovery:peer_recovery_coaching
-        related:
-        - human_services:care:support_network:peer_recovery_coaching
+        slug: Human-Services:Health:Addiction-Recovery:Peer-Recovery-Coaching
       - name: Residential Treatment
-        slug: human_services:health:addiction_recovery:residential_treatment
-        related:
-        - human_services:care:residential_care:residential_treatment
-        - human_services:health:medical_care:prevent_treat:residential_treatment
-        - human_services:health:mental_health_care:residential_treatment
+        slug: Human-Services:Health:Addiction-Recovery:Residential-Treatment
       - name: Substance Abuse Counseling
-        slug: human_services:health:addiction_recovery:substance_abuse_counseling
-        related:
-        - human_services:health:mental_health_care:counseling:substance_abuse_counseling
+        slug: Human-Services:Health:Addiction-Recovery:Substance-Abuse-Counseling
     - name: Dental Care
-      slug: human_services:health:dental_care
+      slug: Human-Services:Health:Dental-Care
     - name: End-of-Life Care
-      slug: human_services:health:end_of_life_care
+      slug: Human-Services:Health:End-of-Life-Care
       items:
       - name: Bereavement
-        slug: human_services:health:end_of_life_care:bereavement
-        related:
-        - human_services:care:support_network:support_groups:bereavement
-        - human_services:health:mental_health_care:bereavement
+        slug: Human-Services:Health:End-of-Life-Care:Bereavement
       - name: Burial & Funeral Help
-        slug: human_services:health:end_of_life_care:burial_funeral_help
+        slug: Human-Services:Health:End-of-Life-Care:Burial-Funeral-Help
       - name: Hospice
-        slug: human_services:health:end_of_life_care:hospice
+        slug: Human-Services:Health:End-of-Life-Care:Hospice
       - name: Pain Management
-        slug: human_services:health:end_of_life_care:pain_management
-        related:
-        - human_services:health:medical_care:prevent_treat:pain_management
+        slug: Human-Services:Health:End-of-Life-Care:Pain-Management
     - name: Health Education
-      slug: human_services:health:health_education
+      slug: Human-Services:Health:Health-Education
       items:
       - name: Disease Management
-        slug: human_services:health:health_education:disease_management
-        related:
-        - human_services:health:medical_care:prevent_treat:disease_management
+        slug: Human-Services:Health:Health-Education:Disease-Management
       - name: Family Planning
-        slug: human_services:health:health_education:family_planning
-        related:
-        - human_services:education:more_education:health_education:family_planning
-        - human_services:health:sexual_reproductive_health:family_planning
+        slug: Human-Services:Health:Health-Education:Family-Planning
       - name: Nutrition Education
-        slug: human_services:health:health_education:nutrition_education
-        related:
-        - human_services:education:more_education:health_education:nutrition_education
-        - human_services:food:nutrition_education
+        slug: Human-Services:Health:Health-Education:Nutrition-Education
       - name: Parenting Education
-        slug: human_services:health:health_education:parenting_education
-        related:
-        - human_services:care:support_network:support_groups:parenting_education
-        - human_services:education:more_education:health_education:parenting_education
+        slug: Human-Services:Health:Health-Education:Parenting-Education
       - name: Sex Education
-        slug: human_services:health:health_education:sex_education
-        related:
-        - human_services:education:more_education:health_education:sex_education
-        - human_services:health:sexual_reproductive_health:sex_education
-      related:
-      - human_services:education:more_education:health_education
-      - human_services:education:more_education:health_education:health_education
+        slug: Human-Services:Health:Health-Education:Sex-Education
     - name: Help Pay for Healthcare
-      slug: human_services:health:help_pay_for_healthcare
+      slug: Human-Services:Health:Help-Pay-for-Healthcare
       items:
       - name: Disability Benefits
-        slug: human_services:health:help_pay_for_healthcare:disability_benefits
-        related:
-        - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Disability-Benefits
       - name: Discounted Healthcare
-        slug: human_services:health:help_pay_for_healthcare:discounted_healthcare
-        related:
-        - human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Discounted-Healthcare
       - name: Health Insurance
-        slug: human_services:health:help_pay_for_healthcare:health_insurance
-        related:
-        - human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
-        - human_services:money:insurance:health_insurance
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Health-Insurance
       - name: Prescription Assistance
-        slug: human_services:health:help_pay_for_healthcare:prescription_assistance
-        related:
-        - human_services:money:financial_assistance:help_pay_for_healthcare:prescription_assistance
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Prescription-Assistance
       - name: Transportation for Healthcare
-        slug: human_services:health:help_pay_for_healthcare:transportation_for_healthcare
-        related:
-        - human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
-        - human_services:transit:transportation:transportation_for_healthcare
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Transportation-for-Healthcare
       - name: Medical Supplies
-        slug: human_services:health:help_pay_for_healthcare:medical_supplies
-        related:
-        - human_services:goods:medical_supplies
-        - human_services:health:medical_care:medical_supplies
-        - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-      related:
-      - human_services:emergency:emergency_payments:help_pay_for_healthcare
-      - human_services:money:financial_assistance:help_pay_for_healthcare
-      - human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
+        slug: Human-Services:Health:Help-Pay-for-Healthcare:Medical-Supplies
     - name: Medical Care
-      slug: human_services:health:medical_care
+      slug: Human-Services:Health:Medical-Care
       items:
       - name: Alternative Medicine
-        slug: human_services:health:medical_care:alternative_medicine
+        slug: Human-Services:Health:Medical-Care:Alternative-Medicine
       - name: Checkup & Test
-        slug: human_services:health:medical_care:checkup_test
+        slug: Human-Services:Health:Medical-Care:Checkup-Test
         items:
         - name: Disability Screening
-          slug: human_services:health:medical_care:checkup_test:disability_screening
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Disability-Screening
         - name: Disease Screening
-          slug: human_services:health:medical_care:checkup_test:disease_screening
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Disease-Screening
         - name: Hearing Tests
-          slug: human_services:health:medical_care:checkup_test:hearing_tests
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Hearing-Tests
         - name: Pregnancy Tests
-          slug: human_services:health:medical_care:checkup_test:pregnancy_tests
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Pregnancy-Tests
         - name: Checkup & Test
-          slug: human_services:health:medical_care:checkup_test:checkup_test
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Checkup-Test
         - name: Eye Tests
-          slug: human_services:health:medical_care:checkup_test:eye_tests
+          slug: Human-Services:Health:Medical-Care:Checkup-Test:Eye-Tests
       - name: Exercise & Fitness
-        slug: human_services:health:medical_care:exercise_fitness
-        related:
-        - human_services:care:community_support_services:exercise_fitness
+        slug: Human-Services:Health:Medical-Care:Exercise-Fitness
       - name: Help Find Healthcare
-        slug: human_services:health:medical_care:help_find_healthcare
+        slug: Human-Services:Health:Medical-Care:Help-Find-Healthcare
       - name: Medical Supplies
-        slug: human_services:health:medical_care:medical_supplies
+        slug: Human-Services:Health:Medical-Care:Medical-Supplies
         items:
         - name: Assistive Technology
-          slug: human_services:health:medical_care:medical_supplies:assistive_technology
-          related:
-          - human_services:goods:medical_supplies:assistive_technology
-          - human_services:health:medical_care:assistive_technology
+          slug: Human-Services:Health:Medical-Care:Medical-Supplies:Assistive-Technology
         - name: Prosthesis
-          slug: human_services:health:medical_care:medical_supplies:prosthesis
-          related:
-          - human_services:goods:medical_supplies:prosthesis
-        related:
-        - human_services:goods:medical_supplies
-        - human_services:health:help_pay_for_healthcare:medical_supplies
-        - human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
+          slug: Human-Services:Health:Medical-Care:Medical-Supplies:Prosthesis
       - name: Prevent & Treat
-        slug: human_services:health:medical_care:prevent_treat
+        slug: Human-Services:Health:Medical-Care:Prevent-Treat
         items:
         - name: Counseling
-          slug: human_services:health:medical_care:prevent_treat:counseling
-          related:
-          - human_services:care:support_network:counseling
-          - human_services:health:mental_health_care:counseling
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Counseling
         - name: Disease Management
-          slug: human_services:health:medical_care:prevent_treat:disease_management
-          related:
-          - human_services:health:health_education:disease_management
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Disease-Management
         - name: Early Childhood Intervention
-          slug: human_services:health:medical_care:prevent_treat:early_childhood_intervention
-          related:
-          - human_services:care:daytime_care:early_childhood_intervention
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Early-Childhood-Intervention
         - name: HIV Treatment
-          slug: human_services:health:medical_care:prevent_treat:hiv_treatment
-          related:
-          - human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:HIV-Treatment
         - name: Hospital Treatment
-          slug: human_services:health:medical_care:prevent_treat:hospital_treatment
-          related:
-          - human_services:health:mental_health_care:hospital_treatment
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Hospital-Treatment
         - name: In-Home Support
-          slug: human_services:health:medical_care:prevent_treat:in_home_support
-          related:
-          - human_services:care:support_network:in_home_support
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:In-Home-Support
         - name: Medication Management
-          slug: human_services:health:medical_care:prevent_treat:medication_management
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Medication-Management
         - name: Nursing Home
-          slug: human_services:health:medical_care:prevent_treat:nursing_home
-          related:
-          - human_services:care:residential_care:nursing_home
-          - human_services:housing:residential_housing:long_term_housing:nursing_home
-          - human_services:housing:residential_housing:short_term_housing:nursing_home
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Nursing-Home
         - name: Occupational Therapy
-          slug: human_services:health:medical_care:prevent_treat:occupational_therapy
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Occupational-Therapy
         - name: Outpatient Treatment
-          slug: human_services:health:medical_care:prevent_treat:outpatient_treatment
-          related:
-          - human_services:health:addiction_recovery:outpatient_treatment
-          - human_services:health:mental_health_care:outpatient_treatment
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Outpatient-Treatment
         - name: Pain Management
-          slug: human_services:health:medical_care:prevent_treat:pain_management
-          related:
-          - human_services:health:end_of_life_care:pain_management
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Pain-Management
         - name: Physical Therapy
-          slug: human_services:health:medical_care:prevent_treat:physical_therapy
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Physical-Therapy
         - name: Residential Treatment
-          slug: human_services:health:medical_care:prevent_treat:residential_treatment
-          related:
-          - human_services:care:residential_care:residential_treatment
-          - human_services:health:addiction_recovery:residential_treatment
-          - human_services:health:mental_health_care:residential_treatment
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Residential-Treatment
         - name: Specialized Therapy
-          slug: human_services:health:medical_care:prevent_treat:specialized_therapy
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Specialized-Therapy
         - name: Speech Therapy
-          slug: human_services:health:medical_care:prevent_treat:speech_therapy
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Speech-Therapy
         - name: Vaccinations
-          slug: human_services:health:medical_care:prevent_treat:vaccinations
-        related:
-        - human_services:health:medical_care:prevent_treat:prevent_treat
+          slug: Human-Services:Health:Medical-Care:Prevent-Treat:Vaccinations
       - name: Personal Hygiene
-        slug: human_services:health:medical_care:personal_hygiene
+        slug: Human-Services:Health:Medical-Care:Personal-Hygiene
       - name: Primary Care
-        slug: human_services:health:medical_care:primary_care
+        slug: Human-Services:Health:Medical-Care:Primary-Care
       - name: Skilled Nursing
-        slug: human_services:health:medical_care:skilled_nursing
+        slug: Human-Services:Health:Medical-Care:Skilled-Nursing
       - name: Support & Service Animals
-        slug: human_services:health:medical_care:support_service_animals
-        related:
-        - human_services:health:mental_health_care:support_service_animals
+        slug: Human-Services:Health:Medical-Care:Support-Service-Animals
       - name: Birth Control
-        slug: human_services:health:medical_care:birth_control
-        related:
-        - human_services:health:sexual_reproductive_health:family_planning:birth_control
+        slug: Human-Services:Health:Medical-Care:Birth-Control
       - name: Maternity Care
-        slug: human_services:health:medical_care:maternity_care
-        related:
-        - human_services:health:sexual_reproductive_health:women_s_health:maternity_care
+        slug: Human-Services:Health:Medical-Care:Maternity-Care
       - name: Emergency Services
-        slug: human_services:health:medical_care:emergency_services
+        slug: Human-Services:Health:Medical-Care:Emergency-Services
         items:
         - name: Psychiatric Emergency Services
-          slug: human_services:health:medical_care:emergency_services:psychiatric_emergency_services
-          related:
-          - human_services:emergency:psychiatric_emergency_services
-          - human_services:health:mental_health_care:psychiatric_emergency_services
+          slug: Human-Services:Health:Medical-Care:Emergency-Services:Psychiatric-Emergency-Services
         - name: Dental Emergency Service
-          slug: human_services:health:medical_care:emergency_services:dental_emergency_service
-
+          slug: Human-Services:Health:Medical-Care:Emergency-Services:Dental-Emergency-Service
     - name: Mental Health Care
-      slug: human_services:health:mental_health_care
+      slug: Human-Services:Health:Mental-Health-Care
       items:
       - name: Anger Management
-        slug: human_services:health:mental_health_care:anger_management
+        slug: Human-Services:Health:Mental-Health-Care:Anger-Management
       - name: Bereavement
-        slug: human_services:health:mental_health_care:bereavement
-        related:
-        - human_services:care:support_network:support_groups:bereavement
-        - human_services:health:end_of_life_care:bereavement
+        slug: Human-Services:Health:Mental-Health-Care:Bereavement
       - name: Counseling
-        slug: human_services:health:mental_health_care:counseling
+        slug: Human-Services:Health:Mental-Health-Care:Counseling
         items:
         - name: Group Therapy
-          slug: human_services:health:mental_health_care:counseling:group_therapy
+          slug: Human-Services:Health:Mental-Health-Care:Counseling:Group-Therapy
         - name: Substance Abuse Counseling
-          slug: human_services:health:mental_health_care:counseling:substance_abuse_counseling
-          related:
-          - human_services:health:addiction_recovery:substance_abuse_counseling
+          slug: Human-Services:Health:Mental-Health-Care:Counseling:Substance-Abuse-Counseling
         - name: Family Counseling
-          slug: human_services:health:mental_health_care:counseling:family_counseling
+          slug: Human-Services:Health:Mental-Health-Care:Counseling:Family-Counseling
         - name: Individual Counseling
-          slug: human_services:health:mental_health_care:counseling:individual_counseling
-        related:
-        - human_services:care:support_network:counseling
-        - human_services:health:medical_care:prevent_treat:counseling
+          slug: Human-Services:Health:Mental-Health-Care:Counseling:Individual-Counseling
       - name: Hospital Treatment
-        slug: human_services:health:mental_health_care:hospital_treatment
-        related:
-        - human_services:health:medical_care:prevent_treat:hospital_treatment
+        slug: Human-Services:Health:Mental-Health-Care:Hospital-Treatment
       - name: Medications for Mental Health
-        slug: human_services:health:mental_health_care:medications_for_mental_health
+        slug: Human-Services:Health:Mental-Health-Care:Medications-for-Mental-Health
       - name: Mental Health Evaluation
-        slug: human_services:health:mental_health_care:mental_health_evaluation
+        slug: Human-Services:Health:Mental-Health-Care:Mental-Health-Evaluation
       - name: Outpatient Treatment
-        slug: human_services:health:mental_health_care:outpatient_treatment
+        slug: Human-Services:Health:Mental-Health-Care:Outpatient-Treatment
         items:
         - name: Forced Hospitalization
-          slug: human_services:health:mental_health_care:outpatient_treatment:forced_hospitalization
+          slug: Human-Services:Health:Mental-Health-Care:Outpatient-Treatment:Forced-Hospitalization
         - name: Voluntary Hospitalization
-          slug: human_services:health:mental_health_care:outpatient_treatment:voluntary_hospitalization
-        related:
-        - human_services:health:addiction_recovery:outpatient_treatment
-        - human_services:health:medical_care:prevent_treat:outpatient_treatment
+          slug: Human-Services:Health:Mental-Health-Care:Outpatient-Treatment:Voluntary-Hospitalization
       - name: Psychiatric Emergency Services
-        slug: human_services:health:mental_health_care:psychiatric_emergency_services
-        related:
-        - human_services:emergency:psychiatric_emergency_services
-        - human_services:health:medical_care:emergency_services:psychiatric_emergency_services
+        slug: Human-Services:Health:Mental-Health-Care:Psychiatric-Emergency-Services
       - name: Residential Treatment
-        slug: human_services:health:mental_health_care:residential_treatment
+        slug: Human-Services:Health:Mental-Health-Care:Residential-Treatment
         items:
-          - name: Hostel
-            slug: human_services:health:mental_health_care:residential_treatment:hostels
-          - name: Daytime Care
-            slug: human_services:health:mental_health_care:residential_treatment:daytime_care
-        related:
-        - human_services:care:residential_care:residential_treatment
-        - human_services:health:addiction_recovery:residential_treatment
-        - human_services:health:medical_care:prevent_treat:residential_treatment
+        - name: Hostel
+          slug: Human-Services:Health:Mental-Health-Care:Residential-Treatment:Hostel
+        - name: Daytime Care
+          slug: Human-Services:Health:Mental-Health-Care:Residential-Treatment:Daytime-Care
       - name: Support & Service Animals
-        slug: human_services:health:mental_health_care:support_service_animals
-        related:
-        - human_services:health:medical_care:support_service_animals
+        slug: Human-Services:Health:Mental-Health-Care:Support-Service-Animals
     - name: Sexual & Reproductive Health
-      slug: human_services:health:sexual_reproductive_health
+      slug: Human-Services:Health:Sexual-Reproductive-Health
       items:
       - name: Family Planning
-        slug: human_services:health:sexual_reproductive_health:family_planning
+        slug: Human-Services:Health:Sexual-Reproductive-Health:Family-Planning
         items:
         - name: Birth Control
-          slug: human_services:health:sexual_reproductive_health:family_planning:birth_control
-          related:
-          - human_services:health:medical_care:birth_control
-        related:
-        - human_services:education:more_education:health_education:family_planning
-        - human_services:health:health_education:family_planning
+          slug: Human-Services:Health:Sexual-Reproductive-Health:Family-Planning:Birth-Control
       - name: Fertility
-        slug: human_services:health:sexual_reproductive_health:fertility
+        slug: Human-Services:Health:Sexual-Reproductive-Health:Fertility
       - name: Sex Education
-        slug: human_services:health:sexual_reproductive_health:sex_education
-        related:
-        - human_services:education:more_education:health_education:sex_education
-        - human_services:health:health_education:sex_education
+        slug: Human-Services:Health:Sexual-Reproductive-Health:Sex-Education
       - name: STD/STI Treatment & Prevention
-        slug: human_services:health:sexual_reproductive_health:std_sti_treatment_prevention
+        slug: Human-Services:Health:Sexual-Reproductive-Health:STD-STI-Treatment-Prevention
         items:
         - name: HIV Treatment
-          slug: human_services:health:sexual_reproductive_health:std_sti_treatment_prevention:hiv_treatment
-          related:
-          - human_services:health:medical_care:prevent_treat:hiv_treatment
+          slug: Human-Services:Health:Sexual-Reproductive-Health:STD-STI-Treatment-Prevention:HIV-Treatment
       - name: Women's Health
-        slug: human_services:health:sexual_reproductive_health:women_s_health
+        slug: Human-Services:Health:Sexual-Reproductive-Health:Womens-Health
         items:
         - name: Maternity Care
-          slug: human_services:health:sexual_reproductive_health:women_s_health:maternity_care
-          related:
-          - human_services:health:medical_care:maternity_care
+          slug: Human-Services:Health:Sexual-Reproductive-Health:Womens-Health:Maternity-Care
         - name: Postnatal Care
-          slug: human_services:health:sexual_reproductive_health:women_s_health:postnatal_care
+          slug: Human-Services:Health:Sexual-Reproductive-Health:Womens-Health:Postnatal-Care
     - name: Vision Care
-      slug: human_services:health:vision_care
-    related:
-    - human_situations:health
+      slug: Human-Services:Health:Vision-Care
   - name: Money
-    slug: human_services:money
-    description: Services to help pay for housing, education, childcare, school, food and goods, financial education, tax preparation, insurance, government benefits, vouchers, and more.
+    slug: Human-Services:Money
     items:
     - name: Financial Assistance
-      slug: human_services:money:financial_assistance
+      slug: Human-Services:Money:Financial-Assistance
       items:
       - name: Help Pay for Childcare
-        slug: human_services:money:financial_assistance:help_pay_for_childcare
-        related:
-        - human_services:care:daytime_care:childcare:help_pay_for_childcare
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Childcare
       - name: Help Pay for Food
-        slug: human_services:money:financial_assistance:help_pay_for_food
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_food
-        - human_services:food:help_pay_for_food
-        - human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Food
       - name: Help Pay for Healthcare
-        slug: human_services:money:financial_assistance:help_pay_for_healthcare
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare
         items:
         - name: Discounted Healthcare
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:discounted_healthcare
-          related:
-          - human_services:health:help_pay_for_healthcare:discounted_healthcare
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare:Discounted-Healthcare
         - name: Health Insurance
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
-          related:
-          - human_services:health:help_pay_for_healthcare:health_insurance
-          - human_services:money:insurance:health_insurance
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare:Health-Insurance
         - name: Medical Supplies
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:medical_supplies
-          related:
-          - human_services:goods:medical_supplies
-          - human_services:health:help_pay_for_healthcare:medical_supplies
-          - human_services:health:medical_care:medical_supplies
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare:Medical-Supplies
         - name: Prescription Assistance
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:prescription_assistance
-          related:
-          - human_services:health:help_pay_for_healthcare:prescription_assistance
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare:Prescription-Assistance
         - name: Transportation for Healthcare
-          slug: human_services:money:financial_assistance:help_pay_for_healthcare:transportation_for_healthcare
-          related:
-          - human_services:health:help_pay_for_healthcare:transportation_for_healthcare
-          - human_services:transit:transportation:transportation_for_healthcare
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_healthcare
-        - human_services:health:help_pay_for_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Healthcare:Transportation-for-Healthcare
       - name: Help Pay for Housing
-        slug: human_services:money:financial_assistance:help_pay_for_housing
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Housing
         items:
         - name: Help Pay for Utilities
-          slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Housing:Help-Pay-for-Utilities
         - name: Help Pay for Internet or Phone
-          slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Housing:Help-Pay-for-Internet-or-Phone
         - name: Home & Renters Insurance
-          slug: human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-          related:
-          - human_services:money:insurance:home_renters_insurance
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_housing
-        - human_services:housing:help_pay_for_housing
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Housing:Home-Renters-Insurance
       - name: Help Pay for School
-        slug: human_services:money:financial_assistance:help_pay_for_school
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School
         items:
         - name: Books
-          slug: human_services:money:financial_assistance:help_pay_for_school:books
-          related:
-          - human_services:education:help_pay_for_school:books
-          - human_services:goods:home_goods:books
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School:Books
         - name: Clothes for School
-          slug: human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
-          related:
-          - human_services:education:help_pay_for_school:clothes_for_school
-          - human_services:goods:clothing:clothes_for_school
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School:Clothes-for-School
         - name: Financial Aid & Loans
-          slug: human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
-          related:
-          - human_services:education:help_pay_for_school:financial_aid_loans
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School:Financial-Aid-Loans
         - name: Transportation for School
-          slug: human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
-          related:
-          - human_services:education:help_pay_for_school:transportation_for_school
-          - human_services:transit:transportation:transportation_for_school
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School:Transportation-for-School
         - name: Supplies for School
-          slug: human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
-          related:
-          - human_services:education:help_pay_for_school:supplies_for_school
-          - human_services:goods:home_goods:supplies_for_school
-        related:
-        - human_services:education:help_pay_for_school
-        - human_services:emergency:emergency_payments:help_pay_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
+          slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-School:Supplies-for-School
       - name: Help Pay for Work Expenses
-        slug: human_services:money:financial_assistance:help_pay_for_work_expenses
-        related:
-        - human_services:work:help_pay_for_work_expenses
+        slug: Human-Services:Money:Financial-Assistance:Help-Pay-for-Work-Expenses
     - name: Financial Education
-      slug: human_services:money:financial_education
+      slug: Human-Services:Money:Financial-Education
       items:
       - name: Credit Counseling
-        slug: human_services:money:financial_education:credit_counseling
-        related:
-        - human_services:education:more_education:financial_education:credit_counseling
+        slug: Human-Services:Money:Financial-Education:Credit-Counseling
       - name: Foreclosure Counseling
-        slug: human_services:money:financial_education:foreclosure_counseling
-        related:
-        - human_services:education:more_education:financial_education:foreclosure_counseling
+        slug: Human-Services:Money:Financial-Education:Foreclosure-Counseling
       - name: Homebuyer Education
-        slug: human_services:money:financial_education:homebuyer_education
-        related:
-        - human_services:education:more_education:financial_education:homebuyer_education
+        slug: Human-Services:Money:Financial-Education:Homebuyer-Education
       - name: Savings Program
-        slug: human_services:money:financial_education:savings_program
-      related:
-      - human_services:education:more_education:financial_education
-      - human_services:education:more_education:financial_education:financial_education
+        slug: Human-Services:Money:Financial-Education:Savings-Program
     - name: Insurance
-      slug: human_services:money:insurance
+      slug: Human-Services:Money:Insurance
       items:
       - name: Health Insurance
-        slug: human_services:money:insurance:health_insurance
-        related:
-        - human_services:health:help_pay_for_healthcare:health_insurance
-        - human_services:money:financial_assistance:help_pay_for_healthcare:health_insurance
+        slug: Human-Services:Money:Insurance:Health-Insurance
       - name: Home & Renters Insurance
-        slug: human_services:money:insurance:home_renters_insurance
-        related:
-        - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-      related:
-      - human_situations:insurance
+        slug: Human-Services:Money:Insurance:Home-Renters-Insurance
     - name: Loans
-      slug: human_services:money:loans
+      slug: Human-Services:Money:Loans
       items:
       - name: Business Loans
-        slug: human_services:money:loans:business_loans
+        slug: Human-Services:Money:Loans:Business-Loans
       - name: Personal Loans
-        slug: human_services:money:loans:personal_loans
+        slug: Human-Services:Money:Loans:Personal-Loans
     - name: Tax Preparation
-      slug: human_services:money:tax_preparation
+      slug: Human-Services:Money:Tax-Preparation
   - name: Care
-    slug: human_services:care
-    description: Services for animal welfare, residential caregiving, daytime caregiving, adoption & foster care, building support networks, end-of-life care, and help navigating the system.
+    slug: Human-Services:Care
     items:
     - name: Adoption & Foster Care
-      slug: human_services:care:adoption_foster_care
+      slug: Human-Services:Care:Adoption-Foster-Care
       items:
       - name: Adoption & Foster Placement
-        slug: human_services:care:adoption_foster_care:adoption_foster_placement
-        related:
-        - human_services:legal:adoption_foster_care:adoption_foster_placement
-        - human_services:legal:adoption_foster_placement
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_placement
+        slug: Human-Services:Care:Adoption-Foster-Care:Adoption-Foster-Placement
       - name: Adoption Planning
-        slug: human_services:care:adoption_foster_care:adoption_planning
-        related:
-        - human_services:legal:adoption_foster_care:adoption_planning
-        - human_services:legal:adoption_planning
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
+        slug: Human-Services:Care:Adoption-Foster-Care:Adoption-Planning
       - name: Adoption Counseling
-        slug: human_services:care:adoption_foster_care:adoption_counseling
-        related:
-        - human_services:legal:adoption_counseling
-        - human_services:legal:adoption_foster_care:adoption_counseling
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
+        slug: Human-Services:Care:Adoption-Foster-Care:Adoption-Counseling
       - name: Post-Adoption Support
-        slug: human_services:care:adoption_foster_care:post_adoption_support
-        related:
-        - human_services:legal:adoption_foster_care:post_adoption_support
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-        - human_services:legal:post_adoption_support
-      related:
-      - human_services:legal:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care
-      - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
+        slug: Human-Services:Care:Adoption-Foster-Care:Post-Adoption-Support
     - name: Daytime Care
-      slug: human_services:care:daytime_care
+      slug: Human-Services:Care:Daytime-Care
       items:
       - name: Adult Daycare
-        slug: human_services:care:daytime_care:adult_daycare
+        slug: Human-Services:Care:Daytime-Care:Adult-Daycare
       - name: Childcare
-        slug: human_services:care:daytime_care:childcare
+        slug: Human-Services:Care:Daytime-Care:Childcare
         items:
         - name: Help Find Childcare
-          slug: human_services:care:daytime_care:childcare:help_find_childcare
-          related:
-          - human_services:care:navigating_the_system:help_find_childcare
+          slug: Human-Services:Care:Daytime-Care:Childcare:Help-Find-Childcare
         - name: Help Pay for Childcare
-          slug: human_services:care:daytime_care:childcare:help_pay_for_childcare
-          related:
-          - human_services:money:financial_assistance:help_pay_for_childcare
+          slug: Human-Services:Care:Daytime-Care:Childcare:Help-Pay-for-Childcare
         - name: Childcare
-          slug: human_services:care:daytime_care:childcare:childcare
-          related:
-          - human_services:care:daytime_care:childcare
-        related:
-        - human_services:care:daytime_care:childcare:childcare
+          slug: Human-Services:Care:Daytime-Care:Childcare:Childcare
       - name: Day Camp
-        slug: human_services:care:daytime_care:day_camp
+        slug: Human-Services:Care:Daytime-Care:Day-Camp
       - name: Early Childhood Intervention
-        slug: human_services:care:daytime_care:early_childhood_intervention
-        related:
-        - human_services:health:medical_care:prevent_treat:early_childhood_intervention
+        slug: Human-Services:Care:Daytime-Care:Early-Childhood-Intervention
       - name: Preschool
-        slug: human_services:care:daytime_care:preschool
-        related:
-        - human_services:education:preschool
+        slug: Human-Services:Care:Daytime-Care:Preschool
       - name: Relief for Caregivers
-        slug: human_services:care:daytime_care:relief_for_caregivers
+        slug: Human-Services:Care:Daytime-Care:Relief-for-Caregivers
       - name: Afterschool Care
-        slug: human_services:care:daytime_care:afterschool_care
+        slug: Human-Services:Care:Daytime-Care:Afterschool-Care
       - name: Recreation
-        slug: human_services:care:daytime_care:recreation
-        related:
-        - human_services:care:community_support_services:recreation
+        slug: Human-Services:Care:Daytime-Care:Recreation
     - name: Navigating the System
-      slug: human_services:care:navigating_the_system
+      slug: Human-Services:Care:Navigating-the-System
       items:
       - name: Help Fill out Forms
-        slug: human_services:care:navigating_the_system:help_fill_out_forms
+        slug: Human-Services:Care:Navigating-the-System:Help-Fill-out-Forms
       - name: Help Find Housing
-        slug: human_services:care:navigating_the_system:help_find_housing
-        related:
-        - human_services:housing:help_find_housing
+        slug: Human-Services:Care:Navigating-the-System:Help-Find-Housing
       - name: Case Management
-        slug: human_services:care:navigating_the_system:case_management
+        slug: Human-Services:Care:Navigating-the-System:Case-Management
       - name: Help Find Childcare
-        slug: human_services:care:navigating_the_system:help_find_childcare
-        related:
-        - human_services:care:daytime_care:childcare:help_find_childcare
+        slug: Human-Services:Care:Navigating-the-System:Help-Find-Childcare
       - name: Help Find School
-        slug: human_services:care:navigating_the_system:help_find_school
-        related:
-        - human_services:education:help_find_school
+        slug: Human-Services:Care:Navigating-the-System:Help-Find-School
       - name: Help Find Work
-        slug: human_services:care:navigating_the_system:help_find_work
-        related:
-        - human_services:work:help_find_work
+        slug: Human-Services:Care:Navigating-the-System:Help-Find-Work
     - name: Community Services
-      slug: human_services:community_services
+      slug: Human-Services:Care:Community-Services
       items:
       - name: Computer or Internet Access
-        slug: human_services:community_services:computer_or_internet_access
+        slug: Human-Services:Care:Community-Services:Computer-or-Internet-Access
       - name: Exercise & Fitness
-        slug: human_services:community_services:exercise_fitness
-        related:
-        - human_services:health:medical_care:exercise_fitness
+        slug: Human-Services:Care:Community-Services:Exercise-Fitness
       - name: Recreation
-        slug: human_services:community_services::recreation
-        related:
-          - human_services:care:daytime_care:recreation
+        slug: Human-Services:Care:Community-Services:Recreation
       - name: Community Gardens
-        slug: human_services:community_services:community_gardens
-        related:
-        - human_services:food:community_gardens
+        slug: Human-Services:Care:Community-Services:Community-Gardens
       - name: Summer Camps
-        slug: human_services:community_services:summer_camps
-        related:
-        - human_services:education:more_education:summer_camps
+        slug: Human-Services:Care:Community-Services:Summer-Camps
       - name: Enrichment Programs
-        slug: human_services:community_services:more_education:enrichment_programs
-        related:
-        - human_services:education:enrichment_programs
+        slug: Human-Services:Care:Community-Services:Enrichment-Programs
       - name: Religious Services
-        slug: human_services:community_services:religious_services
+        slug: Human-Services:Care:Community-Services:Religious-Services
         items:
         - name: Synagogues
-          slug: human_services:community_services:religious_services:synagogues
+          slug: Human-Services:Care:Community-Services:Religious-Services:Synagogues
         - name: Mosques
-          slug: human_services:community_services:religious_services:mosques
+          slug: Human-Services:Care:Community-Services:Religious-Services:Mosques
         - name: Churches
-          slug: human_services:community_services:religious_services:churches
+          slug: Human-Services:Care:Community-Services:Religious-Services:Churches
         - name: Gamach
-          slug: human_services:community_services:religious_services:gamach
+          slug: Human-Services:Care:Community-Services:Religious-Services:Gamach
         - name: Kollel
-          slug: human_services:community_services:religious_services:kollel
+          slug: Human-Services:Care:Community-Services:Religious-Services:Kollel
       - name: Helplines
-        slug: human_services:community_services:helplines
+        slug: Human-Services:Care:Community-Services:Helplines
         items:
         - name: Emergency Helplines
-          slug: human_services:community_services:emergency_helplines
-          related:
-          - human_services:emergency:emergency_helplines
-          - human_services:care:support_network:help_hotlines
+          slug: Human-Services:Care:Community-Services:Helplines:Emergency-Helplines
         - name: Advice Helplines
-          slug: human_services:community_services:advice_helpline
+          slug: Human-Services:Care:Community-Services:Helplines:Advice-Helplines
       - name: Social Club
-        slug: human_services:community_services:social_club
+        slug: Human-Services:Care:Community-Services:Social-Club
       - name: Community center
-        slug: human_services:community_services:community_centers
-
+        slug: Human-Services:Care:Community-Services:Community-center
     - name: Physical Safety
-      slug: human_services:care:physical_safety
+      slug: Human-Services:Care:Physical-Safety
       items:
       - name: Disaster Response
-        slug: human_services:care:physical_safety:disaster_response
-        related:
-        - human_services:emergency:disaster_response
+        slug: Human-Services:Care:Physical-Safety:Disaster-Response
       - name: Emergency Food
-        slug: human_services:care:physical_safety:emergency_food
-        related:
-        - human_services:emergency:emergency_food
-        - human_services:food:emergency_food
+        slug: Human-Services:Care:Physical-Safety:Emergency-Food
       - name: Temporary Shelter
-        slug: human_services:care:physical_safety:temporary_shelter
+        slug: Human-Services:Care:Physical-Safety:Temporary-Shelter
         items:
         - name: Weather Relief
-          slug: human_services:care:physical_safety:temporary_shelter:weather_relief
-          related:
-          - human_services:care:community_support_services:weather_relief
-          - human_services:housing:temporary_shelter:weather_relief
-        related:
-        - human_services:housing:temporary_shelter
+          slug: Human-Services:Care:Physical-Safety:Temporary-Shelter:Weather-Relief
       - name: Help Find Missing Persons
-        slug: human_services:care:physical_safety:help_find_missing_persons
-        related:
-        - human_services:emergency:help_find_missing_persons
+        slug: Human-Services:Care:Physical-Safety:Help-Find-Missing-Persons
       - name: Immediate Safety
-        slug: human_services:care:physical_safety:immediate_safety
+        slug: Human-Services:Care:Physical-Safety:Immediate-Safety
         items:
         - name: Help Escape Violence
-          slug: human_services:care:physical_safety:immediate_safety:help_escape_violence
-          related:
-          - human_services:emergency:immediate_safety:help_escape_violence
+          slug: Human-Services:Care:Physical-Safety:Immediate-Safety:Help-Escape-Violence
         - name: Safe Housing
-          slug: human_services:care:physical_safety:immediate_safety:safe_housing
-          related:
-          - human_services:emergency:immediate_safety:safe_housing
-          - human_services:housing:residential_housing:safe_housing
-        related:
-        - human_services:emergency:immediate_safety
+          slug: Human-Services:Care:Physical-Safety:Immediate-Safety:Safe-Housing
       - name: Safety Education
-        slug: human_services:care:physical_safety:safety_education
-        related:
-        - human_services:education:more_education:health_education:safety_education
-        - human_services:health:health_education:safety_education
+        slug: Human-Services:Care:Physical-Safety:Safety-Education
     - name: Residential Care
-      slug: human_services:care:residential_care
+      slug: Human-Services:Care:Residential-Care
       items:
       - name: Assisted Living
-        slug: human_services:care:residential_care:assisted_living
-        related:
-        - human_services:housing:residential_housing:long_term_housing:assisted_living
+        slug: Human-Services:Care:Residential-Care:Assisted-Living
       - name: Nursing Home
-        slug: human_services:care:residential_care:nursing_home
-        related:
-        - human_services:health:medical_care:prevent_treat:nursing_home
-        - human_services:housing:residential_housing:long_term_housing:nursing_home
-        - human_services:housing:residential_housing:short_term_housing:nursing_home
+        slug: Human-Services:Care:Residential-Care:Nursing-Home
     - name: Support Network
-      slug: human_services:care:support_network
+      slug: Human-Services:Care:Support-Network
       items:
       - name: Counseling
-        slug: human_services:care:support_network:counseling
-        related:
-        - human_services:health:medical_care:prevent_treat:counseling
-        - human_services:health:mental_health_care:counseling
+        slug: Human-Services:Care:Support-Network:Counseling
       - name: Help Hotlines
-        slug: human_services:care:support_network:help_hotlines
+        slug: Human-Services:Care:Support-Network:Help-Hotlines
       - name: Home Visiting
-        slug: human_services:care:support_network:home_visiting
+        slug: Human-Services:Care:Support-Network:Home-Visiting
       - name: In-Home Support
-        slug: human_services:care:support_network:in_home_support
-        related:
-        - human_services:health:medical_care:prevent_treat:in_home_support
+        slug: Human-Services:Care:Support-Network:In-Home-Support
       - name: Mentoring
-        slug: human_services:care:support_network:mentoring
+        slug: Human-Services:Care:Support-Network:Mentoring
       - name: One-on-One Support
-        slug: human_services:care:support_network:one_on_one_support
+        slug: Human-Services:Care:Support-Network:One-on-One-Support
       - name: Spiritual Support
-        slug: human_services:care:support_network:spiritual_support
+        slug: Human-Services:Care:Support-Network:Spiritual-Support
       - name: Support Groups
-        slug: human_services:care:support_network:support_groups
+        slug: Human-Services:Care:Support-Network:Support-Groups
         items:
         - name: 12-Step
-          slug: human_services:care:support_network:support_groups:12_step
-          related:
-          - human_services:health:addiction_recovery:12_step
+          slug: Human-Services:Care:Support-Network:Support-Groups:12-Step
         - name: Bereavement
-          slug: human_services:care:support_network:support_groups:bereavement
-          related:
-          - human_services:health:end_of_life_care:bereavement
-          - human_services:health:mental_health_care:bereavement
+          slug: Human-Services:Care:Support-Network:Support-Groups:Bereavement
         - name: Parenting Education
-          slug: human_services:care:support_network:support_groups:parenting_education
-          related:
-          - human_services:education:more_education:health_education:parenting_education
-          - human_services:health:health_education:parenting_education
+          slug: Human-Services:Care:Support-Network:Support-Groups:Parenting-Education
       - name: Virtual Support
-        slug: human_services:care:support_network:virtual_support
+        slug: Human-Services:Care:Support-Network:Virtual-Support
       - name: Aid Centers
-        slug: human_services:care:support_network:aid_centers
+        slug: Human-Services:Care:Support-Network:Aid-Centers
   - name: Education
-    slug: human_services:education
-    description: Services for preschool, after school, special education, help finding school, help paying for school, alternative education, tutoring, and more.
+    slug: Human-Services:Education
     items:
     - name: Help Find School
-      slug: human_services:education:help_find_school
-      related:
-      - human_services:care:navigating_the_system:help_find_school
+      slug: Human-Services:Education:Help-Find-School
     - name: Help Pay for School
-      slug: human_services:education:help_pay_for_school
+      slug: Human-Services:Education:Help-Pay-for-School
       items:
       - name: Books
-        slug: human_services:education:help_pay_for_school:books
-        related:
-        - human_services:goods:home_goods:books
-        - human_services:money:financial_assistance:help_pay_for_school:books
+        slug: Human-Services:Education:Help-Pay-for-School:Books
       - name: Clothes for School
-        slug: human_services:education:help_pay_for_school:clothes_for_school
-        related:
-        - human_services:goods:clothing:clothes_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:clothes_for_school
+        slug: Human-Services:Education:Help-Pay-for-School:Clothes-for-School
       - name: Financial Aid & Loans
-        slug: human_services:education:help_pay_for_school:financial_aid_loans
-        related:
-        - human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
+        slug: Human-Services:Education:Help-Pay-for-School:Financial-Aid-Loans
       - name: Transportation for School
-        slug: human_services:education:help_pay_for_school:transportation_for_school
-        related:
-        - human_services:money:financial_assistance:help_pay_for_school:transportation_for_school
-        - human_services:transit:transportation:transportation_for_school
+        slug: Human-Services:Education:Help-Pay-for-School:Transportation-for-School
       - name: Supplies for School
-        slug: human_services:education:help_pay_for_school:supplies_for_school
-        related:
-        - human_services:goods:home_goods:supplies_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:supplies_for_school
-      related:
-      - human_services:emergency:emergency_payments:help_pay_for_school
-      - human_services:money:financial_assistance:help_pay_for_school
-      - human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
+        slug: Human-Services:Education:Help-Pay-for-School:Supplies-for-School
     - name: More Education
-      slug: human_services:education:more_education
+      slug: Human-Services:Education:More-Education
       items:
       - name: Alternative Education
-        slug: human_services:education:more_education:alternative_education
+        slug: Human-Services:Education:More-Education:Alternative-Education
       - name: Civic Engagement
-        slug: human_services:education:more_education:civic_engagement
+        slug: Human-Services:Education:More-Education:Civic-Engagement
       - name: College Readiness
-        slug: human_services:education:more_education:college_readiness
+        slug: Human-Services:Education:More-Education:College-Readiness
       - name: English as a Second Language (ESL)
-        slug: human_services:education:more_education:english_as_a_second_language_esl
-        related:
-        - human_services:education:screening_exams:english_as_a_second_language_esl
+        slug: Human-Services:Education:More-Education:English-as-a-Second-Language-ESL
       - name: Environmental Education
-        slug: human_services:education:more_education:environmental_education
+        slug: Human-Services:Education:More-Education:Environmental-Education
       - name: Financial Education
-        slug: human_services:education:more_education:financial_education
+        slug: Human-Services:Education:More-Education:Financial-Education
         items:
         - name: Credit Counseling
-          slug: human_services:education:more_education:financial_education:credit_counseling
-          related:
-          - human_services:money:financial_education:credit_counseling
+          slug: Human-Services:Education:More-Education:Financial-Education:Credit-Counseling
         - name: Homebuyer Education
-          slug: human_services:education:more_education:financial_education:homebuyer_education
-          related:
-          - human_services:money:financial_education:homebuyer_education
-        related:
-        - human_services:education:more_education:financial_education:financial_education
-        - human_services:money:financial_education
+          slug: Human-Services:Education:More-Education:Financial-Education:Homebuyer-Education
       - name: Foreign Languages
-        slug: human_services:education:more_education:foreign_languages
+        slug: Human-Services:Education:More-Education:Foreign-Languages
       - name: GED/High-School Equivalency
-        slug: human_services:education:more_education:ged_high_school_equivalency
-        related:
-        - human_services:education:screening_exams:ged_high_school_equivalency
-        - human_services:work:skills_training:ged_high_school_equivalency
+        slug: Human-Services:Education:More-Education:GED-High-School-Equivalency
       - name: Health Education
-        slug: human_services:education:more_education:health_education
+        slug: Human-Services:Education:More-Education:Health-Education
         items:
         - name: Family Planning
-          slug: human_services:education:more_education:health_education:family_planning
-          related:
-          - human_services:health:health_education:family_planning
-          - human_services:health:sexual_reproductive_health:family_planning
+          slug: Human-Services:Education:More-Education:Health-Education:Family-Planning
         - name: Nutrition Education
-          slug: human_services:education:more_education:health_education:nutrition_education
-          related:
-          - human_services:food:nutrition_education
-          - human_services:health:health_education:nutrition_education
+          slug: Human-Services:Education:More-Education:Health-Education:Nutrition-Education
         - name: Parenting Education
-          slug: human_services:education:more_education:health_education:parenting_education
-          related:
-          - human_services:care:support_network:support_groups:parenting_education
-          - human_services:health:health_education:parenting_education
+          slug: Human-Services:Education:More-Education:Health-Education:Parenting-Education
         - name: Safety Education
-          slug: human_services:education:more_education:health_education:safety_education
-          related:
-          - human_services:care:physical_safety:safety_education
-          - human_services:health:health_education:safety_education
+          slug: Human-Services:Education:More-Education:Health-Education:Safety-Education
         - name: Sex Education
-          slug: human_services:education:more_education:health_education:sex_education
-          related:
-          - human_services:health:health_education:sex_education
-          - human_services:health:sexual_reproductive_health:sex_education
-        related:
-        - human_services:education:more_education:health_education:health_education
-        - human_services:health:health_education
+          slug: Human-Services:Education:More-Education:Health-Education:Sex-Education
       - name: Special Education
-        slug: human_services:education:more_education:special_education
+        slug: Human-Services:Education:More-Education:Special-Education
       - name: Tutoring
-        slug: human_services:education:more_education:tutoring
+        slug: Human-Services:Education:More-Education:Tutoring
       - name: Youth Development
-        slug: human_services:education:more_education:youth_development
+        slug: Human-Services:Education:More-Education:Youth-Development
       - name: Summer Camps
-        slug: human_services:education:more_education:summer_camps
-        related:
-        - human_services:community_services:summer_camps
+        slug: Human-Services:Education:More-Education:Summer-Camps
       - name: Enrichment Programs
-        slug: human_services:education:more_education:enrichment_programs
-        related:
-        - human_services:community_services:enrichment_programs
+        slug: Human-Services:Education:More-Education:Enrichment-Programs
     - name: Preschool
-      slug: human_services:education:preschool
-      related:
-      - human_services:care:daytime_care:preschool
+      slug: Human-Services:Education:Preschool
     - name: Screening & Exams
-      slug: human_services:education:screening_exams
+      slug: Human-Services:Education:Screening-Exams
       items:
       - name: GED/High-School Equivalency
-        slug: human_services:education:screening_exams:ged_high_school_equivalency
-        related:
-        - human_services:education:more_education:ged_high_school_equivalency
-        - human_services:work:skills_training:ged_high_school_equivalency
+        slug: Human-Services:Education:Screening-Exams:GED-High-School-Equivalency
       - name: English as a Second Language (ESL)
-        slug: human_services:education:screening_exams:english_as_a_second_language_esl
-        related:
-        - human_services:education:more_education:english_as_a_second_language_esl
+        slug: Human-Services:Education:Screening-Exams:English-as-a-Second-Language-ESL
     - name: Skills & Training
-      slug: human_services:education:skills_training
+      slug: Human-Services:Education:Skills-Training
       items:
       - name: Basic Literacy
-        slug: human_services:education:skills_training:basic_literacy
-        related:
-        - human_services:work:skills_training:basic_literacy
+        slug: Human-Services:Education:Skills-Training:Basic-Literacy
       - name: Computer Class
-        slug: human_services:education:skills_training:computer_class
-        related:
-        - human_services:work:skills_training:computer_class
+        slug: Human-Services:Education:Skills-Training:Computer-Class
       - name: Daily Life Skills
-        slug: human_services:education:skills_training:daily_life_skills
-        related:
-        - human_services:health:health_education:daily_life_skills
+        slug: Human-Services:Education:Skills-Training:Daily-Life-Skills
       - name: Interview Training
-        slug: human_services:education:skills_training:interview_training
-        related:
-        - human_services:work:skills_training:interview_training
+        slug: Human-Services:Education:Skills-Training:Interview-Training
       - name: Skills Assessment
-        slug: human_services:education:skills_training:skills_assessment
-        related:
-        - human_services:work:skills_training:skills_assessment
+        slug: Human-Services:Education:Skills-Training:Skills-Assessment
       - name: Specialized Training
-        slug: human_services:education:skills_training:specialized_training
-        related:
-        - human_services:work:skills_training:specialized_training
-      related:
-      - human_services:work:skills_training
-    related:
-    - human_situations:education
+        slug: Human-Services:Education:Skills-Training:Specialized-Training
   - name: Work
-    slug: human_services:work
-    description: Services for finding and sustaining work and improving job skills and abilities.
+    slug: Human-Services:Work
     items:
     - name: Help Find Work
-      slug: human_services:work:help_find_work
-      related:
-      - human_services:care:navigating_the_system:help_find_work
+      slug: Human-Services:Work:Help-Find-Work
     - name: Help Pay for Work Expenses
-      slug: human_services:work:help_pay_for_work_expenses
+      slug: Human-Services:Work:Help-Pay-for-Work-Expenses
       items:
       - name: Clothes for Work
-        slug: human_services:work:help_pay_for_work_expenses:clothes_for_work
-        related:
-        - human_services:goods:clothing:clothes_for_work
+        slug: Human-Services:Work:Help-Pay-for-Work-Expenses:Clothes-for-Work
       - name: Supplies for Work
-        slug: human_services:work:help_pay_for_work_expenses:supplies_for_work
-        related:
-        - human_services:goods:home_goods:supplies_for_work
+        slug: Human-Services:Work:Help-Pay-for-Work-Expenses:Supplies-for-Work
       - name: Unemployment Benefits
-        slug: human_services:work:help_pay_for_work_expenses:unemployment_benefits
-      related:
-      - human_services:money:financial_assistance:help_pay_for_work_expenses
+        slug: Human-Services:Work:Help-Pay-for-Work-Expenses:Unemployment-Benefits
     - name: Skills & Training
-      slug: human_services:work:skills_training
+      slug: Human-Services:Work:Skills-Training
       items:
       - name: Basic Literacy
-        slug: human_services:work:skills_training:basic_literacy
-        related:
-        - human_services:education:skills_training:basic_literacy
+        slug: Human-Services:Work:Skills-Training:Basic-Literacy
       - name: Computer Class
-        slug: human_services:work:skills_training:computer_class
-        related:
-        - human_services:education:skills_training:computer_class
+        slug: Human-Services:Work:Skills-Training:Computer-Class
       - name: GED/High-School Equivalency
-        slug: human_services:work:skills_training:ged_high_school_equivalency
-        related:
-        - human_services:education:more_education:ged_high_school_equivalency
-        - human_services:education:screening_exams:ged_high_school_equivalency
+        slug: Human-Services:Work:Skills-Training:GED-High-School-Equivalency
       - name: Interview Training
-        slug: human_services:work:skills_training:interview_training
-        related:
-        - human_services:education:skills_training:interview_training
+        slug: Human-Services:Work:Skills-Training:Interview-Training
       - name: Resume Development
-        slug: human_services:work:skills_training:resume_development
+        slug: Human-Services:Work:Skills-Training:Resume-Development
       - name: Skills Assessment
-        slug: human_services:work:skills_training:skills_assessment
-        related:
-        - human_services:education:skills_training:skills_assessment
+        slug: Human-Services:Work:Skills-Training:Skills-Assessment
       - name: Specialized Training
-        slug: human_services:work:skills_training:specialized_training
-        related:
-        - human_services:education:skills_training:specialized_training
-      related:
-      - human_services:education:skills_training
+        slug: Human-Services:Work:Skills-Training:Specialized-Training
     - name: Supported Employment
-      slug: human_services:work:supported_employment
-      related:
-      - human_services:education:more_education:supported_employment
-      - human_services:work:help_find_work:supported_employment
+      slug: Human-Services:Work:Supported-Employment
     - name: Workplace Rights
-      slug: human_services:work:workplace_rights
-      related:
-      - human_services:legal:advocacy_legal_aid:workplace_rights
-      - human_services:legal:workplace_rights
+      slug: Human-Services:Work:Workplace-Rights
   - name: Legal
-    slug: human_services:legal
-    description: Services for legal representation, mediation, advocacy, citizenship and immigration, adoption and foster care, guardianship, civil rights, and more.
+    slug: Human-Services:Legal
     items:
     - name: Advocacy & Legal Aid
-      slug: human_services:legal:advocacy_legal_aid
+      slug: Human-Services:Legal:Advocacy-Legal-Aid
       items:
       - name: Adoption & Foster Care
-        slug: human_services:legal:advocacy_legal_aid:adoption_foster_care
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Adoption-Foster-Care
         items:
         - name: Adoption Planning
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_planning
-          related:
-          - human_services:care:adoption_foster_care:adoption_planning
-          - human_services:legal:adoption_foster_care:adoption_planning
-          - human_services:legal:adoption_planning
+          slug: Human-Services:Legal:Advocacy-Legal-Aid:Adoption-Foster-Care:Adoption-Planning
         - name: Adoption Counseling
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_counseling
-          related:
-          - human_services:care:adoption_foster_care:adoption_counseling
-          - human_services:legal:adoption_counseling
-          - human_services:legal:adoption_foster_care:adoption_counseling
+          slug: Human-Services:Legal:Advocacy-Legal-Aid:Adoption-Foster-Care:Adoption-Counseling
         - name: Post-Adoption Support
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:post_adoption_support
-          related:
-          - human_services:care:adoption_foster_care:post_adoption_support
-          - human_services:legal:adoption_foster_care:post_adoption_support
-          - human_services:legal:post_adoption_support
+          slug: Human-Services:Legal:Advocacy-Legal-Aid:Adoption-Foster-Care:Post-Adoption-Support
         - name: Adoption & Foster Care
-          slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
-          related:
-          - human_services:care:adoption_foster_care
-          - human_services:legal:adoption_foster_care
-          - human_services:legal:advocacy_legal_aid:adoption_foster_care
-        related:
-        - human_services:care:adoption_foster_care
-        - human_services:legal:adoption_foster_care
-        - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
+          slug: Human-Services:Legal:Advocacy-Legal-Aid:Adoption-Foster-Care:Adoption-Foster-Care
       - name: Citizenship & Immigration
-        slug: human_services:legal:advocacy_legal_aid:citizenship_immigration
-        related:
-        - human_services:education:screening_exams:citizenship_immigration
-        - human_services:legal:citizenship_immigration
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Citizenship-Immigration
       - name: Discrimination & Civil Rights
-        slug: human_services:legal:advocacy_legal_aid:discrimination_civil_rights
-        related:
-        - human_services:legal:discrimination_civil_rights
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Discrimination-Civil-Rights
       - name: Guardianship
-        slug: human_services:legal:advocacy_legal_aid:guardianship
-        related:
-        - human_services:legal:guardianship
-        - human_situations:guardianship
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Guardianship
       - name: Identification Recovery
-        slug: human_services:legal:advocacy_legal_aid:identification_recovery
-        related:
-        - human_services:legal:identification_recovery
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Identification-Recovery
       - name: Understand Government Programs
-        slug: human_services:legal:advocacy_legal_aid:understand_government_programs
-        related:
-        - human_services:legal:understand_government_programs
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Understand-Government-Programs
       - name: Workplace Rights
-        slug: human_services:legal:advocacy_legal_aid:workplace_rights
-        related:
-        - human_services:legal:workplace_rights
-        - human_services:work:workplace_rights
+        slug: Human-Services:Legal:Advocacy-Legal-Aid:Workplace-Rights
     - name: Mediation
-      slug: human_services:legal:mediation
+      slug: Human-Services:Legal:Mediation
     - name: Notary
-      slug: human_services:legal:notary
+      slug: Human-Services:Legal:Notary
     - name: Representation
-      slug: human_services:legal:representation
+      slug: Human-Services:Legal:Representation
     - name: Translation & Interpretation
-      slug: human_services:legal:translation_interpretation
+      slug: Human-Services:Legal:Translation-Interpretation
   - name: Emergency
-    slug: human_services:emergency
+    slug: Human-Services:Emergency
     items:
     - name: Disaster Response
-      slug: human_services:emergency:disaster_response
-      related:
-      - human_services:care:physical_safety:disaster_response
+      slug: Human-Services:Emergency:Disaster-Response
     - name: Emergency Payments
-      slug: human_services:emergency:emergency_payments
+      slug: Human-Services:Emergency:Emergency-Payments
       items:
       - name: Help Pay for Food
-        slug: human_services:emergency:emergency_payments:help_pay_for_food
-        related:
-        - human_services:food:help_pay_for_food
-        - human_services:money:financial_assistance:help_pay_for_food
-        - human_services:money:financial_assistance:help_pay_for_food:help_pay_for_food
+        slug: Human-Services:Emergency:Emergency-Payments:Help-Pay-for-Food
       - name: Help Pay for Healthcare
-        slug: human_services:emergency:emergency_payments:help_pay_for_healthcare
-        related:
-        - human_services:health:help_pay_for_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare
-        - human_services:money:financial_assistance:help_pay_for_healthcare:help_pay_for_healthcare
+        slug: Human-Services:Emergency:Emergency-Payments:Help-Pay-for-Healthcare
       - name: Help Pay for Housing
-        slug: human_services:emergency:emergency_payments:help_pay_for_housing
-        related:
-        - human_services:housing:help_pay_for_housing
-        - human_services:money:financial_assistance:help_pay_for_housing
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_housing
+        slug: Human-Services:Emergency:Emergency-Payments:Help-Pay-for-Housing
       - name: Help Pay for School
-        slug: human_services:emergency:emergency_payments:help_pay_for_school
-        related:
-        - human_services:education:help_pay_for_school
-        - human_services:money:financial_assistance:help_pay_for_school
-        - human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
+        slug: Human-Services:Emergency:Emergency-Payments:Help-Pay-for-School
     - name: Emergency Food
-      slug: human_services:emergency:emergency_food
-      related:
-      - human_services:care:physical_safety:emergency_food
-      - human_services:food:emergency_food
+      slug: Human-Services:Emergency:Emergency-Food
     - name: Emergency Shelter
-      slug: human_services:emergency:emergency_shelter
-      related:
-      - human_services:housing:emergency_shelter
+      slug: Human-Services:Emergency:Emergency-Shelter
     - name: Help Find Missing Persons
-      slug: human_services:emergency:help_find_missing_persons
-      related:
-      - human_services:care:physical_safety:help_find_missing_persons
+      slug: Human-Services:Emergency:Help-Find-Missing-Persons
     - name: Immediate Safety
-      slug: human_services:emergency:immediate_safety
+      slug: Human-Services:Emergency:Immediate-Safety
       items:
       - name: Help Escape Violence
-        slug: human_services:emergency:immediate_safety:help_escape_violence
-        related:
-        - human_services:care:physical_safety:immediate_safety:help_escape_violence
+        slug: Human-Services:Emergency:Immediate-Safety:Help-Escape-Violence
       - name: Safe Housing
-        slug: human_services:emergency:immediate_safety:safe_housing
-        related:
-        - human_services:care:physical_safety:immediate_safety:safe_housing
-        - human_services:housing:residential_housing:safe_housing
-      related:
-      - human_services:care:physical_safety:immediate_safety
+        slug: Human-Services:Emergency:Immediate-Safety:Safe-Housing
     - name: Psychiatric Emergency Services
-      slug: human_services:emergency:psychiatric_emergency_services
-      related:
-      - human_services:health:medical_care:emergency_services:psychiatric_emergency_services
-      - human_services:health:mental_health_care:psychiatric_emergency_services
+      slug: Human-Services:Emergency:Psychiatric-Emergency-Services
     - name: Emergency Helplines
-      slug: human_services:emergency:emergency_helplines
-    related:
-    - human_situations:urgency:emergency
+      slug: Human-Services:Emergency:Emergency-Helplines
 - name: Human Situations
-  slug: human_situations
-  description: "These are common attributes about a person. These can be used to help match a person's situation with available human services."
+  slug: Human-Situations
   items:
   - name: General
-    slug: human_situations:general
+    slug: Human-Situations:General
     items:
     - name: Anyone in Need
-      slug: human_situations:general:anyone_in_need
+      slug: Human-Situations:General:Anyone-in-Need
   - name: Age Group
-    slug: human_situations:age_group
+    slug: Human-Situations:Age-Group
     items:
     - name: All Ages
-      slug: human_situations:age_group:all_ages
+      slug: Human-Situations:Age-Group:All-Ages
     - name: Adults
-      description: (31-54 years old)
-      slug: human_situations:age_group:adults
+      slug: Human-Situations:Age-Group:Adults
     - name: Young Adults
-      description: (20-30 years old)
-      slug: human_situations:age_group:young_adults
+      slug: Human-Situations:Age-Group:Young-Adults
     - name: Teens
-      description: (13-19 years old)
-      slug: human_situations:age_group:teens
+      slug: Human-Situations:Age-Group:Teens
     - name: Infants
-      description: (0-1 years old)
-      slug: human_situations:age_group:infants
+      slug: Human-Situations:Age-Group:Infants
     - name: Children
-      description: (2-12 years old)
-      slug: human_situations:age_group:children
+      slug: Human-Situations:Age-Group:Children
     - name: Seniors
-      description: (55+ years old)
-      slug: human_situations:age_group:seniors
+      slug: Human-Situations:Age-Group:Seniors
   - name: Armed Forces
-    slug: human_situations:armed_forces
+    slug: Human-Situations:Armed-Forces
     items:
     - name: Active Duty
-      slug: human_situations:armed_forces:active_duty
+      slug: Human-Situations:Armed-Forces:Active-Duty
     - name: Professional Duty
-      slug: human_situations:armed_forces:professional_duty
+      slug: Human-Situations:Armed-Forces:Professional-Duty
     - name: Ex-soldiers
-      slug: human_situations:armed_forces:ex_soldiers
+      slug: Human-Situations:Armed-Forces:Ex-soldiers
     - name: Reserves
-      slug: human_situations:armed_forces:reserves
+      slug: Human-Situations:Armed-Forces:Reserves
     - name: Veterans
-      slug: human_situations:armed_forces:veterans
+      slug: Human-Situations:Armed-Forces:Veterans
     - name: Injured while on Duty
-      slug: human_situations:armed_forces:injured_while_on_duty
-      related: human_situations:benefit_holders:defence_ministry:injured_while_on_duty
+      slug: Human-Situations:Armed-Forces:Injured-while-on-Duty
     - name: Bereaved families
-      slug: human_situations:armed_forces:bereaved_families
-      related: human_situations:armed_forces:disabled:bereaved_families
+      slug: Human-Situations:Armed-Forces:Bereaved-families
   - name: Citizenship
-    slug: human_situations:citizenship
+    slug: Human-Situations:Citizenship
     items:
     - name: Immigrants
-      slug: human_situations:citizenship:immigrants
+      slug: Human-Situations:Citizenship:Immigrants
     - name: Foreign Residents
-      slug: human_situations:citizenship:foreign_residents
+      slug: Human-Situations:Citizenship:Foreign-Residents
     - name: Foreign Workers
-      slug: human_situations:citizenship:foreign_workers
+      slug: Human-Situations:Citizenship:Foreign-Workers
       items:
       - name: Agriculture and Building
-        slug: human_situations:citizenship:foreign_workers:agriculture_and_building
+        slug: Human-Situations:Citizenship:Foreign-Workers:Agriculture-and-Building
       - name: Nursing
-        slug: human_situations:citizenship:foreign_workers:nursing
+        slug: Human-Situations:Citizenship:Foreign-Workers:Nursing
       - name: Experts
-        slug: human_situations:citizenship:foreign_workers:experts
+        slug: Human-Situations:Citizenship:Foreign-Workers:Experts
     - name: Palestinians Workers
-      slug: human_situations:citizenship:palestinians_workers
+      slug: Human-Situations:Citizenship:Palestinians-Workers
     - name: Citizens
-      slug: human_situations:citizenship:citizens
+      slug: Human-Situations:Citizenship:Citizens
     - name: Residents
-      slug: human_situations:citizenship:residents
+      slug: Human-Situations:Citizenship:Residents
     - name: Statusless
-      slug: human_situations:citizenship:statusless
+      slug: Human-Situations:Citizenship:Statusless
     - name: Olim
-      slug: human_situations:citizenship:olim
+      slug: Human-Situations:Citizenship:Olim
     - name: Refugees
-      slug: human_situations:citizenship:refugees
+      slug: Human-Situations:Citizenship:Refugees
   - name: Disability
-    slug: human_situations:disability
+    slug: Human-Situations:Disability
     items:
     - name: All Disabilities
-      slug: human_situations:disability:all_disabilities
+      slug: Human-Situations:Disability:All-Disabilities
     - name: Autistic spectrum
-      slug: human_situations:disability:autistic_spectrum
-      related:
-      - human_situations:health:neurodevelopmental_disorders:autistic_spectrum
+      slug: Human-Situations:Disability:Autistic-spectrum
     - name: Learning Disability
-      slug: human_situations:disability:learning_disability
+      slug: Human-Situations:Disability:Learning-Disability
       items:
       - name: ADD/ADHD
-        slug: human_situations:disability:learning_disability:add_adhd
+        slug: Human-Situations:Disability:Learning-Disability:ADD-ADHD
     - name: Developmental Disability
-      slug: human_situations:disability:developmental_disability
+      slug: Human-Situations:Disability:Developmental-Disability
     - name: Physical Disability
-      slug: human_situations:disability:physical_disability
+      slug: Human-Situations:Disability:Physical-Disability
     - name: Intellectual Disability
-      slug: human_situations:disability:intellectual_disability
+      slug: Human-Situations:Disability:Intellectual-Disability
     - name: Limited Mobility
-      slug: human_situations:disability:limited_mobility
+      slug: Human-Situations:Disability:Limited-Mobility
     - name: Deaf or Hard of Hearing
-      slug: human_situations:disability:deaf_or_hard_of_hearing
+      slug: Human-Situations:Disability:Deaf-or-Hard-of-Hearing
     - name: Visual Impairment
-      slug: human_situations:disability:visual_impairment
+      slug: Human-Situations:Disability:Visual-Impairment
     - name: Mental Illness
-      slug: human_situations:disability:mental_illness
-      related:
-      - human_situations:health:mental_illness
+      slug: Human-Situations:Disability:Mental-Illness
   - name: Education
-    slug: human_situations:education
+    slug: Human-Situations:Education
     items:
     - name: Dropouts
-      slug: human_situations:education:dropouts
+      slug: Human-Situations:Education:Dropouts
     - name: Special needs
-      slug: human_situations:education:special_needs
+      slug: Human-Situations:Education:Special-needs
     - name: Students
-      slug: human_situations:education:students
+      slug: Human-Situations:Education:Students
     - name: Yeshiva students
-      slug: human_situations:education:yeshiva_students
+      slug: Human-Situations:Education:Yeshiva-students
     - name: Youth village / Boarding school
-      slug: human_situations:education:youth_village_boarding_school
-    related:
-    - human_services:education
+      slug: Human-Situations:Education:Youth-village-Boarding-school
   - name: Employment
-    slug: human_situations:employment
+    slug: Human-Situations:Employment
     items:
     - name: Employed
-      slug: human_situations:employment:employed
+      slug: Human-Situations:Employment:Employed
     - name: Retirement
-      slug: human_situations:employment:retirement
+      slug: Human-Situations:Employment:Retirement
     - name: Unemployed
-      slug: human_situations:employment:unemployed
+      slug: Human-Situations:Employment:Unemployed
     - name: Self-employed
-      slug: human_situations:employment:self_employed
+      slug: Human-Situations:Employment:Self-employed
   - name: Health
-    slug: human_situations:health
+    slug: Human-Situations:Health
     items:
     - name: Treatment Phases
-      slug: human_situations:health:treatment_phases
+      slug: Human-Situations:Health:Treatment-Phases
       items:
       - name: All Care Phases
-        slug: human_situations:health:treatment_phases:all_care_phases
+        slug: Human-Situations:Health:Treatment-Phases:All-Care-Phases
       - name: Hospitalized
-        slug: human_situations:health:treatment_phases:hospitalized
-        related:
-        - human_situations:health:hospitalized
+        slug: Human-Situations:Health:Treatment-Phases:Hospitalized
       - name: Recently Diagnosed
-        slug: human_situations:health:treatment_phases:recently_diagnosed
+        slug: Human-Situations:Health:Treatment-Phases:Recently-Diagnosed
       - name: On-Treatment
-        slug: human_situations:health:treatment_phases:on_treatment
+        slug: Human-Situations:Health:Treatment-Phases:On-Treatment
       - name: Post-Treatment
-        slug: human_situations:health:treatment_phases:post_treatment
+        slug: Human-Situations:Health:Treatment-Phases:Post-Treatment
       - name: Facing End of Life
-        slug: human_situations:health:treatment_phases:facing_end_of_life
+        slug: Human-Situations:Health:Treatment-Phases:Facing-End-of-Life
       - name: Home Care
-        slug: human_situations:health:treatment_phases:home_care
+        slug: Human-Situations:Health:Treatment-Phases:Home-Care
       - name: Nursing Care
-        slug: human_situations:health:treatment_phases:nursing_care
+        slug: Human-Situations:Health:Treatment-Phases:Nursing-Care
     - name: Pregnant
-      slug: human_situations:health:pregnant
+      slug: Human-Situations:Health:Pregnant
     - name: Fertility
-      slug: human_situations:health:fertility
+      slug: Human-Situations:Health:Fertility
     - name: Neoplasm
-      slug: human_situations:health:neoplasm
+      slug: Human-Situations:Health:Neoplasm
       items:
       - name: Cancer
-        slug: human_situations:health:neoplasm:cancer
+        slug: Human-Situations:Health:Neoplasm:Cancer
         items:
         - name: All Cancer Types
-          slug: human_situations:health:neoplasm:cancer:all_cancer_types
+          slug: Human-Situations:Health:Neoplasm:Cancer:All-Cancer-Types
         - name: Bladder Cancer
-          slug: human_situations:health:neoplasm:cancer:bladder_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Bladder-Cancer
         - name: Brain Tumor
-          slug: human_situations:health:neoplasm:cancer:brain_tumor
+          slug: Human-Situations:Health:Neoplasm:Cancer:Brain-Tumor
         - name: Breast Cancer
-          slug: human_situations:health:neoplasm:cancer:breast_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Breast-Cancer
         - name: Central Nervous System
-          slug: human_situations:health:neoplasm:cancer:central_nervous_system
+          slug: Human-Situations:Health:Neoplasm:Cancer:Central-Nervous-System
         - name: Cervical Cancer
-          slug: human_situations:health:neoplasm:cancer:cervical_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Cervical-Cancer
         - name: Colon Cancer
-          slug: human_situations:health:neoplasm:cancer:colon_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Colon-Cancer
         - name: Endometrial Cancer
-          slug: human_situations:health:neoplasm:cancer:endometrial_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Endometrial-Cancer
         - name: Head & Neck Cancer
-          slug: human_situations:health:neoplasm:cancer:head_neck_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Head-Neck-Cancer
         - name: Leukemia
-          slug: human_situations:health:neoplasm:cancer:leukemia
+          slug: Human-Situations:Health:Neoplasm:Cancer:Leukemia
         - name: Liver Cancer
-          slug: human_situations:health:neoplasm:cancer:liver_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Liver-Cancer
         - name: Lung Cancer
-          slug: human_situations:health:neoplasm:cancer:lung_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Lung-Cancer
         - name: Lymphoma
-          slug: human_situations:health:neoplasm:cancer:lymphoma
+          slug: Human-Situations:Health:Neoplasm:Cancer:Lymphoma
         - name: Ovarian Cancer
-          slug: human_situations:health:neoplasm:cancer:ovarian_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Ovarian-Cancer
         - name: Sarcoma
-          slug: human_situations:health:neoplasm:cancer:sarcoma
+          slug: Human-Situations:Health:Neoplasm:Cancer:Sarcoma
         - name: Skin Cancer
-          slug: human_situations:health:neoplasm:cancer:skin_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Skin-Cancer
         - name: Stomach (Gastric) Cancer
-          slug: human_situations:health:neoplasm:cancer:stomach_gastric_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Stomach-Gastric-Cancer
         - name: Testicular Cancer
-          slug: human_situations:health:neoplasm:cancer:testicular_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Testicular-Cancer
         - name: Throat Cancer
-          slug: human_situations:health:neoplasm:cancer:throat_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Throat-Cancer
         - name: Thyroid Cancer
-          slug: human_situations:health:neoplasm:cancer:thyroid_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Thyroid-Cancer
         - name: Vaginal Cancer
-          slug: human_situations:health:neoplasm:cancer:vaginal_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Vaginal-Cancer
         - name: Vulvar Cancer
-          slug: human_situations:health:neoplasm:cancer:vulvar_cancer
+          slug: Human-Situations:Health:Neoplasm:Cancer:Vulvar-Cancer
     - name: Infectious Disease
-      slug: human_situations:health:infectious_disease
+      slug: Human-Situations:Health:Infectious-Disease
       items:
       - name: HIV/AIDS
-        slug: human_situations:health:infectious_disease:hiv_aids
+        slug: Human-Situations:Health:Infectious-Disease:HIV-AIDS
       - name: COVID19
-        slug: human_situations:health:infectious_disease:covid19
+        slug: Human-Situations:Health:Infectious-Disease:COVID19
     - name: Nervous System Disease
-      slug: human_situations:health:nervous_system_disease
+      slug: Human-Situations:Health:Nervous-System-Disease
       items:
       - name: Stroke
-        slug: human_situations:health:nervous_system_disease:stroke
+        slug: Human-Situations:Health:Nervous-System-Disease:Stroke
       - name: Epilepsy
-        slug: human_situations:health:nervous_system_disease:epilepsy
+        slug: Human-Situations:Health:Nervous-System-Disease:Epilepsy
       - name: Alzheimer disease
-        slug: human_situations:health:nervous_system_disease:alzheimer_disease
+        slug: Human-Situations:Health:Nervous-System-Disease:Alzheimer-disease
       - name: Parkinson's
-        slug: human_situations:health:nervous_system_disease:parkinsons
+        slug: Human-Situations:Health:Nervous-System-Disease:Parkinsons
     - name: Neurodevelopmental Disorders
-      slug: human_situations:health:neurodevelopmental_disorders
+      slug: Human-Situations:Health:Neurodevelopmental-Disorders
       items:
       - name: Autistic spectrum
-        slug: human_situations:health:neurodevelopmental_disorders:autistic_spectrum
+        slug: Human-Situations:Health:Neurodevelopmental-Disorders:Autistic-spectrum
     - name: Respiratory System Disease
-      slug: human_situations:health:respiratory_system
+      slug: Human-Situations:Health:Respiratory-System-Disease
       items:
       - name: Asthma
-        slug: human_situations:health:respiratory_system:Asthma
+        slug: Human-Situations:Health:Respiratory-System-Disease:Asthma
     - name: Rare diseases
-      slug: human_situations:health:rare_diseases
+      slug: Human-Situations:Health:Rare-diseases
       items:
       - name: Familial Dysautonomia
-        slug: human_situations:health:rare_diseases:familial_dysautonomia
+        slug: Human-Situations:Health:Rare-diseases:Familial-Dysautonomia
     - name: Heart diseases
-      slug: human_situations:health:heart_diseases
+      slug: Human-Situations:Health:Heart-diseases
     - name: Chronic Illness
-      slug: human_situations:health:chronic_illness
+      slug: Human-Situations:Health:Chronic-Illness
     - name: Genetic Disorder
-      slug: human_situations:health:genetic_disorder
+      slug: Human-Situations:Health:Genetic-Disorder
     - name: Rheumatic Diseases
-      slug: human_situations:health:rheumatic_diseases
+      slug: Human-Situations:Health:Rheumatic-Diseases
       items:
       - name: Fibromyalgia
-        slug: human_situations:health:rheumatic_diseases:Fibromyalgia
+        slug: Human-Situations:Health:Rheumatic-Diseases:Fibromyalgia
     - name: Endocrine, nutritional or metabolic diseases
-      slug: human_situations:health:endocrine_metabolic diseases
+      slug: Human-Situations:Health:Endocrine-nutritional-or-metabolic-diseases
       items:
       - name: Type 1 Diabetes
-        slug: human_situations:health:endocrine_metabolic diseases:Type1_Diabetes
+        slug: Human-Situations:Health:Endocrine-nutritional-or-metabolic-diseases:Type-1-Diabetes
       - name: Type 2 Diabetes
-        slug: human_situations:health:endocrine_metabolic diseases:Type2_Diabetes
+        slug: Human-Situations:Health:Endocrine-nutritional-or-metabolic-diseases:Type-2-Diabetes
   - name: Household
-    slug: human_situations:household
+    slug: Human-Situations:Household
     items:
     - name: Individuals
-      slug: human_situations:household:individuals
+      slug: Human-Situations:Household:Individuals
     - name: Loneliness
-      slug: human_situations:household:loneliness
+      slug: Human-Situations:Household:Loneliness
     - name: Families
-      slug: human_situations:household:families
+      slug: Human-Situations:Household:Families
       items:
       - name: With Children
-        slug: human_situations:household:families:with_children
+        slug: Human-Situations:Household:Families:With-Children
       - name: Single Parent
-        slug: human_situations:household:families:single_parent
+        slug: Human-Situations:Household:Families:Single-Parent
       - name: Divorced
-        slug: human_situations:household:families:divorced
+        slug: Human-Situations:Household:Families:Divorced
     - name: Surrogacy
-      slug: human_situations:household:families:surrogacy
+      slug: Human-Situations:Household:Surrogacy
   - name: Housing
-    slug: human_situations:housing
+    slug: Human-Situations:Housing
     items:
     - name: Home Owners
-      slug: human_situations:housing:home_owners
+      slug: Human-Situations:Housing:Home-Owners
     - name: Home Renters
-      slug: human_situations:housing:home_renters
+      slug: Human-Situations:Housing:Home-Renters
     - name: Homeless
-      slug: human_situations:housing:homeless
+      slug: Human-Situations:Housing:Homeless
     - name: Public Housing Tenants
-      slug: human_situations:housing:public_housing_tenants
+      slug: Human-Situations:Housing:Public-Housing-Tenants
     - name: Recipients of Housing Assistance
-      slug: human_situations:housing:recipients_of_housing_assistance
+      slug: Human-Situations:Housing:Recipients-of-Housing-Assistance
     - name: Runaways
-      slug: human_situations:housing:runaways
-    related:
-    - human_services:housing
+      slug: Human-Situations:Housing:Runaways
   - name: Income
-    slug: human_situations:income
+    slug: Human-Situations:Income
     items:
     - name: Benefit Recipients
-      slug: human_situations:income:benefit_recipients
+      slug: Human-Situations:Income:Benefit-Recipients
     - name: Low-Income
-      slug: human_situations:income:low_income
+      slug: Human-Situations:Income:Low-Income
   - name: Language
-    slug: human_situations:language
+    slug: Human-Situations:Language
     items:
     - name: Hebrew Speaking
-      slug: human_situations:language:hebrew_speaking
+      slug: Human-Situations:Language:Hebrew-Speaking
     - name: Arabic Speaking
-      slug: human_situations:language:arabic_speaking
+      slug: Human-Situations:Language:Arabic-Speaking
     - name: English Speaking
-      slug: human_situations:language:english_speaking
+      slug: Human-Situations:Language:English-Speaking
     - name: Russian Speaking
-      slug: human_situations:language:russian_speaking
+      slug: Human-Situations:Language:Russian-Speaking
     - name: Amharic Speaking
-      slug: human_situations:language:amharic_speaking
+      slug: Human-Situations:Language:Amharic-Speaking
     - name: Spanish Speaking
-      slug: human_situations:language:spanish_speaking
+      slug: Human-Situations:Language:Spanish-Speaking
     - name: French Speaking
-      slug: human_situations:language:french_speaking
+      slug: Human-Situations:Language:French-Speaking
   - name: Life Events
-    slug: human_situations:life_events
+    slug: Human-Situations:Life-Events
     items:
     - name: Bar/Bat Mitzva
-      slug: human_situations:life_events:bar_mitzva
+      slug: Human-Situations:Life-Events:Bar-Bat-Mitzva
     - name: Birth
-      slug: human_situations:life_events:birth
+      slug: Human-Situations:Life-Events:Birth
     - name: Death
-      slug: human_situations:life_events:death
+      slug: Human-Situations:Life-Events:Death
     - name: Divorce
-      slug: human_situations:life_events:divorce
+      slug: Human-Situations:Life-Events:Divorce
     - name: Grief
-      slug: human_situations:life_events:grief
+      slug: Human-Situations:Life-Events:Grief
     - name: Wedding
-      slug: human_situations:life_events:wedding
+      slug: Human-Situations:Life-Events:Wedding
   - name: Mental Health
-    slug: human_situations:mental_health
+    slug: Human-Situations:Mental-Health
     items:
-      - name: Mental conditions and diseases
-        slug: human_situations:mental_health:mental_conditions_diseases
-        items:
-        - name: Anxiety
-          slug: human_situations:mental_health:mental_conditions_diseases:anxiety
-        - name: Bipolar
-          slug: human_situations:mental_health:mental_conditions_diseases:bipolar
-        - name: Brain Injury
-          slug: human_situations:mental_health:mental_conditions_diseases:brain_injury
-        - name: Depression
-          slug: human_situations:mental_health:mental_conditions_diseases:depression
-        - name: Eating Disorder
-          slug: human_situations:mental_health:mental_conditions_diseases:eating_disorder
-        - name: Suicidal Thoughts
-          slug: human_situations:mental_health:mental_conditions_diseases:suicidal_thoughts
-        - name: PTSD
-          slug: human_situations:mental_health:mental_conditions_diseases:ptsd
-        - name: Schizophrenia
-          slug: human_situations:mental_health:mental_conditions_diseases:schizophrenia
-      - name: Treatment Phases
-        slug: human_situations:mental_health:treatment_phases
-        items:
-        - name: forced hospitalization
-          slug: human_situations:mental_health:treatment_phases:forced hospitalization
-        - name: Rehabilitation basket
-          slug: human_situations:mental_health:treatment_phases:Rehabilitation basket
-        - name: No recognition
-          slug: human_situations:mental_health:treatment_phases:no_recognition
+    - name: Mental conditions and diseases
+      slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases
+      items:
+      - name: Anxiety
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Anxiety
+      - name: Bipolar
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Bipolar
+      - name: Brain Injury
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Brain-Injury
+      - name: Depression
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Depression
+      - name: Eating Disorder
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Eating-Disorder
+      - name: Suicidal Thoughts
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Suicidal-Thoughts
+      - name: PTSD
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:PTSD
+      - name: Schizophrenia
+        slug: Human-Situations:Mental-Health:Mental-conditions-and-diseases:Schizophrenia
+    - name: Treatment Phases
+      slug: Human-Situations:Mental-Health:Treatment-Phases
+      items:
+      - name: forced hospitalization
+        slug: Human-Situations:Mental-Health:Treatment-Phases:forced-hospitalization
+      - name: Rehabilitation basket
+        slug: Human-Situations:Mental-Health:Treatment-Phases:Rehabilitation-basket
+      - name: No recognition
+        slug: Human-Situations:Mental-Health:Treatment-Phases:No-recognition
   - name: Role
-    slug: human_situations:role
+    slug: Human-Situations:Role
     items:
     - name: Caregivers
-      slug: human_situations:role:caregivers
+      slug: Human-Situations:Role:Caregivers
     - name: Spouses
-      slug: human_situations:role:spouses
+      slug: Human-Situations:Role:Spouses
     - name: Dependents
-      slug: human_situations:role:dependents
+      slug: Human-Situations:Role:Dependents
     - name: Fathers
-      slug: human_situations:role:fathers
+      slug: Human-Situations:Role:Fathers
     - name: Mothers
-      slug: human_situations:role:mothers
+      slug: Human-Situations:Role:Mothers
     - name: Parents
-      slug: human_situations:role:parents
+      slug: Human-Situations:Role:Parents
   - name: Substance Dependency
-    slug: human_situations:substance_dependency
+    slug: Human-Situations:Substance-Dependency
     items:
     - name: Alcohol Dependency
-      slug: human_situations:substance_dependency:alcohol_dependency
+      slug: Human-Situations:Substance-Dependency:Alcohol-Dependency
     - name: Dual Diagnosis
-      slug: human_situations:substance_dependency:dual_diagnosis
+      slug: Human-Situations:Substance-Dependency:Dual-Diagnosis
     - name: Opioid Dependency
-      slug: human_situations:substance_dependency:opioid_dependency
+      slug: Human-Situations:Substance-Dependency:Opioid-Dependency
     - name: Smoker
-      slug: human_situations:substance_dependency:smoker
+      slug: Human-Situations:Substance-Dependency:Smoker
     - name: Gambling
-      slug: human_situations:substance_dependency:gambling
-    related:
-    - human_situations:health:substance_dependency
+      slug: Human-Situations:Substance-Dependency:Gambling
   - name: Survivors
-    slug: human_situations:survivors
+    slug: Human-Situations:Survivors
     items:
     - name: Holocaust Survivors
-      slug: human_situations:survivors:holocaust_survivors
+      slug: Human-Situations:Survivors:Holocaust-Survivors
     - name: Trauma Survivors
-      slug: human_situations:survivors:trauma_survivors
+      slug: Human-Situations:Survivors:Trauma-Survivors
     - name: Abuse or Neglect Survivors
-      slug: human_situations:survivors:abuse_or_neglect_survivors
+      slug: Human-Situations:Survivors:Abuse-or-Neglect-Survivors
     - name: Burn Survivors
-      slug: human_situations:survivors:burn_survivors
+      slug: Human-Situations:Survivors:Burn-Survivors
     - name: Domestic Violence Survivors
-      slug: human_situations:survivors:domestic_violence_survivors
+      slug: Human-Situations:Survivors:Domestic-Violence-Survivors
     - name: Human Trafficking Survivors
-      slug: human_situations:survivors:human_trafficking_survivors
+      slug: Human-Situations:Survivors:Human-Trafficking-Survivors
     - name: Natural Disaster Survivors
-      slug: human_situations:survivors:natural_disaster_survivors
+      slug: Human-Situations:Survivors:Natural-Disaster-Survivors
     - name: Sexual Assault Survivors
-      slug: human_situations:survivors:sexual_assault_survivors
+      slug: Human-Situations:Survivors:Sexual-Assault-Survivors
     - name: All Survivors
-      slug: human_situations:survivors:all_survivors
+      slug: Human-Situations:Survivors:All-Survivors
     - name: Terror Victims
-      slug: human_situations:survivors:terror_victims
+      slug: Human-Situations:Survivors:Terror-Victims
   - name: Urgency
-    slug: human_situations:urgency
+    slug: Human-Situations:Urgency
     items:
     - name: In Crisis
-      slug: human_situations:urgency:in_crisis
+      slug: Human-Situations:Urgency:In-Crisis
     - name: In Danger
-      slug: human_situations:urgency:in_danger
+      slug: Human-Situations:Urgency:In-Danger
     - name: Emergency
-      slug: human_situations:urgency:emergency
-      related:
-      - human_services:emergency
+      slug: Human-Situations:Urgency:Emergency
   - name: Criminal History
-    slug: human_situations:criminal_history
+    slug: Human-Situations:Criminal-History
     items:
     - name: Ex-Offenders
-      slug: human_situations:criminal_history:ex_offenders
+      slug: Human-Situations:Criminal-History:Ex-Offenders
     - name: Ex-Offenders youth
-      slug: human_situations:criminal_history:ex_offenders_youth
+      slug: Human-Situations:Criminal-History:Ex-Offenders-youth
     - name: Prisoners
-      slug: human_situations:criminal_history:prisoners
+      slug: Human-Situations:Criminal-History:Prisoners
   - name: Gender
-    slug: human_situations:gender
+    slug: Human-Situations:Gender
     items:
     - name: Women
-      slug: human_situations:gender:women
+      slug: Human-Situations:Gender:Women
     - name: Men
-      slug: human_situations:gender:men
+      slug: Human-Situations:Gender:Men
     - name: Transgender
-      slug: human_situations:gender:transgender
-      related:
-      - human_situations:sexual_orientation_identity:transgender
+      slug: Human-Situations:Gender:Transgender
   - name: Sexuality
-    slug: human_situations:sexuality
+    slug: Human-Situations:Sexuality
     items:
     - name: LGBTQ
-      slug: human_situations:sexuality:lgbtq
+      slug: Human-Situations:Sexuality:LGBTQ
   - name: Sectors
-    slug: human_situations:sectors
+    slug: Human-Situations:Sectors
     items:
     - name: Ultra Orthodox
-      slug: human_situations:sectors:ultra_orthodox
+      slug: Human-Situations:Sectors:Ultra-Orthodox
     - name: Bedouin
-      slug: human_situations:sectors:bedouin
+      slug: Human-Situations:Sectors:Bedouin
     - name: Druze
-      slug: human_situations:sectors:druze
+      slug: Human-Situations:Sectors:Druze
     - name: Ethiopians
-      slug: human_situations:sectors:ethiopians
+      slug: Human-Situations:Sectors:Ethiopians
     - name: Arabs
-      slug: human_situations:sectors:arabs
+      slug: Human-Situations:Sectors:Arabs
     - name: Christians
-      slug: human_situations:sectors:christians
+      slug: Human-Situations:Sectors:Christians
     - name: Circassians
-      slug: human_situations:sectors:circassians
+      slug: Human-Situations:Sectors:Circassians
     - name: Jews
-      slug: human_situations:sectors:jews
+      slug: Human-Situations:Sectors:Jews
     - name: Muslims
-      slug: human_situations:sectors:muslims
+      slug: Human-Situations:Sectors:Muslims
   - name: Benefit Holders
-    slug: human_situations:benefit_holders
+    slug: Human-Situations:Benefit-Holders
     items:
     - name: Social Security
-      slug: human_situations:benefit_holders:social_security
+      slug: Human-Situations:Benefit-Holders:Social-Security
       items:
       - name: Disability
-        slug: human_situations:benefit_holders:social_security:disability
+        slug: Human-Situations:Benefit-Holders:Social-Security:Disability
       - name: Income Security
-        slug: human_situations:benefit_holders:social_security:income_security
+        slug: Human-Situations:Benefit-Holders:Social-Security:Income-Security
       - name: Nursing Care
-        slug: human_situations:benefit_holders:social_security:nursing_care
+        slug: Human-Situations:Benefit-Holders:Social-Security:Nursing-Care
       - name: Righteous Among the Nations
-        slug: human_situations:benefit_holders:social_security:righteous_among_the_nations
+        slug: Human-Situations:Benefit-Holders:Social-Security:Righteous-Among-the-Nations
       - name: USSR Veterans
-        slug: human_situations:benefit_holders:social_security:ussr_veterans
+        slug: Human-Situations:Benefit-Holders:Social-Security:USSR-Veterans
       - name: Zion Prisoners
-        slug: human_situations:benefit_holders:social_security:zion_prisoners
+        slug: Human-Situations:Benefit-Holders:Social-Security:Zion-Prisoners
     - name: Ministry of Defense
-      slug: human_situations:benefit_holders:defense_ministry
+      slug: Human-Situations:Benefit-Holders:Ministry-of-Defense
       items:
       - name: Injured while On Duty
-        slug: human_situations:benefit_holders:defense_ministry:injured_while_on_duty
-        related: human_situations:armed_forces:disabled:injured_while_on_duty
+        slug: Human-Situations:Benefit-Holders:Ministry-of-Defense:Injured-while-On-Duty
       - name: Bereaved Families
-        slug: human_situations:armed_forces:disabled:bereaved_families
-        related: human_situations:armed_forces:bereaved_families
+        slug: Human-Situations:Benefit-Holders:Ministry-of-Defense:Bereaved-Families
