@@ -816,7 +816,7 @@
         - human_services:health:medical_care:exercise_fitness
       - name: Recreation
         slug: human_services:community_services::recreation
-          related:
+        related:
           - human_services:care:daytime_care:recreation
       - name: Community Gardens
         slug: human_services:community_services:community_gardens
