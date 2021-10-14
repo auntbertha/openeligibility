@@ -23,7 +23,6 @@
         slug: human_services:food:help_pay_for_food:government_food_benefits
         related:
         - human_services:money:financial_assistance:help_pay_for_food:government_food_benefits
-        - human_services:money:government_benefits:government_food_benefits
       related:
       - human_services:emergency:emergency_payments:help_pay_for_food
       - human_services:money:financial_assistance:help_pay_for_food
@@ -33,8 +32,6 @@
       related:
       - human_services:education:more_education:health_education:nutrition_education
       - human_services:health:health_education:nutrition_education
-    - name: Free Meals
-      slug: human_services:food:free_meals
     - name: Nutrition
       slug: human_services:food:nutrition
       related:
@@ -45,12 +42,6 @@
     items:
     - name: Temporary Shelter
       slug: human_services:housing:temporary_shelter
-      items:
-      - name: Weather Relief
-        slug: human_services:housing:temporary_shelter:weather_relief
-        related:
-        - human_services:care:community_support_services:weather_relief
-        - human_services:care:physical_safety:temporary_shelter:weather_relief
       related:
       - human_services:care:physical_safety:temporary_shelter
     - name: Help Find Housing
@@ -60,20 +51,6 @@
     - name: Help Pay for Housing
       slug: human_services:housing:help_pay_for_housing
       items:
-      - name: Help Pay for Utilities
-        slug: human_services:housing:help_pay_for_housing:help_pay_for_utilities
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_utilities
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
-      - name: Help Pay for Internet or Phone
-        slug: human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
-        related:
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
-      - name: Home & Renters Insurance
-        slug: human_services:housing:help_pay_for_housing:home_renters_insurance
-        related:
-        - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
-        - human_services:money:insurance:home_renters_insurance
       - name: Housing Vouchers
         slug: human_services:housing:help_pay_for_housing:housing_vouchers
       - name: Maintenance & Repairs
@@ -87,27 +64,12 @@
     - name: Maintenance & Repairs
       slug: human_services:housing:maintenance_repairs
       items:
-      - name: Efficiency Upgrades
-        slug: human_services:housing:maintenance_repairs:efficiency_upgrades
-      - name: Health & Safety
-        slug: human_services:housing:maintenance_repairs:health_safety
       - name: Pest Control
         slug: human_services:housing:maintenance_repairs:pest_control
       related:
       - human_services:housing:help_pay_for_housing:maintenance_repairs
     - name: Housing Advice
       slug: human_services:housing:housing_advice
-      items:
-      - name: Foreclosure Counseling
-        slug: human_services:housing:housing_advice:foreclosure_counseling
-        related:
-        - human_services:education:more_education:financial_education:foreclosure_counseling
-        - human_services:money:financial_education:foreclosure_counseling
-      - name: Homebuyer Education
-        slug: human_services:housing:housing_advice:homebuyer_education
-        related:
-        - human_services:education:more_education:financial_education:homebuyer_education
-        - human_services:money:financial_education:homebuyer_education
     - name: Residential Housing
       slug: human_services:housing:residential_housing
       items:
@@ -120,12 +82,14 @@
           - human_services:care:residential_care:assisted_living
         - name: Independent Living
           slug: human_services:housing:residential_housing:long_term_housing:independent_living
-        - name: Nursing Home
-          slug: human_services:housing:residential_housing:long_term_housing:nursing_home
+        - name: Old Age Home
+          slug: human_services:housing:residential_housing:long_term_housing:old_age_home
           related:
           - human_services:care:residential_care:nursing_home
           - human_services:health:medical_care:prevent_treat:nursing_home
-          - human_services:housing:residential_housing:short_term_housing:nursing_home
+          - human_services:housing:residential_housing:short_term_housing:old_age_home
+        - name: Nursing Home
+          slug: human_services:housing:residential_housing:long_term_housing:nursing_home
         - name: Public Housing
           slug: human_services:housing:residential_housing:long_term_housing:public_housing
         related:
@@ -135,15 +99,17 @@
         related:
         - human_services:care:physical_safety:immediate_safety:safe_housing
         - human_services:emergency:immediate_safety:safe_housing
+      - name: Mental Health Housing
+        slug: human_services:housing:residential_housing:mental_health_housing
       - name: Short-Term Housing
         slug: human_services:housing:residential_housing:short_term_housing
         items:
-        - name: Nursing Home
-          slug: human_services:housing:residential_housing:short_term_housing:nursing_home
+        - name: Old Age Home
+          slug: human_services:housing:residential_housing:short_term_housing:old_age_home
           related:
           - human_services:care:residential_care:nursing_home
           - human_services:health:medical_care:prevent_treat:nursing_home
-          - human_services:housing:residential_housing:long_term_housing:nursing_home
+          - human_services:housing:residential_housing:long_term_housing:old_age_home
         - name: Sober Living
           slug: human_services:housing:residential_housing:short_term_housing:sober_living
           related:
@@ -197,8 +163,6 @@
         slug: human_services:goods:home_goods:fans
       - name: Furniture
         slug: human_services:goods:home_goods:furniture
-      - name: Home Fuels
-        slug: human_services:goods:home_goods:home_fuels
       - name: Efficient Appliances
         slug: human_services:goods:home_goods:efficient_appliances
       - name: Personal Care Items
@@ -236,23 +200,6 @@
     slug: human_services:transit
     description: Services for bus passes, transportation to school, healthcare, appointments, and more.
     items:
-    - name: Help Pay for Transit
-      slug: human_services:transit:help_pay_for_transit
-      items:
-      - name: Bus Passes
-        slug: human_services:transit:help_pay_for_transit:bus_passes
-        related:
-        - human_services:money:financial_assistance:help_pay_for_transit:bus_passes
-      - name: Help Pay for Car
-        slug: human_services:transit:help_pay_for_transit:help_pay_for_car
-      - name: Help Pay for Gas
-        slug: human_services:transit:help_pay_for_transit:help_pay_for_gas
-        related:
-        - human_services:emergency:emergency_payments:help_pay_for_gas
-        - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
-      related:
-      - human_services:money:financial_assistance:help_pay_for_transit
-      - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
     - name: Transportation
       slug: human_services:transit:transportation
       items:
@@ -306,31 +253,22 @@
       - name: Bereavement
         slug: human_services:health:end_of_life_care:bereavement
         related:
-        - human_services:care:end_of_life_care:bereavement
         - human_services:care:support_network:support_groups:bereavement
         - human_services:health:mental_health_care:bereavement
       - name: Burial & Funeral Help
         slug: human_services:health:end_of_life_care:burial_funeral_help
-        related:
-        - human_services:care:end_of_life_care:burial_funeral_help
       - name: Hospice
         slug: human_services:health:end_of_life_care:hospice
-        related:
-        - human_services:care:end_of_life_care:hospice
       - name: Pain Management
         slug: human_services:health:end_of_life_care:pain_management
         related:
-        - human_services:care:end_of_life_care:pain_management
         - human_services:health:medical_care:prevent_treat:pain_management
-      related:
-      - human_services:care:end_of_life_care
     - name: Health Education
       slug: human_services:health:health_education
       items:
       - name: Disease Management
         slug: human_services:health:health_education:disease_management
         related:
-        - human_services:education:more_education:health_education:disease_management
         - human_services:health:medical_care:prevent_treat:disease_management
       - name: Family Planning
         slug: human_services:health:health_education:family_planning
@@ -352,15 +290,6 @@
         related:
         - human_services:education:more_education:health_education:sex_education
         - human_services:health:sexual_reproductive_health:sex_education
-      - name: Understand Disability
-        slug: human_services:health:health_education:understand_disability
-        related:
-        - human_services:education:more_education:health_education:understand_disability
-      - name: Understand Mental Health
-        slug: human_services:health:health_education:understand_mental_health
-        related:
-        - human_services:education:more_education:health_education:understand_mental_health
-        - human_services:health:mental_health_care:understand_mental_health
       related:
       - human_services:education:more_education:health_education
       - human_services:education:more_education:health_education:health_education
@@ -371,7 +300,6 @@
         slug: human_services:health:help_pay_for_healthcare:disability_benefits
         related:
         - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-        - human_services:money:government_benefits:disability_benefits
       - name: Discounted Healthcare
         slug: human_services:health:help_pay_for_healthcare:discounted_healthcare
         related:
@@ -418,6 +346,8 @@
           slug: human_services:health:medical_care:checkup_test:pregnancy_tests
         - name: Checkup & Test
           slug: human_services:health:medical_care:checkup_test:checkup_test
+        - name: Eye Tests
+          slug: human_services:health:medical_care:checkup_test:eye_tests
       - name: Exercise & Fitness
         slug: human_services:health:medical_care:exercise_fitness
         related:
@@ -451,7 +381,6 @@
         - name: Disease Management
           slug: human_services:health:medical_care:prevent_treat:disease_management
           related:
-          - human_services:education:more_education:health_education:disease_management
           - human_services:health:health_education:disease_management
         - name: Early Childhood Intervention
           slug: human_services:health:medical_care:prevent_treat:early_childhood_intervention
@@ -487,7 +416,6 @@
         - name: Pain Management
           slug: human_services:health:medical_care:prevent_treat:pain_management
           related:
-          - human_services:care:end_of_life_care:pain_management
           - human_services:health:end_of_life_care:pain_management
         - name: Physical Therapy
           slug: human_services:health:medical_care:prevent_treat:physical_therapy
@@ -523,11 +451,17 @@
         slug: human_services:health:medical_care:maternity_care
         related:
         - human_services:health:sexual_reproductive_health:women_s_health:maternity_care
-      - name: Psychiatric Emergency Services
-        slug: human_services:health:medical_care:psychiatric_emergency_services
-        related:
-        - human_services:emergency:psychiatric_emergency_services
-        - human_services:health:mental_health_care:psychiatric_emergency_services
+      - name: Emergency Services
+        slug: human_services:health:medical_care:emergency_services
+        items:
+        - name: Psychiatric Emergency Services
+          slug: human_services:health:medical_care:emergency_services:psychiatric_emergency_services
+          related:
+          - human_services:emergency:psychiatric_emergency_services
+          - human_services:health:mental_health_care:psychiatric_emergency_services
+        - name: Dental Emergency Service
+          slug: human_services:health:medical_care:emergency_services:dental_emergency_service
+
     - name: Mental Health Care
       slug: human_services:health:mental_health_care
       items:
@@ -536,7 +470,6 @@
       - name: Bereavement
         slug: human_services:health:mental_health_care:bereavement
         related:
-        - human_services:care:end_of_life_care:bereavement
         - human_services:care:support_network:support_groups:bereavement
         - human_services:health:end_of_life_care:bereavement
       - name: Counseling
@@ -565,6 +498,11 @@
         slug: human_services:health:mental_health_care:mental_health_evaluation
       - name: Outpatient Treatment
         slug: human_services:health:mental_health_care:outpatient_treatment
+        items:
+        - Name: Forced Hospitalization
+          slug: human_services:health:mental_health_care:outpatient_treatment:forced_hospitalization
+        - name: Voluntary Hospitalization
+          slug: human_services:health:mental_health_care:outpatient_treatment:voluntary_hospitalization
         related:
         - human_services:health:addiction_recovery:outpatient_treatment
         - human_services:health:medical_care:prevent_treat:outpatient_treatment
@@ -572,9 +510,14 @@
         slug: human_services:health:mental_health_care:psychiatric_emergency_services
         related:
         - human_services:emergency:psychiatric_emergency_services
-        - human_services:health:medical_care:psychiatric_emergency_services
+        - human_services:health:medical_care:emergency_services:psychiatric_emergency_services
       - name: Residential Treatment
         slug: human_services:health:mental_health_care:residential_treatment
+        items:
+          - name: Hostel
+            slug: human_services:health:mental_health_care:residential_treatment:hostels
+          - name: Daytime Care
+            slug: human_services:health:mental_health_care:residential_treatment:daytime_care
         related:
         - human_services:care:residential_care:residential_treatment
         - human_services:health:addiction_recovery:residential_treatment
@@ -583,11 +526,6 @@
         slug: human_services:health:mental_health_care:support_service_animals
         related:
         - human_services:health:medical_care:support_service_animals
-      - name: Understand Mental Health
-        slug: human_services:health:mental_health_care:understand_mental_health
-        related:
-        - human_services:education:more_education:health_education:understand_mental_health
-        - human_services:health:health_education:understand_mental_health
     - name: Sexual & Reproductive Health
       slug: human_services:health:sexual_reproductive_health
       items:
@@ -681,17 +619,11 @@
         items:
         - name: Help Pay for Utilities
           slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_utilities
-          - human_services:housing:help_pay_for_housing:help_pay_for_utilities
         - name: Help Pay for Internet or Phone
           slug: human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_internet_or_phone
-          related:
-          - human_services:housing:help_pay_for_housing:help_pay_for_internet_or_phone
         - name: Home & Renters Insurance
           slug: human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
           related:
-          - human_services:housing:help_pay_for_housing:home_renters_insurance
           - human_services:money:insurance:home_renters_insurance
         related:
         - human_services:emergency:emergency_payments:help_pay_for_housing
@@ -728,50 +660,10 @@
         - human_services:education:help_pay_for_school
         - human_services:emergency:emergency_payments:help_pay_for_school
         - human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
-      - name: Help Pay for Transit
-        slug: human_services:money:financial_assistance:help_pay_for_transit
-        items:
-        - name: Bus Passes
-          slug: human_services:money:financial_assistance:help_pay_for_transit:bus_passes
-          related:
-          - human_services:transit:help_pay_for_transit:bus_passes
-        - name: Help Pay for Gas
-          slug: human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_gas
-          related:
-          - human_services:emergency:emergency_payments:help_pay_for_gas
-          - human_services:transit:help_pay_for_transit:help_pay_for_gas
-        related:
-        - human_services:money:financial_assistance:help_pay_for_transit:help_pay_for_transit
-        - human_services:transit:help_pay_for_transit
       - name: Help Pay for Work Expenses
         slug: human_services:money:financial_assistance:help_pay_for_work_expenses
         related:
         - human_services:work:help_pay_for_work_expenses
-    - name: Government Benefits
-      slug: human_services:money:government_benefits
-      items:
-      - name: Disability Benefits
-        slug: human_services:money:government_benefits:disability_benefits
-        related:
-        - human_services:health:help_pay_for_healthcare:disability_benefits
-        - human_services:money:financial_assistance:help_pay_for_healthcare:disability_benefits
-      - name: Retirement Benefits
-        slug: human_services:money:government_benefits:retirement_benefits
-        related:
-        - human_services:work:help_pay_for_work_expenses:retirement_benefits
-      - name: Understand Government Programs
-        slug: human_services:money:government_benefits:understand_government_programs
-        related:
-        - human_services:legal:advocacy_legal_aid:understand_government_programs
-        - human_services:legal:understand_government_programs
-      - name: Unemployment Benefits
-        slug: human_services:money:government_benefits:unemployment_benefits
-        related:
-        - human_services:work:help_pay_for_work_expenses:unemployment_benefits
-      - name: Food Benefits
-        slug: human_services:money:government_benefits:food_benefits
-        related:
-        - human_services:food:help_pay_for_food:food_benefits
     - name: Financial Education
       slug: human_services:money:financial_education
       items:
@@ -783,12 +675,10 @@
         slug: human_services:money:financial_education:foreclosure_counseling
         related:
         - human_services:education:more_education:financial_education:foreclosure_counseling
-        - human_services:housing:housing_advice:foreclosure_counseling
       - name: Homebuyer Education
         slug: human_services:money:financial_education:homebuyer_education
         related:
         - human_services:education:more_education:financial_education:homebuyer_education
-        - human_services:housing:housing_advice:homebuyer_education
       - name: Savings Program
         slug: human_services:money:financial_education:savings_program
       related:
@@ -805,7 +695,6 @@
       - name: Home & Renters Insurance
         slug: human_services:money:insurance:home_renters_insurance
         related:
-        - human_services:housing:help_pay_for_housing:home_renters_insurance
         - human_services:money:financial_assistance:help_pay_for_housing:home_renters_insurance
       related:
       - human_situations:insurance
@@ -853,24 +742,6 @@
       - human_services:legal:adoption_foster_care
       - human_services:legal:advocacy_legal_aid:adoption_foster_care
       - human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
-    - name: Community Support Services
-      slug: human_services:care:community_support_services
-      items:
-      - name: Computer or Internet Access
-        slug: human_services:care:community_support_services:computer_or_internet_access
-      - name: Exercise & Fitness
-        slug: human_services:care:community_support_services:exercise_fitness
-        related:
-        - human_services:health:medical_care:exercise_fitness
-      - name: Recreation
-        slug: human_services:care:community_support_services:recreation
-        related:
-        - human_services:care:daytime_care:recreation
-      - name: Weather Relief
-        slug: human_services:care:community_support_services:weather_relief
-        related:
-        - human_services:care:physical_safety:temporary_shelter:weather_relief
-        - human_services:housing:temporary_shelter:weather_relief
     - name: Daytime Care
       slug: human_services:care:daytime_care
       items:
@@ -911,30 +782,6 @@
         slug: human_services:care:daytime_care:recreation
         related:
         - human_services:care:community_support_services:recreation
-    - name: End-of-Life Care
-      slug: human_services:care:end_of_life_care
-      items:
-      - name: Bereavement
-        slug: human_services:care:end_of_life_care:bereavement
-        related:
-        - human_services:care:support_network:support_groups:bereavement
-        - human_services:health:end_of_life_care:bereavement
-        - human_services:health:mental_health_care:bereavement
-      - name: Burial & Funeral Help
-        slug: human_services:care:end_of_life_care:burial_funeral_help
-        related:
-        - human_services:health:end_of_life_care:burial_funeral_help
-      - name: Hospice
-        slug: human_services:care:end_of_life_care:hospice
-        related:
-        - human_services:health:end_of_life_care:hospice
-      - name: Pain Management
-        slug: human_services:care:end_of_life_care:pain_management
-        related:
-        - human_services:health:end_of_life_care:pain_management
-        - human_services:health:medical_care:prevent_treat:pain_management
-      related:
-      - human_services:health:end_of_life_care
     - name: Navigating the System
       slug: human_services:care:navigating_the_system
       items:
@@ -958,6 +805,59 @@
         slug: human_services:care:navigating_the_system:help_find_work
         related:
         - human_services:work:help_find_work
+    - name: Community Services
+      slug: human_services:community_services
+      items:
+      - name: Computer or Internet Access
+        slug: human_services:community_services:computer_or_internet_access
+      - name: Exercise & Fitness
+        slug: human_services:community_services:exercise_fitness
+        related:
+        - human_services:health:medical_care:exercise_fitness
+      - name: Recreation
+        slug: human_services:community_services::recreation
+          related:
+          - human_services:care:daytime_care:recreation
+      - name: Community Gardens
+        slug: human_services:community_services:community_gardens
+        realted:
+        - human_services:food:community_gardens
+      - name: Summer Camps
+        slug: human_services:community_services:summer_camps
+        related:
+        - human_services:education:more_education:summer_camps
+      - name: Enrichment Programs
+        slug: human_services:community_services:more_education:enrichment_programs
+        related:
+        - human_services:education:enrichment_programs
+      - name: Religious Services
+        slug: human_services:community_services:religious_services
+        items:
+        - name: Synagogues
+          slug: human_services:community_services:religious_services:synagogues
+        - name: Mosques
+          slug: human_services:community_services:religious_services:mosques
+        - name: Churches
+          slug: human_services:community_services:religious_services:churches
+        - name: Gamach
+          slug: human_services:community_services:religious_services:gamach
+        - name: Kollel
+          slug: human_services:community_services:religious_services:kollel
+      - name: Helplines
+        slug: human_services:community_services:helplines
+        items:
+        - name: Emergency Helplines
+          slug: human_services:community_services:emergency_helplines
+          related:
+          - human_services:emergency:emergency_helplines
+          - human_services:care:support_network:help_hotlines
+        - name: Advice Helplines
+          slug: human_services:community_services:advice_helpline
+      - name: Social Club
+        slug: human_services:community_services:social_club
+      - name: Community center
+        slug: human_services:community_services:community_centers
+
     - name: Physical Safety
       slug: human_services:care:physical_safety
       items:
@@ -1048,7 +948,6 @@
         - name: Bereavement
           slug: human_services:care:support_network:support_groups:bereavement
           related:
-          - human_services:care:end_of_life_care:bereavement
           - human_services:health:end_of_life_care:bereavement
           - human_services:health:mental_health_care:bereavement
         - name: Parenting Education
@@ -1058,6 +957,8 @@
           - human_services:health:health_education:parenting_education
       - name: Virtual Support
         slug: human_services:care:support_network:virtual_support
+      - name: Aid Centers
+        slug: human_services:care:support_network:aid_centers
   - name: Education
     slug: human_services:education
     description: Services for preschool, after school, special education, help finding school, help paying for school, alternative education, tutoring, and more.
@@ -1106,8 +1007,6 @@
         slug: human_services:education:more_education:civic_engagement
       - name: College Readiness
         slug: human_services:education:more_education:college_readiness
-      - name: Disaster Preparedness & Response
-        slug: human_services:education:more_education:disaster_preparedness_response
       - name: English as a Second Language (ESL)
         slug: human_services:education:more_education:english_as_a_second_language_esl
         related:
@@ -1124,7 +1023,6 @@
         - name: Homebuyer Education
           slug: human_services:education:more_education:financial_education:homebuyer_education
           related:
-          - human_services:housing:housing_advice:homebuyer_education
           - human_services:money:financial_education:homebuyer_education
         related:
         - human_services:education:more_education:financial_education:financial_education
@@ -1139,11 +1037,6 @@
       - name: Health Education
         slug: human_services:education:more_education:health_education
         items:
-        - name: Disease Management
-          slug: human_services:education:more_education:health_education:disease_management
-          related:
-          - human_services:health:health_education:disease_management
-          - human_services:health:medical_care:prevent_treat:disease_management
         - name: Family Planning
           slug: human_services:education:more_education:health_education:family_planning
           related:
@@ -1169,15 +1062,6 @@
           related:
           - human_services:health:health_education:sex_education
           - human_services:health:sexual_reproductive_health:sex_education
-        - name: Understand Disability
-          slug: human_services:education:more_education:health_education:understand_disability
-          related:
-          - human_services:health:health_education:understand_disability
-        - name: Understand Mental Health
-          slug: human_services:education:more_education:health_education:understand_mental_health
-          related:
-          - human_services:health:health_education:understand_mental_health
-          - human_services:health:mental_health_care:understand_mental_health
         related:
         - human_services:education:more_education:health_education:health_education
         - human_services:health:health_education
@@ -1187,6 +1071,14 @@
         slug: human_services:education:more_education:tutoring
       - name: Youth Development
         slug: human_services:education:more_education:youth_development
+      - name: Summer Camps
+        slug: human_services:education:more_education:summer_camps
+        related:
+        - human_services:community_services:summer_camps
+      - name: Enrichment Programs
+        slug: human_services:education:more_education:enrichment_programs
+        related:
+        - human_services:community_services:enrichment_programs
     - name: Preschool
       slug: human_services:education:preschool
       related:
@@ -1222,10 +1114,6 @@
         slug: human_services:education:skills_training:interview_training
         related:
         - human_services:work:skills_training:interview_training
-      - name: Resume Development
-        slug: human_services:education:skills_training:resume_development
-        related:
-        - human_services:work:skills_training:resume_development
       - name: Skills Assessment
         slug: human_services:education:skills_training:skills_assessment
         related:
@@ -1253,18 +1141,12 @@
         slug: human_services:work:help_pay_for_work_expenses:clothes_for_work
         related:
         - human_services:goods:clothing:clothes_for_work
-      - name: Retirement Benefits
-        slug: human_services:work:help_pay_for_work_expenses:retirement_benefits
-        related:
-        - human_services:money:government_benefits:retirement_benefits
       - name: Supplies for Work
         slug: human_services:work:help_pay_for_work_expenses:supplies_for_work
         related:
         - human_services:goods:home_goods:supplies_for_work
       - name: Unemployment Benefits
         slug: human_services:work:help_pay_for_work_expenses:unemployment_benefits
-        related:
-        - human_services:money:government_benefits:unemployment_benefits
       related:
       - human_services:money:financial_assistance:help_pay_for_work_expenses
     - name: Skills & Training
@@ -1289,8 +1171,6 @@
         - human_services:education:skills_training:interview_training
       - name: Resume Development
         slug: human_services:work:skills_training:resume_development
-        related:
-        - human_services:education:skills_training:resume_development
       - name: Skills Assessment
         slug: human_services:work:skills_training:skills_assessment
         related:
@@ -1371,7 +1251,6 @@
         slug: human_services:legal:advocacy_legal_aid:understand_government_programs
         related:
         - human_services:legal:understand_government_programs
-        - human_services:money:government_benefits:understand_government_programs
       - name: Workplace Rights
         slug: human_services:legal:advocacy_legal_aid:workplace_rights
         related:
@@ -1419,11 +1298,6 @@
         - human_services:education:help_pay_for_school
         - human_services:money:financial_assistance:help_pay_for_school
         - human_services:money:financial_assistance:help_pay_for_school:help_pay_for_school
-      - name: Help Pay for Utilities
-        slug: human_services:emergency:emergency_payments:help_pay_for_utilities
-        related:
-        - human_services:housing:help_pay_for_housing:help_pay_for_utilities
-        - human_services:money:financial_assistance:help_pay_for_housing:help_pay_for_utilities
     - name: Emergency Food
       slug: human_services:emergency:emergency_food
       related:
@@ -1454,8 +1328,10 @@
     - name: Psychiatric Emergency Services
       slug: human_services:emergency:psychiatric_emergency_services
       related:
-      - human_services:health:medical_care:psychiatric_emergency_services
+      - human_services:health:medical_care:emergency_services:psychiatric_emergency_services
       - human_services:health:mental_health_care:psychiatric_emergency_services
+    - name: Emergency Helplines
+      slug: human_services:emergency:emergency_helplines
     related:
     - human_situations:urgency:emergency
 - name: Human Situations
@@ -1508,7 +1384,7 @@
       related: human_situations:benefit_holders:defence_ministry:injured_while_on_duty
     - name: Bereaved families
       slug: human_situations:armed_forces:bereaved_families
-      related: human_situations:armed_forces:disabled:bereaved_families 
+      related: human_situations:armed_forces:disabled:bereaved_families
   - name: Citizenship
     slug: human_situations:citizenship
     items:
@@ -1592,7 +1468,7 @@
     - name: Unemployed
       slug: human_situations:employment:unemployed
     - name: Self-employed
-      slug: human_situations:employment:self_employed 
+      slug: human_situations:employment:self_employed
   - name: Health
     slug: human_situations:health
     items:
@@ -1940,9 +1816,9 @@
   - name: Benefit Holders
     slug: human_situations:benefit_holders
     items:
-    - name: Social Security 
+    - name: Social Security
       slug: human_situations:benefit_holders:social_security
-      items: 
+      items:
       - name: Disability
         slug: human_situations:benefit_holders:social_security:disability
       - name: Income Security
@@ -1953,17 +1829,14 @@
         slug: human_situations:benefit_holders:social_security:righteous_among_the_nations
       - name: USSR Veterans
         slug: human_situations:benefit_holders:social_security:ussr_veterans
-      - name: Zion Prisoners 
+      - name: Zion Prisoners
         slug: human_situations:benefit_holders:social_security:zion_prisoners
-    - name: Ministry of Defense 
+    - name: Ministry of Defense
       slug: human_situations:benefit_holders:defense_ministry
-      items: 
-      - name: IDF injuries 
-        slug: human_situations:benefit_holders:defense_ministry:idf_injuries
+      items:
       - name: Injured while On Duty
-        slug: human_situations:benefit_holders:defense_ministry:injured_while_on_duty 
-        related: human_situations:armed_forces:disabled:injured_while_on_duty 
+        slug: human_situations:benefit_holders:defense_ministry:injured_while_on_duty
+        related: human_situations:armed_forces:disabled:injured_while_on_duty
       - name: Bereaved Families
-        slug: human_situations:benefit_holders:defense_ministry:bereaved_families 
+        slug: human_situations:armed_forces:disabled:bereaved_families
         related: human_situations:armed_forces:bereaved_families
-    
