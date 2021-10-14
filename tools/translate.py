@@ -99,7 +99,7 @@ def collect_keys(nodes, to_push, translated):
 if __name__ == '__main__':
     in_file = Path('taxonomy.yaml')
     translated = pull_translations('he', in_file)
-    translations = yaml.load(in_file.open())
+    translations = yaml.load(in_file.open(), Loader=yaml.BaseLoader)
     to_push = collect_keys(translations, dict(), translated)
     push_translations(Path('taxonomy.yaml'), to_push)
     out_file = Path('taxonomy.tx.yaml')
