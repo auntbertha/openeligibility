@@ -26,4 +26,5 @@ def process_items(nodes, path=[]):
 if __name__ == '__main__':
     src = yaml.load(open('taxonomy.simple.yaml'), Loader=yaml.BaseLoader)
     dst = process_items(src)
-    print(yaml.dump(dst, width=4096, sort_keys=False))
+    with open('taxonomy.yaml', 'w') as f:
+        yaml.dump(dst, f, width=4096, sort_keys=False)
