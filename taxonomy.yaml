@@ -499,7 +499,7 @@
       - name: Outpatient Treatment
         slug: human_services:health:mental_health_care:outpatient_treatment
         items:
-        - Name: Forced Hospitalization
+        - name: Forced Hospitalization
           slug: human_services:health:mental_health_care:outpatient_treatment:forced_hospitalization
         - name: Voluntary Hospitalization
           slug: human_services:health:mental_health_care:outpatient_treatment:voluntary_hospitalization
@@ -820,7 +820,7 @@
           - human_services:care:daytime_care:recreation
       - name: Community Gardens
         slug: human_services:community_services:community_gardens
-        realted:
+        related:
         - human_services:food:community_gardens
       - name: Summer Camps
         slug: human_services:community_services:summer_camps
