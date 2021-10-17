@@ -40,6 +40,10 @@
       items:
       - name: Pest Control
         slug: Human-Services:Housing:Maintenance-Repairs:Pest-Control
+      - name: Disability Modifications
+        slug: Human-Services:Housing:Maintenance-Repairs:Disability-Modifications
+      - name: Small repairs
+        slug: Human-Services:Housing:Maintenance-Repairs:Small-repairs
     - name: Housing Advice
       slug: Human-Services:Housing:Housing-Advice
     - name: Residential Housing
@@ -52,12 +56,18 @@
           slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Assisted-Living
         - name: Independent Living
           slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Independent-Living
+        - name: Training Apartments
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Training-Apartments
+        - name: Satellite Apartments
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Satellite-Apartments
         - name: Old Age Home
           slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Old-Age-Home
         - name: Nursing Home
           slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Nursing-Home
         - name: Public Housing
           slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Public-Housing
+        - name: Hostel
+          slug: Human-Services:Housing:Residential-Housing:Long-Term-Housing:Hostel
       - name: Safe Housing
         slug: Human-Services:Housing:Residential-Housing:Safe-Housing
       - name: Mental Health Housing
@@ -69,6 +79,8 @@
           slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing:Old-Age-Home
         - name: Sober Living
           slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing:Sober-Living
+        - name: Vacations
+          slug: Human-Services:Housing:Residential-Housing:Short-Term-Housing:Vacations
     - name: Emergency Shelter
       slug: Human-Services:Housing:Emergency-Shelter
   - name: Goods
@@ -473,45 +485,6 @@
         slug: Human-Services:Care:Navigating-the-System:Help-Find-School
       - name: Help Find Work
         slug: Human-Services:Care:Navigating-the-System:Help-Find-Work
-    - name: Community Services
-      slug: Human-Services:Care:Community-Services
-      items:
-      - name: Computer or Internet Access
-        slug: Human-Services:Care:Community-Services:Computer-or-Internet-Access
-      - name: Exercise & Fitness
-        slug: Human-Services:Care:Community-Services:Exercise-Fitness
-      - name: Recreation
-        slug: Human-Services:Care:Community-Services:Recreation
-      - name: Community Gardens
-        slug: Human-Services:Care:Community-Services:Community-Gardens
-      - name: Summer Camps
-        slug: Human-Services:Care:Community-Services:Summer-Camps
-      - name: Enrichment Programs
-        slug: Human-Services:Care:Community-Services:Enrichment-Programs
-      - name: Religious Services
-        slug: Human-Services:Care:Community-Services:Religious-Services
-        items:
-        - name: Synagogues
-          slug: Human-Services:Care:Community-Services:Religious-Services:Synagogues
-        - name: Mosques
-          slug: Human-Services:Care:Community-Services:Religious-Services:Mosques
-        - name: Churches
-          slug: Human-Services:Care:Community-Services:Religious-Services:Churches
-        - name: Gamach
-          slug: Human-Services:Care:Community-Services:Religious-Services:Gamach
-        - name: Kollel
-          slug: Human-Services:Care:Community-Services:Religious-Services:Kollel
-      - name: Helplines
-        slug: Human-Services:Care:Community-Services:Helplines
-        items:
-        - name: Emergency Helplines
-          slug: Human-Services:Care:Community-Services:Helplines:Emergency-Helplines
-        - name: Advice Helplines
-          slug: Human-Services:Care:Community-Services:Helplines:Advice-Helplines
-      - name: Social Club
-        slug: Human-Services:Care:Community-Services:Social-Club
-      - name: Community center
-        slug: Human-Services:Care:Community-Services:Community-center
     - name: Physical Safety
       slug: Human-Services:Care:Physical-Safety
       items:
@@ -542,6 +515,11 @@
         slug: Human-Services:Care:Residential-Care:Assisted-Living
       - name: Nursing Home
         slug: Human-Services:Care:Residential-Care:Nursing-Home
+    - name: Recovery
+      slug: Human-Services:Care:Recovery
+      items:
+      - name: Vacations
+        slug: Human-Services:Care:Recovery:Vacations
     - name: Support Network
       slug: Human-Services:Care:Support-Network
       items:
@@ -568,10 +546,55 @@
           slug: Human-Services:Care:Support-Network:Support-Groups:Bereavement
         - name: Parenting Education
           slug: Human-Services:Care:Support-Network:Support-Groups:Parenting-Education
-      - name: Virtual Support
-        slug: Human-Services:Care:Support-Network:Virtual-Support
+        - name: Virtual Support
+          slug: Human-Services:Care:Support-Network:Support-Groups:Virtual-Support
       - name: Aid Centers
         slug: Human-Services:Care:Support-Network:Aid-Centers
+      - name: Accessibility
+        slug: Human-Services:Care:Support-Network:Accessibility
+  - name: Community Services
+    slug: Human-Services:Community-Services
+    items:
+    - name: Computer or Internet Access
+      slug: Human-Services:Community-Services:Computer-or-Internet-Access
+    - name: Exercise & Fitness
+      slug: Human-Services:Community-Services:Exercise-Fitness
+    - name: Recreation
+      slug: Human-Services:Community-Services:Recreation
+    - name: Community Gardens
+      slug: Human-Services:Community-Services:Community-Gardens
+    - name: Summer Camps
+      slug: Human-Services:Community-Services:Summer-Camps
+    - name: Enrichment Programs
+      slug: Human-Services:Community-Services:Enrichment-Programs
+    - name: Religious Services
+      slug: Human-Services:Community-Services:Religious-Services
+      items:
+      - name: Synagogues
+        slug: Human-Services:Community-Services:Religious-Services:Synagogues
+      - name: Mosques
+        slug: Human-Services:Community-Services:Religious-Services:Mosques
+      - name: Churches
+        slug: Human-Services:Community-Services:Religious-Services:Churches
+      - name: Gamach
+        slug: Human-Services:Community-Services:Religious-Services:Gamach
+      - name: Kollel
+        slug: Human-Services:Community-Services:Religious-Services:Kollel
+      - name: Altenative Religious Services
+        slug: Human-Services:Community-Services:Religious-Services:Altenative-Religious-Services
+    - name: Helplines
+      slug: Human-Services:Community-Services:Helplines
+      items:
+      - name: Emergency Helplines
+        slug: Human-Services:Community-Services:Helplines:Emergency-Helplines
+      - name: Advice Helplines
+        slug: Human-Services:Community-Services:Helplines:Advice-Helplines
+    - name: Social Club
+      slug: Human-Services:Community-Services:Social-Club
+    - name: Community center
+      slug: Human-Services:Community-Services:Community-center
+    - name: Olim Support
+      slug: Human-Services:Community-Services:Olim-Support
   - name: Education
     slug: Human-Services:Education
     items:
@@ -637,6 +660,10 @@
         slug: Human-Services:Education:More-Education:Summer-Camps
       - name: Enrichment Programs
         slug: Human-Services:Education:More-Education:Enrichment-Programs
+      - name: Youth Movement
+        slug: Human-Services:Education:More-Education:Youth-Movement
+      - name: Leadership development
+        slug: Human-Services:Education:More-Education:Leadership-development
     - name: Preschool
       slug: Human-Services:Education:Preschool
     - name: Screening & Exams
@@ -875,6 +902,8 @@
       slug: Human-Situations:Education:Yeshiva-students
     - name: Youth village / Boarding school
       slug: Human-Situations:Education:Youth-village-Boarding-school
+    - name: Gifted Students
+      slug: Human-Situations:Education:Gifted-Students
   - name: Employment
     slug: Human-Situations:Employment
     items:
@@ -1023,14 +1052,24 @@
     - name: Families
       slug: Human-Situations:Household:Families
       items:
-      - name: With Children
-        slug: Human-Situations:Household:Families:With-Children
       - name: Single Parent
         slug: Human-Situations:Household:Families:Single-Parent
+      - name: Fathers
+        slug: Human-Situations:Household:Families:Fathers
+      - name: Mothers
+        slug: Human-Situations:Household:Families:Mothers
+      - name: Parents
+        slug: Human-Situations:Household:Families:Parents
       - name: Divorced
         slug: Human-Situations:Household:Families:Divorced
-    - name: Surrogacy
-      slug: Human-Situations:Household:Surrogacy
+      - name: Adoption
+        slug: Human-Situations:Household:Families:Adoption
+      - name: Foster Caregivers
+        slug: Human-Situations:Household:Families:Foster-Caregivers
+      - name: Surrogacy
+        slug: Human-Situations:Household:Families:Surrogacy
+      - name: Siblings
+        slug: Human-Situations:Household:Families:Siblings
   - name: Housing
     slug: Human-Situations:Housing
     items:
@@ -1070,6 +1109,8 @@
       slug: Human-Situations:Language:Spanish-Speaking
     - name: French Speaking
       slug: Human-Situations:Language:French-Speaking
+    - name: Sign Language
+      slug: Human-Situations:Language:Sign-Language
   - name: Life Events
     slug: Human-Situations:Life-Events
     items:
@@ -1125,12 +1166,6 @@
       slug: Human-Situations:Role:Spouses
     - name: Dependents
       slug: Human-Situations:Role:Dependents
-    - name: Fathers
-      slug: Human-Situations:Role:Fathers
-    - name: Mothers
-      slug: Human-Situations:Role:Mothers
-    - name: Parents
-      slug: Human-Situations:Role:Parents
   - name: Substance Dependency
     slug: Human-Situations:Substance-Dependency
     items:
@@ -1163,6 +1198,8 @@
       slug: Human-Situations:Survivors:Natural-Disaster-Survivors
     - name: Sexual Assault Survivors
       slug: Human-Situations:Survivors:Sexual-Assault-Survivors
+    - name: Car Accidents Survivors
+      slug: Human-Situations:Survivors:Car-Accidents-Survivors
     - name: All Survivors
       slug: Human-Situations:Survivors:All-Survivors
     - name: Terror Victims
@@ -1202,8 +1239,6 @@
   - name: Sectors
     slug: Human-Situations:Sectors
     items:
-    - name: Ultra Orthodox
-      slug: Human-Situations:Sectors:Ultra-Orthodox
     - name: Bedouin
       slug: Human-Situations:Sectors:Bedouin
     - name: Druze
@@ -1216,10 +1251,23 @@
       slug: Human-Situations:Sectors:Christians
     - name: Circassians
       slug: Human-Situations:Sectors:Circassians
-    - name: Jews
-      slug: Human-Situations:Sectors:Jews
     - name: Muslims
       slug: Human-Situations:Sectors:Muslims
+    - name: Jews
+      slug: Human-Situations:Sectors:Jews
+      items:
+      - name: Ultra Orthodox
+        slug: Human-Situations:Sectors:Jews:Ultra-Orthodox
+      - name: Secular
+        slug: Human-Situations:Sectors:Jews:Secular
+      - name: Dati Leumi
+        slug: Human-Situations:Sectors:Jews:Dati-Leumi
+      - name: Hozer Betshuva
+        slug: Human-Situations:Sectors:Jews:Hozer-Betshuva
+      - name: Yotze Beshela
+        slug: Human-Situations:Sectors:Jews:Yotze-Beshela
+      - name: Progressives
+        slug: Human-Situations:Sectors:Jews:Progressives
   - name: Benefit Holders
     slug: Human-Situations:Benefit-Holders
     items:
@@ -1245,3 +1293,21 @@
         slug: Human-Situations:Benefit-Holders:Ministry-of-Defense:Injured-while-On-Duty
       - name: Bereaved Families
         slug: Human-Situations:Benefit-Holders:Ministry-of-Defense:Bereaved-Families
+  - name: Deprivation
+    slug: Human-Situations:Deprivation
+    items:
+    - name: Geographical Periphery
+      slug: Human-Situations:Deprivation:Geographical-Periphery
+    - name: Social Periphary
+      slug: Human-Situations:Deprivation:Social-Periphary
+    - name: Health Deprivation
+      slug: Human-Situations:Deprivation:Health-Deprivation
+    - name: Education / skills Deprivation
+      slug: Human-Situations:Deprivation:Education-skills-Deprivation
+  - name: Community
+    slug: Human-Situations:Community
+    items:
+    - name: Leaders
+      slug: Human-Situations:Community:Leaders
+    - name: Activist
+      slug: Human-Situations:Community:Activist

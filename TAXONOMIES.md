@@ -20,19 +20,25 @@
   - Maintenance & Repairs
 - Maintenance & Repairs
   - Pest Control
+  - Disability Modifications
+  - Small repairs
 - Housing Advice
 - Residential Housing
   - Long-Term Housing
     - Assisted Living
     - Independent Living
+    - Training Apartments
+    - Satellite Apartments
     - Old Age Home
     - Nursing Home
     - Public Housing
+    - Hostel
   - Safe Housing
   - Mental Health Housing
   - Short-Term Housing
     - Old Age Home
     - Sober Living
+    - Vacations
 - Emergency Shelter
 ### Goods
 - Baby Supplies
@@ -216,24 +222,6 @@
   - Help Find Childcare
   - Help Find School
   - Help Find Work
-- Community Services
-  - Computer or Internet Access
-  - Exercise & Fitness
-  - Recreation
-  - Community Gardens
-  - Summer Camps
-  - Enrichment Programs
-  - Religious Services
-    - Synagogues
-    - Mosques
-    - Churches
-    - Gamach
-    - Kollel
-  - Helplines
-    - Emergency Helplines
-    - Advice Helplines
-  - Social Club
-  - Community center
 - Physical Safety
   - Disaster Response
   - Emergency Food
@@ -247,6 +235,8 @@
 - Residential Care
   - Assisted Living
   - Nursing Home
+- Recovery
+  - Vacations
 - Support Network
   - Counseling
   - Help Hotlines
@@ -259,8 +249,29 @@
     - 12-Step
     - Bereavement
     - Parenting Education
-  - Virtual Support
+    - Virtual Support
   - Aid Centers
+  - Accessibility
+### Community Services
+- Computer or Internet Access
+- Exercise & Fitness
+- Recreation
+- Community Gardens
+- Summer Camps
+- Enrichment Programs
+- Religious Services
+  - Synagogues
+  - Mosques
+  - Churches
+  - Gamach
+  - Kollel
+  - Altenative Religious Services
+- Helplines
+  - Emergency Helplines
+  - Advice Helplines
+- Social Club
+- Community center
+- Olim Support
 ### Education
 - Help Find School
 - Help Pay for School
@@ -291,6 +302,8 @@
   - Youth Development
   - Summer Camps
   - Enrichment Programs
+  - Youth Movement
+  - Leadership development
 - Preschool
 - Screening & Exams
   - GED/High-School Equivalency
@@ -400,6 +413,7 @@
 - Students
 - Yeshiva students
 - Youth village / Boarding school
+- Gifted Students
 ### Employment
 - Employed
 - Retirement
@@ -467,10 +481,15 @@
 - Individuals
 - Loneliness
 - Families
-  - With Children
   - Single Parent
+  - Fathers
+  - Mothers
+  - Parents
   - Divorced
-- Surrogacy
+  - Adoption
+  - Foster Caregivers
+  - Surrogacy
+  - Siblings
 ### Housing
 - Home Owners
 - Home Renters
@@ -489,6 +508,7 @@
 - Amharic Speaking
 - Spanish Speaking
 - French Speaking
+- Sign Language
 ### Life Events
 - Bar/Bat Mitzva
 - Birth
@@ -514,9 +534,6 @@
 - Caregivers
 - Spouses
 - Dependents
-- Fathers
-- Mothers
-- Parents
 ### Substance Dependency
 - Alcohol Dependency
 - Dual Diagnosis
@@ -532,6 +549,7 @@
 - Human Trafficking Survivors
 - Natural Disaster Survivors
 - Sexual Assault Survivors
+- Car Accidents Survivors
 - All Survivors
 - Terror Victims
 ### Urgency
@@ -549,15 +567,20 @@
 ### Sexuality
 - LGBTQ
 ### Sectors
-- Ultra Orthodox
 - Bedouin
 - Druze
 - Ethiopians
 - Arabs
 - Christians
 - Circassians
-- Jews
 - Muslims
+- Jews
+  - Ultra Orthodox
+  - Secular
+  - Dati Leumi
+  - Hozer Betshuva
+  - Yotze Beshela
+  - Progressives
 ### Benefit Holders
 - Social Security
   - Disability
@@ -569,4 +592,12 @@
 - Ministry of Defense
   - Injured while On Duty
   - Bereaved Families
+### Deprivation
+- Geographical Periphery
+- Social Periphary
+- Health Deprivation
+- Education / skills Deprivation
+### Community
+- Leaders
+- Activist
 </div>
