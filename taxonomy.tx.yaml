@@ -13,7 +13,7 @@
     - name:
         source: Community Gardens
         tx:
-          he: 'גינות קהילתיות '
+          he: גינות קהילתיות
       slug: human_services:food:community_gardens
     - name:
         source: Emergency Food
@@ -44,7 +44,7 @@
     - name:
         source: Nutrition Education
         tx:
-          he: 'חינוך תזונתי '
+          he: חינוך תזונתי
       slug: human_services:food:nutrition_education
     - name:
         source: Nutrition
@@ -123,7 +123,7 @@
         - name:
             source: Independent Living
             tx:
-              he: 'דיור עצמאי '
+              he: דיור עצמאי
           slug: human_services:housing:residential_housing:long_term_housing:independent_living
         - name: Training Apartments
           slug: human_services:housing:residential_housing:long_term_housing:training_apartments
@@ -179,23 +179,23 @@
     - name:
         source: Baby Supplies
         tx:
-          he: 'מוצרי תינוקות '
+          he: מוצרי תינוקות
       slug: human_services:goods:baby_supplies
       items:
       - name:
           source: Baby Clothes
           tx:
-            he: 'בגדי תינוקות '
+            he: בגדי תינוקות
         slug: human_services:goods:baby_supplies:baby_clothes
       - name:
           source: Diapers & Formula
           tx:
-            he: 'חיתולים ואוכל תינוקות '
+            he: חיתולים ואוכל תינוקות
         slug: human_services:goods:baby_supplies:diapers_formula
     - name:
         source: Clothing
         tx:
-          he: 'בגדים '
+          he: בגדים
       slug: human_services:goods:clothing
       items:
       - name:
@@ -211,12 +211,12 @@
       - name:
           source: Clothing Vouchers
           tx:
-            he: 'שוברים לבגדים '
+            he: שוברים לבגדים
         slug: human_services:goods:clothing:clothing_vouchers
     - name:
         source: Home Goods
         tx:
-          he: 'מוצרים לבית '
+          he: מוצרים לבית
       slug: human_services:goods:home_goods
       items:
       - name:
@@ -227,7 +227,7 @@
       - name:
           source: Books
           tx:
-            he: 'ספרים '
+            he: ספרים
         slug: human_services:goods:home_goods:books
       - name:
           source: Fans
@@ -237,7 +237,7 @@
       - name:
           source: Furniture
           tx:
-            he: 'ריהוט '
+            he: ריהוט
         slug: human_services:goods:home_goods:furniture
       - name:
           source: Efficient Appliances
@@ -247,7 +247,7 @@
       - name:
           source: Personal Care Items
           tx:
-            he: 'מוצרי טיפוח '
+            he: מוצרי טיפוח
         slug: human_services:goods:home_goods:personal_care_items
       - name:
           source: Supplies for School
@@ -273,7 +273,7 @@
       - name:
           source: Prosthesis
           tx:
-            he: 'פרוטזות '
+            he: פרוטזות
         slug: human_services:goods:medical_supplies:prosthesis
     - name:
         source: Personal Safety
@@ -283,7 +283,7 @@
     - name:
         source: Toys & Gifts
         tx:
-          he: 'צעצועים ומתנות '
+          he: צעצועים ומתנות
       slug: human_services:goods:toys_gifts
   - name:
       source: Transit
@@ -327,12 +327,12 @@
       - name:
           source: Drug Testing
           tx:
-            he: 'בדיקות סמים '
+            he: בדיקות סמים
         slug: human_services:health:addiction_recovery:drug_testing
       - name:
           source: Medications for Addiction
           tx:
-            he: 'תרופות להתמכרות '
+            he: תרופות להתמכרות
         slug: human_services:health:addiction_recovery:medications_for_addiction
       - name:
           source: Outpatient Treatment
@@ -357,7 +357,7 @@
     - name:
         source: Dental Care
         tx:
-          he: 'טיפולי שיניים '
+          he: טיפולי שיניים
       slug: human_services:health:dental_care
     - name:
         source: End-of-Life Care
@@ -378,7 +378,7 @@
       - name:
           source: Hospice
           tx:
-            he: 'הוספיס '
+            he: הוספיס
         slug: human_services:health:end_of_life_care:hospice
       - name:
           source: Pain Management
@@ -404,7 +404,7 @@
       - name:
           source: Nutrition Education
           tx:
-            he: 'חינוך תזונתי '
+            he: חינוך תזונתי
         slug: human_services:health:health_education:nutrition_education
       - name:
           source: Parenting Education
@@ -455,13 +455,13 @@
     - name:
         source: Medical Care
         tx:
-          he: 'טיפול רפואי '
+          he: טיפול רפואי
       slug: human_services:health:medical_care
       items:
       - name:
           source: Alternative Medicine
           tx:
-            he: 'רפואה אלטרנטיבית '
+            he: רפואה אלטרנטיבית
         slug: human_services:health:medical_care:alternative_medicine
       - name:
           source: Checkup & Test
@@ -520,7 +520,7 @@
         - name:
             source: Prosthesis
             tx:
-              he: 'פרוטזות '
+              he: פרוטזות
           slug: human_services:health:medical_care:medical_supplies:prosthesis
       - name:
           source: Prevent & Treat
@@ -536,7 +536,7 @@
         - name:
             source: Disease Management
             tx:
-              he: 'ניהול מחלות '
+              he: ניהול מחלות
           slug: human_services:health:medical_care:prevent_treat:disease_management
         - name:
             source: Early Childhood Intervention
@@ -581,7 +581,7 @@
         - name:
             source: Pain Management
             tx:
-              he: הפחתת כאב
+              he: טיפול בכאב
           slug: human_services:health:medical_care:prevent_treat:pain_management
         - name:
             source: Physical Therapy
@@ -591,7 +591,7 @@
         - name:
             source: Residential Treatment
             tx:
-              he: מסגרות דיור טיפוליות
+              he: מסגרות טיפול ביתיות
           slug: human_services:health:medical_care:prevent_treat:residential_treatment
         - name:
             source: Specialized Therapy
@@ -601,7 +601,7 @@
         - name:
             source: Speech Therapy
             tx:
-              he: 'קלינאית תקשורת '
+              he: קלינאית תקשורת
           slug: human_services:health:medical_care:prevent_treat:speech_therapy
         - name:
             source: Vaccinations
@@ -644,7 +644,7 @@
         - name:
             source: Psychiatric Emergency Services
             tx:
-              he: 'שירותי חירום פסיכאטריים '
+              he: שירותי חירום פסיכאטריים
           slug: human_services:health:medical_care:emergency_services:psychiatric_emergency_services
         - name: Dental Emergency Service
           slug: human_services:health:medical_care:emergency_services:dental_emergency_service
@@ -657,7 +657,7 @@
       - name:
           source: Anger Management
           tx:
-            he: 'ניהול כעסים '
+            he: ניהול כעסים
         slug: human_services:health:mental_health_care:anger_management
       - name:
           source: Bereavement
@@ -721,7 +721,7 @@
       - name:
           source: Psychiatric Emergency Services
           tx:
-            he: 'שירותי חירום פסיכאטריים '
+            he: שירותי חירום פסיכאטריים
         slug: human_services:health:mental_health_care:psychiatric_emergency_services
       - name:
           source: Residential Treatment
@@ -880,7 +880,7 @@
         - name:
             source: Books
             tx:
-              he: 'ספרים '
+              he: ספרים
           slug: human_services:money:financial_assistance:help_pay_for_school:books
         - name:
             source: Clothes for School
@@ -890,7 +890,7 @@
         - name:
             source: Financial Aid & Loans
             tx:
-              he: 'עזרה כספית והלוואות '
+              he: עזרה כספית והלוואות
           slug: human_services:money:financial_assistance:help_pay_for_school:financial_aid_loans
         - name:
             source: Transportation for School
@@ -916,7 +916,7 @@
       - name:
           source: Credit Counseling
           tx:
-            he: 'ייעוץ אשראי '
+            he: ייעוץ אשראי
         slug: human_services:money:financial_education:credit_counseling
       - name:
           source: Foreclosure Counseling
@@ -931,7 +931,7 @@
       - name:
           source: Savings Program
           tx:
-            he: 'תוכניות חיסכון '
+            he: תוכניות חיסכון
         slug: human_services:money:financial_education:savings_program
     - name:
         source: Insurance
@@ -979,7 +979,7 @@
     - name:
         source: Adoption & Foster Care
         tx:
-          he: 'אימוץ ואומנה '
+          he: אימוץ ואומנה
       slug: human_services:care:adoption_foster_care
       items:
       - name:
@@ -1047,7 +1047,7 @@
       - name:
           source: Preschool
           tx:
-            he: 'גני ילדים '
+            he: גני ילדים
         slug: human_services:care:daytime_care:preschool
       - name:
           source: Relief for Caregivers
@@ -1083,7 +1083,7 @@
       - name:
           source: Case Management
           tx:
-            he: 'ניהול תיק '
+            he: ניהול תיק
         slug: human_services:care:navigating_the_system:case_management
       - name:
           source: Help Find Childcare
@@ -1109,7 +1109,7 @@
       - name:
           source: Disaster Response
           tx:
-            he: 'תגובה לאסונות '
+            he: תגובה לאסונות
         slug: human_services:care:physical_safety:disaster_response
       - name:
           source: Emergency Food
@@ -1135,7 +1135,7 @@
       - name:
           source: Immediate Safety
           tx:
-            he: 'בטחון מיידי '
+            he: בטחון מיידי
         slug: human_services:care:physical_safety:immediate_safety
         items:
         - name:
@@ -1224,7 +1224,7 @@
         - name:
             source: 12-Step
             tx:
-              he: 'תמיכה בהתמכרות '
+              he: תמיכה בהתמכרות
           slug: human_services:care:support_network:support_groups:12_step
         - name:
             source: Bereavement
@@ -1234,12 +1234,12 @@
         - name:
             source: Parenting Education
             tx:
-              he: הדרכת הורים
+              he: קבוצות הורים
           slug: human_services:care:support_network:support_groups:parenting_education
         - name:
             source: Virtual Support
             tx:
-              he: 'תמיכה וירטואלית '
+              he: תמיכה וירטואלית
           slug: human_services:care:support_network:support_groups:virtual_support
       - name: Aid Centers
         slug: human_services:care:support_network:aid_centers
@@ -1251,7 +1251,7 @@
     - name:
         source: Computer or Internet Access
         tx:
-          he: 'מחשוב או גישה לאינטרנט '
+          he: מחשוב או גישה לאינטרנט
       slug: human_services:community_services:computer_or_internet_access
     - name:
         source: Exercise & Fitness
@@ -1266,7 +1266,7 @@
     - name:
         source: Community Gardens
         tx:
-          he: 'גינות קהילתיות '
+          he: גינות קהילתיות
       slug: human_services:community_services:community_gardens
     - name: Summer Camps
       slug: human_services:community_services:summer_camps
@@ -1320,7 +1320,7 @@
       - name:
           source: Books
           tx:
-            he: 'ספרים '
+            he: ספרים
         slug: human_services:education:help_pay_for_school:books
       - name:
           source: Clothes for School
@@ -1330,7 +1330,7 @@
       - name:
           source: Financial Aid & Loans
           tx:
-            he: 'עזרה כספית והלוואות '
+            he: עזרה כספית והלוואות
         slug: human_services:education:help_pay_for_school:financial_aid_loans
       - name:
           source: Transportation for School
@@ -1351,7 +1351,7 @@
       - name:
           source: Alternative Education
           tx:
-            he: 'חינוך אלטרנטיבי '
+            he: חינוך אלטרנטיבי
         slug: human_services:education:more_education:alternative_education
       - name:
           source: Civic Engagement
@@ -1361,7 +1361,7 @@
       - name:
           source: College Readiness
           tx:
-            he: 'הכנה לאוניברסיטה '
+            he: הכנה לאוניברסיטה
         slug: human_services:education:more_education:college_readiness
       - name:
           source: English as a Second Language (ESL)
@@ -1382,7 +1382,7 @@
         - name:
             source: Credit Counseling
             tx:
-              he: 'ייעוץ אשראי '
+              he: ייעוץ אשראי
           slug: human_services:education:more_education:financial_education:credit_counseling
         - name:
             source: Homebuyer Education
@@ -1392,7 +1392,7 @@
       - name:
           source: Foreign Languages
           tx:
-            he: 'שפות זרות '
+            he: שפות זרות
         slug: human_services:education:more_education:foreign_languages
       - name:
           source: GED/High-School Equivalency
@@ -1413,7 +1413,7 @@
         - name:
             source: Nutrition Education
             tx:
-              he: 'חינוך תזונתי '
+              he: חינוך תזונתי
           slug: human_services:education:more_education:health_education:nutrition_education
         - name:
             source: Parenting Education
@@ -1438,7 +1438,7 @@
       - name:
           source: Tutoring
           tx:
-            he: 'הדרכה פרטית '
+            he: הדרכה פרטית
         slug: human_services:education:more_education:tutoring
       - name:
           source: Youth Development
@@ -1456,12 +1456,12 @@
     - name:
         source: Preschool
         tx:
-          he: 'גני ילדים '
+          he: גני ילדים
       slug: human_services:education:preschool
     - name:
         source: Screening & Exams
         tx:
-          he: 'מבחנים '
+          he: מבחנים
       slug: human_services:education:screening_exams
       items:
       - name:
@@ -1488,12 +1488,12 @@
       - name:
           source: Computer Class
           tx:
-            he: 'לימודי מחשב '
+            he: לימודי מחשב
         slug: human_services:education:skills_training:computer_class
       - name:
           source: Daily Life Skills
           tx:
-            he: 'כישורי חיים '
+            he: כישורי חיים
         slug: human_services:education:skills_training:daily_life_skills
       - name:
           source: Interview Training
@@ -1556,7 +1556,7 @@
       - name:
           source: Computer Class
           tx:
-            he: 'לימודי מחשב '
+            he: לימודי מחשב
         slug: human_services:work:skills_training:computer_class
       - name:
           source: GED/High-School Equivalency
@@ -1571,7 +1571,7 @@
       - name:
           source: Resume Development
           tx:
-            he: 'כתיבת קורות חיים '
+            he: כתיבת קורות חיים
         slug: human_services:work:skills_training:resume_development
       - name:
           source: Skills Assessment
@@ -1608,7 +1608,7 @@
       - name:
           source: Adoption & Foster Care
           tx:
-            he: 'אימוץ ואומנה '
+            he: אימוץ ואומנה
         slug: human_services:legal:advocacy_legal_aid:adoption_foster_care
         items:
         - name:
@@ -1629,7 +1629,7 @@
         - name:
             source: Adoption & Foster Care
             tx:
-              he: 'אימוץ ואומנה '
+              he: אימוץ ואומנה
           slug: human_services:legal:advocacy_legal_aid:adoption_foster_care:adoption_foster_care
       - name:
           source: Citizenship & Immigration
@@ -1690,7 +1690,7 @@
     - name:
         source: Disaster Response
         tx:
-          he: 'תגובה לאסונות '
+          he: תגובה לאסונות
       slug: human_services:emergency:disaster_response
     - name:
         source: Emergency Payments
@@ -1736,7 +1736,7 @@
     - name:
         source: Immediate Safety
         tx:
-          he: 'בטחון מיידי '
+          he: בטחון מיידי
       slug: human_services:emergency:immediate_safety
       items:
       - name:
@@ -1752,20 +1752,20 @@
     - name:
         source: Psychiatric Emergency Services
         tx:
-          he: 'שירותי חירום פסיכאטריים '
+          he: שירותי חירום פסיכאטריים
       slug: human_services:emergency:psychiatric_emergency_services
     - name: Emergency Helplines
       slug: human_services:emergency:emergency_helplines
 - name:
     source: Human Situations
     tx:
-      he: 'מצבים '
+      he: מצבים
   slug: human_situations
   items:
   - name:
       source: General
       tx:
-        he: 'כללי '
+        he: כללי
     slug: human_situations:general
     items:
     - name:
@@ -1776,7 +1776,7 @@
   - name:
       source: Age Group
       tx:
-        he: 'קבוצת גיל '
+        he: קבוצת גיל
     slug: human_situations:age_group
     items:
     - name:
@@ -1792,7 +1792,7 @@
     - name:
         source: Young Adults
         tx:
-          he: 'מבוגרים צעירים '
+          he: מבוגרים צעירים
       slug: human_situations:age_group:young_adults
     - name:
         source: Teens
@@ -1823,7 +1823,7 @@
     - name:
         source: Active Duty
         tx:
-          he: 'חיילים וחיילות '
+          he: חיילים וחיילות
       slug: human_situations:armed_forces:active_duty
     - name:
         source: Professional Duty
@@ -1864,7 +1864,7 @@
     - name:
         source: Immigrants
         tx:
-          he: 'מהגרים.ות '
+          he: מהגרים.ות
       slug: human_situations:citizenship:immigrants
     - name:
         source: Foreign Residents
@@ -1890,7 +1890,7 @@
       - name:
           source: Experts
           tx:
-            he: 'מומחים '
+            he: מומחים
         slug: human_situations:citizenship:foreign_workers:experts
     - name:
         source: Palestinians Workers
@@ -1915,23 +1915,23 @@
     - name:
         source: Olim
         tx:
-          he: 'עולים '
+          he: עולים
       slug: human_situations:citizenship:olim
     - name:
         source: Refugees
         tx:
-          he: 'פליטים.ות '
+          he: פליטים.ות
       slug: human_situations:citizenship:refugees
   - name:
       source: Disability
       tx:
-        he: 'מוגבלויות '
+        he: מוגבלויות
     slug: human_situations:disability
     items:
     - name:
         source: All Disabilities
         tx:
-          he: 'כל המוגבלויות '
+          he: כל המוגבלויות
       slug: human_situations:disability:all_disabilities
     - name:
         source: Autistic spectrum
@@ -2328,7 +2328,7 @@
     - name:
         source: Endocrine, nutritional or metabolic diseases
         tx:
-          he: 'מחלות אנדוקריניות '
+          he: מחלות אנדוקריניות
       slug: human_situations:health:endocrine_nutritional_or_metabolic_diseases
       items:
       - name:
@@ -2371,7 +2371,7 @@
       - name:
           source: Fathers
           tx:
-            he: 'אבות '
+            he: אבות
         slug: human_situations:household:families:fathers
       - name:
           source: Mothers
@@ -2633,7 +2633,7 @@
     - name:
         source: Alcohol Dependency
         tx:
-          he: 'אלכוהול '
+          he: אלכוהול
       slug: human_situations:substance_dependency:alcohol_dependency
     - name:
         source: Dual Diagnosis
@@ -2699,7 +2699,7 @@
     - name:
         source: Sexual Assault Survivors
         tx:
-          he: 'נפגעי.ות תקיפה מינית '
+          he: נפגעי.ות תקיפה מינית
       slug: human_situations:survivors:sexual_assault_survivors
     - name: Car Accidents Survivors
       slug: human_situations:survivors:car_accidents_survivors
@@ -2743,7 +2743,7 @@
     - name:
         source: Ex-Offenders
         tx:
-          he: 'אנשים בעלי עבר פלילי '
+          he: אנשים בעלי עבר פלילי
       slug: human_situations:criminal_history:ex_offenders
     - name:
         source: Ex-Offenders youth
@@ -2785,7 +2785,7 @@
     - name:
         source: LGBTQ
         tx:
-          he: 'להט"ב '
+          he: להט"ב
       slug: human_situations:sexuality:lgbtq
   - name:
       source: Sectors
@@ -2831,7 +2831,7 @@
     - name:
         source: Jews
         tx:
-          he: 'יהודים '
+          he: יהודים
       slug: human_situations:sectors:jews
       items:
       - name:
@@ -2874,7 +2874,7 @@
       - name:
           source: Nursing Care
           tx:
-            he: מצב סיעודי
+            he: מוכרים כסיעודיים
         slug: human_situations:benefit_holders:social_security:nursing_care
       - name:
           source: Righteous Among the Nations
