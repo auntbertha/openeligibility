@@ -2,261 +2,261 @@
 
 # טקסונומיית המענים הפתוחים
 
-## Human Services
-### Food
-- Community Gardens
-- Emergency Food
-- Food Delivery
-- Food Pantry
-- Help Pay for Food
-  - Government Food Benefits
-- Nutrition Education
-- Nutrition
-### Housing
-- Temporary Shelter
-- Help Find Housing
-- Help Pay for Housing
-  - Housing Vouchers
-  - Maintenance & Repairs
-- Maintenance & Repairs
-  - Pest Control
+## מענים חברתיים
+### מזון
+- גינות קהילתיות 
+- מזון בחירום
+- סלי מזון לנזקקים
+- בתי תמחוי
+- סיוע כספי לרכישת מזון
+  - הטבות ממשלתיות לקניית מזון
+- חינוך תזונתי 
+- תזונה
+### דיור
+- מקלט זמני
+- עזרה במציאת דיור
+- סיוע בעלות מגורים
+  - סיוע בשכר דירה
+  - תיקונים ושיפוצים
+- תיקונים ושיפוצים
+  - הדברה
   - Disability Modifications
   - Small repairs
-- Housing Advice
-- Residential Housing
-  - Long-Term Housing
-    - Assisted Living
-    - Independent Living
+- עצות דיור
+- דיור למגורים
+  - דיור לטווח ארוך
+    - דיור מוגן
+    - דיור עצמאי 
     - Training Apartments
     - Satellite Apartments
     - Old Age Home
-    - Nursing Home
-    - Public Housing
+    - מוסד סיעודי
+    - דיור ציבורי
     - Hostel
-  - Safe Housing
+  - דירת מעבר ומקלטים
   - Mental Health Housing
-  - Short-Term Housing
+  - דיור לטווח קצר
     - Old Age Home
-    - Sober Living
+    - מרכזי גמילה
     - Vacations
-- Emergency Shelter
-### Goods
-- Baby Supplies
-  - Baby Clothes
-  - Diapers & Formula
-- Clothing
-  - Clothes for School
-  - Clothes for Work
-  - Clothing Vouchers
-- Home Goods
-  - Blankets
-  - Books
-  - Fans
-  - Furniture
-  - Efficient Appliances
-  - Personal Care Items
-  - Supplies for School
-  - Supplies for Work
-- Medical Supplies
-  - Assistive Technology
-  - Prosthesis
-- Personal Safety
-- Toys & Gifts
-### Transit
-- Transportation
-  - Transportation for Healthcare
-  - Transportation for School
-### Health
-- Addiction & Recovery
-  - Detox
-  - Drug Testing
-  - Medications for Addiction
-  - Outpatient Treatment
-  - Peer Recovery Coaching
-  - Residential Treatment
-  - Substance Abuse Counseling
-- Dental Care
-- End-of-Life Care
-  - Bereavement
-  - Burial & Funeral Help
-  - Hospice
-  - Pain Management
-- Health Education
-  - Disease Management
-  - Family Planning
-  - Nutrition Education
-  - Parenting Education
-  - Sex Education
-- Help Pay for Healthcare
-  - Disability Benefits
-  - Discounted Healthcare
-  - Health Insurance
-  - Prescription Assistance
-  - Transportation for Healthcare
-  - Medical Supplies
-- Medical Care
-  - Alternative Medicine
-  - Checkup & Test
-    - Disability Screening
-    - Disease Screening
-    - Hearing Tests
-    - Pregnancy Tests
-    - Checkup & Test
+- מקלט חירום
+### חפצים
+- מוצרי תינוקות 
+  - בגדי תינוקות 
+  - חיתולים ואוכל תינוקות 
+- בגדים 
+  - תלבושת אחידה
+  - בגדי עבודה
+  - שוברים לבגדים 
+- מוצרים לבית 
+  - שמיכות
+  - ספרים 
+  - מאווררים ומזגנים
+  - ריהוט 
+  - מכשירים יעילים אנרגטית
+  - מוצרי טיפוח 
+  - ציוד לבית הספר
+  - ציוד לעבודה
+- ציוד רפואי
+  - טכנולוגיות עזר
+  - פרוטזות 
+- בטחון אישי
+- צעצועים ומתנות 
+### תחבורה
+- הסעות
+  - הסעות לטיפולים רפואיים
+  - הסעות לבית הספר
+### בריאות
+- התמכרות וגמילה
+  - גמילה ראשונית
+  - בדיקות סמים 
+  - תרופות להתמכרות 
+  - אשפוז
+  - קבוצות תמיכה
+  - מסגרות דיור טיפוליות
+  - ייעוץ רגשי למתמכרים
+- טיפולי שיניים 
+- טיפול במצב סופני
+  - סיוע בתקופת האבל
+  - בקבורה
+  - הוספיס 
+  - הפחתת כאב
+- חינוך לבריאות
+  - התנהלות במחלה
+  - תכנון המשפחה
+  - חינוך תזונתי 
+  - הדרכת הורים
+  - חינוך מיני
+- עזרה בתשלומים על שירותי בריאות
+  - דמי נכות
+  - שירותי בריאות מסובסדים
+  - ביטוח בריאות
+  - סיוע במימון תרופות
+  - הסעות לטיפולים רפואיים
+  - ציוד רפואי
+- טיפול רפואי 
+  - רפואה אלטרנטיבית 
+  - בדיקות וועדות רפואיות
+    - ועדה לקביעת נכות
+    - אבחון למחלות
+    - בדיקות שמיעה
+    - בדיקות הריון
+    - בדיקות וועדות רפואיות
     - Eye Tests
-  - Exercise & Fitness
-  - Help Find Healthcare
-  - Medical Supplies
-    - Assistive Technology
-    - Prosthesis
-  - Prevent & Treat
-    - Counseling
-    - Disease Management
-    - Early Childhood Intervention
-    - HIV Treatment
-    - Hospital Treatment
-    - In-Home Support
-    - Medication Management
-    - Nursing Home
-    - Occupational Therapy
-    - Outpatient Treatment
-    - Pain Management
-    - Physical Therapy
-    - Residential Treatment
-    - Specialized Therapy
-    - Speech Therapy
-    - Vaccinations
-  - Personal Hygiene
-  - Primary Care
-  - Skilled Nursing
-  - Support & Service Animals
-  - Birth Control
-  - Maternity Care
+  - התעמלות וכושר
+  - עזרה במציאת טיפול רפואי
+  - ציוד רפואי
+    - טכנולוגיות עזר
+    - פרוטזות 
+  - טיפול רפואי ומניעה
+    - טיפול רגשי (פסיכולוגי)
+    - ניהול מחלות 
+    - אבחונים לגיל הרך
+    - טיפול ב-HIV
+    - טיפול בבית חולים
+    - סיוע בבית
+    - ניהול תרופות
+    - מוסד סיעודי
+    - ריפוי בעיסוק
+    - אשפוז
+    - הפחתת כאב
+    - פיזיותרפיה
+    - מסגרות דיור טיפוליות
+    - טיפול מיוחד
+    - קלינאית תקשורת 
+    - חיסונים
+  - הגיינה אישית
+  - טיפול ראשוני
+  - טיפול על ידי אחות
+  - כלבי נחייה ותמיכה
+  - אמצעי מניעה
+  - טיפול ביולדת
   - Emergency Services
-    - Psychiatric Emergency Services
+    - שירותי חירום פסיכאטריים 
     - Dental Emergency Service
-- Mental Health Care
-  - Anger Management
-  - Bereavement
-  - Counseling
-    - Group Therapy
-    - Substance Abuse Counseling
-    - Family Counseling
-    - Individual Counseling
-  - Hospital Treatment
-  - Medications for Mental Health
-  - Mental Health Evaluation
-  - Outpatient Treatment
-    - Forced Hospitalization
+- בריאות הנפש
+  - ניהול כעסים 
+  - סיוע בתקופת האבל
+  - טיפול רגשי (פסיכולוגי)
+    - טיפול קבוצתי
+    - ייעוץ רגשי למתמכרים
+    - טיפול משפחתי
+    - טיפול אישי
+  - טיפול בבית חולים
+  - טיפול תרופתי לבריאות הנפש
+  - הערכה פסיכיאטרית
+  - אשפוז
+    - אשפוז כפוי
     - Voluntary Hospitalization
-  - Psychiatric Emergency Services
-  - Residential Treatment
+  - שירותי חירום פסיכאטריים 
+  - מסגרות דיור טיפוליות
     - Hostel
-    - Daytime Care
-  - Support & Service Animals
-- Sexual & Reproductive Health
-  - Family Planning
-    - Birth Control
-  - Fertility
-  - Sex Education
-  - STD/STI Treatment & Prevention
-    - HIV Treatment
-  - Women's Health
-    - Maternity Care
-    - Postnatal Care
-- Vision Care
-### Money
+    - מסגרות יום
+  - כלבי נחייה ותמיכה
+- בריאות מינית ורבייה
+  - תכנון המשפחה
+    - אמצעי מניעה
+  - פוריות
+  - חינוך מיני
+  - טיפול ומניעה של מחלות מין
+    - טיפול ב-HIV
+  - בריאות האישה
+    - טיפול ביולדת
+    - טיפול לאחר לידה
+- טיפולי ראייה
+### עזרה כספית
 - Financial Assistance
-  - Help Pay for Childcare
-  - Help Pay for Food
-  - Help Pay for Healthcare
-    - Discounted Healthcare
-    - Health Insurance
-    - Medical Supplies
-    - Prescription Assistance
-    - Transportation for Healthcare
-  - Help Pay for Housing
-    - Help Pay for Utilities
-    - Help Pay for Internet or Phone
-    - Home & Renters Insurance
-  - Help Pay for School
-    - Books
-    - Clothes for School
-    - Financial Aid & Loans
-    - Transportation for School
-    - Supplies for School
-  - Help Pay for Work Expenses
-- Financial Education
-  - Credit Counseling
-  - Foreclosure Counseling
-  - Homebuyer Education
-  - Savings Program
-- Insurance
-  - Health Insurance
-  - Home & Renters Insurance
-- Loans
-  - Business Loans
-  - Personal Loans
-- Tax Preparation
-### Care
-- Adoption & Foster Care
-  - Adoption & Foster Placement
-  - Adoption Planning
-  - Adoption Counseling
-  - Post-Adoption Support
-- Daytime Care
-  - Adult Daycare
-  - Childcare
-    - Help Find Childcare
-    - Help Pay for Childcare
-    - Childcare
-  - Day Camp
-  - Early Childhood Intervention
-  - Preschool
-  - Relief for Caregivers
-  - Afterschool Care
-  - Recreation
-- Navigating the System
-  - Help Fill out Forms
-  - Help Find Housing
-  - Case Management
-  - Help Find Childcare
-  - Help Find School
-  - Help Find Work
-- Physical Safety
-  - Disaster Response
-  - Emergency Food
-  - Temporary Shelter
-    - Weather Relief
-  - Help Find Missing Persons
-  - Immediate Safety
-    - Help Escape Violence
-    - Safe Housing
-  - Safety Education
-- Residential Care
-  - Assisted Living
-  - Nursing Home
+  - עזרה כספית למסגרות לילדים
+  - סיוע כספי לרכישת מזון
+  - עזרה בתשלומים על שירותי בריאות
+    - שירותי בריאות מסובסדים
+    - ביטוח בריאות
+    - ציוד רפואי
+    - סיוע במימון תרופות
+    - הסעות לטיפולים רפואיים
+  - סיוע בעלות מגורים
+    - עזרה בתשלומי חשבונות שוטפים
+    - עזרה בתשלומים לאינטרנט או טלפון
+    - ביטוח דירה
+  - סיוע בעלויות חינוך
+    - ספרים 
+    - תלבושת אחידה
+    - עזרה כספית והלוואות 
+    - הסעות לבית הספר
+    - ציוד לבית הספר
+  - עזרה בתשלום הוצאות עבודה
+- חינוך פיננסי
+  - ייעוץ אשראי 
+  - ייעוץ לחבות פירעון
+  - חינוך נדל"ן
+  - תוכניות חיסכון 
+- ביטוח
+  - ביטוח בריאות
+  - ביטוח דירה
+- הלוואות
+  - הלוואות לעסקים
+  - הלוואות אישיות
+- הגשת מיסים
+### רווחה
+- אימוץ ואומנה 
+  - השמת ילדים לאימוץ ואומנה
+  - תכנון אימוץ
+  - ייעוץ לתהליך האימוץ
+  - תמיכה במשפחות מאמצות
+- מסגרות יום
+  - מסגרות יום למבוגרים
+  - מסגרות לילדים
+    - איתור מסגרות לילדים
+    - עזרה כספית למסגרות לילדים
+    - מסגרות לילדים
+  - קייטנה
+  - אבחונים לגיל הרך
+  - גני ילדים 
+  - הקלה למטפלים
+  - צהרון
+  - תחביבים
+- מיצוי זכויות
+  - עזרה במילוי טפסים
+  - עזרה במציאת דיור
+  - ניהול תיק 
+  - איתור מסגרות לילדים
+  - עזרה במציאת בית ספר
+  - סיוע במציאת עבודה
+- בטחון פיזי
+  - תגובה לאסונות 
+  - מזון בחירום
+  - מקלט זמני
+    - עזרה באסון מזג אוויר
+  - איתור נעדרים
+  - בטחון מיידי 
+    - מקלטים מאלימות
+    - דירת מעבר ומקלטים
+  - חינוך לבטיחות
+- מסגרות טיפוליות
+  - דיור מוגן
+  - מוסד סיעודי
 - Recovery
   - Vacations
-- Support Network
-  - Counseling
-  - Help Hotlines
-  - Home Visiting
-  - In-Home Support
-  - Mentoring
-  - One-on-One Support
-  - Spiritual Support
-  - Support Groups
-    - 12-Step
-    - Bereavement
-    - Parenting Education
-    - Virtual Support
+- רשת תמיכה
+  - טיפול רגשי (פסיכולוגי)
+  - קווי סיוע
+  - ביקורי בית
+  - סיוע בבית
+  - מנטורינג
+  - חונכות
+  - תמיכה רוחנית
+  - קבוצות תמיכה
+    - תמיכה בהתמכרות 
+    - סיוע בתקופת האבל
+    - הדרכת הורים
+    - תמיכה וירטואלית 
   - Aid Centers
   - Accessibility
 ### Community Services
-- Computer or Internet Access
-- Exercise & Fitness
-- Recreation
-- Community Gardens
+- מחשוב או גישה לאינטרנט 
+- התעמלות וכושר
+- תחביבים
+- גינות קהילתיות 
 - Summer Camps
 - Enrichment Programs
 - Religious Services
@@ -272,326 +272,326 @@
 - Social Club
 - Community center
 - Olim Support
-### Education
-- Help Find School
-- Help Pay for School
-  - Books
-  - Clothes for School
-  - Financial Aid & Loans
-  - Transportation for School
-  - Supplies for School
-- More Education
-  - Alternative Education
-  - Civic Engagement
-  - College Readiness
-  - English as a Second Language (ESL)
-  - Environmental Education
-  - Financial Education
-    - Credit Counseling
-    - Homebuyer Education
-  - Foreign Languages
-  - GED/High-School Equivalency
-  - Health Education
-    - Family Planning
-    - Nutrition Education
-    - Parenting Education
-    - Safety Education
-    - Sex Education
-  - Special Education
-  - Tutoring
-  - Youth Development
+### חינוך
+- עזרה במציאת בית ספר
+- סיוע בעלויות חינוך
+  - ספרים 
+  - תלבושת אחידה
+  - עזרה כספית והלוואות 
+  - הסעות לבתי ספר
+  - ציוד לבית הספר
+- חינוך נוסף והעשרה
+  - חינוך אלטרנטיבי 
+  - מעורבות חברתית
+  - הכנה לאוניברסיטה 
+  - אולפנים
+  - חינוך סביבתי
+  - חינוך פיננסי
+    - ייעוץ אשראי 
+    - חינוך נדל"ן
+  - שפות זרות 
+  - בחינות בגרות
+  - חינוך לבריאות
+    - תכנון המשפחה
+    - חינוך תזונתי 
+    - הדרכת הורים
+    - חינוך לבטיחות
+    - חינוך מיני
+  - חינוך מיוחד ושילוב בחינוך
+  - הדרכה פרטית 
+  - טיפוח נוער
   - Summer Camps
   - Enrichment Programs
   - Youth Movement
   - Leadership development
-- Preschool
-- Screening & Exams
-  - GED/High-School Equivalency
-  - English as a Second Language (ESL)
-- Skills & Training
-  - Basic Literacy
-  - Computer Class
-  - Daily Life Skills
-  - Interview Training
-  - Skills Assessment
-  - Specialized Training
-### Work
-- Help Find Work
-- Help Pay for Work Expenses
-  - Clothes for Work
-  - Supplies for Work
-  - Unemployment Benefits
-- Skills & Training
-  - Basic Literacy
-  - Computer Class
-  - GED/High-School Equivalency
-  - Interview Training
-  - Resume Development
-  - Skills Assessment
-  - Specialized Training
-- Supported Employment
-- Workplace Rights
-### Legal
-- Advocacy & Legal Aid
-  - Adoption & Foster Care
-    - Adoption Planning
-    - Adoption Counseling
-    - Post-Adoption Support
-    - Adoption & Foster Care
-  - Citizenship & Immigration
-  - Discrimination & Civil Rights
-  - Guardianship
-  - Identification Recovery
-  - Understand Government Programs
-  - Workplace Rights
-- Mediation
-- Notary
-- Representation
-- Translation & Interpretation
-### Emergency
-- Disaster Response
-- Emergency Payments
-  - Help Pay for Food
-  - Help Pay for Healthcare
-  - Help Pay for Housing
-  - Help Pay for School
-- Emergency Food
-- Emergency Shelter
-- Help Find Missing Persons
-- Immediate Safety
-  - Help Escape Violence
-  - Safe Housing
-- Psychiatric Emergency Services
+- גני ילדים 
+- מבחנים 
+  - בחינות בגרות
+  - אולפנים
+- הכשרה מקצועית
+  - אוריינות בסיסית
+  - לימודי מחשב 
+  - כישורי חיים 
+  - הכנה לראיונות עבודה
+  - הערכת כישורים
+  - הדרכות מיוחדות
+### עבודה
+- סיוע במציאת עבודה
+- עזרה בתשלום הוצאות עבודה
+  - בגדי עבודה
+  - ציוד לעבודה
+  - דמי אבטלה
+- הכשרה מקצועית
+  - אוריינות בסיסית
+  - לימודי מחשב 
+  - בחינות בגרות
+  - הכנה לראיונות עבודה
+  - כתיבת קורות חיים 
+  - הערכת כישורים
+  - הדרכות מיוחדות
+- תעסוקה נתמכת
+- זכויות עובדים
+### משפטי
+- סיוע משפטי
+  - אימוץ ואומנה 
+    - תכנון אימוץ
+    - ייעוץ לתהליך האימוץ
+    - תמיכה במשפחות מאמצות
+    - אימוץ ואומנה 
+  - תושבות ומעמד
+  - אפליה וזכויות אזרח
+  - אפוטרופסות
+  - שחזור זיהוי
+  - סיוע במיצוי זכויות
+  - זכויות עובדים
+- גישור
+- נוטריון
+- ייצוג משפטי
+- תרגום
+### חירום
+- תגובה לאסונות 
+- תשלומי חירום
+  - סיוע כספי לרכישת מזון
+  - עזרה בתשלומים על שירותי בריאות
+  - סיוע בעלות מגורים
+  - סיוע בעלויות חינוך
+- מזון בחירום
+- מקלט חירום
+- איתור נעדרים
+- בטחון מיידי 
+  - מקלטים מאלימות
+  - דירת מעבר ומקלטים
+- שירותי חירום פסיכאטריים 
 - Emergency Helplines
-## Human Situations
-### General
-- Anyone in Need
-### Age Group
-- All Ages
-- Adults
-- Young Adults
-- Teens
-- Infants
-- Children
-- Seniors
-### Armed Forces
-- Active Duty
-- Professional Duty
-- Ex-soldiers
-- Reserves
-- Veterans
-- Injured while on Duty
-- Bereaved families
-### Citizenship
-- Immigrants
-- Foreign Residents
-- Foreign Workers
-  - Agriculture and Building
-  - Nursing
-  - Experts
-- Palestinians Workers
-- Citizens
-- Residents
-- Statusless
-- Olim
-- Refugees
-### Disability
-- All Disabilities
-- Autistic spectrum
-- Learning Disability
+## מצבים 
+### כללי 
+- כל אדם הצריך עזרה
+### קבוצת גיל 
+- כל הגילאים
+- מבוגרים
+- מבוגרים צעירים 
+- בני נוער
+- גיל הרך
+- ילדים
+- אזרחים ותיקים
+### צבא ובטחון
+- חיילים וחיילות 
+- חיילי קבע
+- חיילים משוחררים
+- מילואים
+- גמלאי צה"ל
+- נכי צה"ל
+- משפחות שכולות
+### הגירה
+- מהגרים.ות 
+- תושבי חוץ
+- עובדים זרים
+  - חקלאות ובנייה
+  - סיעוד
+  - מומחים 
+- עובדים פלסטינים
+- אזרחים
+- תושבים
+- חסרי מעמד
+- עולים 
+- פליטים.ות 
+### מוגבלויות 
+- כל המוגבלויות 
+- הספקטרום האוטיסטי
+- קשיי למידה והפרעות קשב וריכוז
   - ADD/ADHD
-- Developmental Disability
-- Physical Disability
-- Intellectual Disability
-- Limited Mobility
-- Deaf or Hard of Hearing
-- Visual Impairment
-- Mental Illness
-### Education
-- Dropouts
-- Special needs
-- Students
-- Yeshiva students
-- Youth village / Boarding school
+- נכות התפתחותית
+- בטחון פיזי
+- מוגבלות שכלית
+- תנועה מוגבלת
+- חרשות או שמיעה מוגבלת
+- ליקוי ראיה
+- מחלת נפש
+### חינוך
+- נושרים
+- צרכים מיוחדים
+- סטודנטים
+- תלמידי ישיבה
+- כפרי נוער ופנימיות (תלמידים ובוגרים)
 - Gifted Students
-### Employment
-- Employed
-- Retirement
-- Unemployed
-- Self-employed
-### Health
-- Treatment Phases
-  - All Care Phases
-  - Hospitalized
-  - Recently Diagnosed
-  - On-Treatment
-  - Post-Treatment
-  - Facing End of Life
-  - Home Care
-  - Nursing Care
-- Pregnant
-- Fertility
-- Neoplasm
-  - Cancer
-    - All Cancer Types
-    - Bladder Cancer
-    - Brain Tumor
-    - Breast Cancer
-    - Central Nervous System
-    - Cervical Cancer
-    - Colon Cancer
-    - Endometrial Cancer
-    - Head & Neck Cancer
-    - Leukemia
-    - Liver Cancer
-    - Lung Cancer
-    - Lymphoma
-    - Ovarian Cancer
-    - Sarcoma
-    - Skin Cancer
-    - Stomach (Gastric) Cancer
-    - Testicular Cancer
-    - Throat Cancer
-    - Thyroid Cancer
-    - Vaginal Cancer
-    - Vulvar Cancer
-- Infectious Disease
-  - HIV/AIDS
-  - COVID19
-- Nervous System Disease
-  - Stroke
-  - Epilepsy
-  - Alzheimer disease
-  - Parkinson's
-- Neurodevelopmental Disorders
-  - Autistic spectrum
-- Respiratory System Disease
-  - Asthma
-- Rare diseases
-  - Familial Dysautonomia
-- Heart diseases
-- Chronic Illness
-- Genetic Disorder
-- Rheumatic Diseases
-  - Fibromyalgia
-- Endocrine, nutritional or metabolic diseases
-  - Type 1 Diabetes
-  - Type 2 Diabetes
-### Household
-- Individuals
-- Loneliness
-- Families
-  - Single Parent
-  - Fathers
-  - Mothers
-  - Parents
-  - Divorced
+### תעסוקה
+- מועסקת
+- גמלאית
+- מובטלת
+- עצמאיים
+### בריאות
+- שלבי טיפול
+  - כל שלבי הטיפול
+  - אשפוז
+  - אבחנה טרייה
+  - בטיפול
+  - אחרי טיפול
+  - גסיסה
+  - אשפוז ביתי
+  - מצב סיעודי
+- הריון
+- פוריות
+- גידולים
+  - סרטן
+    - כל סוגי הסרטן
+    - סרטן שלפוחית השתן
+    - גידול מוחי
+    - סרטן השד
+    - סרטן מערכת העצבים
+    - סרטן צוואר הרחם
+    - סרטן המעי
+    - סרטן רירית הרחם
+    - סרטן הראש והצוואר
+    - סרטן הדם
+    - סרטן הכבד
+    - סרטן הריאה
+    - לימפומה
+    - סרטן השחלות
+    - סרקומה
+    - סרטן העור
+    - סרטן הקיבה
+    - סרטן האשכים
+    - סרטן הגרון
+    - סרטן בלוטות התריס
+    - סרטן הנרתיק
+    - סרטן הפות
+- מחלה מדבקת
+  - איידס / HIV
+  - קורונה
+- מחלות של מערכת העצבים והמח
+  - אירוע מוחי (שבץ מוחי, CVA)
+  - אפיליפסיה
+  - אלצהיימר ומחלות דמנציה
+  - פרקינסון
+- לקות נוירו-התפתחותית
+  - הספקטרום האוטיסטי
+- מחלות דרכי נשימה
+  - אסתמה (גנחת הסימפונות)
+- מחלות יתומות
+  - דיסאוטונומיה משפחתית (FD)
+- מחלות לב
+- מחלה כרונית
+- מחלה גנטית
+- מחלות ראומטיות
+  - פיברומיאלגיה (דאבת השרירים)
+- מחלות אנדוקריניות 
+  - סכרת נעורים
+  - סכרת
+### מצב משפחתי
+- יחידים.ות
+- בדידות
+- משפחות
+  - חד הוריות
+  - אבות 
+  - אמהות
+  - הורים
+  - גירושים
   - Adoption
   - Foster Caregivers
-  - Surrogacy
+  - פונדקאות
   - Siblings
-### Housing
-- Home Owners
-- Home Renters
-- Homeless
-- Public Housing Tenants
-- Recipients of Housing Assistance
-- Runaways
-### Income
-- Benefit Recipients
-- Low-Income
-### Language
-- Hebrew Speaking
-- Arabic Speaking
-- English Speaking
-- Russian Speaking
-- Amharic Speaking
-- Spanish Speaking
-- French Speaking
+### דיור
+- בעלי בתים
+- משכירים.ות
+- חסרי.ות בית
+- דיירי דיור ציבורי
+- מקבלי סיוע בדיור
+- נוער רחוב
+### הכנסה
+- נתמכי קצבה
+- הכנסה נמוכה וקשיים כלכליים
+### שפות
+- דוברי עברית
+- דוברי ערבית
+- דוברי אנגלית
+- דוברי רוסית
+- דוברי אמהרית
+- דוברי ספרדית
+- דוברי צרפתית
 - Sign Language
-### Life Events
-- Bar/Bat Mitzva
-- Birth
-- Death
-- Divorce
-- Grief
-- Wedding
-### Mental Health
-- Mental conditions and diseases
-  - Anxiety
-  - Bipolar
-  - Brain Injury
-  - Depression
-  - Eating Disorder
-  - Suicidal Thoughts
-  - PTSD
-  - Schizophrenia
-- Treatment Phases
-  - forced hospitalization
-  - Rehabilitation basket
-  - No recognition
-### Role
-- Caregivers
-- Spouses
-- Dependents
-### Substance Dependency
-- Alcohol Dependency
-- Dual Diagnosis
-- Opioid Dependency
-- Smoker
-- Gambling
-### Survivors
-- Holocaust Survivors
-- Trauma Survivors
-- Abuse or Neglect Survivors
-- Burn Survivors
-- Domestic Violence Survivors
-- Human Trafficking Survivors
-- Natural Disaster Survivors
-- Sexual Assault Survivors
+### אירועי חיים
+- בר/בת מצווה
+- לידה
+- מוות
+- גירושין
+- אבל
+- חתונה
+### בריאות הנפש
+- מצבים נפשיים ומחלות
+  - חרדה
+  - הפרעה קוטבית
+  - פציעת ראש
+  - דיכאון
+  - הפרעות אכילה
+  - מחשבות אובדניות
+  - הפרעת דחק פוסט טראומתית (PTSD)
+  - סכיזופרניה
+- שלבי טיפול
+  - אשפוז כפוי
+  - סל שיקום
+  - ללא הכרה במחלה
+### תפקיד
+- מטפלים.ות
+- בני ובנות זוג
+- תלויים.ות
+### חומרים ממכרים
+- אלכוהול 
+- אלכוהול וסמים
+- משככי כאבים
+- עישון
+- הימורים
+### ניצולים.ות נפגעים.ות
+- ניצולי שואה
+- נפגעי.ות טראומה
+- התעללות או הזנחה
+- נפגעי.ות כוויה
+- נפגעי.ות אלימות במשפחה
+- נפגעי.ות סחר בבני אדם
+- נפגעי.ות אסון טבע
+- נפגעי.ות תקיפה מינית 
 - Car Accidents Survivors
-- All Survivors
-- Terror Victims
-### Urgency
-- In Crisis
-- In Danger
-- Emergency
-### Criminal History
-- Ex-Offenders
-- Ex-Offenders youth
-- Prisoners
-### Gender
-- Women
-- Men
-- Transgender
-### Sexuality
-- LGBTQ
-### Sectors
-- Bedouin
-- Druze
-- Ethiopians
-- Arabs
-- Christians
-- Circassians
-- Muslims
-- Jews
-  - Ultra Orthodox
+- כל הניצולים.ות
+- נפגעי טרור
+### דחיפות
+- במשבר
+- בסכנה
+- חירום
+### פשיעה
+- אנשים בעלי עבר פלילי 
+- נוער בעל עבר פלילי
+- אסירים
+### מגדר
+- אישה
+- גבר
+- טרנסג'נדר
+### נטייה מינית
+- להט"ב 
+### מגזרים
+- בדואים
+- דרוזים
+- אתיופים
+- ערבים
+- נוצרים
+- צ'רקסים
+- מוסלמים
+- יהודים 
+  - חרדים
   - Secular
   - Dati Leumi
   - Hozer Betshuva
   - Yotze Beshela
   - Progressives
-### Benefit Holders
-- Social Security
-  - Disability
-  - Income Security
-  - Nursing Care
-  - Righteous Among the Nations
-  - USSR Veterans
-  - Zion Prisoners
-- Ministry of Defense
-  - Injured while On Duty
-  - Bereaved Families
+### מקבלי קצבה
+- ביטוח לאומי
+  - נכות
+  - מקבלי הבטחת הכנסה / השלמת הכנסה
+  - מצב סיעודי
+  - חסידי אומות עולם
+  - וטרנים
+  - אסירי ציון
+- משרד הבטחון
+  - נכי צה"ל
+  - משפחות שכולות
 ### Deprivation
 - Geographical Periphery
 - Social Periphary
@@ -599,5 +599,5 @@
 - Education / skills Deprivation
 ### Community
 - Leaders
-- Activist
+- Activists
 </div>

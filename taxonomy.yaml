@@ -1309,5 +1309,5 @@
     items:
     - name: Leaders
       slug: human_situations:community:leaders
-    - name: Activist
-      slug: human_situations:community:activist
+    - name: Activists
+      slug: human_situations:community:activists
