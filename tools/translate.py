@@ -70,7 +70,7 @@ def pull_translations(lang, filename):
     ret = dict()
     for k, v in translations.items():
         if v:
-            ret.setdefault(k, dict())[lang] = v
+            ret.setdefault(k, dict())[lang] = v.strip()
     return ret
 
 
