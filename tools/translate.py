@@ -53,7 +53,7 @@ def push_translations(filename: Path, translations):
             f'https://www.transifex.com/api/2/project/{PROJECT}/resources/',
             json=data
         ) 
-        print(resp.status_code, resp.content[:100])
+        print(resp.status_code, resp.content[:256])
 
 
 def pull_translations(lang, filename):

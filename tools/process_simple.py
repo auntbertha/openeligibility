@@ -2,7 +2,7 @@ import yaml
 from slugify import slugify
 
 def to_slug(path):
-    return ':'.join(slugify(p, separator='-', lowercase=True) for p in path)
+    return ':'.join(slugify(p, separator='_', to_lower=True) for p in path)
 
 def process_items(nodes, path=[]):
     ret = []
@@ -28,3 +28,4 @@ if __name__ == '__main__':
     dst = process_items(src)
     with open('taxonomy.yaml', 'w') as f:
         yaml.dump(dst, f, width=4096, sort_keys=False)
+    print('Done.', dst)

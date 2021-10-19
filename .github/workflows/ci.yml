@@ -26,6 +26,7 @@ jobs:
     - name: Process Simple Yaml
       run: |
         python tools/process_simple.py
+        head taxonomy.yaml
     - name: Translate
       env:
         TRANSIFEX_TOKEN: ${{secrets.TRANSIFEX_TOKEN}}
