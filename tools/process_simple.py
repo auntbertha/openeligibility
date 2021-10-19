@@ -2,7 +2,7 @@ import yaml
 from slugify import slugify
 
 def to_slug(path):
-    return ':'.join(slugify(p, separator='-') for p in path)
+    return ':'.join(slugify(p, separator='-', lowercase=True) for p in path)
 
 def process_items(nodes, path=[]):
     ret = []
