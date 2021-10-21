@@ -94,9 +94,15 @@
           tx:
             he: הדברה
         slug: human_services:housing:maintenance_repairs:pest_control
-      - name: Disability Modifications
+      - name:
+          source: Disability Modifications
+          tx:
+            he: התאמות לבית
         slug: human_services:housing:maintenance_repairs:disability_modifications
-      - name: Small repairs
+      - name:
+          source: Small repairs
+          tx:
+            he: תיקונים קטנים
         slug: human_services:housing:maintenance_repairs:small_repairs
     - name:
         source: Housing Advice
@@ -125,11 +131,20 @@
             tx:
               he: דיור עצמאי
           slug: human_services:housing:residential_housing:long_term_housing:independent_living
-        - name: Training Apartments
+        - name:
+            source: Training Apartments
+            tx:
+              he: דירות הכשרה
           slug: human_services:housing:residential_housing:long_term_housing:training_apartments
-        - name: Satellite Apartments
+        - name:
+            source: Satellite Apartments
+            tx:
+              he: דירות לווין
           slug: human_services:housing:residential_housing:long_term_housing:satellite_apartments
-        - name: Old Age Home
+        - name:
+            source: Old Age Home
+            tx:
+              he: בית אבות
           slug: human_services:housing:residential_housing:long_term_housing:old_age_home
         - name:
             source: Nursing Home
@@ -141,14 +156,20 @@
             tx:
               he: דיור ציבורי
           slug: human_services:housing:residential_housing:long_term_housing:public_housing
-        - name: Hostel
+        - name:
+            source: Hostel
+            tx:
+              he: הוסטל
           slug: human_services:housing:residential_housing:long_term_housing:hostel
       - name:
           source: Safe Housing
           tx:
             he: דירת מעבר ומקלטים
         slug: human_services:housing:residential_housing:safe_housing
-      - name: Mental Health Housing
+      - name:
+          source: Mental Health Housing
+          tx:
+            he: דיור לתשושי נפש
         slug: human_services:housing:residential_housing:mental_health_housing
       - name:
           source: Short-Term Housing
@@ -156,14 +177,20 @@
             he: דיור לטווח קצר
         slug: human_services:housing:residential_housing:short_term_housing
         items:
-        - name: Old Age Home
+        - name:
+            source: Old Age Home
+            tx:
+              he: בית אבות
           slug: human_services:housing:residential_housing:short_term_housing:old_age_home
         - name:
             source: Sober Living
             tx:
               he: מרכזי גמילה
           slug: human_services:housing:residential_housing:short_term_housing:sober_living
-        - name: Vacations
+        - name:
+            source: Vacations
+            tx:
+              he: נופשונים
           slug: human_services:housing:residential_housing:short_term_housing:vacations
     - name:
         source: Emergency Shelter
@@ -494,7 +521,10 @@
             tx:
               he: בדיקות וועדות רפואיות
           slug: human_services:health:medical_care:checkup_test:checkup_test
-        - name: Eye Tests
+        - name:
+            source: Eye Tests
+            tx:
+              he: בדיקות ראייה
           slug: human_services:health:medical_care:checkup_test:eye_tests
       - name:
           source: Exercise & Fitness
@@ -638,7 +668,10 @@
           tx:
             he: טיפול ביולדת
         slug: human_services:health:medical_care:maternity_care
-      - name: Emergency Services
+      - name:
+          source: Emergency Services
+          tx:
+            he: שירותי חירום
         slug: human_services:health:medical_care:emergency_services
         items:
         - name:
@@ -646,7 +679,10 @@
             tx:
               he: שירותי חירום פסיכאטריים
           slug: human_services:health:medical_care:emergency_services:psychiatric_emergency_services
-        - name: Dental Emergency Service
+        - name:
+            source: Dental Emergency Service
+            tx:
+              he: טיפולי שיניים בחירום
           slug: human_services:health:medical_care:emergency_services:dental_emergency_service
     - name:
         source: Mental Health Care
@@ -716,7 +752,10 @@
             tx:
               he: אשפוז כפוי
           slug: human_services:health:mental_health_care:outpatient_treatment:forced_hospitalization
-        - name: Voluntary Hospitalization
+        - name:
+            source: Voluntary Hospitalization
+            tx:
+              he: אשפוז מרצון
           slug: human_services:health:mental_health_care:outpatient_treatment:voluntary_hospitalization
       - name:
           source: Psychiatric Emergency Services
@@ -729,7 +768,10 @@
             he: מסגרות דיור טיפוליות
         slug: human_services:health:mental_health_care:residential_treatment
         items:
-        - name: Hostel
+        - name:
+            source: Hostel
+            tx:
+              he: הוסטל
           slug: human_services:health:mental_health_care:residential_treatment:hostel
         - name:
             source: Daytime Care
@@ -806,7 +848,10 @@
         he: עזרה כספית
     slug: human_services:money
     items:
-    - name: Financial Assistance
+    - name:
+        source: Financial Assistance
+        tx:
+          he: סיוע כספי
       slug: human_services:money:financial_assistance
       items:
       - name:
@@ -1169,10 +1214,16 @@
           tx:
             he: מוסד סיעודי
         slug: human_services:care:residential_care:nursing_home
-    - name: Recovery
+    - name:
+        source: Recovery
+        tx:
+          he: הבראה
       slug: human_services:care:recovery
       items:
-      - name: Vacations
+      - name:
+          source: Vacations
+          tx:
+            he: נופשונים
         slug: human_services:care:recovery:vacations
     - name:
         source: Support Network
@@ -1241,11 +1292,20 @@
             tx:
               he: תמיכה וירטואלית
           slug: human_services:care:support_network:support_groups:virtual_support
-      - name: Aid Centers
+      - name:
+          source: Aid Centers
+          tx:
+            he: מרכזי תמיכה
         slug: human_services:care:support_network:aid_centers
-      - name: Accessibility
+      - name:
+          source: Accessibility
+          tx:
+            he: הנגשה
         slug: human_services:care:support_network:accessibility
-  - name: Community Services
+  - name:
+      source: Community Services
+      tx:
+        he: שירותים קהילתיים
     slug: human_services:community_services
     items:
     - name:
@@ -1268,37 +1328,82 @@
         tx:
           he: גינות קהילתיות
       slug: human_services:community_services:community_gardens
-    - name: Summer Camps
+    - name:
+        source: Summer Camps
+        tx:
+          he: קייטנות
       slug: human_services:community_services:summer_camps
-    - name: Enrichment Programs
+    - name:
+        source: Enrichment Programs
+        tx:
+          he: תוכניות העשרה
       slug: human_services:community_services:enrichment_programs
-    - name: Religious Services
+    - name:
+        source: Religious Services
+        tx:
+          he: שירותי דת
       slug: human_services:community_services:religious_services
       items:
-      - name: Synagogues
+      - name:
+          source: Synagogues
+          tx:
+            he: בתי כנסת
         slug: human_services:community_services:religious_services:synagogues
-      - name: Mosques
+      - name:
+          source: Mosques
+          tx:
+            he: מסגדים
         slug: human_services:community_services:religious_services:mosques
-      - name: Churches
+      - name:
+          source: Churches
+          tx:
+            he: כנסיות
         slug: human_services:community_services:religious_services:churches
-      - name: Gamach
+      - name:
+          source: Gamach
+          tx:
+            he: גמ"ח
         slug: human_services:community_services:religious_services:gamach
-      - name: Kollel
+      - name:
+          source: Kollel
+          tx:
+            he: כולל
         slug: human_services:community_services:religious_services:kollel
-      - name: Altenative Religious Services
+      - name:
+          source: Altenative Religious Services
+          tx:
+            he: שירותי דת אלטרנטיביים
         slug: human_services:community_services:religious_services:altenative_religious_services
-    - name: Helplines
+    - name:
+        source: Helplines
+        tx:
+          he: קווי סיוע טלפוניים
       slug: human_services:community_services:helplines
       items:
-      - name: Emergency Helplines
+      - name:
+          source: Emergency Helplines
+          tx:
+            he: קווי סיוע טלפוניים בחירום
         slug: human_services:community_services:helplines:emergency_helplines
-      - name: Advice Helplines
+      - name:
+          source: Advice Helplines
+          tx:
+            he: קווי סיוע טלפוניים
         slug: human_services:community_services:helplines:advice_helplines
-    - name: Social Club
+    - name:
+        source: Social Club
+        tx:
+          he: מועדון חברים
       slug: human_services:community_services:social_club
-    - name: Community center
+    - name:
+        source: Community center
+        tx:
+          he: מתנ"ס
       slug: human_services:community_services:community_center
-    - name: Olim Support
+    - name:
+        source: Olim Support
+        tx:
+          he: קליטת עולים
       slug: human_services:community_services:olim_support
   - name:
       source: Education
@@ -1445,13 +1550,25 @@
           tx:
             he: טיפוח נוער
         slug: human_services:education:more_education:youth_development
-      - name: Summer Camps
+      - name:
+          source: Summer Camps
+          tx:
+            he: קייטנות
         slug: human_services:education:more_education:summer_camps
-      - name: Enrichment Programs
+      - name:
+          source: Enrichment Programs
+          tx:
+            he: תוכניות העשרה
         slug: human_services:education:more_education:enrichment_programs
-      - name: Youth Movement
+      - name:
+          source: Youth Movement
+          tx:
+            he: תנועות נוער
         slug: human_services:education:more_education:youth_movement
-      - name: Leadership development
+      - name:
+          source: Leadership development
+          tx:
+            he: פיתוח מנהיגות
         slug: human_services:education:more_education:leadership_development
     - name:
         source: Preschool
@@ -1754,7 +1871,10 @@
         tx:
           he: שירותי חירום פסיכאטריים
       slug: human_services:emergency:psychiatric_emergency_services
-    - name: Emergency Helplines
+    - name:
+        source: Emergency Helplines
+        tx:
+          he: קווי סיוע בחירום
       slug: human_services:emergency:emergency_helplines
 - name:
     source: Human Situations
@@ -2012,7 +2132,10 @@
         tx:
           he: כפרי נוער ופנימיות (תלמידים ובוגרים)
       slug: human_situations:education:youth_village_boarding_school
-    - name: Gifted Students
+    - name:
+        source: Gifted Students
+        tx:
+          he: מחוננים
       slug: human_situations:education:gifted_students
   - name:
       source: Employment
@@ -2388,16 +2511,25 @@
           tx:
             he: גירושים
         slug: human_situations:household:families:divorced
-      - name: Adoption
+      - name:
+          source: Adoption
+          tx:
+            he: אימוץ
         slug: human_situations:household:families:adoption
-      - name: Foster Caregivers
+      - name:
+          source: Foster Caregivers
+          tx:
+            he: הורים אומנים
         slug: human_situations:household:families:foster_caregivers
       - name:
           source: Surrogacy
           tx:
             he: פונדקאות
         slug: human_situations:household:families:surrogacy
-      - name: Siblings
+      - name:
+          source: Siblings
+          tx:
+            he: אחים
         slug: human_situations:household:families:siblings
   - name:
       source: Housing
@@ -2492,7 +2624,10 @@
         tx:
           he: דוברי צרפתית
       slug: human_situations:language:french_speaking
-    - name: Sign Language
+    - name:
+        source: Sign Language
+        tx:
+          he: שפת סימנים
       slug: human_situations:language:sign_language
   - name:
       source: Life Events
@@ -2701,7 +2836,10 @@
         tx:
           he: נפגעי.ות תקיפה מינית
       slug: human_situations:survivors:sexual_assault_survivors
-    - name: Car Accidents Survivors
+    - name:
+        source: Car Accidents Survivors
+        tx:
+          he: נפגעי תאונות דרכים
       slug: human_situations:survivors:car_accidents_survivors
     - name:
         source: All Survivors
@@ -2839,15 +2977,30 @@
           tx:
             he: חרדים
         slug: human_situations:sectors:jews:ultra_orthodox
-      - name: Secular
+      - name:
+          source: Secular
+          tx:
+            he: חילונים
         slug: human_situations:sectors:jews:secular
-      - name: Dati Leumi
+      - name:
+          source: Dati Leumi
+          tx:
+            he: דתיים לאומיים
         slug: human_situations:sectors:jews:dati_leumi
-      - name: Hozer Betshuva
+      - name:
+          source: Hozer Betshuva
+          tx:
+            he: חוזרים בתשובה
         slug: human_situations:sectors:jews:hozer_betshuva
-      - name: Yotze Beshela
+      - name:
+          source: Yotze Beshela
+          tx:
+            he: יוצא בשאלה
         slug: human_situations:sectors:jews:yotze_beshela
-      - name: Progressives
+      - name:
+          source: Progressives
+          tx:
+            he: יהדות מתקדמת
         slug: human_situations:sectors:jews:progressives
   - name:
       source: Benefit Holders
@@ -2907,21 +3060,45 @@
           tx:
             he: משפחות שכולות
         slug: human_situations:benefit_holders:ministry_of_defense:bereaved_families
-  - name: Deprivation
+  - name:
+      source: Deprivation
+      tx:
+        he: רקע אישי
     slug: human_situations:deprivation
     items:
-    - name: Geographical Periphery
+    - name:
+        source: Geographical Periphery
+        tx:
+          he: פריפריה גיאוגרפית
       slug: human_situations:deprivation:geographical_periphery
-    - name: Social Periphary
+    - name:
+        source: Social Periphary
+        tx:
+          he: פריפריה חברתית
       slug: human_situations:deprivation:social_periphary
-    - name: Health Deprivation
+    - name:
+        source: Health Deprivation
+        tx:
+          he: חוסר נגישות לשירותי בריאות
       slug: human_situations:deprivation:health_deprivation
-    - name: Education / skills Deprivation
+    - name:
+        source: Education / skills Deprivation
+        tx:
+          he: חסך בחינוך / מיומנות
       slug: human_situations:deprivation:education_skills_deprivation
-  - name: Community
+  - name:
+      source: Community
+      tx:
+        he: קהילה
     slug: human_situations:community
     items:
-    - name: Leaders
+    - name:
+        source: Leaders
+        tx:
+          he: מנהיגים
       slug: human_situations:community:leaders
-    - name: Activists
+    - name:
+        source: Activists
+        tx:
+          he: פעילים חברתיים
       slug: human_situations:community:activists
