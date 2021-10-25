@@ -1900,40 +1900,41 @@
     slug: human_situations:age_group
     items:
     - name:
-        source: All Ages
-        tx:
-          he: כל הגילאים
-      slug: human_situations:age_group:all_ages
-    - name:
         source: Adults
         tx:
           he: מבוגרים
       slug: human_situations:age_group:adults
+      description: 31-54 years old
     - name:
         source: Young Adults
         tx:
           he: מבוגרים צעירים
       slug: human_situations:age_group:young_adults
+      description: 20-30 years old
     - name:
         source: Teens
         tx:
           he: בני נוער
       slug: human_situations:age_group:teens
+      description: 13-19 years old
     - name:
         source: Infants
         tx:
           he: גיל הרך
       slug: human_situations:age_group:infants
+      description: 0-1 years old
     - name:
         source: Children
         tx:
           he: ילדים
       slug: human_situations:age_group:children
+      description: 2-12 years old
     - name:
         source: Seniors
         tx:
           he: אזרחים ותיקים
       slug: human_situations:age_group:seniors
+      description: 55+ years old
   - name:
       source: Armed Forces
       tx:
