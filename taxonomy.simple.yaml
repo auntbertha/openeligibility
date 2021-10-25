@@ -363,13 +363,12 @@
   - General:
     - Anyone in Need
   - Age Group:
-    - All Ages
-    - Adults
-    - Young Adults
-    - Teens
-    - Infants
-    - Children
-    - Seniors
+    - Adults || 31-54 years old
+    - Young Adults || 20-30 years old
+    - Teens || 13-19 years old
+    - Infants || 0-1 years old
+    - Children || 2-12 years old
+    - Seniors || 55+ years old
   - Armed Forces:
     - Active Duty
     - Professional Duty
