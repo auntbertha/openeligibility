@@ -1904,37 +1904,55 @@
         tx:
           he: מבוגרים
       slug: human_situations:age_group:adults
-      description: 31-54 years old
+      description:
+        source: 31-54 years old
+        tx:
+          he: גילאי 31-54
     - name:
         source: Young Adults
         tx:
           he: מבוגרים צעירים
       slug: human_situations:age_group:young_adults
-      description: 20-30 years old
+      description:
+        source: 20-30 years old
+        tx:
+          he: גילאי 20-30
     - name:
         source: Teens
         tx:
           he: בני נוער
       slug: human_situations:age_group:teens
-      description: 13-19 years old
+      description:
+        source: 13-19 years old
+        tx:
+          he: גילאי 13-19
     - name:
         source: Infants
         tx:
           he: גיל הרך
       slug: human_situations:age_group:infants
-      description: 0-1 years old
+      description:
+        source: 0-1 years old
+        tx:
+          he: גילאי 0-1
     - name:
         source: Children
         tx:
           he: ילדים
       slug: human_situations:age_group:children
-      description: 2-12 years old
+      description:
+        source: 2-12 years old
+        tx:
+          he: גילאי 2-12
     - name:
         source: Seniors
         tx:
           he: אזרחים ותיקים
       slug: human_situations:age_group:seniors
-      description: 55+ years old
+      description:
+        source: 55+ years old
+        tx:
+          he: גילאי 55+
   - name:
       source: Armed Forces
       tx:
@@ -2065,7 +2083,10 @@
           he: קשיי למידה והפרעות קשב וריכוז
       slug: human_situations:disability:learning_disability
       items:
-      - name: ADD/ADHD
+      - name:
+          source: ADD/ADHD
+          tx:
+            he: ADD/ADHD
         slug: human_situations:disability:learning_disability:add_adhd
     - name:
         source: Developmental Disability
@@ -2996,7 +3017,7 @@
       - name:
           source: Yotze Beshela
           tx:
-            he: יוצא בשאלה
+            he: יוצאים בשאלה
         slug: human_situations:sectors:jews:yotze_beshela
       - name:
           source: Progressives
