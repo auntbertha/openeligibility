@@ -23,7 +23,7 @@ def recurse_into_taxonomy(items, output, level=0):
                 prefix = ''
             else:
                 prefix = ' '*len(prefix)
-            output.write(prefix + description + '\n')
+            output.write(prefix + '*' + description + '*\n')
         if item.get('items'):
             recurse_into_taxonomy(item.get('items'), output, level+1)
 
