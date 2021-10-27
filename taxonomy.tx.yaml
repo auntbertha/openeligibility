@@ -1883,17 +1883,6 @@
   slug: human_situations
   items:
   - name:
-      source: General
-      tx:
-        he: כללי
-    slug: human_situations:general
-    items:
-    - name:
-        source: Anyone in Need
-        tx:
-          he: כל אדם הצריך עזרה
-      slug: human_situations:general:anyone_in_need
-  - name:
       source: Age Group
       tx:
         he: קבוצת גיל

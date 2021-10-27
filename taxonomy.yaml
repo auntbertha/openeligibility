@@ -796,11 +796,6 @@
 - name: Human Situations
   slug: human_situations
   items:
-  - name: General
-    slug: human_situations:general
-    items:
-    - name: Anyone in Need
-      slug: human_situations:general:anyone_in_need
   - name: Age Group
     slug: human_situations:age_group
     items:
