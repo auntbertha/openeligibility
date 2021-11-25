@@ -729,7 +729,7 @@
       - name:
           source: Hospital Treatment
           tx:
-            he: טיפול בבית חולים
+            he: אשפוז פסיכיאטרי
         slug: human_services:health:mental_health_care:hospital_treatment
       - name:
           source: Medications for Mental Health
@@ -1107,7 +1107,7 @@
       - name:
           source: Recreation
           tx:
-            he: תחביבים
+            he: חוגים
         slug: human_services:care:daytime_care:recreation
     - name:
         source: Navigating the System
@@ -1143,7 +1143,7 @@
       - name:
           source: Help Find Work
           tx:
-            he: סיוע במציאת עבודה
+            he: הכוונה תעסוקתית
         slug: human_services:care:navigating_the_system:help_find_work
     - name:
         source: Physical Safety
@@ -1321,7 +1321,7 @@
     - name:
         source: Recreation
         tx:
-          he: תחביבים
+          he: פעילויות פנאי
       slug: human_services:community_services:recreation
     - name:
         source: Community Gardens
@@ -2871,7 +2871,7 @@
     - name:
         source: In Crisis
         tx:
-          he: במשבר
+          he: משבר נפשי
       slug: human_situations:urgency:in_crisis
     - name:
         source: In Danger
