@@ -70,8 +70,6 @@
           slug: human_services:housing:residential_housing:long_term_housing:hostel
       - name: Safe Housing
         slug: human_services:housing:residential_housing:safe_housing
-      - name: Mental Health Housing
-        slug: human_services:housing:residential_housing:mental_health_housing
       - name: Short-Term Housing
         slug: human_services:housing:residential_housing:short_term_housing
         items:
@@ -223,6 +221,8 @@
           slug: human_services:health:medical_care:checkup_test:checkup_test
         - name: Eye Tests
           slug: human_services:health:medical_care:checkup_test:eye_tests
+      - name: Allied health
+        slug: human_services:health:medical_care:allied_health
       - name: Exercise & Fitness
         slug: human_services:health:medical_care:exercise_fitness
       - name: Help Find Healthcare
@@ -719,8 +719,15 @@
         slug: human_services:work:skills_training:skills_assessment
       - name: Specialized Training
         slug: human_services:work:skills_training:specialized_training
-    - name: Supported Employment
-      slug: human_services:work:supported_employment
+    - name: Special Employment 
+      slug: human_services:work:special_employment
+      items: 
+      - name: Supported Employment
+        slug: human_services:work:special_employment:supported_employment
+      - name: Protected Employment 
+        slug: human_services:work:special_employment:protected_emloyment
+      - name: Protected Factory
+        slug: human_services:work:special_employment:protected_factory
     - name: Workplace Rights
       slug: human_services:work:workplace_rights
   - name: Legal
