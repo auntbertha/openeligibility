@@ -30,7 +30,6 @@
         - Public Housing
         - Hostel 
       - Safe Housing
-      - Mental Health Housing
       - Short-Term Housing:
         - Old Age Home
         - Sober Living
@@ -99,6 +98,7 @@
         - Pregnancy Tests
         - Checkup & Test
         - Eye Tests
+      - Allied Health
       - Exercise & Fitness
       - Help Find Healthcare
       - Medical Supplies:
@@ -325,7 +325,10 @@
       - Resume Development
       - Skills Assessment
       - Specialized Training
-    - Supported Employment
+    - Special Employment
+      - Supported Employment
+      - Protected Employment
+      - Protected Factory
     - Workplace Rights
   - Legal:
     - Advocacy & Legal Aid:
